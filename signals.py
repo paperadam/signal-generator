@@ -1,10 +1,27 @@
 """Claude-powered signal extraction and post generation."""
 
 import json
+import time
 
 import anthropic
 
 import config
+import state as state_mod
+
+
+def _api_call(client, **kwargs):
+    """Call the API with retry on overload."""
+    for attempt in range(3):
+        try:
+            return client.messages.create(**kwargs)
+        except Exception as e:
+            if "overloaded" not in str(e).lower() and "rate" not in str(e).lower() and "529" not in str(e):
+                raise
+            if attempt < 2:
+                print(f"  api overloaded, retrying in {10 * (attempt + 1)}s...")
+                time.sleep(10 * (attempt + 1))
+            else:
+                raise
 
 def _get_client():
     return anthropic.Anthropic(api_key=config.ANTHROPIC_API_KEY)
@@ -29,6 +46,8 @@ STYLE (critical):
 - avoid words like "landscape", "paradigm", "unprecedented", "remarkable", "crucial"
 - it's ok to be slightly ambiguous or incomplete. not every post needs to land perfectly
 - sound like someone thinking out loud, not someone crafting a statement
+- be concrete and specific. name countries, companies, commodities, numbers. don't explain how the world works in the abstract
+- avoid explaining mechanisms ("when X happens, Y stops working"). just notice the thing
 
 NEVER DO:
 - mention the Superpower Institute or Ross Garnaut
@@ -66,7 +85,7 @@ Return a JSON array of the article indices (integers) you selected, ordered by s
 Articles:
 {chr(10).join(article_summaries)}"""
 
-    response = _get_client().messages.create(
+    response = _api_call(_get_client(),
         model=config.CLAUDE_MODEL,
         max_tokens=200,
         messages=[{"role": "user", "content": prompt}],
@@ -95,14 +114,23 @@ def generate_posts(articles: list[dict]) -> list[dict]:
             f"Story {i + 1}: {a['title']}\n{a['summary'][:300]}\nSource: {a['source']}"
         )
 
+    # Include recent posts so Claude avoids repeating itself
+    st = state_mod.load()
+    recent_posts = [p["text"] for p in st.get("posts", [])[-5:]]
+    recent_block = ""
+    if recent_posts:
+        recent_block = "\n\nRECENT POSTS (do NOT repeat these topics or angles):\n" + "\n".join(
+            f"- \"{p}\"" for p in recent_posts
+        )
+
     prompt = f"""Here are today's top stories. Pick the single most interesting one and write one short observational post about it. Surface the deeper pattern or shift, not the headline.
 
 Return a JSON array with one object: {{"text": "...", "story_index": N}} where N is the 1-based story number.
 
 Stories:
-{chr(10).join(article_block)}"""
+{chr(10).join(article_block)}{recent_block}"""
 
-    response = _get_client().messages.create(
+    response = _api_call(_get_client(),
         model=config.CLAUDE_MODEL,
         max_tokens=1500,
         system=SYSTEM_PROMPT,
