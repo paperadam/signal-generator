@@ -93,7 +93,7 @@ def search_relevant_posts(bsky_client, state: dict) -> list[dict]:
             seen.add(c["uri"])
             unique.append(c)
 
-    return unique
+    return {"candidates": unique, "queries_used": queries}
 
 
 def select_and_reply(candidates: list[dict]) -> dict | None:
@@ -126,16 +126,17 @@ Posts:
         messages=[{"role": "user", "content": prompt}],
     )
 
+    raw = response.content[0].text
     try:
-        raw = response.content[0].text
-        if "```" in raw:
-            raw = raw.split("```")[1]
-            if raw.startswith("json"):
-                raw = raw[4:]
-        result = json.loads(raw.strip())
+        clean = raw
+        if "```" in clean:
+            clean = clean.split("```")[1]
+            if clean.startswith("json"):
+                clean = clean[4:]
+        result = json.loads(clean.strip())
     except (json.JSONDecodeError, TypeError, IndexError) as e:
         print(f"  warning: failed to parse Claude response: {e}")
-        print(f"  raw: {response.content[0].text[:300]}")
+        print(f"  raw: {raw[:300]}")
         return None
 
     idx = result.get("selected")
@@ -154,5 +155,5 @@ Posts:
         return None
 
     if idx < len(candidates):
-        return {"post": candidates[idx], "reply": reply_text}
+        return {"post": candidates[idx], "reply": reply_text, "claude_raw_response": raw}
     return None

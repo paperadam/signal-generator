@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Southern Signal</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+      background: #fafafa;
+      color: #1a1a1a;
+      line-height: 1.6;
+      padding: 2rem 1rem;
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    header {
+      margin-bottom: 2.5rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid #e0e0e0;
+    }
+
+    header h1 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+    }
+
+    header p {
+      color: #666;
+      font-size: 0.9rem;
+      margin-top: 0.25rem;
+    }
+
+    .loading {
+      text-align: center;
+      padding: 3rem;
+      color: #999;
+      font-size: 0.9rem;
+    }
+
+    .error-msg {
+      text-align: center;
+      padding: 2rem;
+      color: #ef4444;
+      font-size: 0.9rem;
+    }
+
+    /* Run card */
+    .run-card {
+      background: #fff;
+      border: 1px solid #e0e0e0;
+      border-radius: 8px;
+      margin-bottom: 0.75rem;
+      overflow: hidden;
+      transition: box-shadow 0.15s;
+    }
+
+    .run-card:hover {
+      box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+    }
+
+    .run-header {
+      padding: 1rem 1.25rem;
+      cursor: pointer;
+      display: flex;
+      align-items: flex-start;
+      gap: 0.75rem;
+      user-select: none;
+    }
+
+    .run-header:hover { background: #fafafa; }
+
+    .run-time {
+      font-size: 0.8rem;
+      color: #999;
+      white-space: nowrap;
+      min-width: 5.5rem;
+      padding-top: 0.1rem;
+    }
+
+    .run-summary {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .run-post-preview {
+      font-size: 0.95rem;
+      color: #333;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .run-meta {
+      font-size: 0.8rem;
+      color: #999;
+      margin-top: 0.15rem;
+    }
+
+    .badge {
+      display: inline-block;
+      font-size: 0.7rem;
+      font-weight: 600;
+      padding: 0.15rem 0.5rem;
+      border-radius: 999px;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+      vertical-align: middle;
+    }
+
+    .badge-posted { background: #dcfce7; color: #166534; }
+    .badge-replied { background: #dbeafe; color: #1e40af; }
+    .badge-skipped { background: #fef3c7; color: #92400e; }
+    .badge-error { background: #fee2e2; color: #991b1b; }
+    .badge-dry { background: #f3e8ff; color: #6b21a8; }
+
+    .expand-icon {
+      color: #ccc;
+      font-size: 0.8rem;
+      padding-top: 0.2rem;
+      transition: transform 0.2s;
+    }
+
+    .run-card.expanded .expand-icon {
+      transform: rotate(90deg);
+    }
+
+    /* Expanded detail */
+    .run-detail {
+      display: none;
+      padding: 0 1.25rem 1.25rem;
+      border-top: 1px solid #f0f0f0;
+    }
+
+    .run-card.expanded .run-detail {
+      display: block;
+    }
+
+    /* Pipeline stages */
+    .stage {
+      position: relative;
+      padding: 1rem 0 0.75rem 1.75rem;
+      border-left: 2px solid #e0e0e0;
+      margin-left: 0.5rem;
+    }
+
+    .stage:last-child {
+      border-left-color: transparent;
+    }
+
+    .stage::before {
+      content: '';
+      position: absolute;
+      left: -5px;
+      top: 1.25rem;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #d0d0d0;
+      border: 2px solid #fafafa;
+    }
+
+    .stage.active::before { background: #22c55e; }
+    .stage.warn::before { background: #f59e0b; }
+    .stage.fail::before { background: #ef4444; }
+
+    .stage-label {
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #999;
+      margin-bottom: 0.35rem;
+    }
+
+    .stage-content {
+      font-size: 0.85rem;
+      color: #444;
+    }
+
+    .stage-content .count {
+      font-weight: 600;
+      color: #1a1a1a;
+    }
+
+    .post-text {
+      font-size: 1rem;
+      line-height: 1.5;
+      color: #1a1a1a;
+      border-left: 3px solid #22c55e;
+      padding: 0.5rem 0.75rem;
+      margin: 0.5rem 0;
+      background: #f8fdf8;
+      border-radius: 0 4px 4px 0;
+    }
+
+    .reply-text {
+      font-size: 1rem;
+      line-height: 1.5;
+      color: #1a1a1a;
+      border-left: 3px solid #3b82f6;
+      padding: 0.5rem 0.75rem;
+      margin: 0.5rem 0;
+      background: #f0f7ff;
+      border-radius: 0 4px 4px 0;
+    }
+
+    .original-post {
+      font-size: 0.85rem;
+      color: #666;
+      border-left: 2px solid #ddd;
+      padding: 0.35rem 0.75rem;
+      margin: 0.35rem 0;
+      background: #fafafa;
+      border-radius: 0 4px 4px 0;
+    }
+
+    .original-post .author {
+      font-weight: 600;
+      color: #555;
+    }
+
+    .story-list {
+      list-style: none;
+      padding: 0;
+      margin: 0.25rem 0;
+    }
+
+    .story-list li {
+      font-size: 0.85rem;
+      padding: 0.2rem 0;
+      color: #555;
+    }
+
+    .story-list li a {
+      color: #555;
+      text-decoration: none;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .story-list li a:hover {
+      color: #1a1a1a;
+      border-color: #999;
+    }
+
+    .story-source {
+      color: #999;
+      font-size: 0.75rem;
+    }
+
+    .candidates-summary {
+      font-size: 0.85rem;
+      color: #666;
+    }
+
+    .bsky-link {
+      font-size: 0.8rem;
+      color: #3b82f6;
+      text-decoration: none;
+    }
+
+    .bsky-link:hover { text-decoration: underline; }
+
+    .raw-toggle {
+      font-size: 0.75rem;
+      color: #bbb;
+      cursor: pointer;
+      border: none;
+      background: none;
+      padding: 0.25rem 0;
+      margin-top: 0.25rem;
+    }
+
+    .raw-toggle:hover { color: #888; }
+
+    .raw-response {
+      display: none;
+      font-family: "SF Mono", "Fira Code", monospace;
+      font-size: 0.75rem;
+      color: #888;
+      background: #f5f5f5;
+      padding: 0.5rem;
+      border-radius: 4px;
+      margin-top: 0.25rem;
+      white-space: pre-wrap;
+      word-break: break-all;
+      max-height: 200px;
+      overflow-y: auto;
+    }
+
+    .load-more {
+      display: block;
+      width: 100%;
+      padding: 0.75rem;
+      margin-top: 0.5rem;
+      background: #fff;
+      border: 1px solid #e0e0e0;
+      border-radius: 8px;
+      font-size: 0.85rem;
+      color: #666;
+      cursor: pointer;
+      text-align: center;
+    }
+
+    .load-more:hover {
+      background: #f5f5f5;
+      color: #333;
+    }
+
+    .empty-state {
+      text-align: center;
+      padding: 4rem 2rem;
+      color: #999;
+    }
+
+    .empty-state h2 {
+      font-size: 1.1rem;
+      font-weight: 500;
+      margin-bottom: 0.5rem;
+      color: #666;
+    }
+
+    @media (max-width: 600px) {
+      body { padding: 1rem 0.75rem; }
+      .run-header { padding: 0.75rem 1rem; }
+      .run-time { min-width: auto; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>southern signal</h1>
+    <p>deliberation log</p>
+  </header>
+
+  <main id="app">
+    <div class="loading">loading runs...</div>
+  </main>
+
+  <script>
+    const REPO = 'paperadam/signal-generator';
+    const BRANCH = 'main';
+    const PER_PAGE = 20;
+
+    let allFiles = [];
+    let loaded = 0;
+    let logCache = {};
+
+    // --- Data fetching ---
+
+    async function fetchRunList() {
+      const url = `https://api.github.com/repos/${REPO}/contents/logs?ref=${BRANCH}`;
+      const resp = await fetch(url);
+      if (!resp.ok) {
+        if (resp.status === 404) return [];
+        throw new Error(`GitHub API error: ${resp.status}`);
+      }
+      const files = await resp.json();
+      return files
+        .filter(f => f.name.endsWith('.json'))
+        .sort((a, b) => b.name.localeCompare(a.name));
+    }
+
+    async function fetchRunDetail(file) {
+      if (logCache[file.name]) return logCache[file.name];
+      const url = file.download_url;
+      const resp = await fetch(url);
+      if (!resp.ok) throw new Error(`Failed to fetch ${file.name}`);
+      const data = await resp.json();
+      logCache[file.name] = data;
+      return data;
+    }
+
+    // --- Rendering ---
+
+    function outcomeInfo(outcome) {
+      const map = {
+        'posted':              { label: 'posted',  cls: 'badge-posted' },
+        'dry_run':             { label: 'dry run', cls: 'badge-dry' },
+        'skipped_sleep':       { label: 'sleep',   cls: 'badge-skipped' },
+        'skipped_random':      { label: 'skipped', cls: 'badge-skipped' },
+        'skipped_no_articles': { label: 'no news', cls: 'badge-skipped' },
+        'skipped_daily_limit': { label: 'limit',   cls: 'badge-skipped' },
+        'skipped_no_posts':    { label: 'no post', cls: 'badge-skipped' },
+        'error':               { label: 'error',   cls: 'badge-error' },
+      };
+      return map[outcome] || { label: outcome || 'unknown', cls: 'badge-skipped' };
+    }
+
+    function formatTime(ts) {
+      try {
+        const d = new Date(ts);
+        const now = new Date();
+        const diffH = (now - d) / 3600000;
+
+        if (diffH < 24) {
+          return d.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+        }
+        if (diffH < 168) {
+          return d.toLocaleDateString([], { weekday: 'short', hour: '2-digit', minute: '2-digit' });
+        }
+        return d.toLocaleDateString([], { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' });
+      } catch {
+        return ts;
+      }
+    }
+
+    function getPreviewText(log) {
+      if (log.publishing && log.publishing.results && log.publishing.results.length > 0) {
+        return log.publishing.results[0].text;
+      }
+      if (log.post_generation && log.post_generation.generated_posts && log.post_generation.generated_posts.length > 0) {
+        return log.post_generation.generated_posts[0].text;
+      }
+      if (log.engagement && log.engagement.reply_text) {
+        return `reply: ${log.engagement.reply_text}`;
+      }
+      return null;
+    }
+
+    function getMetaText(log) {
+      const parts = [];
+      if (log.feed_intake) {
+        parts.push(`${log.feed_intake.new_articles} new articles`);
+      }
+      if (log.engagement && log.engagement.reply_text) {
+        parts.push('replied');
+      }
+      if (log.timing) {
+        if (log.timing.pre_post_delay_minutes > 0) {
+          parts.push(`${Math.round(log.timing.pre_post_delay_minutes)}m delay`);
+        }
+      }
+      return parts.join(' · ');
+    }
+
+    function renderCollapsedCard(file, log) {
+      const oc = outcomeInfo(log.outcome);
+      const preview = getPreviewText(log);
+      const meta = getMetaText(log);
+
+      return `
+        <div class="run-card" data-file="${file.name}">
+          <div class="run-header" onclick="toggleCard(this)">
+            <div class="run-time">${formatTime(log.timestamp)}</div>
+            <div class="run-summary">
+              <div class="run-post-preview">
+                <span class="badge ${oc.cls}">${oc.label}</span>
+                ${preview ? ` ${escHtml(preview)}` : ''}
+              </div>
+              ${meta ? `<div class="run-meta">${escHtml(meta)}</div>` : ''}
+            </div>
+            <div class="expand-icon">&#9654;</div>
+          </div>
+          <div class="run-detail"></div>
+        </div>`;
+    }
+
+    function renderDetail(log) {
+      let html = '';
+
+      // Timing
+      if (log.timing) {
+        const t = log.timing;
+        let desc = '';
+        if (t.sleep_hours) desc = 'Outside waking hours. Run skipped.';
+        else if (t.skipped_randomly) desc = 'Randomly skipped this run to appear human.';
+        else {
+          const parts = [];
+          if (t.pre_post_delay_minutes > 0) parts.push(`${Math.round(t.pre_post_delay_minutes)} min pre-post delay`);
+          if (t.engage_gap_delay_minutes > 0) parts.push(`${Math.round(t.engage_gap_delay_minutes)} min gap before replying`);
+          desc = parts.join(', ') || 'No delays';
+        }
+        html += stage('Timing', desc, 'active');
+      }
+
+      // Feed intake
+      if (log.feed_intake) {
+        const f = log.feed_intake;
+        html += stage('Feed Intake',
+          `<span class="count">${f.total_fetched}</span> fetched &rarr; <span class="count">${f.matched_filters}</span> matched &rarr; <span class="count">${f.new_articles}</span> new`,
+          f.new_articles > 0 ? 'active' : 'warn');
+      }
+
+      // Story selection
+      if (log.story_selection) {
+        const s = log.story_selection;
+        let content = `Claude selected <span class="count">${s.selected_count}</span> from ${s.articles_considered} articles`;
+        if (s.selected_stories && s.selected_stories.length > 0) {
+          content += '<ul class="story-list">';
+          for (const st of s.selected_stories) {
+            const link = st.link ? `<a href="${escAttr(st.link)}" target="_blank">${escHtml(st.title)}</a>` : escHtml(st.title);
+            content += `<li>${link} <span class="story-source">${escHtml(st.source)}</span></li>`;
+          }
+          content += '</ul>';
+        }
+        content += rawToggle(s.claude_raw_response);
+        html += stage('Story Selection', content, 'active');
+      }
+
+      // Post generation
+      if (log.post_generation) {
+        const g = log.post_generation;
+        let content = '';
+        if (g.generated_posts && g.generated_posts.length > 0) {
+          for (const p of g.generated_posts) {
+            content += `<div class="post-text">${escHtml(p.text)}</div>`;
+            if (p.story_title) {
+              content += `<div style="font-size:0.8rem;color:#999;margin-top:0.15rem">from: ${escHtml(p.story_title)}</div>`;
+            }
+          }
+        } else {
+          content = 'No posts generated';
+        }
+        content += rawToggle(g.claude_raw_response);
+        html += stage('Post Generation', content, g.generated_posts && g.generated_posts.length > 0 ? 'active' : 'warn');
+      }
+
+      // Publishing
+      if (log.publishing && log.publishing.results) {
+        const results = log.publishing.results;
+        let content = '';
+        for (const r of results) {
+          if (r.success) {
+            content += `<div style="font-size:0.85rem;color:#166534">Posted successfully</div>`;
+            if (r.uri && r.uri !== '(dry run)') {
+              const bskyUrl = atUriToBskyUrl(r.uri);
+              if (bskyUrl) {
+                content += `<a class="bsky-link" href="${escAttr(bskyUrl)}" target="_blank">view on bluesky &rarr;</a>`;
+              }
+            }
+          } else {
+            content += `<div style="font-size:0.85rem;color:#991b1b">Failed: ${escHtml(r.error || 'unknown')}</div>`;
+          }
+        }
+        const allOk = results.every(r => r.success);
+        html += stage('Publishing', content, allOk ? 'active' : 'fail');
+      }
+
+      // Engagement
+      if (log.engagement) {
+        const e = log.engagement;
+        let content = '';
+        content += `<div class="candidates-summary">Searched: ${e.search_queries_used.map(q => `"${escHtml(q)}"`).join(', ')}</div>`;
+        content += `<div class="candidates-summary" style="margin-top:0.15rem"><span class="count">${e.candidates_found}</span> candidates found</div>`;
+
+        if (e.selected_post) {
+          content += `<div class="original-post"><span class="author">@${escHtml(e.selected_post.author)}</span><br>${escHtml(e.selected_post.text)}</div>`;
+          if (e.reply_text) {
+            content += `<div class="reply-text">${escHtml(e.reply_text)}</div>`;
+          }
+          if (e.reply_uri && e.reply_uri !== '(dry run)') {
+            const bskyUrl = atUriToBskyUrl(e.reply_uri);
+            if (bskyUrl) {
+              content += `<a class="bsky-link" href="${escAttr(bskyUrl)}" target="_blank">view reply on bluesky &rarr;</a>`;
+            }
+          }
+        } else {
+          content += `<div style="font-size:0.85rem;color:#999;margin-top:0.25rem">No post selected for reply</div>`;
+        }
+        content += rawToggle(e.claude_raw_response);
+        html += stage('Engagement', content, e.reply_text ? 'active' : 'warn');
+      }
+
+      // Errors
+      if (log.errors && log.errors.length > 0) {
+        const content = log.errors.map(e => `<div style="color:#991b1b">${escHtml(e)}</div>`).join('');
+        html += stage('Errors', content, 'fail');
+      }
+
+      return html;
+    }
+
+    function stage(label, content, state) {
+      return `<div class="stage ${state}">
+        <div class="stage-label">${label}</div>
+        <div class="stage-content">${content}</div>
+      </div>`;
+    }
+
+    function rawToggle(raw) {
+      if (!raw) return '';
+      const id = 'raw-' + Math.random().toString(36).slice(2, 8);
+      return `
+        <button class="raw-toggle" onclick="document.getElementById('${id}').style.display = document.getElementById('${id}').style.display === 'block' ? 'none' : 'block'">
+          show claude response
+        </button>
+        <div class="raw-response" id="${id}">${escHtml(raw)}</div>`;
+    }
+
+    function atUriToBskyUrl(uri) {
+      // at://did:plc:xxx/app.bsky.feed.post/yyy -> https://bsky.app/profile/did:plc:xxx/post/yyy
+      const m = uri.match(/^at:\/\/(did:[^/]+)\/app\.bsky\.feed\.post\/(.+)$/);
+      if (m) return `https://bsky.app/profile/${m[1]}/post/${m[2]}`;
+      return null;
+    }
+
+    function escHtml(s) {
+      if (!s) return '';
+      return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+    }
+
+    function escAttr(s) {
+      return escHtml(s);
+    }
+
+    // --- Interaction ---
+
+    async function toggleCard(header) {
+      const card = header.closest('.run-card');
+      const detail = card.querySelector('.run-detail');
+
+      if (card.classList.contains('expanded')) {
+        card.classList.remove('expanded');
+        return;
+      }
+
+      // Load detail if needed
+      if (!detail.innerHTML.trim()) {
+        const fileName = card.dataset.file;
+        const file = allFiles.find(f => f.name === fileName);
+        if (file) {
+          detail.innerHTML = '<div class="loading" style="padding:1rem">loading...</div>';
+          card.classList.add('expanded');
+          try {
+            const log = await fetchRunDetail(file);
+            detail.innerHTML = renderDetail(log);
+          } catch (err) {
+            detail.innerHTML = `<div class="error-msg">${escHtml(err.message)}</div>`;
+          }
+          return;
+        }
+      }
+
+      card.classList.add('expanded');
+    }
+
+    function renderBatch() {
+      const app = document.getElementById('app');
+      const batch = allFiles.slice(loaded, loaded + PER_PAGE);
+      if (batch.length === 0) return;
+
+      // Remove load-more button if present
+      const existing = app.querySelector('.load-more');
+      if (existing) existing.remove();
+
+      for (const file of batch) {
+        // Parse minimal info from filename for collapsed state
+        const log = logCache[file.name] || { timestamp: fileNameToTimestamp(file.name), outcome: null };
+        app.insertAdjacentHTML('beforeend', renderCollapsedCard(file, log));
+      }
+
+      loaded += batch.length;
+
+      if (loaded < allFiles.length) {
+        app.insertAdjacentHTML('beforeend',
+          `<button class="load-more" onclick="loadMore()">load more (${allFiles.length - loaded} remaining)</button>`);
+      }
+    }
+
+    async function loadMore() {
+      // Pre-fetch the next batch details for better collapsed view
+      const batch = allFiles.slice(loaded, loaded + PER_PAGE);
+      await Promise.all(batch.map(async f => {
+        try { await fetchRunDetail(f); } catch {}
+      }));
+      renderBatch();
+    }
+
+    function fileNameToTimestamp(name) {
+      // 2026-03-13T08-23-00Z.json -> 2026-03-13T08:23:00Z
+      return name.replace('.json', '').replace(/-(\d{2})-(\d{2})Z/, ':$1:$2Z').replace('T', 'T');
+    }
+
+    // --- Init ---
+
+    async function init() {
+      const app = document.getElementById('app');
+      try {
+        allFiles = await fetchRunList();
+
+        if (allFiles.length === 0) {
+          app.innerHTML = `
+            <div class="empty-state">
+              <h2>no runs yet</h2>
+              <p>waiting for the first scheduled run to produce a log.</p>
+            </div>`;
+          return;
+        }
+
+        // Pre-fetch first batch for better collapsed rendering
+        const firstBatch = allFiles.slice(0, PER_PAGE);
+        await Promise.all(firstBatch.map(async f => {
+          try { await fetchRunDetail(f); } catch {}
+        }));
+
+        app.innerHTML = '';
+        renderBatch();
+
+      } catch (err) {
+        app.innerHTML = `<div class="error-msg">Failed to load: ${escHtml(err.message)}</div>`;
+      }
+    }
+
+    init();
+  </script>
+</body>
+</html>

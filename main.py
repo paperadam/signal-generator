@@ -13,6 +13,7 @@ import signals
 import state as state_mod
 import publisher
 import engage
+from run_log import RunLog
 
 
 def _is_sleep_hours() -> bool:
@@ -25,14 +26,15 @@ def _is_sleep_hours() -> bool:
         return config.SLEEP_HOUR_UTC <= hour < config.WAKE_HOUR_UTC
 
 
-def _random_delay(min_min: int, max_min: int, label: str) -> None:
-    """Sleep for a random duration to humanise timing."""
+def _random_delay(min_min: int, max_min: int, label: str) -> float:
+    """Sleep for a random duration to humanise timing. Returns minutes slept."""
     minutes = random.uniform(min_min, max_min)
     print(f"{label}: waiting {minutes:.0f} minutes...")
     time.sleep(minutes * 60)
+    return minutes
 
 
-def run(dry_run: bool = False, fetch_only: bool = False) -> None:
+def run(dry_run: bool = False, fetch_only: bool = False, log: RunLog = None) -> None:
     st = state_mod.load()
     state_mod.cleanup_old(st)
 
@@ -48,6 +50,9 @@ def run(dry_run: bool = False, fetch_only: bool = False) -> None:
     new_articles = [a for a in relevant if not state_mod.is_article_seen(st, a["link"])]
     print(f"  {len(new_articles)} are new")
 
+    if log:
+        log.record_feed_intake(len(all_articles), len(relevant), len(new_articles), new_articles)
+
     if fetch_only:
         print("\n--- articles ---")
         for a in new_articles[:20]:
@@ -57,6 +62,8 @@ def run(dry_run: bool = False, fetch_only: bool = False) -> None:
 
     if not new_articles:
         print("no new relevant articles. nothing to do.")
+        if log:
+            log.set_outcome("skipped_no_articles")
         return
 
     # --- Check daily limit ---
@@ -64,21 +71,40 @@ def run(dry_run: bool = False, fetch_only: bool = False) -> None:
     remaining = config.MAX_POSTS_PER_DAY - posted_today
     if remaining <= 0:
         print(f"already posted {posted_today} times today (limit: {config.MAX_POSTS_PER_DAY}). skipping.")
+        if log:
+            log.set_outcome("skipped_daily_limit")
         return
     posts_this_run = min(config.MAX_POSTS_PER_RUN, remaining)
 
     # --- Select + Generate ---
     print("selecting stories with claude...")
-    selected = signals.select_stories(new_articles, count=posts_this_run + 2)
+    selection = signals.select_stories(new_articles, count=posts_this_run + 2)
+    selected = selection["selected"]
     print(f"  selected {len(selected)} stories")
 
+    if log:
+        log.record_story_selection(
+            considered=selection["articles_sent"],
+            selected_stories=selected,
+            claude_raw=selection["claude_raw_response"],
+        )
+
     print("generating signal posts...")
-    posts = signals.generate_posts(selected)
-    posts = posts[:posts_this_run]
+    generation = signals.generate_posts(selected)
+    posts = generation["posts"][:posts_this_run]
     print(f"  generated {len(posts)} posts")
+
+    if log:
+        log.record_post_generation(
+            stories_sent=generation["stories_sent"],
+            posts=posts,
+            claude_raw=generation["claude_raw_response"],
+        )
 
     if not posts:
         print("no posts generated. check article quality or try again later.")
+        if log:
+            log.set_outcome("skipped_no_posts")
         return
 
     # --- Mark articles as seen ---
@@ -91,6 +117,10 @@ def run(dry_run: bool = False, fetch_only: bool = False) -> None:
         for i, p in enumerate(posts, 1):
             print(f"\n  [{i}] {p['text']}")
             print(f"      source: {p['source_url']}")
+        if log:
+            for p in posts:
+                log.record_publish_result(p["text"], p["source_url"], uri="(dry run)", success=True)
+            log.set_outcome("dry_run")
     else:
         print("posting to bluesky...")
         bsky = publisher.create_client()
@@ -100,14 +130,21 @@ def run(dry_run: bool = False, fetch_only: bool = False) -> None:
                 state_mod.record_post(st, p["text"], p["source_url"])
                 print(f"  [{i}] posted: {p['text'][:80]}...")
                 print(f"      uri: {uri}")
+                if log:
+                    log.record_publish_result(p["text"], p["source_url"], uri=uri, success=True)
             except Exception as e:
                 print(f"  [{i}] failed to post: {e}")
+                if log:
+                    log.record_publish_result(p["text"], p["source_url"], success=False, error=str(e))
+                    log.add_error(f"post failed: {e}")
+        if log and not log.data["outcome"]:
+            log.set_outcome("posted")
 
     state_mod.save(st)
     print("\ndone.")
 
 
-def run_engage(dry_run: bool = False) -> None:
+def run_engage(dry_run: bool = False, log: RunLog = None) -> None:
     st = state_mod.load()
     state_mod.cleanup_old(st)
 
@@ -120,11 +157,15 @@ def run_engage(dry_run: bool = False) -> None:
     # --- Search ---
     print("searching bluesky for relevant posts...")
     bsky = publisher.create_client()
-    candidates = engage.search_relevant_posts(bsky, st)
+    search_result = engage.search_relevant_posts(bsky, st)
+    candidates = search_result["candidates"]
+    queries_used = search_result["queries_used"]
     print(f"  found {len(candidates)} candidate posts")
 
     if not candidates:
         print("no suitable posts found to engage with.")
+        if log:
+            log.record_engagement(queries=queries_used, candidates=[])
         return
 
     # --- Select + Generate reply ---
@@ -133,10 +174,13 @@ def run_engage(dry_run: bool = False) -> None:
 
     if not result:
         print("claude decided none of the posts were worth replying to. fair enough.")
+        if log:
+            log.record_engagement(queries=queries_used, candidates=candidates)
         return
 
     post_info = result["post"]
     reply_text = result["reply"]
+    claude_raw = result.get("claude_raw_response", "")
 
     if dry_run:
         print("\n--- engage dry run (not posting) ---")
@@ -145,6 +189,12 @@ def run_engage(dry_run: bool = False) -> None:
         print(f"\n  reply:")
         print(f"    {reply_text}")
         print(f"\n  post uri: {post_info['uri']}")
+        if log:
+            log.record_engagement(
+                queries=queries_used, candidates=candidates,
+                selected_post=post_info, reply_text=reply_text,
+                reply_uri="(dry run)", claude_raw=claude_raw,
+            )
     else:
         print("posting reply to bluesky...")
         try:
@@ -152,8 +202,21 @@ def run_engage(dry_run: bool = False) -> None:
             state_mod.record_reply(st, post_info["uri"], reply_text)
             print(f"  replied to @{post_info['author']}: {reply_text[:80]}...")
             print(f"  reply uri: {uri}")
+            if log:
+                log.record_engagement(
+                    queries=queries_used, candidates=candidates,
+                    selected_post=post_info, reply_text=reply_text,
+                    reply_uri=uri, claude_raw=claude_raw,
+                )
         except Exception as e:
             print(f"  failed to post reply: {e}")
+            if log:
+                log.record_engagement(
+                    queries=queries_used, candidates=candidates,
+                    selected_post=post_info, reply_text=reply_text,
+                    reply_success=False, reply_error=str(e), claude_raw=claude_raw,
+                )
+                log.add_error(f"reply failed: {e}")
 
     state_mod.save(st)
     print("\ndone.")
@@ -182,26 +245,38 @@ def main():
 
     if args.scheduled:
         print("=== scheduled run ===")
+        log = RunLog()
+        log.set_run_type("scheduled")
 
         # Don't post during sleep hours
         if _is_sleep_hours():
             print("sleep hours. skipping.")
+            log.set_timing(sleep_hours=True)
+            log.set_outcome("skipped_sleep")
+            log.push_to_github()
             return
 
         # Randomly skip some runs to avoid clockwork regularity
         if random.random() < config.SKIP_CHANCE:
             print("randomly skipping this run. (simulating being busy)")
+            log.set_timing(skipped=True)
+            log.set_outcome("skipped_random")
+            log.push_to_github()
             return
 
         # Random delay so posts don't land exactly on the hour
-        _random_delay(config.DELAY_MIN_MINUTES, config.DELAY_MAX_MINUTES, "pre-post delay")
+        pre_delay = _random_delay(config.DELAY_MIN_MINUTES, config.DELAY_MAX_MINUTES, "pre-post delay")
 
-        run(dry_run=False)
+        run(dry_run=False, log=log)
 
         # Gap between posting and replying
-        _random_delay(config.ENGAGE_GAP_MIN_MINUTES, config.ENGAGE_GAP_MAX_MINUTES, "post-to-reply gap")
+        engage_gap = _random_delay(config.ENGAGE_GAP_MIN_MINUTES, config.ENGAGE_GAP_MAX_MINUTES, "post-to-reply gap")
 
-        run_engage(dry_run=False)
+        run_engage(dry_run=False, log=log)
+
+        log.set_timing(pre_delay=pre_delay, engage_gap=engage_gap)
+        log.push_to_github()
+
     elif args.engage or args.engage_dry_run:
         run_engage(dry_run=args.engage_dry_run)
     else:

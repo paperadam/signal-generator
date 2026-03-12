@@ -91,16 +91,23 @@ Articles:
         messages=[{"role": "user", "content": prompt}],
     )
 
+    raw = response.content[0].text
     try:
-        raw = response.content[0].text
-        if "```" in raw:
-            raw = raw.split("```")[1]
-            if raw.startswith("json"):
-                raw = raw[4:]
-        indices = json.loads(raw.strip())
-        return [articles[i] for i in indices if i < len(articles)]
+        clean = raw
+        if "```" in clean:
+            clean = clean.split("```")[1]
+            if clean.startswith("json"):
+                clean = clean[4:]
+        indices = json.loads(clean.strip())
+        selected = [articles[i] for i in indices if i < len(articles)]
     except (json.JSONDecodeError, IndexError, TypeError):
-        return articles[:count]
+        selected = articles[:count]
+
+    return {
+        "selected": selected,
+        "claude_raw_response": raw,
+        "articles_sent": len(articles[:40]),
+    }
 
 
 def generate_posts(articles: list[dict]) -> list[dict]:
@@ -137,18 +144,19 @@ Stories:
         messages=[{"role": "user", "content": prompt}],
     )
 
+    raw = response.content[0].text
     try:
-        raw = response.content[0].text
+        clean = raw
         # Strip markdown code fences if present
-        if "```" in raw:
-            raw = raw.split("```")[1]
-            if raw.startswith("json"):
-                raw = raw[4:]
-        posts = json.loads(raw.strip())
+        if "```" in clean:
+            clean = clean.split("```")[1]
+            if clean.startswith("json"):
+                clean = clean[4:]
+        posts = json.loads(clean.strip())
     except (json.JSONDecodeError, TypeError, IndexError) as e:
         print(f"  warning: failed to parse Claude response as JSON: {e}")
-        print(f"  raw response: {response.content[0].text[:300]}")
-        return []
+        print(f"  raw response: {raw[:300]}")
+        return {"posts": [], "claude_raw_response": raw, "stories_sent": len(articles)}
 
     results = []
     for post in posts:
@@ -167,6 +175,7 @@ Stories:
         text = text.replace("  ", " ")
 
         source_url = articles[idx]["link"] if idx < len(articles) else ""
-        results.append({"text": text, "source_url": source_url})
+        story_title = articles[idx]["title"] if idx < len(articles) else ""
+        results.append({"text": text, "source_url": source_url, "story_title": story_title})
 
-    return results
+    return {"posts": results, "claude_raw_response": raw, "stories_sent": len(articles)}
