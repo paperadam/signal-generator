@@ -1,0 +1,324 @@
+{
+  "version": 1,
+  "run_id": "2026-03-12T22-02-20Z",
+  "timestamp": "2026-03-12T22:02:20.462190+00:00",
+  "run_type": "scheduled",
+  "outcome": "posted",
+  "timing": {
+    "sleep_hours": false,
+    "skipped_randomly": false,
+    "pre_post_delay_minutes": 43.9,
+    "engage_gap_delay_minutes": 23.8
+  },
+  "feed_intake": {
+    "total_fetched": 93,
+    "matched_filters": 65,
+    "new_articles": 65,
+    "articles": [
+      {
+        "title": "Iran War Live Updates: U.S. Officials Say Iran Is Laying Mines in Key Oil Route",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/live/2026/03/12/world/iran-war-news-trump-oil-israel"
+      },
+      {
+        "title": "Netanyahu issues veiled threat to new supreme leader of Iran.",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/live/2026/03/12/world/iran-war-news-trump-oil-israel/netanyahu-issues-veiled-threat-to-new-supreme-leader-of-iran"
+      },
+      {
+        "title": "News live: Australia \u2018well-supplied\u2019 with fuel, resources minister insists; Wong orders non-essential staff to leave Israel and UAE",
+        "source": "Australia news | The Guardian",
+        "link": "https://www.theguardian.com/australia-news/live/2026/mar/13/iran-war-politics-market-reactions-anthony-albanese-labor-angus-taylor-liberals-matt-canavan-nationals-ntwnfb"
+      },
+      {
+        "title": "What Is the Strait of Hormuz and Why Is Iran Blocking It?",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/2026/03/12/world/middleeast/strait-of-hormuz-iran-blockade-explained.html"
+      },
+      {
+        "title": "Two teenagers die after ebike crash with motorbike south of Brisbane",
+        "source": "Australia news | The Guardian",
+        "link": "https://www.theguardian.com/australia-news/2026/mar/13/greenbank-logan-ebike-motorbike-fatal-crash-queensland"
+      },
+      {
+        "title": "Iran Is Laying Mines in the Strait of Hormuz, U.S. Officials Say",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/2026/03/12/world/middleeast/iran-mines-strait-of-hormuz-us.html"
+      },
+      {
+        "title": "Fremantle's flag window is wide open, but the Eagles are facing more pain",
+        "source": "ABC Grandstand Sport",
+        "link": "https://www.abc.net.au/news/2026-03-13/fremantle-dockers-west-coast-eagles-afl-season-2026-analysis/106443202"
+      },
+      {
+        "title": "New Iranian Leader Vows to Keep Global Oil Gateway Blocked",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/2026/03/12/world/middleeast/iran-oil-war.html"
+      },
+      {
+        "title": "Trump says Iran welcome to play World Cup, but risk 'life and safety'",
+        "source": "ABC Grandstand Sport",
+        "link": "https://www.abc.net.au/news/2026-03-13/donald-trump-says-iran-is-welcome-in-us-for-fifa-world-cup/106449778"
+      },
+      {
+        "title": "Trump to Target Forced Labor in Global Tariff Scheme",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/2026/03/12/us/politics/trump-forced-labor-tariffs.html"
+      },
+      {
+        "title": "Displaced Lebanese Haunted by Strikes from the Sky",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/2026/03/12/world/middleeast/lebanon-displaced-strikes-israel-iran.html"
+      },
+      {
+        "title": "The Largest Oil Supply Disruption in History",
+        "source": "NYT > Climate and Environment",
+        "link": "https://www.nytimes.com/2026/03/12/climate/the-largest-oil-supply-disruption-in-history.html"
+      },
+      {
+        "title": "Morning Mail: Iran vows to fight on, capital gains tax benefit in wealthy suburbs, drone surveillance fears",
+        "source": "Australia news | The Guardian",
+        "link": "https://www.theguardian.com/australia-news/2026/mar/13/morning-mail-friday-ntwnfb"
+      },
+      {
+        "title": "Iraq vents anger at strikes on former militias now under government control.",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/live/2026/03/12/world/iran-war-news-trump-oil-israel/iraq-angered-by-strikes-on-former-militias-now-under-government-control"
+      },
+      {
+        "title": "Pink Australian flag for Peppa Pig-inspired para-skier",
+        "source": "ABC Grandstand Sport",
+        "link": "https://www.abc.net.au/news/2026-03-13/liana-france-places-15th-women-s-giant-slalom-standing/106449696"
+      },
+      {
+        "title": "Trump Administration Sues California Over Tailpipe Emissions Limits",
+        "source": "NYT > Climate and Environment",
+        "link": "https://www.nytimes.com/2026/03/12/climate/trump-california-tailpipe-emissions.html"
+      },
+      {
+        "title": "Brian Joondeph\u2019s Appointment to Air Pollution Advisory Board Draws Pushback",
+        "source": "NYT > Climate and Environment",
+        "link": "https://www.nytimes.com/2026/03/12/climate/epa-science-adviser-brian-joondeph.html"
+      },
+      {
+        "title": "Phones seized, families threatened: The bid to save Iran's female footballers",
+        "source": "ABC Grandstand Sport",
+        "link": "https://www.abc.net.au/news/2026-03-13/iranian-football-players-fears-grow/106446824"
+      },
+      {
+        "title": "Iranian women's team highlights complex history of athletes seeking asylum abroad",
+        "source": "ABC Grandstand Sport",
+        "link": "https://www.abc.net.au/news/2026-03-13/iran-defections-not-first-in-history-for-international-athletes/106444700"
+      },
+      {
+        "title": "Mojtaba Khamenei, Iran\u2019s New Supreme Leader, Says Strait of Hormuz Must Remain Closed in Defiant Statement",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/2026/03/12/world/middleeast/khamenei-statement.html"
+      },
+      {
+        "title": "Iran Shocks Could Spur a Shift to Clean Energy \u2014 But Also to Coal",
+        "source": "NYT > Climate and Environment",
+        "link": "https://www.nytimes.com/2026/03/11/climate/iran-war-oil-clean-energy-coal.html"
+      },
+      {
+        "title": "Odds Rise That El Ni\u00f1o Will Soon Bring Weather Extremes",
+        "source": "NYT > Climate and Environment",
+        "link": "https://www.nytimes.com/2026/03/12/climate/el-nino-weather-extremes.html"
+      },
+      {
+        "title": "Middle East war creating \u2018largest supply disruption in the history of oil markets\u2019",
+        "source": "Business | The Guardian",
+        "link": "https://www.theguardian.com/business/2026/mar/12/middle-east-war-creating-largest-supply-disruption-in-the-history-of-oil-markets"
+      },
+      {
+        "title": "Yanar Mohammed, 65, Iraqi Women\u2019s Rights Advocate, Is Killed by Gunmen",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/2026/03/12/world/middleeast/yanar-mohammed-dead.html"
+      },
+      {
+        "title": "Pussycat Dolls Announce New Single and Reunion Tour",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/2026/03/12/arts/music/pussycat-dolls-reunion.html"
+      },
+      {
+        "title": "Attacks on two tankers prompt Iraq to close oil terminals.",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/live/2026/world/us-israel-iran-attack-maps/attacks-on-two-tankers-prompt-iraq-to-close-oil-terminals"
+      },
+      {
+        "title": "Sydney police are using drones to chase suspects 500km away. Is a vulnerable town being targeted?",
+        "source": "Australia news | The Guardian",
+        "link": "https://www.theguardian.com/australia-news/2026/mar/12/sydney-police-drones-chase-suspects-moree-new-south-wales-ntwnfb"
+      },
+      {
+        "title": "Closures of Middle East oil terminals add to jitters about prices.",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/live/2026/03/12/world/iran-war-news-trump-oil-israel/middle-east-terminal-closures-add-to-jitters-about-oil-prices"
+      },
+      {
+        "title": "Stryker Cyberattack Adds to Fears of New Front in Iran War",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/2026/03/12/world/middleeast/stryker-iran-cyberattack.html"
+      },
+      {
+        "title": "Iran War Causing Largest Ever Oil Disruption, I.E.A. Says",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/2026/03/12/world/middleeast/iran-war-oil-iea.html"
+      }
+    ]
+  },
+  "story_selection": {
+    "articles_considered": 40,
+    "selected_count": 3,
+    "selected_stories": [
+      {
+        "title": "Iran War Causing Largest Ever Oil Disruption, I.E.A. Says",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/2026/03/12/world/middleeast/iran-war-oil-iea.html"
+      },
+      {
+        "title": "Middle East war creating \u2018largest supply disruption in the history of oil markets\u2019",
+        "source": "Business | The Guardian",
+        "link": "https://www.theguardian.com/business/2026/mar/12/middle-east-war-creating-largest-supply-disruption-in-the-history-of-oil-markets"
+      },
+      {
+        "title": "Iran Shocks Could Spur a Shift to Clean Energy \u2014 But Also to Coal",
+        "source": "NYT > Climate and Environment",
+        "link": "https://www.nytimes.com/2026/03/11/climate/iran-war-oil-clean-energy-coal.html"
+      }
+    ],
+    "claude_raw_response": "[29, 22, 20]"
+  },
+  "post_generation": {
+    "stories_sent": 3,
+    "generated_posts": [
+      {
+        "text": "every major oil shock in the last 50 years accelerated some energy diversification and some coal. the mix depends on who has grid capacity ready. this time a few countries do.",
+        "source_url": "https://www.nytimes.com/2026/03/11/climate/iran-war-oil-clean-energy-coal.html",
+        "story_title": "Iran Shocks Could Spur a Shift to Clean Energy \u2014 But Also to Coal"
+      }
+    ],
+    "claude_raw_response": "{\"text\": \"every major oil shock in the last 50 years accelerated some energy diversification and some coal. the mix depends on who has grid capacity ready. this time a few countries do.\", \"story_index\": 3}"
+  },
+  "publishing": {
+    "results": [
+      {
+        "text": "every major oil shock in the last 50 years accelerated some energy diversification and some coal. the mix depends on who has grid capacity ready. this time a few countries do.",
+        "source_url": "https://www.nytimes.com/2026/03/11/climate/iran-war-oil-clean-energy-coal.html",
+        "uri": "at://did:plc:h23qnlw7e7b4bj73ktu2bzyv/app.bsky.feed.post/3mgvi4q2nx42o",
+        "success": true,
+        "error": ""
+      }
+    ]
+  },
+  "engagement": {
+    "search_queries_used": [
+      "critical minerals",
+      "energy transition",
+      "renewable energy Australia"
+    ],
+    "candidates_found": 44,
+    "candidates": [
+      {
+        "author": "vcelements.bsky.social",
+        "text": "How Much Control China Has Over the World\u2019s Critical Minerals \ud83e\udea8\r\n\r\nhttps://elements.visualcapitalist.com/how-much-control-china-has-over-the-worlds-critical-minerals/",
+        "likes": 0,
+        "query": "critical minerals"
+      },
+      {
+        "author": "grainydispatch.bsky.social",
+        "text": "2. US Trade Representative Greer aims to start negotiations for trade agreement with EU, Japan on critical minerals in April, Bloomberg News reports.\n3. Israeli Prime Minister Netanyahu holds first pr",
+        "likes": 0,
+        "query": "critical minerals"
+      },
+      {
+        "author": "poohbearcorner.bsky.social",
+        "text": "'Africa is emerging as a potential source of rare earth minerals for the United States, which reportedly has only about two months\u2019 worth of the critical materials left in its defence stockpile as the",
+        "likes": 0,
+        "query": "critical minerals"
+      },
+      {
+        "author": "canadian-capt.bsky.social",
+        "text": "Roads. Ports. Clean power. Critical minerals. Arctic security.\n\nCanada is building the future of the North \u2014 and doing it with purpose.\n\n\ud83c\udf41",
+        "likes": 2,
+        "query": "critical minerals"
+      },
+      {
+        "author": "reuters.com",
+        "text": "Chile, US eye collaboration on rare earths and other critical minerals reut.rs/4b4tfws",
+        "likes": 18,
+        "query": "critical minerals"
+      },
+      {
+        "author": "shaheen.senate.gov",
+        "text": "We might not realize it, but critical minerals are vital to our everyday lives. With China dominating supply of these key resources, I\u2019ve introduced legislation to offer market-forward solutions to ex",
+        "likes": 8,
+        "query": "critical minerals"
+      },
+      {
+        "author": "grainydispatch.bsky.social",
+        "text": "\ud83d\udea8 #BREAKING : US TRADE REPRESENTATIVE GREER AIMING TO START NEGOTIATIONS FOR TRADE DEAL WITH EU, JP IN CRITICAL MINERALS IN APR- BLOOMBERG NEWS\nX",
+        "likes": 0,
+        "query": "critical minerals"
+      },
+      {
+        "author": "grainydispatch.bsky.social",
+        "text": "RESTATING POST : US CRITICAL MINERALS TALKS ADVANCE WITH EU, JP ON PRICE FLOOR - BLOOMBERG NEWS\nX",
+        "likes": 0,
+        "query": "critical minerals"
+      },
+      {
+        "author": "grainydispatch.bsky.social",
+        "text": "\ud83d\udea8 #BREAKING : US CRITICAL MINERALS TALKS ADVANCE WITH EU, JP ON PRICE FLOOR - BLOOMBERG NEWS\nX",
+        "likes": 1,
+        "query": "critical minerals"
+      },
+      {
+        "author": "eia-us.bsky.social",
+        "text": "Demand for minerals critical to electric vehicle production is driving the displacement of thousands of families. Sign our petition to tell the DRC government and automakers that clean cars shouldn't ",
+        "likes": 0,
+        "query": "critical minerals"
+      },
+      {
+        "author": "newnarrative.bsky.social",
+        "text": "Chile and US eye collaboration on critical minerals and rare earths \n\nwww.straitstimes.com/world/chile-...",
+        "likes": 0,
+        "query": "critical minerals"
+      },
+      {
+        "author": "jgi.doe.gov",
+        "text": "Proposals are due at the end of the month for our new Critical Minerals & Materials call, which provides access to resources at our facility and the @molecularfoundry.lbl.gov.\n\nMore information is ava",
+        "likes": 0,
+        "query": "critical minerals"
+      },
+      {
+        "author": "what-art101.bsky.social",
+        "text": "I just signed a @TradeJusticeEd.bsky.social petition: Sign Onto Public Comments about Trump\u2019s Proposed Critical Minerals Deal. Sign here: actionnetwork.org/petitions/si...",
+        "likes": 0,
+        "query": "critical minerals"
+      },
+      {
+        "author": "voscovery.bsky.social",
+        "text": "This \ud83e\udd21. Apparently \u201cCDN should \u2018work hard\u2019 to get into the \u2018lower tariff\u2019 bucket. The US doesn\u2019t need more O&G and remember (subtle threat) the US processes for CDN. CDN must stockpile critical minera",
+        "likes": 2,
+        "query": "critical minerals"
+      },
+      {
+        "author": "fintwitter.bsky.social",
+        "text": "CHILE'S FOREIGN MINISTY SAYS IT HAS SIGNED A JOINT DECLARATION WITH THE U.S. ON CRITICAL MINERALS AND RARE EARTHS",
+        "likes": 1,
+        "query": "critical minerals"
+      }
+    ],
+    "selected_post": {
+      "author": "newnarrative.bsky.social",
+      "text": "Chile and US eye collaboration on critical minerals and rare earths \n\nwww.straitstimes.com/world/chile-..."
+    },
+    "reply_text": "the price floor idea floating around the us-eu-japan talks is the more interesting detail, basically trying to out-coordinate china on the supply side rather than just subsidise domestic production",
+    "reply_uri": "at://did:plc:h23qnlw7e7b4bj73ktu2bzyv/app.bsky.feed.post/3mgvjhgnoda2j",
+    "reply_success": true,
+    "reply_error": "",
+    "claude_raw_response": "{\"selected\": 10, \"reply\": \"the price floor idea floating around the us-eu-japan talks is the more interesting detail, basically trying to out-coordinate china on the supply side rather than just subsidise domestic production\"}"
+  },
+  "errors": []
+}
