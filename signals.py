@@ -6,7 +6,8 @@ import anthropic
 
 import config
 
-client = anthropic.Anthropic(api_key=config.ANTHROPIC_API_KEY)
+def _get_client():
+    return anthropic.Anthropic(api_key=config.ANTHROPIC_API_KEY)
 
 SYSTEM_PROMPT = """You write short observational posts about structural shifts in the global economy, particularly energy systems, industrial policy, supply chains, technology transitions, and resource geopolitics.
 
@@ -65,7 +66,7 @@ Return a JSON array of the article indices (integers) you selected, ordered by s
 Articles:
 {chr(10).join(article_summaries)}"""
 
-    response = client.messages.create(
+    response = _get_client().messages.create(
         model=config.CLAUDE_MODEL,
         max_tokens=200,
         messages=[{"role": "user", "content": prompt}],
@@ -101,7 +102,7 @@ Return a JSON array with one object: {{"text": "...", "story_index": N}} where N
 Stories:
 {chr(10).join(article_block)}"""
 
-    response = client.messages.create(
+    response = _get_client().messages.create(
         model=config.CLAUDE_MODEL,
         max_tokens=1500,
         system=SYSTEM_PROMPT,

@@ -10,7 +10,8 @@ import anthropic
 import config
 import publisher
 
-client = anthropic.Anthropic(api_key=config.ANTHROPIC_API_KEY)
+def _get_client():
+    return anthropic.Anthropic(api_key=config.ANTHROPIC_API_KEY)
 
 REPLY_SYSTEM_PROMPT = """You write short replies to social media posts about energy systems, industrial policy, supply chains, technology transitions, and resource geopolitics.
 
@@ -118,7 +119,7 @@ Otherwise return a JSON object: {{"selected": INDEX, "reply": "your reply text"}
 Posts:
 {chr(10).join(post_block)}"""
 
-    response = client.messages.create(
+    response = _get_client().messages.create(
         model=config.CLAUDE_MODEL,
         max_tokens=500,
         system=REPLY_SYSTEM_PROMPT,
