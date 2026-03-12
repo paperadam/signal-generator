@@ -65,6 +65,15 @@ ENGAGE_SEARCH_QUERIES = [
     "decarbonisation",
 ]
 
+# --- Timing / humanisation ---
+SKIP_CHANCE = 0.4           # 40% of scheduled runs do nothing (simulates being busy)
+DELAY_MIN_MINUTES = 5       # random delay before acting
+DELAY_MAX_MINUTES = 45
+ENGAGE_GAP_MIN_MINUTES = 10  # gap between posting and replying
+ENGAGE_GAP_MAX_MINUTES = 30
+WAKE_HOUR_UTC = 20          # 6am AEDT (UTC+11) — won't post before this
+SLEEP_HOUR_UTC = 12         # 11pm AEDT (UTC+11) — won't post after this
+
 # --- State ---
 STATE_FILE = os.path.join(os.path.dirname(__file__), "state.json")
 ARTICLE_LOOKBACK_HOURS = 24

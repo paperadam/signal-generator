@@ -2,7 +2,10 @@
 """Daily Social Signal Generator — CLI entry point."""
 
 import argparse
+import random
 import sys
+import time
+from datetime import datetime, timezone
 
 import config
 import feeds
@@ -10,6 +13,23 @@ import signals
 import state as state_mod
 import publisher
 import engage
+
+
+def _is_sleep_hours() -> bool:
+    """Check if it's outside the 'author's' waking hours."""
+    hour = datetime.now(timezone.utc).hour
+    # Handle wrap-around (e.g. wake=20 UTC, sleep=12 UTC means active 20-23, 0-11)
+    if config.WAKE_HOUR_UTC <= config.SLEEP_HOUR_UTC:
+        return not (config.WAKE_HOUR_UTC <= hour < config.SLEEP_HOUR_UTC)
+    else:
+        return config.SLEEP_HOUR_UTC <= hour < config.WAKE_HOUR_UTC
+
+
+def _random_delay(min_min: int, max_min: int, label: str) -> None:
+    """Sleep for a random duration to humanise timing."""
+    minutes = random.uniform(min_min, max_min)
+    print(f"{label}: waiting {minutes:.0f} minutes...")
+    time.sleep(minutes * 60)
 
 
 def run(dry_run: bool = False, fetch_only: bool = False) -> None:
@@ -162,8 +182,25 @@ def main():
 
     if args.scheduled:
         print("=== scheduled run ===")
+
+        # Don't post during sleep hours
+        if _is_sleep_hours():
+            print("sleep hours. skipping.")
+            return
+
+        # Randomly skip some runs to avoid clockwork regularity
+        if random.random() < config.SKIP_CHANCE:
+            print("randomly skipping this run. (simulating being busy)")
+            return
+
+        # Random delay so posts don't land exactly on the hour
+        _random_delay(config.DELAY_MIN_MINUTES, config.DELAY_MAX_MINUTES, "pre-post delay")
+
         run(dry_run=False)
-        print()
+
+        # Gap between posting and replying
+        _random_delay(config.ENGAGE_GAP_MIN_MINUTES, config.ENGAGE_GAP_MAX_MINUTES, "post-to-reply gap")
+
         run_engage(dry_run=False)
     elif args.engage or args.engage_dry_run:
         run_engage(dry_run=args.engage_dry_run)
