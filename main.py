@@ -34,6 +34,55 @@ def _random_delay(min_min: int, max_min: int, label: str) -> float:
     return minutes
 
 
+def _run_afl(dry_run: bool = False, log: RunLog = None) -> None:
+    """Generate and post a casual AFL observation."""
+    st = state_mod.load()
+
+    posted_today = state_mod.posts_today(st)
+    if posted_today >= config.MAX_POSTS_PER_DAY:
+        print(f"already posted {posted_today} times today. skipping AFL post.")
+        return
+
+    print("generating afl post...")
+    generation = signals.generate_afl_post()
+    posts = generation["posts"][:1]
+
+    if log:
+        log.record_post_generation(
+            stories_sent=0,
+            posts=posts,
+            claude_raw=generation["claude_raw_response"],
+        )
+
+    if not posts:
+        print("no afl post generated.")
+        return
+
+    if dry_run:
+        print(f"\n--- afl dry run ---\n  {posts[0]['text']}")
+        if log:
+            log.record_publish_result(posts[0]["text"], "", uri="(dry run)", success=True)
+            log.set_outcome("dry_run")
+    else:
+        print("posting afl to bluesky...")
+        bsky = publisher.create_client()
+        try:
+            uri = publisher.post(bsky, posts[0]["text"])
+            state_mod.record_post(st, posts[0]["text"], "")
+            print(f"  posted: {posts[0]['text']}")
+            if log:
+                log.record_publish_result(posts[0]["text"], "", uri=uri, success=True)
+                log.set_outcome("posted")
+        except Exception as e:
+            print(f"  failed to post afl: {e}")
+            if log:
+                log.record_publish_result(posts[0]["text"], "", success=False, error=str(e))
+                log.add_error(f"afl post failed: {e}")
+
+    state_mod.save(st)
+    print("done.")
+
+
 def run(dry_run: bool = False, fetch_only: bool = False, log: RunLog = None) -> None:
     st = state_mod.load()
     state_mod.cleanup_old(st)
@@ -170,7 +219,7 @@ def run_engage(dry_run: bool = False, log: RunLog = None) -> None:
 
     # --- Select + Generate reply ---
     print("selecting post and generating reply...")
-    result = engage.select_and_reply(candidates)
+    result = engage.select_and_reply(candidates, state=st)
 
     if not result:
         print("claude decided none of the posts were worth replying to. fair enough.")
@@ -199,7 +248,7 @@ def run_engage(dry_run: bool = False, log: RunLog = None) -> None:
         print("posting reply to bluesky...")
         try:
             uri = publisher.reply_to_post(bsky, post_info["uri"], post_info["cid"], reply_text)
-            state_mod.record_reply(st, post_info["uri"], reply_text)
+            state_mod.record_reply(st, post_info["uri"], reply_text, author=post_info.get("author", ""))
             print(f"  replied to @{post_info['author']}: {reply_text[:80]}...")
             print(f"  reply uri: {uri}")
             if log:
@@ -267,7 +316,12 @@ def main():
         # Random delay so posts don't land exactly on the hour
         pre_delay = _random_delay(config.DELAY_MIN_MINUTES, config.DELAY_MAX_MINUTES, "pre-post delay")
 
-        run(dry_run=False, log=log)
+        # ~5% chance of an AFL post instead of energy/trade
+        if random.random() < 0.05:
+            print("rolling the dice... afl post today.")
+            _run_afl(dry_run=False, log=log)
+        else:
+            run(dry_run=False, log=log)
 
         # Gap between posting and replying
         engage_gap = _random_delay(config.ENGAGE_GAP_MIN_MINUTES, config.ENGAGE_GAP_MAX_MINUTES, "post-to-reply gap")

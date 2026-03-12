@@ -58,12 +58,13 @@ def replies_today(state: dict) -> int:
     return len([r for r in state.get("replies", []) if r.get("date") == today])
 
 
-def record_reply(state: dict, post_uri: str, reply_text: str) -> None:
+def record_reply(state: dict, post_uri: str, reply_text: str, author: str = "") -> None:
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     state.setdefault("replied_to", []).append(post_uri)
     state.setdefault("replies", []).append({
         "post_uri": post_uri,
         "text": reply_text,
+        "author": author,
         "date": today,
         "timestamp": datetime.now(timezone.utc).isoformat(),
     })

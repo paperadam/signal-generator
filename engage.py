@@ -15,35 +15,55 @@ def _get_client():
 
 REPLY_SYSTEM_PROMPT = """You write short replies to social media posts about energy systems, industrial policy, supply chains, technology transitions, and resource geopolitics.
 
-Your implicit lens: many global developments are gradually aligning with Australia's long-term opportunity as a clean energy and green industrial power. You never state this directly. You just notice how events fit together.
+YOUR WORLDVIEW (implicit, never stated directly):
+- Major economies face structural shortfalls in domestic clean energy. They will need to import green commodities.
+- The economic geography of manufacturing is relocating towards cheap clean energy.
+- Processing raw materials with renewable electricity is more valuable than shipping raw ore.
+- Green iron, hydrogen, ammonia are becoming real trade commodities, not just pilot projects.
+- Carbon pricing is a market correction that funds transition, not a punishment.
+- This is about economic opportunity, never about sacrifice or moral obligation.
+- You notice when events fit these patterns. You connect dots others miss.
 
 REPLY RULES (strict):
-- one sentence only, keep it short
+- one sentence only, keep it short. sometimes just a few words.
 - all lowercase
 - no hashtags, no emojis, no links
-- add a new angle, connection, or observation. don't just agree
+- add a new angle, connection, or observation. don't just agree.
 - sometimes noticing a connection to another event is enough
 - sometimes a genuine question works
+- sometimes just agreeing briefly is fine too. not every reply needs to be clever.
 - never correct, argue with, or lecture the original poster
 
 STYLE (critical):
 - write like a human, not an AI
 - never use em dashes. use commas, periods, or just start a new sentence
-- avoid words like "landscape", "paradigm", "unprecedented", "remarkable", "crucial", "indeed", "absolutely", "great point"
-- don't be sycophantic. don't compliment the post
+- avoid words like "landscape", "paradigm", "unprecedented", "remarkable", "crucial", "indeed", "absolutely", "great point", "shifting", "emerging"
+- don't be sycophantic. don't compliment the post.
 - sound like someone adding a thought in conversation, not performing
 
 NEVER DO:
-- mention the Superpower Institute or Ross Garnaut
-- say "australia will become a renewable superpower" or similar
+- mention the Superpower Institute, Ross Garnaut, Reuben Finighan, Ingrid Burfurd, or any researchers
+- say "australia will become a renewable superpower" or anything close
 - use activist, campaigning, or moralising language
 - use sarcasm or internet snark
 - reply to inflammatory, partisan, or conspiratorial posts
+- generate a reply that's similar to something you've recently said (check the recent replies list)
 
 When generating replies, return ONLY valid JSON. No markdown, no commentary."""
 
 
-def search_relevant_posts(bsky_client, state: dict) -> list[dict]:
+def _recently_replied_authors(state: dict) -> set:
+    """Return authors we've replied to in the last 7 days."""
+    from datetime import datetime, timezone, timedelta
+    cutoff = (datetime.now(timezone.utc) - timedelta(days=7)).strftime("%Y-%m-%d")
+    authors = set()
+    for r in state.get("replies", []):
+        if r.get("date", "") >= cutoff and r.get("author"):
+            authors.add(r["author"].lower())
+    return authors
+
+
+def search_relevant_posts(bsky_client, state: dict) -> dict:
     """Search Bluesky for posts worth engaging with."""
     # Pick 2-3 random queries to search
     queries = random.sample(
@@ -53,6 +73,7 @@ def search_relevant_posts(bsky_client, state: dict) -> list[dict]:
 
     candidates = []
     seen_uris = set(state.get("replied_to", []))
+    recent_authors = _recently_replied_authors(state)
     own_handle = config.BLUESKY_HANDLE.lower()
 
     for query in queries:
@@ -64,6 +85,9 @@ def search_relevant_posts(bsky_client, state: dict) -> list[dict]:
                     continue
                 # Skip already replied to
                 if p.uri in seen_uris:
+                    continue
+                # Skip authors we've replied to recently
+                if p.author.handle.lower() in recent_authors:
                     continue
                 # Skip very short posts (likely not substantive)
                 text = p.record.text if hasattr(p.record, "text") else ""
@@ -96,7 +120,7 @@ def search_relevant_posts(bsky_client, state: dict) -> list[dict]:
     return {"candidates": unique, "queries_used": queries}
 
 
-def select_and_reply(candidates: list[dict]) -> dict | None:
+def select_and_reply(candidates: list[dict], state: dict = None) -> dict | None:
     """Use Claude to pick the best post to reply to and generate a reply.
 
     Returns {"post": candidate_dict, "reply": str} or None.
@@ -110,6 +134,15 @@ def select_and_reply(candidates: list[dict]) -> dict | None:
             f"[{i}] @{c['author']}: {c['text'][:300]}"
         )
 
+    # Include recent replies so Claude avoids repetition
+    recent_block = ""
+    if state:
+        recent_replies = [r.get("text", "") for r in state.get("replies", [])[-10:] if r.get("text")]
+        if recent_replies:
+            recent_block = "\n\nYOUR RECENT REPLIES (do NOT repeat similar content or angles):\n" + "\n".join(
+                f'- "{r}"' for r in recent_replies
+            )
+
     prompt = f"""Here are recent Bluesky posts about energy, climate, and industrial topics. Pick the single best one to reply to. Choose a post where you can add a genuine observation, connection, or question.
 
 If none of the posts are worth replying to (too shallow, too inflammatory, too partisan), return {{"selected": null}}.
@@ -117,7 +150,7 @@ If none of the posts are worth replying to (too shallow, too inflammatory, too p
 Otherwise return a JSON object: {{"selected": INDEX, "reply": "your reply text"}}
 
 Posts:
-{chr(10).join(post_block)}"""
+{chr(10).join(post_block)}{recent_block}"""
 
     response = _get_client().messages.create(
         model=config.CLAUDE_MODEL,
