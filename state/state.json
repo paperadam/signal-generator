@@ -64,7 +64,21 @@
     "https://www.abc.net.au/news/2026-03-12/indian-wells-novak-djokovic-jack-draper-carlos-alcaraz/106447758",
     "https://www.nytimes.com/2026/03/11/world/middleeast/beirut-lebanon-israel-strikes.html",
     "https://www.abc.net.au/news/2026-03-12/wife-of-barry-cable-takes-stand-in-child-sex-abuse-trial/106447342",
-    "https://www.nytimes.com/2026/03/11/world/middleeast/us-oil-reserves-trump-iran.html"
+    "https://www.nytimes.com/2026/03/11/world/middleeast/us-oil-reserves-trump-iran.html",
+    "https://www.nytimes.com/2026/03/13/world/middleeast/cyprus-iran-drone-strike.html",
+    "https://www.nytimes.com/live/2026/03/13/world/iran-war-trump-oil-israel",
+    "https://www.nytimes.com/video/world/middleeast/100000010764777/where-israeli-strikes-are-hitting-beirut.html",
+    "https://www.nytimes.com/2026/03/13/us/politics/a-lot-of-life-years-lost-how-nafta-shortened-american-life-spans.html",
+    "https://www.theguardian.com/australia-news/2026/mar/13/nsw-emerges-as-main-loser-from-gst-carve-up-as-wa-gets-extra-55bn",
+    "https://www.abc.net.au/news/2026-03-13/afl-round-one-friday-bombers-hawks-live-blog/106448224",
+    "https://www.theguardian.com/australia-news/2026/mar/13/grace-tame-crikey-essay-albanese-critique-ntwnfb",
+    "https://www.theguardian.com/world/2026/mar/13/everything-is-a-political-weapon-since-trumps-re-election-says-germanys-ex-economy-minister",
+    "https://www.theguardian.com/commentisfree/picture/2026/mar/13/dab-some-coal-dust-on-your-face-and-put-on-your-hi-vis-its-time-to-manifest-hyper-australia-ntwnfb",
+    "https://www.theguardian.com/environment/2026/mar/13/australia-nt-floods-dog-helicopter-rescue-hero-ben-parfitt",
+    "https://www.theguardian.com/australia-news/2026/mar/13/afternoon-update-friday-ntwnfb",
+    "https://www.theguardian.com/environment/2026/mar/13/minings-toxic-timebomb-dams-full-of-poisonous-waste-are-dotted-around-the-world-what-happens-when-they-burst-aoe",
+    "https://www.nytimes.com/live/2026/03/13/world/iran-war-trump-oil-israel/netanyahu-issues-veiled-threat-to-new-supreme-leader-of-iran",
+    "https://www.theguardian.com/australia-news/2026/mar/12/iraqi-official-urges-australia-to-take-back-alleged-is-fighters-during-meeting-with-ambassador-ntwnfb"
   ],
   "posts": [
     {
@@ -72,6 +86,13 @@
       "source_url": "https://www.nytimes.com/2026/03/11/climate/iran-war-oil-clean-energy-coal.html",
       "date": "2026-03-13",
       "timestamp": "2026-03-13T04:13:20.596465+00:00"
+    },
+    {
+      "text": "nafta is 31 years old and people are still finding new things it broke",
+      "source_url": "https://www.nytimes.com/2026/03/13/us/politics/a-lot-of-life-years-lost-how-nafta-shortened-american-life-spans.html",
+      "date": "2026-03-13",
+      "timestamp": "2026-03-13T09:57:57.601597+00:00",
+      "theme": "resource_rents"
     }
   ],
   "replied_to": [],
