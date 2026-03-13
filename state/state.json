@@ -81,7 +81,37 @@
     "https://www.theguardian.com/australia-news/2026/mar/12/iraqi-official-urges-australia-to-take-back-alleged-is-fighters-during-meeting-with-ambassador-ntwnfb",
     "https://www.nytimes.com/2026/03/13/world/middleeast/air-superiority-iran-war.html",
     "https://www.nytimes.com/2026/03/13/world/europe/ukraine-drone-interceptors-iran-middle-east.html",
-    "https://www.abc.net.au/news/2026-03-13/matildas-vs-north-korea-womens-asian-cup-live-updates/106453672"
+    "https://www.abc.net.au/news/2026-03-13/matildas-vs-north-korea-womens-asian-cup-live-updates/106453672",
+    "https://www.nytimes.com/2026/03/13/world/middleeast/bahrain-us-missile-strike-iran.html",
+    "https://www.nytimes.com/2026/03/13/world/middleeast/more-marines-and-warships-being-sent-to-middle-east-us-officials-say.html",
+    "https://www.abc.net.au/news/2026-03-14/matildas-womens-asian-cup-north-korea-quarter-final-analysis/106450290",
+    "https://www.nytimes.com/2026/03/13/world/middleeast/ukraine-drone-knowledge.html",
+    "https://www.abc.net.au/news/2026-03-14/alex-johnston-record-breaking-try-south-sydney/106454458",
+    "https://www.nytimes.com/2026/03/13/us/politics/trump-seized-oil-tankers-cost.html",
+    "https://www.theguardian.com/world/2026/mar/13/iran-war-oil-prices-russian-sanctions-lifted",
+    "https://www.nytimes.com/2026/03/13/world/middleeast/trump-iran-protesters.html",
+    "https://www.abc.net.au/news/2026-03-14/mercedes-dominat-f1-china-sprint-qualifying-oscar-piastri-fifth/106444540",
+    "https://www.nytimes.com/2026/03/13/us/politics/hegseth-air-war-iran.html",
+    "https://www.nytimes.com/2026/03/13/world/middleeast/iran-government-quds-protest-tehran.html",
+    "https://www.nytimes.com/2026/03/13/climate/epa-ethylene-oxide-cancer.html",
+    "https://www.nytimes.com/2026/03/13/world/middleeast/oil-supply-shock-1973-embargo.html",
+    "https://www.nytimes.com/2026/03/13/technology/amazon-google-persian-gulf-war.html",
+    "https://www.nytimes.com/2026/03/13/world/europe/russia-oil-suspended-sanctions-economy.html",
+    "https://www.nytimes.com/live/2026/03/13/world/iran-war-trump-oil-israel/hegseth-says-an-officer-has-been-appointed-to-investigate-deadly-strike-on-iranian-school",
+    "https://www.theguardian.com/australia-news/2026/mar/14/robodebt-report-secret-section-what-does-it-reveal-ntwnfb",
+    "https://www.theguardian.com/australia-news/2026/mar/14/victoria-property-building-inspections-should-sellers-bear-cost",
+    "https://www.theguardian.com/australia-news/2026/mar/14/is-australia-at-war-with-iran-ntwnfb",
+    "https://www.theguardian.com/commentisfree/2026/mar/14/melbourne-rooftop-glittering-night-sky",
+    "https://www.theguardian.com/australia-news/audio/2026/mar/14/barries-nationals-leader-matt-canavan-strategy",
+    "https://www.theguardian.com/australia-news/2026/mar/14/nationals-one-nation-grievance-ideology-matt-canavan-pauline-hanson",
+    "https://www.nytimes.com/live/2026/world/us-israel-iran-attack-maps/oil-and-cargo-ships-are-growing-targets-in-war-with-iran",
+    "https://www.theguardian.com/us-news/2026/mar/13/detroit-michigan-gas-prices",
+    "https://www.nytimes.com/2026/03/13/world/asia/bts-concert-tickets-internet-cafes-south-korea.html",
+    "https://www.theguardian.com/us-news/2026/mar/13/trump-policies-lung-disease-death",
+    "https://www.nytimes.com/2026/03/13/world/middleeast/turkey-nato-iran-missile.html",
+    "https://www.theguardian.com/us-news/2026/mar/13/trump-tariffs-poll",
+    "https://www.theguardian.com/technology/2026/mar/13/anthropic-pentagon-artificial-intelligence",
+    "https://www.abc.net.au/news/2026-03-13/nrl-live-warriors-raiders-roosters-rabbitohs-alex-johnston/106453350"
   ],
   "posts": [
     {
@@ -103,6 +133,13 @@
       "date": "2026-03-13",
       "timestamp": "2026-03-13T10:37:23.953827+00:00",
       "theme": "procurement_signals"
+    },
+    {
+      "text": "models built on 1973 still assume oil is central. some of them are 50 years old and still running policy.",
+      "source_url": "https://www.nytimes.com/2026/03/13/world/middleeast/oil-supply-shock-1973-embargo.html",
+      "date": "2026-03-13",
+      "timestamp": "2026-03-13T20:07:12.996000+00:00",
+      "theme": "blind_spot"
     }
   ],
   "replied_to": [],
