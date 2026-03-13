@@ -1,0 +1,324 @@
+{
+  "version": 1,
+  "run_id": "2026-03-13T02-01-33Z",
+  "timestamp": "2026-03-13T02:01:33.357176+00:00",
+  "run_type": "scheduled",
+  "outcome": "posted",
+  "timing": {
+    "sleep_hours": false,
+    "skipped_randomly": false,
+    "pre_post_delay_minutes": 27.1,
+    "engage_gap_delay_minutes": 24.0
+  },
+  "feed_intake": {
+    "total_fetched": 96,
+    "matched_filters": 67,
+    "new_articles": 67,
+    "articles": [
+      {
+        "title": "Iran War Live Updates: U.S. Refueling Plane Crashes in Iraq, Military Says",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/live/2026/03/12/world/iran-war-news-trump-oil-israel"
+      },
+      {
+        "title": "Australia news live: more rain forecast for saturated NT as flood warnings issued for northern Queensland",
+        "source": "Australia news | The Guardian",
+        "link": "https://www.theguardian.com/australia-news/live/2026/mar/13/iran-war-politics-market-reactions-anthony-albanese-labor-angus-taylor-liberals-matt-canavan-nationals-ntwnfb"
+      },
+      {
+        "title": "Cuba Pledges to Release 51 Prisoners Amid Pressure From Washington",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/2026/03/12/world/americas/cuba-prisoner-release-trump-oil-blocade.html"
+      },
+      {
+        "title": "The social responsibility of tech with new shadow minister Aaron Violi - podcast",
+        "source": "Australia news | The Guardian",
+        "link": "https://www.theguardian.com/australia-news/audio/2026/mar/13/the-social-responsibility-of-tech-with-new-shadow-minister-aaron-violi-australian-politics-podcast"
+      },
+      {
+        "title": "Oil Prices Barely Budge After Trump Lifts Russia Sanctions",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/2026/03/12/business/oil-stock-gas-markets-iran.html"
+      },
+      {
+        "title": "Australia to release nearly 20% of fuel stockpile as Bowen insists country \u2018nowhere near\u2019 running out",
+        "source": "Australia news | The Guardian",
+        "link": "https://www.theguardian.com/australia-news/2026/mar/13/australia-to-release-nearly-20-of-fuel-stockpile-as-bowen-insists-country-nowhere-near-running-out"
+      },
+      {
+        "title": "Controversy at Women's Asian Cup after former coach leads 'Taiwan' chant",
+        "source": "ABC Grandstand Sport",
+        "link": "https://www.abc.net.au/news/2026-03-13/womens-asian-cup-controversy-former-national-coach-taiwan-chant/106451100"
+      },
+      {
+        "title": "What Is the Strait of Hormuz and Why Is Iran Blocking It?",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/2026/03/12/world/middleeast/strait-of-hormuz-iran-blockade-explained.html"
+      },
+      {
+        "title": "Trump Removes Sanctions on Russia to Help Oil Flow Amid Iran Conflict",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/2026/03/12/us/politics/trump-russia-oil-sanctions.html"
+      },
+      {
+        "title": "The 37 seconds of India's celebration that highlight cricket's problem",
+        "source": "ABC Grandstand Sport",
+        "link": "https://www.abc.net.au/news/2026-03-13/cricket-icc-boss-jay-shah-indian-influence-t20-world-cup/106337330"
+      },
+      {
+        "title": "FIFA, AFC accused of failing their human rights obligations with Iranian players",
+        "source": "ABC Grandstand Sport",
+        "link": "https://www.abc.net.au/news/2026-03-13/fifa-human-rights-responsibility-iran-womens-asian-cup-asylum/106437804"
+      },
+      {
+        "title": "U.S. KC-135 Refueling Plane Crashes in Iraq, Military Says",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/2026/03/12/world/middleeast/us-refueling-plane-crash-iraq.html"
+      },
+      {
+        "title": "Jason Day leads Australians at The Players Championship golf tournament",
+        "source": "ABC Grandstand Sport",
+        "link": "https://www.abc.net.au/news/2026-03-13/jason-day-best-australian-at-the-players-championship-round-one/106451248"
+      },
+      {
+        "title": "Australians are right to ask \u2018is this good enough?\u2019 when it comes to the Nacc\u2019s final robodebt report | A J Brown",
+        "source": "Australia news | The Guardian",
+        "link": "https://www.theguardian.com/commentisfree/2026/mar/13/nacc-final-robodebt-report-corruption-australia-reaction-ntwnfb"
+      },
+      {
+        "title": "Here\u2019s What Happened in the War in the Middle East on Thursday",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/2026/03/12/world/middleeast/iran-war-middle-east-beirut-recap.html"
+      },
+      {
+        "title": "Netanyahu issues veiled threat to new supreme leader of Iran.",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/live/2026/03/12/world/iran-war-news-trump-oil-israel/netanyahu-issues-veiled-threat-to-new-supreme-leader-of-iran"
+      },
+      {
+        "title": "Two teenagers die after ebike crash with motorbike south of Brisbane",
+        "source": "Australia news | The Guardian",
+        "link": "https://www.theguardian.com/australia-news/2026/mar/13/greenbank-logan-ebike-motorbike-fatal-crash-queensland"
+      },
+      {
+        "title": "Iran Is Laying Mines in the Strait of Hormuz, U.S. Officials Say",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/2026/03/12/world/middleeast/iran-mines-strait-of-hormuz-us.html"
+      },
+      {
+        "title": "Fremantle's flag window is wide open, but the Eagles are facing more pain",
+        "source": "ABC Grandstand Sport",
+        "link": "https://www.abc.net.au/news/2026-03-13/fremantle-dockers-west-coast-eagles-afl-season-2026-analysis/106443202"
+      },
+      {
+        "title": "New Iranian Leader Vows to Keep Global Oil Gateway Blocked",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/2026/03/12/world/middleeast/iran-oil-war.html"
+      },
+      {
+        "title": "Trump says Iran welcome to play World Cup, but risk 'life and safety'",
+        "source": "ABC Grandstand Sport",
+        "link": "https://www.abc.net.au/news/2026-03-13/donald-trump-says-iran-is-welcome-in-us-for-fifa-world-cup/106449778"
+      },
+      {
+        "title": "Trump to Target Forced Labor in Global Tariff Scheme",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/2026/03/12/us/politics/trump-forced-labor-tariffs.html"
+      },
+      {
+        "title": "Displaced Lebanese Haunted by Strikes from the Sky",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/2026/03/12/world/middleeast/lebanon-displaced-strikes-israel-iran.html"
+      },
+      {
+        "title": "The Largest Oil Supply Disruption in History",
+        "source": "NYT > Climate and Environment",
+        "link": "https://www.nytimes.com/2026/03/12/climate/the-largest-oil-supply-disruption-in-history.html"
+      },
+      {
+        "title": "Morning Mail: Iran vows to fight on, capital gains tax benefit in wealthy suburbs, drone surveillance fears",
+        "source": "Australia news | The Guardian",
+        "link": "https://www.theguardian.com/australia-news/2026/mar/13/morning-mail-friday-ntwnfb"
+      },
+      {
+        "title": "Iraq vents anger at strikes on former militias now under government control.",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/live/2026/03/12/world/iran-war-news-trump-oil-israel/iraq-angered-by-strikes-on-former-militias-now-under-government-control"
+      },
+      {
+        "title": "Pink Australian flag for Peppa Pig-inspired para-skier",
+        "source": "ABC Grandstand Sport",
+        "link": "https://www.abc.net.au/news/2026-03-13/liana-france-places-15th-women-s-giant-slalom-standing/106449696"
+      },
+      {
+        "title": "Trump Administration Sues California Over Tailpipe Emissions Limits",
+        "source": "NYT > Climate and Environment",
+        "link": "https://www.nytimes.com/2026/03/12/climate/trump-california-tailpipe-emissions.html"
+      },
+      {
+        "title": "Brian Joondeph\u2019s Appointment to Air Pollution Advisory Board Draws Pushback",
+        "source": "NYT > Climate and Environment",
+        "link": "https://www.nytimes.com/2026/03/12/climate/epa-science-adviser-brian-joondeph.html"
+      },
+      {
+        "title": "Phones seized, families threatened: The bid to save Iran's female footballers",
+        "source": "ABC Grandstand Sport",
+        "link": "https://www.abc.net.au/news/2026-03-13/iranian-football-players-fears-grow/106446824"
+      }
+    ]
+  },
+  "story_selection": {
+    "articles_considered": 40,
+    "selected_count": 3,
+    "selected_stories": [
+      {
+        "title": "Middle East war creating \u2018largest supply disruption in the history of oil markets\u2019",
+        "source": "Business | The Guardian",
+        "link": "https://www.theguardian.com/business/2026/mar/12/middle-east-war-creating-largest-supply-disruption-in-the-history-of-oil-markets"
+      },
+      {
+        "title": "Trump Removes Sanctions on Russia to Help Oil Flow Amid Iran Conflict",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/2026/03/12/us/politics/trump-russia-oil-sanctions.html"
+      },
+      {
+        "title": "Iran Shocks Could Spur a Shift to Clean Energy \u2014 But Also to Coal",
+        "source": "NYT > Climate and Environment",
+        "link": "https://www.nytimes.com/2026/03/11/climate/iran-war-oil-clean-energy-coal.html"
+      }
+    ],
+    "claude_raw_response": "[34, 8, 32]"
+  },
+  "post_generation": {
+    "stories_sent": 3,
+    "generated_posts": [
+      {
+        "text": "every major supply shock for 50 years has produced the same fork: some countries lock in more fossil fuel exposure, others accelerate out of it. the divergence this time will show up in procurement contracts, not policy statements.",
+        "source_url": "https://www.nytimes.com/2026/03/11/climate/iran-war-oil-clean-energy-coal.html",
+        "story_title": "Iran Shocks Could Spur a Shift to Clean Energy \u2014 But Also to Coal"
+      }
+    ],
+    "claude_raw_response": "{\"text\": \"every major supply shock for 50 years has produced the same fork: some countries lock in more fossil fuel exposure, others accelerate out of it. the divergence this time will show up in procurement contracts, not policy statements.\", \"story_index\": 3}"
+  },
+  "publishing": {
+    "results": [
+      {
+        "text": "every major supply shock for 50 years has produced the same fork: some countries lock in more fossil fuel exposure, others accelerate out of it. the divergence this time will show up in procurement contracts, not policy statements.",
+        "source_url": "https://www.nytimes.com/2026/03/11/climate/iran-war-oil-clean-energy-coal.html",
+        "uri": "at://did:plc:h23qnlw7e7b4bj73ktu2bzyv/app.bsky.feed.post/3mgvukfsc7x2o",
+        "success": true,
+        "error": ""
+      }
+    ]
+  },
+  "engagement": {
+    "search_queries_used": [
+      "industrial policy energy",
+      "critical minerals",
+      "lithium mining"
+    ],
+    "candidates_found": 42,
+    "candidates": [
+      {
+        "author": "oldtrotter.bsky.social",
+        "text": "Chinese inward investment in renewables than US tech investment in water and energy intensive data centres, as well as having a serious policy towards SMRs which doesn\u2019t include suggesting then could ",
+        "likes": 3,
+        "query": "industrial policy energy"
+      },
+      {
+        "author": "martinmorrey.bsky.social",
+        "text": "Labour in 18 months:\n- End of de-facto ban on onshore wind\n- Ending new licenses for oil & gas extraction\n- Massive investment in green energy with GBE\n- Future Homes Standards inc rooftop solar\n- New",
+        "likes": 2,
+        "query": "industrial policy energy"
+      },
+      {
+        "author": "martinmorrey.bsky.social",
+        "text": "Labour in 18 months:\n- End of de-facto ban on onshore wind\n- Ending new licenses for oil & gas extraction\n- Massive investment in green energy with GBE\n- Future Homes Standards inc rooftop solar\n- New",
+        "likes": 1,
+        "query": "industrial policy energy"
+      },
+      {
+        "author": "martinmorrey.bsky.social",
+        "text": "Labour in 18 months:\n- End of de-facto ban on onshore wind\n- Ending new licenses for oil & gas extraction\n- Massive investment in green energy with GBE\n- Future Homes Standards inc rooftop solar\n- New",
+        "likes": 0,
+        "query": "industrial policy energy"
+      },
+      {
+        "author": "market-ocean-en.bsky.social",
+        "text": "governance model. The critique is structural: European institutions were designed for coordination, not decisive action, and the result is a decision-making apparatus that struggles to respond to comp",
+        "likes": 1,
+        "query": "industrial policy energy"
+      },
+      {
+        "author": "thereallsc.bsky.social",
+        "text": "\ud83c\udde8\ud83c\udde6\nQuote: \"...Carney, more than any politician in this country, understands the mechanics of industrial carbon pricing. It\u2019s time for him to stand behind a policy that\u2019s integral to his broader vision",
+        "likes": 0,
+        "query": "industrial policy energy"
+      },
+      {
+        "author": "nickgottlieb.bsky.social",
+        "text": "Makes me a bit crazy hearing those in the western climate movement describe the energy transition as happening because solar is now the cheapest source of energy as though it's a kind of agent-less ma",
+        "likes": 103,
+        "query": "industrial policy energy"
+      },
+      {
+        "author": "joineduc.bsky.social",
+        "text": "\u26fd\ud83c\udf0d #OilDependency carries economic & political costs because supply is concentrated & traded through vulnerable chokepoints like the Strait of Hormuz.\n\nWith around 72% of global reserves controlled by",
+        "likes": 3,
+        "query": "industrial policy energy"
+      },
+      {
+        "author": "ajsdecepida.bsky.social",
+        "text": "\ud83d\udd03 {\ud835\uddee\ud835\ude45\ud835\ude4e\ud835\ude3f} My notes about the article\u2026 \u2935",
+        "likes": 3,
+        "query": "industrial policy energy"
+      },
+      {
+        "author": "epsteinweb.bsky.social",
+        "text": "Parts 1-2/2 \u2014 EFTA01779252.jpg\n#epsteinweb #efta01779252\nhttps://epsteinweb.org\nAvailable in the iOS app store now!\nhttps://apps.apple.com/us/app/epstein-web/id6758880661",
+        "likes": 0,
+        "query": "industrial policy energy"
+      },
+      {
+        "author": "fintwitter.bsky.social",
+        "text": "GERMANY STEEL ASSOCIATION SAYS AGAINST GENERAL BACKDROP AND GIVEN SPECIFIC UNCERTAINTIES IN THE MIDDLE EAST, DECISIVE INDUSTRIAL POLICY MEASURES MUST NOW BE TAKEN TO STABILIZE ENERGY PRICES",
+        "likes": 1,
+        "query": "industrial policy energy"
+      },
+      {
+        "author": "fintwitter.bsky.social",
+        "text": "GERMANY STEEL ASSOCIATION: AGAINST GENERAL BACKDROP AND GIVEN SPECIFIC UNCERTAINTIES IN THE MIDDLE EAST, DECISIVE INDUSTRIAL POLICY MEASURES MUST NOW BE TAKEN TO STABILIZE ENERGY PRICES",
+        "likes": 0,
+        "query": "industrial policy energy"
+      },
+      {
+        "author": "grainydispatch.bsky.social",
+        "text": "\ud83d\udea8 #BREAKING : GERMANY STEEL ASSOCIATION: AGAINST GENERAL BACKDROP & GIVEN SPECIFIC UNCERTAINTIES IN MIDDLE EAST, DECISIVE INDUSTRIAL POLICY MEASURES MUST NOW BE TAKEN TO STABILIZE ENERGY PRICES\nX",
+        "likes": 0,
+        "query": "industrial policy energy"
+      },
+      {
+        "author": "mark.tacular.social",
+        "text": "Not a proven Project 2025 + Tech Fash grand conspiracy, but absolutely a visible strategic alignment of interests: war shock, oil shock, executive consolidation, fossil-energy nationalism, and surveil",
+        "likes": 7,
+        "query": "industrial policy energy"
+      },
+      {
+        "author": "epsteinweb.bsky.social",
+        "text": "Parts 1-2/2 \u2014 EFTA01659064.jpg\n#epsteinweb #efta01659064\nhttps://epsteinweb.org\nAvailable in the iOS app store now!\nhttps://apps.apple.com/us/app/epstein-web/id6758880661",
+        "likes": 1,
+        "query": "industrial policy energy"
+      }
+    ],
+    "selected_post": {
+      "author": "nickgottlieb.bsky.social",
+      "text": "Makes me a bit crazy hearing those in the western climate movement describe the energy transition as happening because solar is now the cheapest source of energy as though it's a kind of agent-less market-driven process. It's happening almost exclusively because of Chinese industrial policy!!!"
+    },
+    "reply_text": "the cheap solar story and the chinese industrial policy story are both true, they just describe different parts of the same thing",
+    "reply_uri": "at://did:plc:h23qnlw7e7b4bj73ktu2bzyv/app.bsky.feed.post/3mgvvvi3tdn2d",
+    "reply_success": true,
+    "reply_error": "",
+    "claude_raw_response": "{\"selected\": 6, \"reply\": \"the cheap solar story and the chinese industrial policy story are both true, they just describe different parts of the same thing\"}"
+  },
+  "errors": []
+}
