@@ -130,6 +130,21 @@ def select_and_reply(candidates: list[dict], state: dict = None) -> dict | None:
     if not candidates:
         return None
 
+    # Re-load state fresh right before replying to catch any concurrent writes
+    import state as state_mod
+    fresh_state = state_mod.load()
+    recent_authors = _recently_replied_authors(fresh_state)
+    fresh_replied = set(fresh_state.get("replied_to", []))
+
+    # Filter out candidates we've already replied to (catches concurrent runs)
+    candidates = [
+        c for c in candidates
+        if c["uri"] not in fresh_replied and c["author"].lower() not in recent_authors
+    ]
+    if not candidates:
+        print("  all candidates filtered out after fresh state check.")
+        return None
+
     post_block = []
     for i, c in enumerate(candidates[:20]):
         post_block.append(
@@ -138,18 +153,21 @@ def select_and_reply(candidates: list[dict], state: dict = None) -> dict | None:
 
     # Include recent replies so Claude avoids repetition
     recent_block = ""
-    if state:
-        recent_replies = [r.get("text", "") for r in state.get("replies", [])[-10:] if r.get("text")]
-        if recent_replies:
-            recent_block = "\n\nYOUR RECENT REPLIES (do NOT repeat similar content or angles):\n" + "\n".join(
-                f'- "{r}"' for r in recent_replies
-            )
+    recent_replies = [r.get("text", "") for r in fresh_state.get("replies", [])[-10:] if r.get("text")]
+    if recent_replies:
+        recent_block = "\n\nYOUR RECENT REPLIES (you MUST NOT repeat similar content, angles, or phrasing. say something genuinely different):\n" + "\n".join(
+            f'- "{r}"' for r in recent_replies
+        )
 
     prompt = f"""Here are recent Bluesky posts about energy, climate, and industrial topics. Pick the single best one to reply to. Choose a post where you can add a genuine observation, connection, or question.
 
-If none of the posts are worth replying to (too shallow, too inflammatory, too partisan), return {{"selected": null}}.
+RULES:
+- If none are worth replying to (too shallow, inflammatory, partisan), return {{"selected": null}}.
+- Your reply must be genuinely different from your recent replies listed below. Different topic, different framing, different words.
+- Short replies are good. Even just a few words adding a thought.
+- Don't always go for the most obvious post. Sometimes a smaller, less polished post is more interesting to engage with.
 
-Otherwise return a JSON object: {{"selected": INDEX, "reply": "your reply text"}}
+Return a JSON object: {{"selected": INDEX, "reply": "your reply text"}}
 
 Posts:
 {chr(10).join(post_block)}{recent_block}"""

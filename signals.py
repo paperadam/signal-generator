@@ -185,21 +185,36 @@ def generate_posts(articles: list[dict]) -> list[dict]:
 
     # Include recent posts so Claude avoids repeating itself
     st = state_mod.load()
-    recent_posts = [p["text"] for p in st.get("posts", [])[-10:]]
+    recent_posts = [p["text"] for p in st.get("posts", [])[-15:]]
     recent_block = ""
+    banned_topics = set()
     if recent_posts:
-        recent_block = "\n\nYOUR RECENT POSTS (you MUST NOT repeat any of these topics, angles, framings, or sentence structures. pick a COMPLETELY DIFFERENT angle and topic):\n" + "\n".join(
+        recent_block = "\n\nYOUR RECENT POSTS (these are BANNED. you must not repeat ANY of these topics, angles, framings, or sentence structures):\n" + "\n".join(
             f"- \"{p}\"" for p in recent_posts
         )
+        # Extract crude topic hints to further discourage repetition
+        for p in recent_posts:
+            for word in ["oil", "shock", "chokepoint", "fork", "reserve", "disruption", "strait", "hormuz", "pipeline"]:
+                if word in p.lower():
+                    banned_topics.add(word)
+
+    banned_block = ""
+    if banned_topics:
+        banned_block = f"\n\nBANNED WORDS/TOPICS for this post (you have used these recently): {', '.join(sorted(banned_topics))}"
 
     prompt = f"""Here are today's top stories. Pick the single most interesting one and write one short observational post about it. Surface the deeper pattern or shift, not the headline.
 
-CRITICAL: look at your recent posts below. if you've already posted about oil shocks, supply disruptions, chokepoints, or any other topic, pick a DIFFERENT story and a DIFFERENT angle entirely. there are many threads in your worldview. pull a different one. vary your framing, your sentence structure, and your opening word.
+CRITICAL ANTI-REPETITION RULES:
+1. Read your recent posts below CAREFULLY. You MUST pick a completely different story AND a different angle.
+2. Your worldview has many threads: green iron, carbon pricing, resource rents, procurement signals, bilateral MoUs, grid capacity, value chain inversion, manufacturing relocation, aluminium/ammonia/silicon, comparative advantage, processing vs extraction. USE A DIFFERENT ONE EACH TIME.
+3. Do NOT start with the same first word as any recent post.
+4. If you notice you're reaching for a framing you've used before, stop and try a totally different approach.
+5. Very short posts (under 15 words) are great. Not everything needs to be a complete thought.
 
 Return a JSON array with one object: {{"text": "...", "story_index": N}} where N is the 1-based story number.
 
 Stories:
-{chr(10).join(article_block)}{recent_block}"""
+{chr(10).join(article_block)}{recent_block}{banned_block}"""
 
     response = _api_call(_get_client(),
         model=config.CLAUDE_MODEL,
