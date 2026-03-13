@@ -135,15 +135,18 @@ def posts_today(state: dict) -> int:
     return len([p for p in state.get("posts", []) if p.get("date") == today])
 
 
-def record_post(state: dict, text: str, source_url: str) -> None:
+def record_post(state: dict, text: str, source_url: str, theme: str = "") -> None:
     """Record a published post."""
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    state.setdefault("posts", []).append({
+    entry = {
         "text": text,
         "source_url": source_url,
         "date": today,
         "timestamp": datetime.now(timezone.utc).isoformat(),
-    })
+    }
+    if theme:
+        entry["theme"] = theme
+    state.setdefault("posts", []).append(entry)
 
 
 def is_replied_to(state: dict, uri: str) -> bool:

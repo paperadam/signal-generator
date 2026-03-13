@@ -141,6 +141,7 @@ def run(dry_run: bool = False, fetch_only: bool = False, log: RunLog = None) -> 
     print("generating signal posts...")
     generation = signals.generate_posts(selected)
     posts = generation["posts"][:posts_this_run]
+    theme_id = generation.get("theme", "")
     print(f"  generated {len(posts)} posts")
 
     if log:
@@ -176,7 +177,7 @@ def run(dry_run: bool = False, fetch_only: bool = False, log: RunLog = None) -> 
         for i, p in enumerate(posts, 1):
             try:
                 uri = publisher.post(bsky, p["text"])
-                state_mod.record_post(st, p["text"], p["source_url"])
+                state_mod.record_post(st, p["text"], p["source_url"], theme=theme_id)
                 print(f"  [{i}] posted: {p['text'][:80]}...")
                 print(f"      uri: {uri}")
                 if log:
