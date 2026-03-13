@@ -1,28 +1,125 @@
-"""Simple JSON file state tracking for seen articles and posted signals."""
+"""State tracking with GitHub persistence for Railway deployments."""
 
+import base64
 import json
 import os
 from datetime import datetime, timezone
 
+import requests
+
 import config
+
+GITHUB_TOKEN = os.getenv("GITHUB_TOKEN", "")
+GITHUB_REPO = "paperadam/signal-generator"
+GITHUB_BRANCH = "main"
+STATE_GH_PATH = "state/state.json"
+
+
+# ---------------------------------------------------------------------------
+# GitHub-backed load / save
+# ---------------------------------------------------------------------------
+
+def _gh_headers():
+    return {
+        "Authorization": f"token {GITHUB_TOKEN}",
+        "Accept": "application/vnd.github.v3+json",
+    }
+
+
+def _load_from_github() -> tuple[dict, str]:
+    """Fetch state.json from GitHub. Returns (state_dict, sha)."""
+    if not GITHUB_TOKEN:
+        return _empty_state(), ""
+    url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{STATE_GH_PATH}?ref={GITHUB_BRANCH}"
+    try:
+        resp = requests.get(url, headers=_gh_headers(), timeout=15)
+        if resp.status_code == 200:
+            data = resp.json()
+            content = base64.b64decode(data["content"]).decode()
+            sha = data["sha"]
+            return json.loads(content), sha
+        elif resp.status_code == 404:
+            return _empty_state(), ""
+        else:
+            print(f"  warning: github state fetch returned {resp.status_code}")
+            return _empty_state(), ""
+    except Exception as e:
+        print(f"  warning: failed to load state from github: {e}")
+        return _empty_state(), ""
+
+
+def _save_to_github(state: dict, sha: str) -> None:
+    """Write state.json back to GitHub."""
+    if not GITHUB_TOKEN:
+        print("  warning: GITHUB_TOKEN not set, state not persisted remotely")
+        return
+
+    url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{STATE_GH_PATH}"
+    content = base64.b64encode(json.dumps(state, indent=2).encode()).decode()
+    payload = {
+        "message": "update state",
+        "content": content,
+        "branch": GITHUB_BRANCH,
+    }
+    if sha:
+        payload["sha"] = sha
+
+    try:
+        resp = requests.put(url, headers=_gh_headers(), json=payload, timeout=15)
+        if resp.status_code in (200, 201):
+            print("  state synced to github")
+        else:
+            print(f"  warning: failed to save state to github: {resp.status_code} {resp.text[:200]}")
+    except Exception as e:
+        print(f"  warning: failed to save state to github: {e}")
+
+
+# Keep the sha between load/save in a single run
+_github_sha = ""
 
 
 def load() -> dict:
-    """Load state from disk."""
-    if not os.path.exists(config.STATE_FILE):
-        return _empty_state()
-    try:
-        with open(config.STATE_FILE) as f:
-            return json.load(f)
-    except (json.JSONDecodeError, IOError):
-        return _empty_state()
+    """Load state: try GitHub first, fall back to local file."""
+    global _github_sha
+
+    # Try GitHub (primary for Railway)
+    gh_state, sha = _load_from_github()
+    if sha:
+        _github_sha = sha
+        # Also save locally as a cache
+        _save_local(gh_state)
+        return gh_state
+
+    # Fall back to local file (for local dev)
+    if os.path.exists(config.STATE_FILE):
+        try:
+            with open(config.STATE_FILE) as f:
+                return json.load(f)
+        except (json.JSONDecodeError, IOError):
+            pass
+
+    return _empty_state()
 
 
 def save(state: dict) -> None:
-    """Save state to disk."""
-    with open(config.STATE_FILE, "w") as f:
-        json.dump(state, f, indent=2)
+    """Save state to both local disk and GitHub."""
+    global _github_sha
+    _save_local(state)
+    _save_to_github(state, _github_sha)
 
+
+def _save_local(state: dict) -> None:
+    """Save state to local disk."""
+    try:
+        with open(config.STATE_FILE, "w") as f:
+            json.dump(state, f, indent=2)
+    except IOError as e:
+        print(f"  warning: failed to save local state: {e}")
+
+
+# ---------------------------------------------------------------------------
+# State accessors (unchanged)
+# ---------------------------------------------------------------------------
 
 def is_article_seen(state: dict, url: str) -> bool:
     return url in state.get("seen_urls", [])

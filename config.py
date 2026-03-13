@@ -30,6 +30,9 @@ FEEDS = [
     "https://feeds.reuters.com/reuters/environment",              # Reuters Environment
 ]
 
+# --- AFL feed (for occasional human-sounding footy posts) ---
+AFL_FEED = "https://www.zerohanger.com/feed/"
+
 # --- Topic keywords for relevance filtering ---
 TOPIC_KEYWORDS = [
     "energy", "renewable", "solar", "wind", "battery", "hydrogen",
