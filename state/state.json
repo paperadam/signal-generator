@@ -111,7 +111,10 @@
     "https://www.nytimes.com/2026/03/13/world/middleeast/turkey-nato-iran-missile.html",
     "https://www.theguardian.com/us-news/2026/mar/13/trump-tariffs-poll",
     "https://www.theguardian.com/technology/2026/mar/13/anthropic-pentagon-artificial-intelligence",
-    "https://www.abc.net.au/news/2026-03-13/nrl-live-warriors-raiders-roosters-rabbitohs-alex-johnston/106453350"
+    "https://www.abc.net.au/news/2026-03-13/nrl-live-warriors-raiders-roosters-rabbitohs-alex-johnston/106453350",
+    "https://www.nytimes.com/2026/03/13/world/middleeast/iran-strait-of-hormuz-us-war.html",
+    "https://www.nytimes.com/2026/03/13/world/middleeast/us-marines-warships-middle-east.html",
+    "https://www.theguardian.com/australia-news/2026/mar/14/ai-jobs-australia-corporate-restructure"
   ],
   "posts": [
     {
@@ -140,6 +143,13 @@
       "date": "2026-03-13",
       "timestamp": "2026-03-13T20:07:12.996000+00:00",
       "theme": "blind_spot"
+    },
+    {
+      "text": "hormuz closure threat and australia ships iron ore through the indian ocean. probably fine.",
+      "source_url": "https://www.nytimes.com/2026/03/13/world/middleeast/iran-strait-of-hormuz-us-war.html",
+      "date": "2026-03-13",
+      "timestamp": "2026-03-13T22:25:27.714335+00:00",
+      "theme": "green_iron"
     }
   ],
   "replied_to": [],
