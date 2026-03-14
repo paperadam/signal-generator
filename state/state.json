@@ -124,7 +124,8 @@
     "https://www.abc.net.au/news/2026-03-14/adrian-segecic-switches-australia-croatia/106455262",
     "https://www.nytimes.com/2026/03/13/world/americas/argentina-soccer-messi-trump.html",
     "https://www.theguardian.com/australia-news/2026/mar/13/ai-datacentres-environmental-impacts",
-    "https://www.theguardian.com/australia-news/video/2026/mar/14/does-matt-canavan-have-a-strategy-to-take-on-one-nation-back-to-back-barries-podcast"
+    "https://www.theguardian.com/australia-news/video/2026/mar/14/does-matt-canavan-have-a-strategy-to-take-on-one-nation-back-to-back-barries-podcast",
+    "https://www.nytimes.com/2026/03/14/world/middleeast/what-to-know-about-kharg-island.html"
   ],
   "posts": [
     {
@@ -167,6 +168,13 @@
       "date": "2026-03-14",
       "timestamp": "2026-03-14T04:09:34.567980+00:00",
       "theme": "grid_readiness"
+    },
+    {
+      "text": "kharg island handles 90% of iran's oil exports and apparently everyone just learned that today.",
+      "source_url": "https://www.nytimes.com/2026/03/14/world/middleeast/what-to-know-about-kharg-island.html",
+      "date": "2026-03-14",
+      "timestamp": "2026-03-14T06:41:39.478577+00:00",
+      "theme": "manufacturing_relocation"
     }
   ],
   "replied_to": [],
