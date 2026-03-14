@@ -114,7 +114,17 @@
     "https://www.abc.net.au/news/2026-03-13/nrl-live-warriors-raiders-roosters-rabbitohs-alex-johnston/106453350",
     "https://www.nytimes.com/2026/03/13/world/middleeast/iran-strait-of-hormuz-us-war.html",
     "https://www.nytimes.com/2026/03/13/world/middleeast/us-marines-warships-middle-east.html",
-    "https://www.theguardian.com/australia-news/2026/mar/14/ai-jobs-australia-corporate-restructure"
+    "https://www.theguardian.com/australia-news/2026/mar/14/ai-jobs-australia-corporate-restructure",
+    "https://www.nytimes.com/2026/03/14/world/europe/sirat-spain-film-oscars.html",
+    "https://www.nytimes.com/2026/03/14/world/asia/pakistan-oil-prices.html",
+    "https://www.nytimes.com/2026/03/13/world/middleeast/kharg-island-iran-oil-trump.html",
+    "https://www.theguardian.com/australia-news/2026/mar/14/melbourne-to-finally-get-myki-less-public-transport-on-monday-but-only-on-four-train-lines",
+    "https://www.nytimes.com/2026/03/13/us/politics/trumps-war-alliance-with-israel-is-reshaping-the-middle-east-but-it-carries-risks.html",
+    "https://www.nytimes.com/2026/03/13/world/middleeast/iran-war-middle-east-recap.html",
+    "https://www.abc.net.au/news/2026-03-14/adrian-segecic-switches-australia-croatia/106455262",
+    "https://www.nytimes.com/2026/03/13/world/americas/argentina-soccer-messi-trump.html",
+    "https://www.theguardian.com/australia-news/2026/mar/13/ai-datacentres-environmental-impacts",
+    "https://www.theguardian.com/australia-news/video/2026/mar/14/does-matt-canavan-have-a-strategy-to-take-on-one-nation-back-to-back-barries-podcast"
   ],
   "posts": [
     {
@@ -150,6 +160,13 @@
       "date": "2026-03-13",
       "timestamp": "2026-03-13T22:25:27.714335+00:00",
       "theme": "green_iron"
+    },
+    {
+      "text": "strait still choked and kharg island hit. that's two nodes at once.",
+      "source_url": "https://www.nytimes.com/2026/03/13/world/middleeast/kharg-island-iran-oil-trump.html",
+      "date": "2026-03-14",
+      "timestamp": "2026-03-14T04:09:34.567980+00:00",
+      "theme": "grid_readiness"
     }
   ],
   "replied_to": [],
