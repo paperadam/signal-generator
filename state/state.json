@@ -171,7 +171,24 @@
     "https://www.theguardian.com/australia-news/2026/mar/14/queensland-arts-minister-ignored-recommendation-that-new-theatre-be-named-after-poet-oodgeroo-noonuccal-ntwnfb",
     "https://www.nytimes.com/2026/03/14/world/australia/iranian-soccer-asylum-australia.html",
     "https://www.abc.net.au/news/2026-03-15/afl-round-one-sunday-live-blog-nmfc-pa-melb-stk-gc-wce/106448362",
-    "https://www.nytimes.com/live/2026/03/15/world/iran-war-trump-oil-israel/warning-to-americans-to-leave-iraq-is-a-sign-the-iran-war-is-spilling-over-the-border"
+    "https://www.nytimes.com/live/2026/03/15/world/iran-war-trump-oil-israel/warning-to-americans-to-leave-iraq-is-a-sign-the-iran-war-is-spilling-over-the-border",
+    "https://www.abc.net.au/news/2026-03-16/argentina-vs-spain-finalissima-in-qatar-called-off-amid-war/106458480",
+    "https://www.theguardian.com/australia-news/live/2026/mar/16/australia-news-live-hybrid-car-sales-electric-vehicles-iran-footballers-tony-burke-asylum-oscars-academy-awards-anthony-albanese-angus-taylor-matt-canavan-labor-liberal-coalition-ntwnfb",
+    "https://www.theguardian.com/australia-news/2026/mar/16/morning-mail-monday-ntwnfb",
+    "https://www.abc.net.au/news/2026-03-16/f1-chinese-grand-prix-quick-hits-oscar-piastri-mclaren/106457602",
+    "https://www.nytimes.com/2026/03/15/us/politics/trump-stark-choices-iran-war.html",
+    "https://www.nytimes.com/2026/03/15/us/politics/energy-secretary-iran-oil-prices.html",
+    "https://www.nytimes.com/2026/03/15/world/middleeast/trump-strait-of-hormuz-iran-warships.html",
+    "https://www.nytimes.com/2026/03/15/world/middleeast/united-states-iran-history.html",
+    "https://www.theguardian.com/business/2026/mar/15/middle-east-oilfield-shutdowns-prices-high-iran-war-strait-of-hormuz",
+    "https://www.theguardian.com/lifeandstyle/2026/mar/16/how-a-vacuum-cleaner-turned-the-other-way-became-a-popular-solution-to-snoring-disorders",
+    "https://www.theguardian.com/business/2026/mar/16/four-day-work-working-week-what-happened",
+    "https://www.theguardian.com/australia-news/2026/mar/16/australian-soldiers-bodies-very-likely-disturbed-by-israeli-bulldozing-at-gaza-cemetery-senator-says",
+    "https://www.theguardian.com/australia-news/2026/mar/16/queensland-police-sued-after-officer-caught-describing-indians-as-perverts-while-investigating-rideshare-driver-ntwnfb",
+    "https://www.theguardian.com/australia-news/2026/mar/16/iranian-australian-iran-war-prayer-action",
+    "https://www.nytimes.com/2026/03/15/world/middleeast/israel-kiryat-shmona.html",
+    "https://www.nytimes.com/2026/03/15/world/europe/europe-iran-military.html",
+    "https://www.abc.net.au/news/2026-03-15/japan-downs-philippines-asian-cup-semis-sydney/106457522"
   ],
   "posts": [
     {
@@ -242,6 +259,13 @@
       "date": "2026-03-15",
       "timestamp": "2026-03-15T08:12:07.301342+00:00",
       "theme": "specific_numbers"
+    },
+    {
+      "text": "trump asking south korea and japan to send warships to a strait their energy security depends on. that's one way to ask.",
+      "source_url": "https://www.nytimes.com/2026/03/15/world/middleeast/trump-strait-of-hormuz-iran-warships.html",
+      "date": "2026-03-15",
+      "timestamp": "2026-03-15T20:30:00.264206+00:00",
+      "theme": "embedded_energy_trade"
     }
   ],
   "replied_to": [
