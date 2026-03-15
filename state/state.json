@@ -152,7 +152,16 @@
     "https://www.nytimes.com/video/world/middleeast/100000010766123/how-migrant-workers-have-been-affected-by-irans-strikes.html",
     "https://www.nytimes.com/2026/03/14/world/americas/cuba-history-revolution-castro.html",
     "https://www.theguardian.com/environment/2026/mar/14/my-ideas-are-a-little-revolutionary-ecologist-suzanne-simard-on-intelligent-forests-the-climate-and-her-critics",
-    "https://www.abc.net.au/news/2026-03-14/f1-china-sprint-race-george-russell-wins-mercedes/106444542"
+    "https://www.abc.net.au/news/2026-03-14/f1-china-sprint-race-george-russell-wins-mercedes/106444542",
+    "https://www.theguardian.com/business/2026/mar/15/no-recession-but-inflation-hike-and-increased-cost-of-living-pressure-on-the-way-jim-chalmers-says",
+    "https://www.nytimes.com/live/2026/03/14/world/iran-war-trump-oil-israel/warning-to-americans-to-leave-iraq-is-a-sign-the-iran-war-is-spilling-over-the-border",
+    "https://www.nytimes.com/2026/03/14/world/middleeast/fcc-broadcasters-iran-war.html",
+    "https://www.theguardian.com/australia-news/2026/mar/15/nsw-housing-real-estate-underquoting-dummy-bidding-ban-fines-price-guides",
+    "https://www.abc.net.au/news/2026-03-15/gunew-out-to-add-to-australian-para-alpine-ski-history/106456736",
+    "https://www.abc.net.au/news/2026-03-15/who-could-make-socceroos-world-cup-squad-analysis/106337166",
+    "https://www.theguardian.com/commentisfree/2026/mar/15/middle-aged-mother-anxiety-boxing",
+    "https://www.theguardian.com/australia-news/2026/mar/15/queen-mary-king-frederik-danish-royals-australia-tour",
+    "https://www.nytimes.com/2026/03/14/world/middleeast/iran-war-recap-kharg-island-oil.html"
   ],
   "posts": [
     {
@@ -209,6 +218,13 @@
       "date": "2026-03-14",
       "timestamp": "2026-03-14T22:19:33.659394+00:00",
       "theme": "grid_readiness"
+    },
+    {
+      "text": "cost of living pressure, rates rising, budget incoming. and still no price on pollution.",
+      "source_url": "https://www.theguardian.com/business/2026/mar/15/no-recession-but-inflation-hike-and-increased-cost-of-living-pressure-on-the-way-jim-chalmers-says",
+      "date": "2026-03-15",
+      "timestamp": "2026-03-15T02:35:57.512237+00:00",
+      "theme": "carbon_pricing"
     }
   ],
   "replied_to": [],
