@@ -161,7 +161,17 @@
     "https://www.abc.net.au/news/2026-03-15/who-could-make-socceroos-world-cup-squad-analysis/106337166",
     "https://www.theguardian.com/commentisfree/2026/mar/15/middle-aged-mother-anxiety-boxing",
     "https://www.theguardian.com/australia-news/2026/mar/15/queen-mary-king-frederik-danish-royals-australia-tour",
-    "https://www.nytimes.com/2026/03/14/world/middleeast/iran-war-recap-kharg-island-oil.html"
+    "https://www.nytimes.com/2026/03/14/world/middleeast/iran-war-recap-kharg-island-oil.html",
+    "https://www.nytimes.com/live/2026/03/15/world/iran-war-trump-oil-israel",
+    "https://www.abc.net.au/news/2026-03-15/golf-hannah-green-wins-australian-open/106457652",
+    "https://www.nytimes.com/2026/03/15/world/canada/canada-iran-arrests-death.html",
+    "https://www.abc.net.au/news/2026-03-15/formula-1-live-chinese-grand-prix-oscar-piastri/106444548",
+    "https://www.nytimes.com/live/2026/03/15/world/iran-war-trump-oil-israel/trump-adds-to-speculation-about-iranian-leaders-condition",
+    "https://www.nytimes.com/2026/03/15/world/europe/winter-olympics-future-sites.html",
+    "https://www.theguardian.com/australia-news/2026/mar/14/queensland-arts-minister-ignored-recommendation-that-new-theatre-be-named-after-poet-oodgeroo-noonuccal-ntwnfb",
+    "https://www.nytimes.com/2026/03/14/world/australia/iranian-soccer-asylum-australia.html",
+    "https://www.abc.net.au/news/2026-03-15/afl-round-one-sunday-live-blog-nmfc-pa-melb-stk-gc-wce/106448362",
+    "https://www.nytimes.com/live/2026/03/15/world/iran-war-trump-oil-israel/warning-to-americans-to-leave-iraq-is-a-sign-the-iran-war-is-spilling-over-the-border"
   ],
   "posts": [
     {
@@ -225,6 +235,13 @@
       "date": "2026-03-15",
       "timestamp": "2026-03-15T02:35:57.512237+00:00",
       "theme": "carbon_pricing"
+    },
+    {
+      "text": "a fifth of the world's oil. one narrow waterway.",
+      "source_url": "https://www.nytimes.com/live/2026/03/15/world/iran-war-trump-oil-israel",
+      "date": "2026-03-15",
+      "timestamp": "2026-03-15T08:12:07.301342+00:00",
+      "theme": "specific_numbers"
     }
   ],
   "replied_to": [
