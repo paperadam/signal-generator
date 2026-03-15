@@ -227,6 +227,16 @@
       "theme": "carbon_pricing"
     }
   ],
-  "replied_to": [],
-  "replies": []
+  "replied_to": [
+    "at://did:plc:v3lkb3m4lu6nzv6npkah6umc/app.bsky.feed.post/3mgxfbkzwgy26"
+  ],
+  "replies": [
+    {
+      "post_uri": "at://did:plc:v3lkb3m4lu6nzv6npkah6umc/app.bsky.feed.post/3mgxfbkzwgy26",
+      "text": "zimbabwe's export ban was always more about processing leverage than environmentalism, so the real question is whether sinomine comes back with a refinery deal attached",
+      "author": "europe-africa.bsky.social",
+      "date": "2026-03-15",
+      "timestamp": "2026-03-15T04:31:15.842083+00:00"
+    }
+  ]
 }
