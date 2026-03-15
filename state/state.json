@@ -188,7 +188,12 @@
     "https://www.theguardian.com/australia-news/2026/mar/16/iranian-australian-iran-war-prayer-action",
     "https://www.nytimes.com/2026/03/15/world/middleeast/israel-kiryat-shmona.html",
     "https://www.nytimes.com/2026/03/15/world/europe/europe-iran-military.html",
-    "https://www.abc.net.au/news/2026-03-15/japan-downs-philippines-asian-cup-semis-sydney/106457522"
+    "https://www.abc.net.au/news/2026-03-15/japan-downs-philippines-asian-cup-semis-sydney/106457522",
+    "https://www.nytimes.com/2026/03/15/world/middleeast/baghdad-airport-missiles.html",
+    "https://www.abc.net.au/news/2026-03-16/how-australia-fared-at-the-2026-milan-cortina-paralympics/106458554",
+    "https://www.nytimes.com/2026/03/15/world/iran-war-effects-oil-oscars.html",
+    "https://www.theguardian.com/australia-news/2026/mar/16/fifth-iranian-football-player-leaves-australia-after-initially-accepting-offer-of-asylum",
+    "https://www.abc.net.au/news/2026-03-16/fifth-member-of-iranian-womens-soccer-team-leaves-australia/106458492"
   ],
   "posts": [
     {
@@ -266,6 +271,13 @@
       "date": "2026-03-15",
       "timestamp": "2026-03-15T20:30:00.264206+00:00",
       "theme": "embedded_energy_trade"
+    },
+    {
+      "text": "energy prices rising, farmers getting hit. always the farmers.",
+      "source_url": "https://www.nytimes.com/2026/03/15/world/iran-war-effects-oil-oscars.html",
+      "date": "2026-03-15",
+      "timestamp": "2026-03-15T22:27:15.576124+00:00",
+      "theme": "green_iron"
     }
   ],
   "replied_to": [
