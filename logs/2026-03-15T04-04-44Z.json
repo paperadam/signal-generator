@@ -1,0 +1,178 @@
+{
+  "version": 1,
+  "run_id": "2026-03-15T04-04-44Z",
+  "timestamp": "2026-03-15T04:04:44.497611+00:00",
+  "run_type": "scheduled",
+  "outcome": "skipped_no_posts",
+  "timing": {
+    "sleep_hours": false,
+    "skipped_randomly": false,
+    "pre_post_delay_minutes": 8.8,
+    "engage_gap_delay_minutes": 17.6
+  },
+  "feed_intake": {
+    "total_fetched": 57,
+    "matched_filters": 38,
+    "new_articles": 4,
+    "articles": [
+      {
+        "title": "Some Olympic Leaders Want to See Fixed Winter Games Host Cities",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/2026/03/15/world/europe/winter-olympics-future-sites.html"
+      },
+      {
+        "title": "Queensland arts minister ignored recommendation that new theatre be named after poet Oodgeroo Noonuccal",
+        "source": "Australia news | The Guardian",
+        "link": "https://www.theguardian.com/australia-news/2026/mar/14/queensland-arts-minister-ignored-recommendation-that-new-theatre-be-named-after-poet-oodgeroo-noonuccal-ntwnfb"
+      },
+      {
+        "title": "Three More Iranian Soccer Players Withdraw Bid for Asylum in Australia",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/2026/03/14/world/australia/iranian-soccer-asylum-australia.html"
+      },
+      {
+        "title": "Live: Demons begin fresh chapter under new coach, Roos on top of Power",
+        "source": "ABC Grandstand Sport",
+        "link": "https://www.abc.net.au/news/2026-03-15/afl-round-one-sunday-live-blog-nmfc-pa-melb-stk-gc-wce/106448362"
+      }
+    ]
+  },
+  "story_selection": {
+    "articles_considered": 4,
+    "selected_count": 3,
+    "selected_stories": [
+      {
+        "title": "Some Olympic Leaders Want to See Fixed Winter Games Host Cities",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/2026/03/15/world/europe/winter-olympics-future-sites.html"
+      },
+      {
+        "title": "Three More Iranian Soccer Players Withdraw Bid for Asylum in Australia",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/2026/03/14/world/australia/iranian-soccer-asylum-australia.html"
+      },
+      {
+        "title": "Queensland arts minister ignored recommendation that new theatre be named after poet Oodgeroo Noonuccal",
+        "source": "Australia news | The Guardian",
+        "link": "https://www.theguardian.com/australia-news/2026/mar/14/queensland-arts-minister-ignored-recommendation-that-new-theatre-be-named-after-poet-oodgeroo-noonuccal-ntwnfb"
+      }
+    ],
+    "claude_raw_response": "[0, 2, 1]"
+  },
+  "post_generation": {
+    "stories_sent": 3,
+    "generated_posts": [],
+    "claude_raw_response": "[{\"text\": \"none of these stories fit the lens today, but that last post about no price on pollution still sitting there unanswered is kind of the whole thing\", \"story_index\": 3}]\n\nWait, let me actually pick the best fit and write something genuine.\n\n[{\"text\": \"68% support a polluter levy but it's not on the ballot anywhere\", \"story_index\": 3}]"
+  },
+  "publishing": null,
+  "engagement": {
+    "search_queries_used": [
+      "lithium mining",
+      "energy transition",
+      "solar manufacturing"
+    ],
+    "candidates_found": 44,
+    "candidates": [
+      {
+        "author": "shaunledding.bsky.social",
+        "text": "One of the most exciting lithium exploration stories emerging in Qu\u00e9bec\u2019s James Bay region continues to gain momentum.\n\nTo learn more about this company, register to see Q2 Metals President & CEO Alic",
+        "likes": 1,
+        "query": "lithium mining"
+      },
+      {
+        "author": "evanwritescars.bsky.social",
+        "text": "From a post about lithium mining in NS: \"Brazil Lake\u2019s is the only pegmatite deposit in the Maritimes known to contain spodumene\" teee hee.",
+        "likes": 2,
+        "query": "lithium mining"
+      },
+      {
+        "author": "europe-africa.bsky.social",
+        "text": "Sinomine in talks with Zimbabwe to resume lithium exports\n\nhttps://www.europesays.com/africa/132053/\n\nSinomine Resource Group is in talks with Zimbabwean authorities to resume its lithium exports, the",
+        "likes": 0,
+        "query": "lithium mining"
+      },
+      {
+        "author": "europe-africa.bsky.social",
+        "text": "China\u2019s Sinomine in talks to persuade Zimbabwe to roll back lithium decision\n\nhttps://www.europesays.com/africa/131680/\n\nThe Chinese mining company recently disclosed that it is in talks with Zimbabwe",
+        "likes": 0,
+        "query": "lithium mining"
+      },
+      {
+        "author": "ifdtbeograd.bsky.social",
+        "text": "Lithium Mining and Environmental (In)justice | Publication Launch \n\nIs the \"green transition\" built on local injustice? Join us for a discussion on lithium extraction across Chile, Argentina, Portugal",
+        "likes": 2,
+        "query": "lithium mining"
+      },
+      {
+        "author": "conkers3.bsky.social",
+        "text": "#ALL HY:\n\u2705Progress on its Ewoyaa #Lithium Project in #Ghana, which awaits parliamentary ratification of its #Mining Lease, inc. revised fiscal terms.\n\u2705Promising exploration results from its Rubino & A",
+        "likes": 0,
+        "query": "lithium mining"
+      },
+      {
+        "author": "ecoresearchbybnpp.bsky.social",
+        "text": "\ud83d\udcca Our latest issue of #EcoPerspectives #EmergingEconomies, is available.\t\nRead the latest analyses of H\u00e9l\u00e8ne Drouot, St\u00e9phane Alby and Lucas Pl\u00e9 on the topics of \ud83c\udde8\ud83c\uddf1 #Chile, \ud83c\uddf2\ud83c\uddfd #Mexico, \ud83c\uddf8\ud83c\udde6 #SaudiArabia",
+        "likes": 0,
+        "query": "lithium mining"
+      },
+      {
+        "author": "bryangodbe.bsky.social",
+        "text": "All mining for (gold, oil, silver, nickel, lithium, bauxite or any other minerals) must be strongly regulated both in the U.S. and worldwide. We can't let mining companies runaway with profits and lea",
+        "likes": 7,
+        "query": "lithium mining"
+      },
+      {
+        "author": "denisovian.bsky.social",
+        "text": "Latest generation batteries based on sodium ion tech reduce the impact of lithium mining on the environment.",
+        "likes": 0,
+        "query": "lithium mining"
+      },
+      {
+        "author": "ylnm.bsky.social",
+        "text": "In Chile, Argentina, and Bolivia, Indigenous communities are defending life, water, and culture against lithium mining in Puna de Atacama. \n\nSupport those defending water! Water is worth more than lit",
+        "likes": 0,
+        "query": "lithium mining"
+      },
+      {
+        "author": "bryangodbe.bsky.social",
+        "text": "Sustainability is not the problem. Mining for gold, oil (separate from climate impacts), silver, nickel, lithium, bauxite or other minerals must be regulated. The problem is mining corps willing to br",
+        "likes": 19,
+        "query": "lithium mining"
+      },
+      {
+        "author": "brendonowicz.cryptoanarchy.network",
+        "text": "We should be mining every robot car for lithium and copper. I bet there\u2019s some valuable RAM in them too",
+        "likes": 2,
+        "query": "lithium mining"
+      },
+      {
+        "author": "us.theconversation.com",
+        "text": "Modern tech runs on critical minerals like lithium, cobalt and rare earths. Now companies are eyeing the deep ocean as the next mining frontier.\n\n(But many of these places contain ecosystems we still ",
+        "likes": 18,
+        "query": "lithium mining"
+      },
+      {
+        "author": "matthiaspelzer.bsky.social",
+        "text": "We have more possible lithium mining areas in europe, than ones for mining uranium. And renewables do not need cooling for production, as Nuclear and fossil powerplants do. Both waste 70-80% of primar",
+        "likes": 0,
+        "query": "lithium mining"
+      },
+      {
+        "author": "fxengineer.bsky.social",
+        "text": "Energy transition flows tell a different story. $2.8T in fossil fuel infrastructure still needs financing. Oil majors buying renewable assets while keeping production steady. Capital follows returns, ",
+        "likes": 0,
+        "query": "energy transition"
+      }
+    ],
+    "selected_post": {
+      "author": "europe-africa.bsky.social",
+      "text": "Sinomine in talks with Zimbabwe to resume lithium exports\n\nhttps://www.europesays.com/africa/132053/\n\nSinomine Resource Group is in talks with Zimbabwean authorities to resume its lithium exports, the Chinese mining group\u2026"
+    },
+    "reply_text": "zimbabwe's export ban was always more about processing leverage than environmentalism, so the real question is whether sinomine comes back with a refinery deal attached",
+    "reply_uri": "at://did:plc:h23qnlw7e7b4bj73ktu2bzyv/app.bsky.feed.post/3mh34deli6u2i",
+    "reply_success": true,
+    "reply_error": "",
+    "claude_raw_response": "{\"selected\": 2, \"reply\": \"zimbabwe's export ban was always more about processing leverage than environmentalism, so the real question is whether sinomine comes back with a refinery deal attached\"}"
+  },
+  "errors": []
+}
