@@ -245,7 +245,8 @@
     }
   ],
   "replied_to": [
-    "at://did:plc:v3lkb3m4lu6nzv6npkah6umc/app.bsky.feed.post/3mgxfbkzwgy26"
+    "at://did:plc:v3lkb3m4lu6nzv6npkah6umc/app.bsky.feed.post/3mgxfbkzwgy26",
+    "at://did:plc:pdoknkeim37nyvkjxk3mlxoj/app.bsky.feed.post/3mgxn4j6rns2r"
   ],
   "replies": [
     {
@@ -254,6 +255,13 @@
       "author": "europe-africa.bsky.social",
       "date": "2026-03-15",
       "timestamp": "2026-03-15T04:31:15.842083+00:00"
+    },
+    {
+      "post_uri": "at://did:plc:pdoknkeim37nyvkjxk3mlxoj/app.bsky.feed.post/3mgxn4j6rns2r",
+      "text": "the interesting part is whether zimbabwe can hold the line on processing requirements when lithium prices are this depressed and the fiscal pressure is real",
+      "author": "craigling.bsky.social",
+      "date": "2026-03-15",
+      "timestamp": "2026-03-15T10:54:53.517608+00:00"
     }
   ]
 }
