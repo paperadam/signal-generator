@@ -282,7 +282,8 @@
   ],
   "replied_to": [
     "at://did:plc:v3lkb3m4lu6nzv6npkah6umc/app.bsky.feed.post/3mgxfbkzwgy26",
-    "at://did:plc:pdoknkeim37nyvkjxk3mlxoj/app.bsky.feed.post/3mgxn4j6rns2r"
+    "at://did:plc:pdoknkeim37nyvkjxk3mlxoj/app.bsky.feed.post/3mgxn4j6rns2r",
+    "at://did:plc:rp4rgamibrblojq7f7pgmuxc/app.bsky.feed.post/3mh4pejjgjs2t"
   ],
   "replies": [
     {
@@ -298,6 +299,13 @@
       "author": "craigling.bsky.social",
       "date": "2026-03-15",
       "timestamp": "2026-03-15T10:54:53.517608+00:00"
+    },
+    {
+      "post_uri": "at://did:plc:rp4rgamibrblojq7f7pgmuxc/app.bsky.feed.post/3mh4pejjgjs2t",
+      "text": "tariffs on steel and equipment hit mining and processing projects just as hard as they hit the things critical minerals are supposed to go into",
+      "author": "horadam.bsky.social",
+      "date": "2026-03-16",
+      "timestamp": "2026-03-16T02:47:24.837791+00:00"
     }
   ]
 }
