@@ -1,0 +1,132 @@
+{
+  "version": 1,
+  "run_id": "2026-03-16T02-02-14Z",
+  "timestamp": "2026-03-16T02:02:14.747088+00:00",
+  "run_type": "scheduled",
+  "outcome": "skipped_no_articles",
+  "timing": {
+    "sleep_hours": false,
+    "skipped_randomly": false,
+    "pre_post_delay_minutes": 16.5,
+    "engage_gap_delay_minutes": 28.5
+  },
+  "feed_intake": {
+    "total_fetched": 51,
+    "matched_filters": 30,
+    "new_articles": 0,
+    "articles": []
+  },
+  "story_selection": null,
+  "post_generation": null,
+  "publishing": null,
+  "engagement": {
+    "search_queries_used": [
+      "critical minerals",
+      "industrial policy energy",
+      "green hydrogen"
+    ],
+    "candidates_found": 41,
+    "candidates": [
+      {
+        "author": "fxengineer.bsky.social",
+        "text": "Arctic cooperation signals resource security shift. Nordic funds allocate toward critical minerals as supply chains diversify from single-source dependencies. Greenland's rare earth deposits become ge",
+        "likes": 0,
+        "query": "critical minerals"
+      },
+      {
+        "author": "horadam.bsky.social",
+        "text": "All the Greenland bellicosity notwithstanding, we're demanding our allies send ships as a naval escort to bail us out of a self-inflicted political catastrophe at the same we're demanding they subordi",
+        "likes": 11,
+        "query": "critical minerals"
+      },
+      {
+        "author": "progsrock.bsky.social",
+        "text": "Nation\u2019s First Critical Minerals Mine Nears Approval in Biodiversity Hotspot\nThe U.S. Forest Service said it plans to approve South32\u2019s Hermosa project in Patagonia, Arizona, despite the water problem",
+        "likes": 0,
+        "query": "critical minerals"
+      },
+      {
+        "author": "asia.nikkei.com",
+        "text": "Japan, US to cooperate on handling supply disruptions of critical minerals\ntrib.al/9vk5Ohp",
+        "likes": 0,
+        "query": "critical minerals"
+      },
+      {
+        "author": "kautious.com",
+        "text": "Carney\u2019s Mar. 13-15 Oslo/Nordic trip put Arctic security and trade diversification at center stage.\n\nTalks with Norway\u2019s Jonas Gahr St\u00f8re and Nordic leaders covered defense, critical minerals, AI, ene",
+        "likes": 0,
+        "query": "critical minerals"
+      },
+      {
+        "author": "anodynesix.bsky.social",
+        "text": "\"Scientists warn that much of the equipment deep sea mining companies are proposing to extract seabed minerals ... could generate sediment plumes that travel long distances, potentially smothering cor",
+        "likes": 0,
+        "query": "critical minerals"
+      },
+      {
+        "author": "204queenb0574.bsky.social",
+        "text": "So who the hell gives about human rights abuses, right? No more feminist foreign policy means he's cool making deals with countries that oppress women. He signed our critical minerals away to countrie",
+        "likes": 1,
+        "query": "critical minerals"
+      },
+      {
+        "author": "thedeepdive.bsky.social",
+        "text": "The DOE is allocating up to $500M to boost domestic critical minerals processing, battery materials manufacturing, and recycling to reduce U.S. dependence on foreign supply chains.",
+        "likes": 0,
+        "query": "critical minerals"
+      },
+      {
+        "author": "richardhogan1947.bsky.social",
+        "text": "Prime Minister Carney deepens cooperation with Nordic countries in defence, Arctic security, and critical minerals March 15, 2026\nopen.substack.com/pub/richardh...",
+        "likes": 2,
+        "query": "critical minerals"
+      },
+      {
+        "author": "richardhogan1947.bsky.social",
+        "text": "Prime Minister Carney deepens cooperation with Nordic countries in defence, Arctic security, and critical minerals March 15, 2026\nopen.substack.com/pub/richardh...",
+        "likes": 0,
+        "query": "critical minerals"
+      },
+      {
+        "author": "horadam.bsky.social",
+        "text": "Trump is doing a lot on the critical minerals front to excite investors, but he\u2019s jacking up project construction + equipping costs with his geopolitical agenda.\n\nBad news bears if you want to see sho",
+        "likes": 8,
+        "query": "critical minerals"
+      },
+      {
+        "author": "smirk4food.com",
+        "text": "\u201cGreenlighting a 70-year industrial mining complex in\u2026 one of the most important biodiversity hotspots in North America.\u201d\nRuss McSpadden says the Hermosa mine shows the tradeoff behind the U.S. push f",
+        "likes": 0,
+        "query": "critical minerals"
+      },
+      {
+        "author": "thinkronicity.bsky.social",
+        "text": "Projects & Strategies\nCovers all planned initiatives being directed by the gov. of #Canada as priority proj. 'in the pipeline'. Representing $100s of blns of investment.\nSectors\nIndustrial, Mining, Cr",
+        "likes": 1,
+        "query": "critical minerals"
+      },
+      {
+        "author": "fxengineer.bsky.social",
+        "text": "Energy infrastructure plays signal decade-long capital cycles. Uranium spot prices doubled since 2020 as utilities scramble to secure supply. Nuclear buildout means structural demand for steel, concre",
+        "likes": 0,
+        "query": "industrial policy energy"
+      },
+      {
+        "author": "holgernohr.bsky.social",
+        "text": "Politicians on the right and far-right have blamed the Green Deal for rising energy prices and weakening industrial competitiveness. The claim is simple and politically effective: climate policy is ma",
+        "likes": 3,
+        "query": "industrial policy energy"
+      }
+    ],
+    "selected_post": {
+      "author": "horadam.bsky.social",
+      "text": "Trump is doing a lot on the critical minerals front to excite investors, but he\u2019s jacking up project construction + equipping costs with his geopolitical agenda.\n\nBad news bears if you want to see shovels in dirt.\n\nRead more of my thoughts on this over at LinkedIn. \n\nwww.linkedin.com/posts/nathan..."
+    },
+    "reply_text": "tariffs on steel and equipment hit mining and processing projects just as hard as they hit the things critical minerals are supposed to go into",
+    "reply_uri": "at://did:plc:h23qnlw7e7b4bj73ktu2bzyv/app.bsky.feed.post/3mh5gylp5f52i",
+    "reply_success": true,
+    "reply_error": "",
+    "claude_raw_response": "{\"selected\": 10, \"reply\": \"tariffs on steel and equipment hit mining and processing projects just as hard as they hit the things critical minerals are supposed to go into\"}"
+  },
+  "errors": []
+}
