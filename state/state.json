@@ -193,7 +193,19 @@
     "https://www.abc.net.au/news/2026-03-16/how-australia-fared-at-the-2026-milan-cortina-paralympics/106458554",
     "https://www.nytimes.com/2026/03/15/world/iran-war-effects-oil-oscars.html",
     "https://www.theguardian.com/australia-news/2026/mar/16/fifth-iranian-football-player-leaves-australia-after-initially-accepting-offer-of-asylum",
-    "https://www.abc.net.au/news/2026-03-16/fifth-member-of-iranian-womens-soccer-team-leaves-australia/106458492"
+    "https://www.abc.net.au/news/2026-03-16/fifth-member-of-iranian-womens-soccer-team-leaves-australia/106458492",
+    "https://www.nytimes.com/live/2026/03/16/world/iran-war-trump-oil-lebanon",
+    "https://www.nytimes.com/2026/03/16/world/europe/iraq-iran-us-allies.html",
+    "https://www.nytimes.com/2026/03/16/world/middleeast/iran-mojtaba-khamenei-election-supreme-leader.html",
+    "https://www.nytimes.com/2026/03/16/world/africa/trump-africa-travel-visa-ban.html",
+    "https://www.theguardian.com/australia-news/2026/mar/16/danish-royals-mary-and-frederiks-australian-trip-had-plastic-crowns-cheering-crowds-and-a-deeper-message",
+    "https://www.theguardian.com/australia-news/2026/mar/16/sydney-biennale-dj-haram-chris-minns-jewish-groups-response-ntwnfb",
+    "https://www.theguardian.com/australia-news/2026/mar/16/dozens-of-australian-petrol-stations-run-out-of-fuel-as-panic-buying-continues",
+    "https://www.nytimes.com/2026/03/16/nyregion/hydro-power-nyc.html",
+    "https://www.abc.net.au/news/2026-03-16/asian-cup-matildas-china-steph-catley-hayley-raso/106461518",
+    "https://www.theguardian.com/australia-news/2026/mar/16/afternoon-update-monday-ntwnfb",
+    "https://www.theguardian.com/australia-news/2026/mar/16/author-craig-silvey-additional-charges-child-exploitation-material-ntwnfb",
+    "https://www.abc.net.au/news/2026-03-16/final-heartbreak-for-aussies-in-us-sevens-decider/106459810"
   ],
   "posts": [
     {
@@ -278,6 +290,13 @@
       "date": "2026-03-15",
       "timestamp": "2026-03-15T22:27:15.576124+00:00",
       "theme": "green_iron"
+    },
+    {
+      "text": "339 miles of buried transmission line. new york city gets hydro from quebec this spring. that's years of permitting, boring, and grid coordination actually finishing on time.",
+      "source_url": "https://www.nytimes.com/2026/03/16/nyregion/hydro-power-nyc.html",
+      "date": "2026-03-16",
+      "timestamp": "2026-03-16T10:33:30.967081+00:00",
+      "theme": "grid_readiness"
     }
   ],
   "replied_to": [
