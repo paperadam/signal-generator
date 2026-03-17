@@ -242,7 +242,20 @@
     "https://www.theguardian.com/australia-news/2026/mar/17/victorian-liberals-sport-video-australia",
     "https://www.theguardian.com/australia-news/video/2026/mar/17/what-is-capital-gains-tax-and-how-does-it-work-video",
     "https://www.theguardian.com/australia-news/2026/mar/17/naveed-akram-bondi-shooter-family-members-identities-death-threats-ntwnfb",
-    "https://www.theguardian.com/commentisfree/2026/mar/17/iranian-womens-football-team-choose-between-sport-safety"
+    "https://www.theguardian.com/commentisfree/2026/mar/17/iranian-womens-football-team-choose-between-sport-safety",
+    "https://www.nytimes.com/2026/03/17/world/middleeast/tanker-attack-iran-war-strait-hormuz-oil.html",
+    "https://www.nytimes.com/2026/03/17/world/middleeast/trump-xi-china-summit.html",
+    "https://www.nytimes.com/2026/03/17/weather/weird-weather-march-heat-snow-tornado.html",
+    "https://www.nytimes.com/2026/03/17/climate/offshore-wind-settlements-trump.html",
+    "https://www.nytimes.com/2026/03/17/world/middleeast/iran-war-gulf-saudi-arabia-qatar-emirates.html",
+    "https://www.nytimes.com/video/world/americas/100000010763508/we-traced-how-us-guns-get-to-mexican-cartels.html",
+    "https://www.abc.net.au/news/2026-03-17/matildas-vs-china-womens-asian-cup-semifinal-live-updates/106465674",
+    "https://www.theguardian.com/australia-news/2026/mar/17/the-rba-has-made-one-of-its-most-controversial-calls-in-recent-years-and-this-rate-rise-may-not-age-well",
+    "https://www.nytimes.com/2026/03/17/business/oil-stock-gas-markets-iran.html",
+    "https://www.theguardian.com/australia-news/2026/mar/17/labor-appears-set-to-reform-capital-gains-tax-discount-after-parliamentary-inquiry-findings",
+    "https://www.nytimes.com/2026/03/17/world/asia/iran-war-china-us-trump-xi.html",
+    "https://www.theguardian.com/australia-news/2026/mar/17/afternoon-update-tuesday-ntwnfb",
+    "https://www.theguardian.com/australia-news/2026/mar/17/corowa-regional-nsw-council-aboriginal-flag-ban-stopped-ntwnfb"
   ],
   "posts": [
     {
@@ -348,6 +361,13 @@
       "date": "2026-03-17",
       "timestamp": "2026-03-17T04:42:43.203159+00:00",
       "theme": "green_iron"
+    },
+    {
+      "text": "offshore wind getting blocked in the us. australia's pipeline keeps moving.",
+      "source_url": "https://www.nytimes.com/2026/03/17/climate/offshore-wind-settlements-trump.html",
+      "date": "2026-03-17",
+      "timestamp": "2026-03-17T10:35:07.294753+00:00",
+      "theme": "australia_opportunity"
     }
   ],
   "replied_to": [
