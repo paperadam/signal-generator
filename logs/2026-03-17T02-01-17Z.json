@@ -1,0 +1,163 @@
+{
+  "version": 1,
+  "run_id": "2026-03-17T02-01-17Z",
+  "timestamp": "2026-03-17T02:01:17.229250+00:00",
+  "run_type": "scheduled",
+  "outcome": "skipped_no_posts",
+  "timing": {
+    "sleep_hours": false,
+    "skipped_randomly": false,
+    "pre_post_delay_minutes": 25.1,
+    "engage_gap_delay_minutes": 26.5
+  },
+  "feed_intake": {
+    "total_fetched": 71,
+    "matched_filters": 44,
+    "new_articles": 2,
+    "articles": [
+      {
+        "title": "Iranian women\u2019s footballers shouldn\u2019t have to choose between their sport and their safety | Nos Hosseini",
+        "source": "Australia news | The Guardian",
+        "link": "https://www.theguardian.com/commentisfree/2026/mar/17/iranian-womens-football-team-choose-between-sport-safety"
+      },
+      {
+        "title": "West Gate review \u2013 jaw-droppingly staged production recounts Melbourne\u2019s tragic bridge collapse",
+        "source": "Australia news | The Guardian",
+        "link": "https://www.theguardian.com/stage/2026/mar/16/west-gate-review-melbourne-bridge-collapse-theatre-stage"
+      }
+    ]
+  },
+  "story_selection": {
+    "articles_considered": 2,
+    "selected_count": 2,
+    "selected_stories": [
+      {
+        "title": "Iranian women\u2019s footballers shouldn\u2019t have to choose between their sport and their safety | Nos Hosseini",
+        "source": "Australia news | The Guardian",
+        "link": "https://www.theguardian.com/commentisfree/2026/mar/17/iranian-womens-football-team-choose-between-sport-safety"
+      },
+      {
+        "title": "West Gate review \u2013 jaw-droppingly staged production recounts Melbourne\u2019s tragic bridge collapse",
+        "source": "Australia news | The Guardian",
+        "link": "https://www.theguardian.com/stage/2026/mar/16/west-gate-review-melbourne-bridge-collapse-theatre-stage"
+      }
+    ],
+    "claude_raw_response": "[0, 1, 0]\n\nWait, let me reconsider. Neither of these articles relates to energy systems, industrial policy, supply chains, technology transitions, resource geopolitics, or climate markets.\n\n[]"
+  },
+  "post_generation": {
+    "stories_sent": 2,
+    "generated_posts": [],
+    "claude_raw_response": "[{\"text\": \"not the lens for today's stories, honestly.\", \"story_index\": 2}]\n\nWait, let me reconsider. Neither story fits the green iron / energy / trade lens well. I should pick the less bad fit and write something minimal.\n\n[{\"text\": \"neither story today. passing.\", \"story_index\": 2}]"
+  },
+  "publishing": null,
+  "engagement": {
+    "search_queries_used": [
+      "green hydrogen",
+      "green steel",
+      "battery supply chain"
+    ],
+    "candidates_found": 42,
+    "candidates": [
+      {
+        "author": "ipostnews.bsky.social",
+        "text": "Plug Power\u2019s green hydrogen plant was supposed to be the largest in the U.S.\n\nIt got so many tax breaks \u2014 $269.5M \u2014 that in 2021, IPost called it \u201cthe mother of all subsidy deals.\u201d\n\nSo, what killed Pl",
+        "likes": 3,
+        "query": "green hydrogen"
+      },
+      {
+        "author": "anibeverley.bsky.social",
+        "text": "Green house gas normal & required blanket \ud83c\udf0eprevent freezing as space\n\nSecret is balance\n\nToo much green house gas \ndestroys \ud83c\udf0espheres \ncreates chaos \naffecting \ud83c\udf0epoles and all life\n\nAcid rain byproduct ",
+        "likes": 0,
+        "query": "green hydrogen"
+      },
+      {
+        "author": "cleantechnica.bsky.social",
+        "text": "The Epstein War Breathes New Life Into EU Green Hydrogen Schemes\n\ncleantechnica.com/2026/03/14/t...",
+        "likes": 5,
+        "query": "green hydrogen"
+      },
+      {
+        "author": "alb-feb.bsky.social",
+        "text": "Only 7% of green hydrogen projects in Europe get built. The ambition is there \u2014 the implementation isn't.\n\nNew piece on what's blocking Europe's energy transition and why it matters now \ud83d\udd0b\n\n#GreenHydro",
+        "likes": 0,
+        "query": "green hydrogen"
+      },
+      {
+        "author": "derfahrradpendler.bsky.social",
+        "text": "How about getting independent from foreign fuel imports like gas, oil, nuclear? Sun, wind, water (--> green hydrogen) and batteries is the future! Step down immediately and go back to your fossil indu",
+        "likes": 1,
+        "query": "green hydrogen"
+      },
+      {
+        "author": "novidscotia.bsky.social",
+        "text": "As soon as I saw \"green hydrogen\" I knew it was a scam that we would be subsidizing. Hydrogen is the fossil fuel industry's preferred \"green\" scam. What a fucking shitshow this place is. We're just ge",
+        "likes": 1,
+        "query": "green hydrogen"
+      },
+      {
+        "author": "tixhonjm.bsky.social",
+        "text": "Italian Port Authority Explores Green Hydrogen for Maritime fuelcellsworks.com/2026/03/15/h...",
+        "likes": 0,
+        "query": "green hydrogen"
+      },
+      {
+        "author": "tixhonjm.bsky.social",
+        "text": "Brussels approves \u20ac440 million in Spanish aid for green hydrogen www.h2-mobile.fr/actus/commis...",
+        "likes": 0,
+        "query": "green hydrogen"
+      },
+      {
+        "author": "tixhonjm.bsky.social",
+        "text": "AI Data Centers Compete with Green Hydrogen for Canada\u2019s Low Carbon Power Supply - Energy News energynews.biz/ai-data-cent...",
+        "likes": 0,
+        "query": "green hydrogen"
+      },
+      {
+        "author": "eib.org",
+        "text": "We support the Villeta Green H2 Fertiliser Plant in Paraguay with up to $95m through EIB Global.\n\nThe project is set to become one of the first industrial scale green hydrogen fertiliser plants outsid",
+        "likes": 4,
+        "query": "green hydrogen"
+      },
+      {
+        "author": "kali.discuss.systems.ap.brid.gy",
+        "text": "crude #oil refining. different products consist of different crude oil components differing in molecule size, boiling point, flammability and energy content.\n\n#diesel need alkanes, naphthens and aroma",
+        "likes": 0,
+        "query": "green hydrogen"
+      },
+      {
+        "author": "hyieldproject.bsky.social",
+        "text": "In our effort to advance green hydrogen production, we redesigned a core element of the Water-Gas Shift (WGS) reactor. \n\nThe WGS reactor converts carbon monoxide and steam into carbon dioxide and hydr",
+        "likes": 1,
+        "query": "green hydrogen"
+      },
+      {
+        "author": "minibubbly.bsky.social",
+        "text": "Water rate hike requested in part to cover Everwind's proposed green hydrogen plant #NovaScotia \n\nLandrie Lake Water Utility says it faces cost increases for infrastructure, source protection\n\nwww.cbc",
+        "likes": 12,
+        "query": "green hydrogen"
+      },
+      {
+        "author": "tixhonjm.bsky.social",
+        "text": "Green Hydrogen Producers And Shipping Firms Press IMO For Net-Zero 2026 Adoption \u2013 Hydrogen Fuel News www.hydrogenfuelnews.com/green-hydrog...",
+        "likes": 1,
+        "query": "green hydrogen"
+      },
+      {
+        "author": "tinytim84.bsky.social",
+        "text": "Everwind Fuels plans to take up to 10 million litres of water a day from Landrie Lake, seen in back of its terminal in Point Tupper, N.S., to make green hydrogen. \nThat is not green\nThanks Tim Houston",
+        "likes": 0,
+        "query": "green hydrogen"
+      }
+    ],
+    "selected_post": {
+      "author": "eib.org",
+      "text": "We support the Villeta Green H2 Fertiliser Plant in Paraguay with up to $95m through EIB Global.\n\nThe project is set to become one of the first industrial scale green hydrogen fertiliser plants outside the EU & the world\u2019s largest at start of operations.\n\ud83d\udc49 www.eib.org/en/press/all..."
+    },
+    "reply_text": "green ammonia fertiliser from paraguay is an interesting one, local feedstocks, cheap hydro, and a product that basically every neighbour needs",
+    "reply_uri": "at://did:plc:h23qnlw7e7b4bj73ktu2bzyv/app.bsky.feed.post/3mh7xrpnq7h2z",
+    "reply_success": true,
+    "reply_error": "",
+    "claude_raw_response": "{\"selected\": 9, \"reply\": \"green ammonia fertiliser from paraguay is an interesting one, local feedstocks, cheap hydro, and a product that basically every neighbour needs\"}"
+  },
+  "errors": []
+}
