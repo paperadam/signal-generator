@@ -234,7 +234,15 @@
     "https://www.theguardian.com/australia-news/2026/mar/16/sydney-greenway-path-weston-street-dulwich-hill-disruption",
     "https://www.theguardian.com/australia-news/2026/mar/16/little-people-just-get-stepped-on-south-australians-sick-of-major-parties-are-ripe-for-one-nations-message",
     "https://www.theguardian.com/commentisfree/2026/mar/17/australias-universities-have-found-themselves-in-crisis-but-it-has-been-decades-in-the-making",
-    "https://www.theguardian.com/environment/2026/mar/16/electric-vehicles-australia-reduce-reliance-on-foreign-fuel"
+    "https://www.theguardian.com/environment/2026/mar/16/electric-vehicles-australia-reduce-reliance-on-foreign-fuel",
+    "https://www.theguardian.com/australia-news/2026/mar/17/rba-interest-rate-australia-increase-fuel-petrol-prices",
+    "https://www.theguardian.com/australia-news/2026/mar/17/australia-petrol-panic-buying-jerry-cans",
+    "https://www.nytimes.com/2026/03/17/world/europe/iran-uk-raf-fairford-starmer-trump.html",
+    "https://www.nytimes.com/2026/03/16/world/middleeast/iran-war-recap-lebanon-ground-invasion.html",
+    "https://www.theguardian.com/australia-news/2026/mar/17/victorian-liberals-sport-video-australia",
+    "https://www.theguardian.com/australia-news/video/2026/mar/17/what-is-capital-gains-tax-and-how-does-it-work-video",
+    "https://www.theguardian.com/australia-news/2026/mar/17/naveed-akram-bondi-shooter-family-members-identities-death-threats-ntwnfb",
+    "https://www.theguardian.com/commentisfree/2026/mar/17/iranian-womens-football-team-choose-between-sport-safety"
   ],
   "posts": [
     {
@@ -333,6 +341,13 @@
       "date": "2026-03-17",
       "timestamp": "2026-03-17T00:36:33.167632+00:00",
       "theme": "grid_readiness"
+    },
+    {
+      "text": "jerry can rush in australia. supply fine, nerves less so.",
+      "source_url": "https://www.theguardian.com/australia-news/2026/mar/17/australia-petrol-panic-buying-jerry-cans",
+      "date": "2026-03-17",
+      "timestamp": "2026-03-17T04:42:43.203159+00:00",
+      "theme": "green_iron"
     }
   ],
   "replied_to": [
