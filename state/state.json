@@ -338,7 +338,8 @@
   "replied_to": [
     "at://did:plc:v3lkb3m4lu6nzv6npkah6umc/app.bsky.feed.post/3mgxfbkzwgy26",
     "at://did:plc:pdoknkeim37nyvkjxk3mlxoj/app.bsky.feed.post/3mgxn4j6rns2r",
-    "at://did:plc:rp4rgamibrblojq7f7pgmuxc/app.bsky.feed.post/3mh4pejjgjs2t"
+    "at://did:plc:rp4rgamibrblojq7f7pgmuxc/app.bsky.feed.post/3mh4pejjgjs2t",
+    "at://did:plc:syrr7wxueqwc73abmd2gj7wq/app.bsky.feed.post/3mh6iqxnha22c"
   ],
   "replies": [
     {
@@ -361,6 +362,13 @@
       "author": "horadam.bsky.social",
       "date": "2026-03-16",
       "timestamp": "2026-03-16T02:47:24.837791+00:00"
+    },
+    {
+      "post_uri": "at://did:plc:syrr7wxueqwc73abmd2gj7wq/app.bsky.feed.post/3mh6iqxnha22c",
+      "text": "green ammonia fertiliser from paraguay is an interesting one, local feedstocks, cheap hydro, and a product that basically every neighbour needs",
+      "author": "eib.org",
+      "date": "2026-03-17",
+      "timestamp": "2026-03-17T02:53:07.200058+00:00"
     }
   ]
 }
