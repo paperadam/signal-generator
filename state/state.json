@@ -205,7 +205,36 @@
     "https://www.abc.net.au/news/2026-03-16/asian-cup-matildas-china-steph-catley-hayley-raso/106461518",
     "https://www.theguardian.com/australia-news/2026/mar/16/afternoon-update-monday-ntwnfb",
     "https://www.theguardian.com/australia-news/2026/mar/16/author-craig-silvey-additional-charges-child-exploitation-material-ntwnfb",
-    "https://www.abc.net.au/news/2026-03-16/final-heartbreak-for-aussies-in-us-sevens-decider/106459810"
+    "https://www.abc.net.au/news/2026-03-16/final-heartbreak-for-aussies-in-us-sevens-decider/106459810",
+    "https://www.nytimes.com/2026/03/16/world/americas/trump-cuba-president-diaz-canel.html",
+    "https://www.theguardian.com/australia-news/live/2026/mar/17/bowen-rba-interest-rates-decision-cost-of-living-inflation-fuel-price-shortages-petrol-jim-chalmers-economy-war-iran-anthony-albanese-ntwnfb",
+    "https://www.theguardian.com/environment/2026/mar/16/reduced-physical-activity-due-to-global-heating-rise-health-issues-study",
+    "https://www.theguardian.com/technology/2026/mar/17/x-csam-child-abuse-material-grok-australian-online-safety-regulator-ntwnfb",
+    "https://www.nytimes.com/2026/03/16/climate/ncar-climate-lab-lawsuit-trump.html",
+    "https://www.nytimes.com/2026/03/16/world/middleeast/trump-strait-of-hormuz-warships-australia-germany.html",
+    "https://www.nytimes.com/2026/03/16/world/iran-hormuz-oil-oscars-iceland.html",
+    "https://www.nytimes.com/2026/03/16/us/politics/trump-administration-china-managed-trade.html",
+    "https://www.nytimes.com/2026/03/16/us/politics/trump-iran-war.html",
+    "https://www.abc.net.au/news/2026-03-17/former-tennis-player-marinko-matosevic-doping-ban/106462648",
+    "https://www.nytimes.com/2026/03/16/climate/god-squad-whales-gulf-oil.html",
+    "https://www.theguardian.com/australia-news/2026/mar/17/morning-mail-tuesday-ntwnfb",
+    "https://www.nytimes.com/2026/03/16/world/europe/europe-iran-war-trump-hormuz-warships.html",
+    "https://www.abc.net.au/news/2026-03-17/women-asian-cup-how-to-watch-matildas-vs-china-perth-stadium/106455938",
+    "https://www.theguardian.com/us-news/2026/mar/16/trump-fcc-chair-broadcast-license-threat-iran-war",
+    "https://www.theguardian.com/world/2026/mar/16/sri-lanka-four-day-week-oil-and-gas-iran-war",
+    "https://www.nytimes.com/2026/03/16/world/middleeast/iran-soccer-team-asylum-australia.html",
+    "https://www.nytimes.com/2026/03/16/us/politics/trump-operation-epic-fury-anger.html",
+    "https://www.nytimes.com/2026/03/16/world/middleeast/israel-schools.html",
+    "https://www.abc.net.au/news/2026-03-17/iran-football-players-head-home/106462470",
+    "https://www.nytimes.com/2026/03/16/climate/national-parks-removal-displays.html",
+    "https://www.nytimes.com/2026/03/16/world/middleeast/trump-visit-xi-china-iran.html",
+    "https://www.theguardian.com/business/2026/mar/16/us-oil-prices-fluctuation-iran-war",
+    "https://www.nytimes.com/2026/03/16/us/politics/trump-iran-tax-cuts.html",
+    "https://www.theguardian.com/business/2026/mar/16/european-banking-takeover-battle-unicredit-commerzbank",
+    "https://www.theguardian.com/australia-news/2026/mar/16/sydney-greenway-path-weston-street-dulwich-hill-disruption",
+    "https://www.theguardian.com/australia-news/2026/mar/16/little-people-just-get-stepped-on-south-australians-sick-of-major-parties-are-ripe-for-one-nations-message",
+    "https://www.theguardian.com/commentisfree/2026/mar/17/australias-universities-have-found-themselves-in-crisis-but-it-has-been-decades-in-the-making",
+    "https://www.theguardian.com/environment/2026/mar/16/electric-vehicles-australia-reduce-reliance-on-foreign-fuel"
   ],
   "posts": [
     {
@@ -296,6 +325,13 @@
       "source_url": "https://www.nytimes.com/2026/03/16/nyregion/hydro-power-nyc.html",
       "date": "2026-03-16",
       "timestamp": "2026-03-16T10:33:30.967081+00:00",
+      "theme": "grid_readiness"
+    },
+    {
+      "text": "australia talking about 1bn litres of fuel savings from evs. transmission capacity to charge them is a different conversation.",
+      "source_url": "https://www.theguardian.com/environment/2026/mar/16/electric-vehicles-australia-reduce-reliance-on-foreign-fuel",
+      "date": "2026-03-17",
+      "timestamp": "2026-03-17T00:36:33.167632+00:00",
       "theme": "grid_readiness"
     }
   ],
