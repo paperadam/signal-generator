@@ -317,8 +317,8 @@ def main():
         # Random delay so posts don't land exactly on the hour
         pre_delay = _random_delay(config.DELAY_MIN_MINUTES, config.DELAY_MAX_MINUTES, "pre-post delay")
 
-        # ~5% chance of an AFL post instead of energy/trade
-        if random.random() < 0.05:
+        # ~12% chance of an AFL post instead of energy/trade
+        if random.random() < 0.12:
             print("rolling the dice... afl post today.")
             _run_afl(dry_run=False, log=log)
         else:
