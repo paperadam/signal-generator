@@ -300,7 +300,18 @@
     "https://www.theguardian.com/us-news/2026/mar/17/climate-crisis-beer-brewers-farmers",
     "https://www.nytimes.com/2026/03/17/world/europe/operation-aspides-strait-hormuz.html",
     "https://www.abc.net.au/news/2026-03-17/ex-iranian-footballer-says-officials-like-mafia-players-depart/106464444",
-    "https://www.theguardian.com/australia-news/2026/mar/17/pauline-hanson-gina-rinehart-free-flights-one-nation"
+    "https://www.theguardian.com/australia-news/2026/mar/17/pauline-hanson-gina-rinehart-free-flights-one-nation",
+    "https://www.theguardian.com/australia-news/2026/mar/18/high-court-orders-ankle-bracelets-be-removed-and-curfews-to-end-for-43-former-immigration-detainees-ntwnfb",
+    "https://www.nytimes.com/live/2026/03/18/world/iran-war-news-trump-oil/trump-ireland-european-allies",
+    "https://www.theguardian.com/australia-news/2026/mar/18/afternoon-update-wednesday-ntwnfb",
+    "https://www.theguardian.com/australia-news/2026/mar/18/myki-less-public-transport-for-all-passengers-2027-victorian-auditor",
+    "https://www.abc.net.au/news/2026-03-18/nrl-canterbury-bulldogs-bronson-xerri-cameron-ciraldo/106469328",
+    "https://www.nytimes.com/2026/03/18/world/europe/faroe-islands-abortion-europe.html",
+    "https://www.nytimes.com/2026/03/18/world/asia/trump-japan-takaichi-iran-hormuz.html",
+    "https://www.nytimes.com/2026/03/18/business/iran-war-lng-asia-japan.html",
+    "https://www.nytimes.com/2026/03/18/world/middleeast/israel-strikes-iran-war-regime-change.html",
+    "https://www.theguardian.com/australia-news/2026/mar/17/south-australia-banned-political-donations-third-parties",
+    "https://www.theguardian.com/australia-news/audio/2026/mar/17/one-nation-south-australia-election-full-story-podcast"
   ],
   "posts": [
     {
@@ -419,6 +430,13 @@
       "source_url": "https://www.nytimes.com/2026/03/17/climate/iran-war-energy-use.html",
       "date": "2026-03-18",
       "timestamp": "2026-03-18T02:47:22.872992+00:00",
+      "theme": "australia_opportunity"
+    },
+    {
+      "text": "asia burning more coal because lng got squeezed. australia has the renewable energy to make green hydrogen and ammonia at scale. the customers are right there.",
+      "source_url": "https://www.nytimes.com/2026/03/18/business/iran-war-lng-asia-japan.html",
+      "date": "2026-03-18",
+      "timestamp": "2026-03-18T06:33:23.798159+00:00",
       "theme": "australia_opportunity"
     }
   ],
