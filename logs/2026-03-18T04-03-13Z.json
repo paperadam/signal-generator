@@ -1,0 +1,195 @@
+{
+  "version": 1,
+  "run_id": "2026-03-18T04-03-13Z",
+  "timestamp": "2026-03-18T04:03:13.891012+00:00",
+  "run_type": "scheduled",
+  "outcome": "skipped_no_posts",
+  "timing": {
+    "sleep_hours": false,
+    "skipped_randomly": false,
+    "pre_post_delay_minutes": 17.5,
+    "engage_gap_delay_minutes": 26.4
+  },
+  "feed_intake": {
+    "total_fetched": 87,
+    "matched_filters": 65,
+    "new_articles": 8,
+    "articles": [
+      {
+        "title": "The Faroe Islands Are Changing Some of Europe\u2019s Strictest Abortion Rules",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/2026/03/18/world/europe/faroe-islands-abortion-europe.html"
+      },
+      {
+        "title": "Trump\u2019s Friendship With Japan\u2019s Leader Takaichi Faces Test Over Iran",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/2026/03/18/world/asia/trump-japan-takaichi-iran-hormuz.html"
+      },
+      {
+        "title": "As War Chokes Natural Gas Supply, Asia Turns Back to Coal",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/2026/03/18/business/iran-war-lng-asia-japan.html"
+      },
+      {
+        "title": "Netanyahu Hopes Strikes on Iran Will Lead to Uprising and Regime Change",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/2026/03/18/world/middleeast/israel-strikes-iran-war-regime-change.html"
+      },
+      {
+        "title": "Iranian strikes hit near Australian airbase in UAE, Albanese confirms",
+        "source": "Australia news | The Guardian",
+        "link": "https://www.theguardian.com/australia-news/2026/mar/18/iran-war-strikes-near-australian-airbase-uae"
+      },
+      {
+        "title": "As South Australia\u2019s Liberals struggle to stay in the fight, will their preferences usher in One Nation?",
+        "source": "Australia news | The Guardian",
+        "link": "https://www.theguardian.com/australia-news/2026/mar/18/south-australia-liberals-labor-one-nation"
+      },
+      {
+        "title": "SA banned donations to political parties. Now experts fear powerful lobby groups could pick up the tab and dominate the discourse",
+        "source": "Australia news | The Guardian",
+        "link": "https://www.theguardian.com/australia-news/2026/mar/17/south-australia-banned-political-donations-third-parties"
+      },
+      {
+        "title": "Will One Nation go mainstream in South Australia\u2019s election? \u2013 podcast",
+        "source": "Australia news | The Guardian",
+        "link": "https://www.theguardian.com/australia-news/audio/2026/mar/17/one-nation-south-australia-election-full-story-podcast"
+      }
+    ]
+  },
+  "story_selection": {
+    "articles_considered": 8,
+    "selected_count": 3,
+    "selected_stories": [
+      {
+        "title": "As War Chokes Natural Gas Supply, Asia Turns Back to Coal",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/2026/03/18/business/iran-war-lng-asia-japan.html"
+      },
+      {
+        "title": "Trump\u2019s Friendship With Japan\u2019s Leader Takaichi Faces Test Over Iran",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/2026/03/18/world/asia/trump-japan-takaichi-iran-hormuz.html"
+      },
+      {
+        "title": "Iranian strikes hit near Australian airbase in UAE, Albanese confirms",
+        "source": "Australia news | The Guardian",
+        "link": "https://www.theguardian.com/australia-news/2026/mar/18/iran-war-strikes-near-australian-airbase-uae"
+      }
+    ],
+    "claude_raw_response": "```json\n[2, 1, 4]\n```"
+  },
+  "post_generation": {
+    "stories_sent": 3,
+    "generated_posts": [],
+    "claude_raw_response": "[{\"text\": \"coal staging a comeback across asia while australia sits on enough sun and wind to replace what they're scrambling for.\", \"story_index\": 1}]"
+  },
+  "publishing": null,
+  "engagement": {
+    "search_queries_used": [
+      "critical minerals",
+      "energy transition",
+      "industrial policy energy"
+    ],
+    "candidates_found": 44,
+    "candidates": [
+      {
+        "author": "project-push.tk.gg",
+        "text": "NZ Herald\nNZ's had proposed US critical minerals deal for months despite Luxon claiming talks 'very preliminary'\nvia New Zealand Herald",
+        "likes": 0,
+        "query": "critical minerals"
+      },
+      {
+        "author": "fujiiponta.bsky.social",
+        "text": "She also hopes to strengthen cooperation in a wide range of fields, such as security, investments in the US based on a bilateral agreement, as well as economic security that includes supply chains for",
+        "likes": 0,
+        "query": "critical minerals"
+      },
+      {
+        "author": "littlebunker.com",
+        "text": "\n\nhttps://littlebunker.com/2026/03/18/2025-10-08-social_impact-the-critical-minerals-conundru-85084e6e/",
+        "likes": 0,
+        "query": "critical minerals"
+      },
+      {
+        "author": "callyson.bsky.social",
+        "text": "Entire Team of Oil and Gas Experts Got DOGE\u2019d Before Iran War\nThe Trump administration fired key experts that could have helped with the current situation in the Strait of Hormuz\nnewrepublic.com/post/",
+        "likes": 3,
+        "query": "critical minerals"
+      },
+      {
+        "author": "andybrwn.sfba.social.ap.brid.gy",
+        "text": "In China, battery makers bet big on sodium in move away from critical minerals | Reuters https://www.reuters.com/sustainability/climate-energy/china-battery-makers-bet-big-sodium-move-away-critical-mi",
+        "likes": 0,
+        "query": "critical minerals"
+      },
+      {
+        "author": "thedeepdive.bsky.social",
+        "text": "US and Brazil's Goias state to sign a memorandum of understanding on critical minerals and rare earths sourcing.",
+        "likes": 0,
+        "query": "critical minerals"
+      },
+      {
+        "author": "pupfiction.bsky.social",
+        "text": "What has made the world more unstable Prime Minister?\nThe Murdochs and Trump made a hefty contribution to that yet you won't criticise them.\nAnd if Australia needs more research, why are jobs being cu",
+        "likes": 16,
+        "query": "critical minerals"
+      },
+      {
+        "author": "lordsedgwick.bsky.social",
+        "text": "This much?\n'\ud835\udc14\ud835\udc12 \ud835\udc1c\ud835\udc28\ud835\udc27\ud835\udc2c\ud835\udc22\ud835\udc1d\ud835\udc1e\ud835\udc2b\ud835\udc2c \ud835\udc1c\ud835\udc2e\ud835\udc2d\ud835\udc2d\ud835\udc22\ud835\udc27\ud835\udc20 \ud835\udc07\ud835\udc08\ud835\udc15 \ud835\udc1a\ud835\udc22\ud835\udc1d \ud835\udc2d\ud835\udc28 \ud835\udc19\ud835\udc1a\ud835\udc26\ud835\udc1b\ud835\udc22\ud835\udc1a \ud835\udc2d\ud835\udc28 \ud835\udc2c\ud835\udc1e\ud835\udc1c\ud835\udc2e\ud835\udc2b\ud835\udc1e \ud835\udc1a\ud835\udc1c\ud835\udc1c\ud835\udc1e\ud835\udc2c\ud835\udc2c \ud835\udc2d\ud835\udc28 \ud835\udc1c\ud835\udc2b\ud835\udc22\ud835\udc2d\ud835\udc22\ud835\udc1c\ud835\udc1a\ud835\udc25 \ud835\udc26\ud835\udc22\ud835\udc27\ud835\udc1e\ud835\udc2b\ud835\udc1a\ud835\udc25\ud835\udc2c.'\n\ud83d\ude2c\ud83d\ude21",
+        "likes": 0,
+        "query": "critical minerals"
+      },
+      {
+        "author": "jadewalker.bsky.social",
+        "text": "The State Department is considering withholding lifesaving assistance to people with H.I.V. in Zambia as a negotiating tactic to force the government of the southern African country to sign a deal giv",
+        "likes": 0,
+        "query": "critical minerals"
+      },
+      {
+        "author": "thediplomat.com",
+        "text": "\u201cCritical minerals\u201d are all the rage these days.\n\nAnd Central Asia might just cash in.",
+        "likes": 0,
+        "query": "critical minerals"
+      },
+      {
+        "author": "jodibp.bsky.social",
+        "text": "\u2018The only people left in the bureau, ironically, are people who work with clean energy and critical minerals.\u2019",
+        "likes": 1,
+        "query": "critical minerals"
+      },
+      {
+        "author": "nb-il.bsky.social",
+        "text": "Namibia leads Africa\u2019s $124 billion critical minerals race as global demand surges\n\nhttps://www.newsbeep.com/il/344435/\n\nThe country has received more than 800 new exploration licence applications, ac",
+        "likes": 0,
+        "query": "critical minerals"
+      },
+      {
+        "author": "geoworldpolitical.bsky.social",
+        "text": "Critical Minerals AI Supply Chain: Who Controls the\u00a0Future\n\nThe most important sentence written about artificial intelligence in 2026 is not from OpenAI, Anthropic, or DeepMind. It was written by a ge",
+        "likes": 1,
+        "query": "critical minerals"
+      },
+      {
+        "author": "natty4bumpo.bsky.social",
+        "text": "The U.S. State Department may withhold lifesaving HIV medications from Zambia as early as May to pressure the southern African country\u2019s government into allowing the U.S. to access to its critical min",
+        "likes": 0,
+        "query": "critical minerals"
+      },
+      {
+        "author": "rampanen.bsky.social",
+        "text": "EXACTLY my point. The big tractor players don't wat to invest in order to enter the game, and it's a shame. There could even be gouvernement-subdidized electric transition help for farmers, and they c",
+        "likes": 0,
+        "query": "energy transition"
+      }
+    ],
+    "selected_post": null,
+    "reply_text": "",
+    "reply_uri": "",
+    "reply_success": true,
+    "reply_error": "",
+    "claude_raw_response": ""
+  },
+  "errors": []
+}
