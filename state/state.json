@@ -352,7 +352,10 @@
     "https://www.theguardian.com/global-development/2026/mar/18/a-robust-future-why-brazils-bitter-coffee-is-thriving-as-the-climate-crisis-hits-global-crops",
     "https://www.theguardian.com/world/2026/mar/18/south-east-asia-nations-conserve-energy-oil-soaring-costs",
     "https://www.nytimes.com/2026/03/18/world/europe/iran-war-refugees-turkey.html",
-    "https://www.abc.net.au/news/2026-03-18/world-baseball-classic-final-venezuela-united-states/106470290"
+    "https://www.abc.net.au/news/2026-03-18/world-baseball-classic-final-venezuela-united-states/106470290",
+    "https://www.theguardian.com/australia-news/2026/mar/19/power-bills-on-australias-east-coast-expected-to-fall-by-up-to-10-from-july-bringing-welcome-relief",
+    "https://www.theguardian.com/australia-news/2026/mar/19/afternoon-update-thursday-ntwnfb",
+    "https://www.theguardian.com/australia-news/2026/mar/19/cyclone-narelle-tracker-map-path-track-tracking-forecast-queensland-qld-update-today-rain-winds-bom-radar-watch-category"
   ],
   "posts": [
     {
@@ -486,6 +489,13 @@
       "date": "2026-03-19",
       "timestamp": "2026-03-19T04:49:04.650927+00:00",
       "theme": "resource_rents"
+    },
+    {
+      "text": "power prices down 10% because wind and batteries are doing their thing. that's the economics working.",
+      "source_url": "https://www.theguardian.com/australia-news/2026/mar/19/power-bills-on-australias-east-coast-expected-to-fall-by-up-to-10-from-july-bringing-welcome-relief",
+      "date": "2026-03-19",
+      "timestamp": "2026-03-19T06:17:23.704667+00:00",
+      "theme": "carbon_pricing"
     }
   ],
   "replied_to": [
