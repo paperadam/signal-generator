@@ -54,7 +54,7 @@ MAX_POSTS_PER_DAY = 5
 MAX_POST_LENGTH = 300  # characters
 
 # --- Engagement ---
-MAX_REPLIES_PER_DAY = 2
+MAX_REPLIES_PER_DAY = 4
 ENGAGE_SEARCH_QUERIES = [
     "energy transition",
     "critical minerals",
