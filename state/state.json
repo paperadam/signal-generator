@@ -355,7 +355,15 @@
     "https://www.abc.net.au/news/2026-03-18/world-baseball-classic-final-venezuela-united-states/106470290",
     "https://www.theguardian.com/australia-news/2026/mar/19/power-bills-on-australias-east-coast-expected-to-fall-by-up-to-10-from-july-bringing-welcome-relief",
     "https://www.theguardian.com/australia-news/2026/mar/19/afternoon-update-thursday-ntwnfb",
-    "https://www.theguardian.com/australia-news/2026/mar/19/cyclone-narelle-tracker-map-path-track-tracking-forecast-queensland-qld-update-today-rain-winds-bom-radar-watch-category"
+    "https://www.theguardian.com/australia-news/2026/mar/19/cyclone-narelle-tracker-map-path-track-tracking-forecast-queensland-qld-update-today-rain-winds-bom-radar-watch-category",
+    "https://www.nytimes.com/live/2026/03/19/world/iran-war-news-trump-oil",
+    "https://www.nytimes.com/2026/03/19/world/middleeast/trump-iran-south-pars-gas-field.html",
+    "https://www.nytimes.com/2026/03/19/climate/the-weather-is-getting-wilder-and-some-see-a-dire-signal-in-the-data.html",
+    "https://www.theguardian.com/society/2026/mar/19/women-and-girls-bearing-brunt-of-water-shortages-globally-un-warns",
+    "https://www.nytimes.com/2026/03/19/world/europe/ukraine-hungary-orban-elections.html",
+    "https://www.theguardian.com/environment/2026/mar/19/uk-cut-climate-aid-budget-developing-countries-refocus",
+    "https://www.abc.net.au/news/2026-03-19/popovic-defends-socceroos-pathways-adrian-segecic-croatia-call/106474932",
+    "https://www.nytimes.com/2026/03/18/world/europe/uk-meningitis-outbreak-kent-symptoms-vaccine.html"
   ],
   "posts": [
     {
@@ -496,6 +504,13 @@
       "date": "2026-03-19",
       "timestamp": "2026-03-19T06:17:23.704667+00:00",
       "theme": "carbon_pricing"
+    },
+    {
+      "text": "south pars is one of the biggest gas fields on the planet and it just got hit. our lng customers are watching this very closely.",
+      "source_url": "https://www.nytimes.com/2026/03/19/world/middleeast/trump-iran-south-pars-gas-field.html",
+      "date": "2026-03-19",
+      "timestamp": "2026-03-19T10:43:51.368563+00:00",
+      "theme": "good_numbers"
     }
   ],
   "replied_to": [
