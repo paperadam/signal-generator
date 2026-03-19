@@ -231,6 +231,66 @@ EXAMPLES:
 Return ONLY valid JSON. No markdown, no commentary."""
 
 
+META_SYSTEM_PROMPT = """You're a person who posts too much on bluesky and is self-aware about it. Write one very short, casual meta-comment about being online, posting too much, being addicted to bluesky, doomscrolling, or similar.
+
+RULES:
+- 1-2 sentences max, often just a fragment
+- all lowercase
+- no hashtags, no emojis, no links
+- self-deprecating but not try-hard
+- never use em dashes
+
+EXAMPLES:
+- "i need to stop checking bluesky first thing in the morning."
+- "told myself i'd post less this week. that lasted about two hours."
+- "my screen time report is going to be brutal this week."
+- "posting about energy policy at 11pm. totally normal behaviour."
+- "probably should close the app and go outside."
+- "nobody asked for my opinion on aluminium smelters at this hour but here we are."
+
+Return ONLY valid JSON. No markdown, no commentary."""
+
+
+def generate_meta_post() -> dict:
+    """Generate a self-aware meta-post about being online too much."""
+    prompt = """Write one very short, casual, self-aware post about being too online, posting too much on bluesky, or being obsessed with checking the feed. Be self-deprecating but keep it light.
+
+Return a JSON array with one object: {"text": "your post"}"""
+
+    response = _api_call(_get_client(),
+        model=config.CLAUDE_MODEL,
+        max_tokens=500,
+        system=META_SYSTEM_PROMPT,
+        messages=[{"role": "user", "content": prompt}],
+    )
+
+    raw = response.content[0].text
+    try:
+        clean = raw
+        if "```" in clean:
+            clean = clean.split("```")[1]
+            if clean.startswith("json"):
+                clean = clean[4:]
+        posts = json.loads(clean.strip())
+    except (json.JSONDecodeError, TypeError, IndexError):
+        return {"posts": [], "claude_raw_response": raw, "stories_sent": 0, "is_meta": True}
+
+    if isinstance(posts, dict):
+        posts = [posts]
+
+    results = []
+    for post in posts:
+        if isinstance(post, str):
+            text = post.strip().lower()
+        else:
+            text = post.get("text", "").strip().lower()
+        text = text.replace("\u2014", ",").replace("\u2013", ",").replace("  ", " ")
+        if text and len(text) <= config.MAX_POST_LENGTH and "#" not in text:
+            results.append({"text": text, "source_url": "", "story_title": "meta"})
+
+    return {"posts": results, "claude_raw_response": raw, "stories_sent": 0, "is_meta": True}
+
+
 def select_stories(articles: list[dict], count: int = 5) -> list[dict]:
     """Use Claude to select the most structurally significant stories."""
     if not articles:

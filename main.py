@@ -83,6 +83,55 @@ def _run_afl(dry_run: bool = False, log: RunLog = None) -> None:
     print("done.")
 
 
+def _run_meta(dry_run: bool = False, log: RunLog = None) -> None:
+    """Generate and post a self-aware meta-comment about being online."""
+    st = state_mod.load()
+
+    posted_today = state_mod.posts_today(st)
+    if posted_today >= config.MAX_POSTS_PER_DAY:
+        print(f"already posted {posted_today} times today. skipping meta post.")
+        return
+
+    print("generating meta post...")
+    generation = signals.generate_meta_post()
+    posts = generation["posts"][:1]
+
+    if log:
+        log.record_post_generation(
+            stories_sent=0,
+            posts=posts,
+            claude_raw=generation["claude_raw_response"],
+        )
+
+    if not posts:
+        print("no meta post generated.")
+        return
+
+    if dry_run:
+        print(f"\n--- meta dry run ---\n  {posts[0]['text']}")
+        if log:
+            log.record_publish_result(posts[0]["text"], "", uri="(dry run)", success=True)
+            log.set_outcome("dry_run")
+    else:
+        print("posting meta to bluesky...")
+        bsky = publisher.create_client()
+        try:
+            uri = publisher.post(bsky, posts[0]["text"])
+            state_mod.record_post(st, posts[0]["text"], "", theme="meta")
+            print(f"  posted: {posts[0]['text']}")
+            if log:
+                log.record_publish_result(posts[0]["text"], "", uri=uri, success=True)
+                log.set_outcome("posted")
+        except Exception as e:
+            print(f"  failed to post meta: {e}")
+            if log:
+                log.record_publish_result(posts[0]["text"], "", success=False, error=str(e))
+                log.add_error(f"meta post failed: {e}")
+
+    state_mod.save(st)
+    print("done.")
+
+
 def run(dry_run: bool = False, fetch_only: bool = False, log: RunLog = None) -> None:
     st = state_mod.load()
     state_mod.cleanup_old(st)
@@ -317,10 +366,14 @@ def main():
         # Random delay so posts don't land exactly on the hour
         pre_delay = _random_delay(config.DELAY_MIN_MINUTES, config.DELAY_MAX_MINUTES, "pre-post delay")
 
-        # ~20% chance of an AFL post instead of energy/trade
-        if random.random() < 0.20:
+        # Roll for post type: 20% AFL, 5% meta, 75% regular
+        roll = random.random()
+        if roll < 0.20:
             print("rolling the dice... afl post today.")
             _run_afl(dry_run=False, log=log)
+        elif roll < 0.25:
+            print("rolling the dice... meta post today.")
+            _run_meta(dry_run=False, log=log)
         else:
             run(dry_run=False, log=log)
 
