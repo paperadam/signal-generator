@@ -405,7 +405,18 @@
     "https://www.nytimes.com/2026/03/19/world/middleeast/iran-war-middle-east-recap.html",
     "https://www.theguardian.com/environment/2026/mar/20/uk-public-support-net-zero-rightwing-media-rories-reform-analysis",
     "https://www.nytimes.com/2026/03/19/world/americas/cuba-russia-oil-blockade.html",
-    "https://www.nytimes.com/2026/03/19/world/noma-restaurant-iran-oil-ozempic.html"
+    "https://www.nytimes.com/2026/03/19/world/noma-restaurant-iran-oil-ozempic.html",
+    "https://www.theguardian.com/australia-news/2026/mar/20/afternoon-update-friday-ntwnfb",
+    "https://www.theguardian.com/australia-news/2026/mar/20/fuel-crisis-prices-some-petrol-gas-stations-running-low-supplier-malaysia",
+    "https://www.abc.net.au/news/2026-03-20/matildas-womens-asian-cup-japan-coach-nils-nielsen/106472632",
+    "https://www.abc.net.au/news/2026-03-20/cricket-alana-king-stars-australia-vs-west-indies-1st-t20/106479300",
+    "https://www.nytimes.com/2026/03/20/business/oil-stocks-gas-iran.html",
+    "https://www.theguardian.com/australia-news/2026/mar/20/gas-windfall-gains-tax-australian-economy",
+    "https://www.nytimes.com/2026/03/20/world/europe/spain-iran-energy-renewables-gas-sun.html",
+    "https://www.nytimes.com/2026/03/20/world/asia/iran-war-oil-thailand-vietnam-philippines.html",
+    "https://www.nytimes.com/2026/03/20/world/europe/iran-war-airports-russia-flight-paths.html",
+    "https://www.abc.net.au/news/2026-03-20/moise-kouame-miami-open-atp-masters-1000/106478468",
+    "https://www.theguardian.com/australia-news/audio/2026/mar/20/iran-war-national-security-australian-politics-podcast"
   ],
   "posts": [
     {
@@ -567,6 +578,13 @@
       "date": "2026-03-20",
       "timestamp": "2026-03-20T02:39:07.051130+00:00",
       "theme": "good_numbers"
+    },
+    {
+      "text": "spain's renewables insulating them from the gas spike is exactly the argument for us building green export industries instead of just selling more lng",
+      "source_url": "https://www.nytimes.com/2026/03/20/world/europe/spain-iran-energy-renewables-gas-sun.html",
+      "date": "2026-03-20",
+      "timestamp": "2026-03-20T06:24:09.610193+00:00",
+      "theme": "trade_economics"
     }
   ],
   "replied_to": [
