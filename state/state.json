@@ -391,7 +391,21 @@
     "https://www.nytimes.com/2026/03/19/world/middleeast/iran-missiles-saudi-arabia-riyadh-yanbu.html",
     "https://www.theguardian.com/business/2026/mar/19/europe-biggest-airlines-say-fuel-price-spike-caused-by-iran-war-will-drive-up-fares",
     "https://www.nytimes.com/2026/03/19/world/europe/eu-leaders-summit-iran-gas.html",
-    "https://www.theguardian.com/technology/2026/mar/19/inside-chinas-robotics-revolution"
+    "https://www.theguardian.com/technology/2026/mar/19/inside-chinas-robotics-revolution",
+    "https://www.theguardian.com/australia-news/2026/mar/20/tropical-cyclone-narelle-poised-to-hit-far-north-queensland-as-high-end-category-four-storm",
+    "https://www.theguardian.com/australia-news/video/2026/mar/20/pauline-hanson-one-nation-changing-politics-australia-full-story-podcast",
+    "https://www.abc.net.au/news/2026-03-20/how-girls-feel-about-their-sports-uniforms/106467650",
+    "https://www.theguardian.com/australia-news/video/2026/mar/20/cyclone-narelle-landfall-coen-far-north-queensland-video",
+    "https://www.theguardian.com/media/2026/mar/20/weekly-beast-abc-stike-john-lyons-iran-war-coverage-kyle-jackie-o-dispute",
+    "https://www.theguardian.com/australia-news/2026/mar/20/daylight-savings-time-australia-2026-april-when-dst-saving-end-clocks-go-forward-or-back-sydney-melbourne-change",
+    "https://www.theguardian.com/commentisfree/2026/mar/20/disasters-climate-crisis-northern-territory-australia",
+    "https://www.nytimes.com/2026/03/19/world/canada/joe-rogan-pierre-poilievre-canada-trump.html",
+    "https://www.nytimes.com/2026/03/19/world/middleeast/trump-oil-iran-war-mideast-japan.html",
+    "https://www.nytimes.com/2026/03/19/world/middleeast/trump-iran-us-troops.html",
+    "https://www.nytimes.com/2026/03/19/world/middleeast/iran-war-middle-east-recap.html",
+    "https://www.theguardian.com/environment/2026/mar/20/uk-public-support-net-zero-rightwing-media-rories-reform-analysis",
+    "https://www.nytimes.com/2026/03/19/world/americas/cuba-russia-oil-blockade.html",
+    "https://www.nytimes.com/2026/03/19/world/noma-restaurant-iran-oil-ozempic.html"
   ],
   "posts": [
     {
@@ -546,6 +560,13 @@
       "date": "2026-03-19",
       "timestamp": "2026-03-19T20:46:11.983458+00:00",
       "theme": "trade_economics"
+    },
+    {
+      "text": "uk poll shows way more voters support net zero than oppose it. the anti-net-zero narrative is just loud, not big. same thing here honestly.",
+      "source_url": "https://www.theguardian.com/environment/2026/mar/20/uk-public-support-net-zero-rightwing-media-rories-reform-analysis",
+      "date": "2026-03-20",
+      "timestamp": "2026-03-20T02:39:07.051130+00:00",
+      "theme": "good_numbers"
     }
   ],
   "replied_to": [
