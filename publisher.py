@@ -38,3 +38,12 @@ def reply_to_post(client: Client, post_uri: str, post_cid: str, text: str) -> st
         reply_to=models.AppBskyFeedPost.ReplyRef(root=ref, parent=ref),
     )
     return response.uri
+
+
+def quote_post(client: Client, post_uri: str, post_cid: str, text: str) -> str:
+    """Quote-post (repost with comment) a specific post. Returns the new post URI."""
+    embed = models.AppBskyEmbedRecord.Main(
+        record=models.ComAtprotoRepoStrongRef.Main(uri=post_uri, cid=post_cid),
+    )
+    response = client.send_post(text=text, embed=embed)
+    return response.uri

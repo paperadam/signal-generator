@@ -50,11 +50,11 @@ TOPIC_KEYWORDS = [
 
 # --- Posting ---
 MAX_POSTS_PER_RUN = 1
-MAX_POSTS_PER_DAY = 5
+MAX_POSTS_PER_DAY = 6
 MAX_POST_LENGTH = 300  # characters
 
 # --- Engagement ---
-MAX_REPLIES_PER_DAY = 4
+MAX_REPLIES_PER_DAY = 5
 ENGAGE_SEARCH_QUERIES = [
     "energy transition",
     "critical minerals",
@@ -69,7 +69,7 @@ ENGAGE_SEARCH_QUERIES = [
 ]
 
 # --- Timing / humanisation ---
-SKIP_CHANCE = 0.4           # 40% of scheduled runs do nothing (simulates being busy)
+SKIP_CHANCE = 0.30          # 30% of scheduled runs do nothing (simulates being busy)
 DELAY_MIN_MINUTES = 5       # random delay before acting
 DELAY_MAX_MINUTES = 45
 ENGAGE_GAP_MIN_MINUTES = 10  # gap between posting and replying

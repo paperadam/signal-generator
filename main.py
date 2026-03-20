@@ -295,12 +295,18 @@ def run_engage(dry_run: bool = False, log: RunLog = None) -> None:
                 reply_uri="(dry run)", claude_raw=claude_raw,
             )
     else:
-        print("posting reply to bluesky...")
+        # 75% quote post, 25% direct reply
+        use_quote = random.random() < 0.75
+        action = "quote-posting" if use_quote else "replying to"
+        print(f"{action} on bluesky...")
         try:
-            uri = publisher.reply_to_post(bsky, post_info["uri"], post_info["cid"], reply_text)
+            if use_quote:
+                uri = publisher.quote_post(bsky, post_info["uri"], post_info["cid"], reply_text)
+            else:
+                uri = publisher.reply_to_post(bsky, post_info["uri"], post_info["cid"], reply_text)
             state_mod.record_reply(st, post_info["uri"], reply_text, author=post_info.get("author", ""))
-            print(f"  replied to @{post_info['author']}: {reply_text[:80]}...")
-            print(f"  reply uri: {uri}")
+            print(f"  {'quoted' if use_quote else 'replied to'} @{post_info['author']}: {reply_text[:80]}...")
+            print(f"  uri: {uri}")
             if log:
                 log.record_engagement(
                     queries=queries_used, candidates=candidates,
@@ -308,14 +314,14 @@ def run_engage(dry_run: bool = False, log: RunLog = None) -> None:
                     reply_uri=uri, claude_raw=claude_raw,
                 )
         except Exception as e:
-            print(f"  failed to post reply: {e}")
+            print(f"  failed to {action}: {e}")
             if log:
                 log.record_engagement(
                     queries=queries_used, candidates=candidates,
                     selected_post=post_info, reply_text=reply_text,
                     reply_success=False, reply_error=str(e), claude_raw=claude_raw,
                 )
-                log.add_error(f"reply failed: {e}")
+                log.add_error(f"engagement failed: {e}")
 
     state_mod.save(st)
     print("\ndone.")
