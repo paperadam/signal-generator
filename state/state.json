@@ -416,7 +416,14 @@
     "https://www.nytimes.com/2026/03/20/world/asia/iran-war-oil-thailand-vietnam-philippines.html",
     "https://www.nytimes.com/2026/03/20/world/europe/iran-war-airports-russia-flight-paths.html",
     "https://www.abc.net.au/news/2026-03-20/moise-kouame-miami-open-atp-masters-1000/106478468",
-    "https://www.theguardian.com/australia-news/audio/2026/mar/20/iran-war-national-security-australian-politics-podcast"
+    "https://www.theguardian.com/australia-news/audio/2026/mar/20/iran-war-national-security-australian-politics-podcast",
+    "https://www.theguardian.com/australia-news/video/2026/mar/20/aerial-footage-shows-flooding-in-far-north-queensland-from-tropical-cyclone-narelle-video",
+    "https://www.abc.net.au/news/2026-03-20/nba-josh-giddey-assists-record-doncic-60-points-lakers-heat/106480240",
+    "https://www.theguardian.com/environment/2026/mar/20/like-lighting-a-cigarette-while-trying-to-quit-australia-approves-new-coal-seam-gas-expansion",
+    "https://www.theguardian.com/us-news/2026/mar/20/heatwave-us-west-climate-crisis",
+    "https://www.theguardian.com/business/2026/mar/20/oil-price-energy-watchdog-iea-emergency-measures-work-from-home-slow-down-on-the-road",
+    "https://www.theguardian.com/australia-news/2026/mar/20/anthony-albanese-tony-burke-heckled-lakemba-mosque-protestors-ntwnfb",
+    "https://www.theguardian.com/artanddesign/gallery/2026/mar/20/eid-al-fitr-lakemba-mosque-sydney-in-pictures"
   ],
   "posts": [
     {
@@ -585,6 +592,13 @@
       "date": "2026-03-20",
       "timestamp": "2026-03-20T06:24:09.610193+00:00",
       "theme": "trade_economics"
+    },
+    {
+      "text": "approved until 2081. that's wild to me. we're sitting on some of the best solar and wind in the world and we're locking in gas infrastructure for 60 years.",
+      "source_url": "https://www.theguardian.com/environment/2026/mar/20/like-lighting-a-cigarette-while-trying-to-quit-australia-approves-new-coal-seam-gas-expansion",
+      "date": "2026-03-20",
+      "timestamp": "2026-03-20T08:19:40.481515+00:00",
+      "theme": "embedded_energy_trade"
     }
   ],
   "replied_to": [
