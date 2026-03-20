@@ -423,7 +423,18 @@
     "https://www.theguardian.com/us-news/2026/mar/20/heatwave-us-west-climate-crisis",
     "https://www.theguardian.com/business/2026/mar/20/oil-price-energy-watchdog-iea-emergency-measures-work-from-home-slow-down-on-the-road",
     "https://www.theguardian.com/australia-news/2026/mar/20/anthony-albanese-tony-burke-heckled-lakemba-mosque-protestors-ntwnfb",
-    "https://www.theguardian.com/artanddesign/gallery/2026/mar/20/eid-al-fitr-lakemba-mosque-sydney-in-pictures"
+    "https://www.theguardian.com/artanddesign/gallery/2026/mar/20/eid-al-fitr-lakemba-mosque-sydney-in-pictures",
+    "https://www.nytimes.com/2026/03/20/world/europe/iran-us-israel-goals.html",
+    "https://www.theguardian.com/politics/live/2026/mar/20/reform-climate-targets-steve-reed-badenoch-assisted-dying-energy-bills-latest-news-updates",
+    "https://www.nytimes.com/live/2026/03/20/world/iran-war-oil-trump",
+    "https://www.nytimes.com/2026/03/20/world/asia/sri-lanka-iran-war-ships-aircraft.html",
+    "https://www.theguardian.com/australia-news/2026/mar/20/cyclone-narelle-residents-shelter-storm-wind-damage-coen-archer-river-queensland",
+    "https://www.nytimes.com/2026/03/20/world/middleeast/iran-pezeshkian-son-diary.html",
+    "https://www.nytimes.com/2026/03/20/world/americas/us-rare-earth-minerals-brazil-china.html",
+    "https://www.nytimes.com/2026/03/20/world/middleeast/iran-nowruz-new-year.html",
+    "https://www.nytimes.com/2026/03/20/nyregion/how-a-power-line-from-canada-could-be-a-new-york-lifeline.html",
+    "https://www.nytimes.com/2026/03/20/world/asia/k-pop-china-japan-south-korea.html",
+    "https://www.abc.net.au/news/2026-03-20/nrl-live-updates-roosters-panthers-storm-broncos-/106480150"
   ],
   "posts": [
     {
@@ -599,6 +610,13 @@
       "date": "2026-03-20",
       "timestamp": "2026-03-20T08:19:40.481515+00:00",
       "theme": "embedded_energy_trade"
+    },
+    {
+      "text": "us going to brazil for critical minerals because they're spooked about china. we've got the same stuff and we're a way easier partner. this should be accelerating investment here not brazil.",
+      "source_url": "https://www.nytimes.com/2026/03/20/world/americas/us-rare-earth-minerals-brazil-china.html",
+      "date": "2026-03-20",
+      "timestamp": "2026-03-20T10:31:53.546346+00:00",
+      "theme": "manufacturing_relocation"
     }
   ],
   "replied_to": [
