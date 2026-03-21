@@ -630,7 +630,8 @@
     "at://did:plc:v3lkb3m4lu6nzv6npkah6umc/app.bsky.feed.post/3mgxfbkzwgy26",
     "at://did:plc:pdoknkeim37nyvkjxk3mlxoj/app.bsky.feed.post/3mgxn4j6rns2r",
     "at://did:plc:rp4rgamibrblojq7f7pgmuxc/app.bsky.feed.post/3mh4pejjgjs2t",
-    "at://did:plc:syrr7wxueqwc73abmd2gj7wq/app.bsky.feed.post/3mh6iqxnha22c"
+    "at://did:plc:syrr7wxueqwc73abmd2gj7wq/app.bsky.feed.post/3mh6iqxnha22c",
+    "at://did:plc:hspryewdnqqph5fe7tr2kdpr/app.bsky.feed.post/3mhjnfzh5is2o"
   ],
   "replies": [
     {
@@ -660,6 +661,13 @@
       "author": "eib.org",
       "date": "2026-03-17",
       "timestamp": "2026-03-17T02:53:07.200058+00:00"
+    },
+    {
+      "post_uri": "at://did:plc:hspryewdnqqph5fe7tr2kdpr/app.bsky.feed.post/3mhjnfzh5is2o",
+      "text": "sulphur is one of those inputs nobody talks about until it stops moving, and we produce heaps of it as a byproduct of lng processing so there's probably something there",
+      "author": "vacheestfachee.bsky.social",
+      "date": "2026-03-21",
+      "timestamp": "2026-03-21T02:47:31.740160+00:00"
     }
   ]
 }
