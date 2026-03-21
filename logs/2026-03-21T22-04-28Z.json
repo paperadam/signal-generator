@@ -1,0 +1,163 @@
+{
+  "version": 1,
+  "run_id": "2026-03-21T22-04-28Z",
+  "timestamp": "2026-03-21T22:04:28.401083+00:00",
+  "run_type": "scheduled",
+  "outcome": "skipped_no_posts",
+  "timing": {
+    "sleep_hours": false,
+    "skipped_randomly": false,
+    "pre_post_delay_minutes": 7.5,
+    "engage_gap_delay_minutes": 10.7
+  },
+  "feed_intake": {
+    "total_fetched": 63,
+    "matched_filters": 42,
+    "new_articles": 2,
+    "articles": [
+      {
+        "title": "Hull, Marschall win bronze at World Athletics Indoor Championships",
+        "source": "ABC Grandstand Sport",
+        "link": "https://www.abc.net.au/news/2026-03-22/world-athletics-indoor-championships-jess-hull-kurtis-marschall/106483330"
+      },
+      {
+        "title": "Tasmania Devils fans get first taste of victory at VFL clash with Coburg",
+        "source": "ABC Grandstand Sport",
+        "link": "https://www.abc.net.au/news/2026-03-22/tasmania-devils-football-win-first-vfl-match-against-coburg/106481760"
+      }
+    ]
+  },
+  "story_selection": {
+    "articles_considered": 2,
+    "selected_count": 2,
+    "selected_stories": [
+      {
+        "title": "Hull, Marschall win bronze at World Athletics Indoor Championships",
+        "source": "ABC Grandstand Sport",
+        "link": "https://www.abc.net.au/news/2026-03-22/world-athletics-indoor-championships-jess-hull-kurtis-marschall/106483330"
+      },
+      {
+        "title": "Tasmania Devils fans get first taste of victory at VFL clash with Coburg",
+        "source": "ABC Grandstand Sport",
+        "link": "https://www.abc.net.au/news/2026-03-22/tasmania-devils-football-win-first-vfl-match-against-coburg/106481760"
+      }
+    ],
+    "claude_raw_response": "[0, 1]\n\nWait, let me reconsider. Neither of these articles covers energy systems, industrial policy, supply chains, technology transitions, resource geopolitics, or climate markets. Both are sports articles.\n\n[0, 1]\n\nI cannot select 3 structurally significant articles from this set as there are only 2 articles provided, and neither covers the relevant domains. Based on available options:\n\n[0, 1]"
+  },
+  "post_generation": {
+    "stories_sent": 2,
+    "generated_posts": [],
+    "claude_raw_response": "Neither story fits the green exports lens at all. I'll pick story 1 just to have something, but I need to write something genuine.\n\nWait - the instructions say to pick the one that \"best fits your current lens.\" But honestly neither of these do. I should still pick one and write something that connects, even loosely, or just... I can't really connect athletics medals to green exports naturally. That would be forced and fake.\n\nLet me just pick story 1 and write something authentic but adjacent - like acknowledging it's off topic but still staying in character. Actually no, the format doesn't allow for that.\n\nI'll pick story 1 and write something that at least sounds human, even if the connection is thin. Actually I shouldn't force a fake connection. Let me just pick story 1 and write a genuine reaction.\n\n{\"text\": \"good morning for australian sport i guess, not really my area but i'll take it\", \"story_index\": 1}"
+  },
+  "publishing": null,
+  "engagement": {
+    "search_queries_used": [
+      "green hydrogen",
+      "solar manufacturing",
+      "energy transition"
+    ],
+    "candidates_found": 43,
+    "candidates": [
+      {
+        "author": "hypx.bsky.social",
+        "text": "India gains momentum in green hydrogen, targets $2/kg benchmark\n\nbioenergytimes.com/india-gains-...",
+        "likes": 1,
+        "query": "green hydrogen"
+      },
+      {
+        "author": "virtualnews360.bsky.social",
+        "text": "Hyundai launches South America\u2019s first fleet of hydrogen-powered heavy trucks \u2013 Carro e\u00a0motos\n\nHyundai XCIENT Fuel Cell. Photo: Hyundai Motor A project with eight Hyundai XCIENT Fuel Cell trucks debut",
+        "likes": 2,
+        "query": "green hydrogen"
+      },
+      {
+        "author": "tmastreet.bsky.social",
+        "text": "PLUG Stays Near $2.40 After Rally \u2013 Plug Power is attempting to electrify investor sentiment after a volatile period, as the company navigates the turbulent waters of the green hydrogen sector. A rene",
+        "likes": 1,
+        "query": "green hydrogen"
+      },
+      {
+        "author": "virtualnews360.bsky.social",
+        "text": "Hyundai launches first fleet of hydrogen-powered heavy-duty trucks in South America \u2013 Carro e\u00a0motos\n\nHyundai XCIENT Fuel Cell. Photo : Hyundai Motor A project with eight Hyundai XCIENT Fuel Cell truck",
+        "likes": 1,
+        "query": "green hydrogen"
+      },
+      {
+        "author": "jeremynt.bsky.social",
+        "text": "Does this make sense before we exceed 100% of grid demand with green energy and need to dump energy somewhere?\n\nElectric cars made so much sense because we already had the distribution network in plac",
+        "likes": 0,
+        "query": "green hydrogen"
+      },
+      {
+        "author": "virtualnews360.bsky.social",
+        "text": "Hyundai launches South America\u2019s first fleet of hydrogen-powered heavy trucks \u2013 Carro e\u00a0motos\n\nHyundai XCIENT Fuel Cell. Foto: Hyundai Motor A project with eight Hyundai XCIENT Fuel Cell trucks will p",
+        "likes": 1,
+        "query": "green hydrogen"
+      },
+      {
+        "author": "nerdburglar.bsky.social",
+        "text": "One thing that's hardly ever mentioned is that hydrogen is currently a climate liability. For its industrial uses (ie, fertilizer production) we're mainly creating it with methane steam reformation. S",
+        "likes": 1,
+        "query": "green hydrogen"
+      },
+      {
+        "author": "cs-mcvey.bsky.social",
+        "text": "Renewable methane, whether biogenic or synthetic, is just as carbon-neutral as green hydrogen and far easier to store or transport.  Hydrogen isn't even the best alternative to batteries.",
+        "likes": 0,
+        "query": "green hydrogen"
+      },
+      {
+        "author": "virtualnews360.bsky.social",
+        "text": "Hyundai launches the first fleet of hydrogen trucks in South America \u2013 Carro e\u00a0motos\n\nHyundai XCIENT Fuel Cell. Foto: Hyundai Motor A project with eight Hyundai XCIENT Fuel Cell trucks makes its debut",
+        "likes": 1,
+        "query": "green hydrogen"
+      },
+      {
+        "author": "virtualnews360.bsky.social",
+        "text": "Hyundai launches South America\u2019s first fleet of heavy hydrogen trucks \u2013 Carro e\u00a0motos\n\nHyundai XCIENT Fuel Cell. Foto: Hyundai Motor A project with eight Hyundai XCIENT Fuel Cell trucks debuts in timb",
+        "likes": 0,
+        "query": "green hydrogen"
+      },
+      {
+        "author": "stockholmfella.bsky.social",
+        "text": "The idea is that solar, wind and for instance tidal power will replace most of the direct energy consumption, while green hydrogen replaces fossil gas in industry and acts as a giant battery for the e",
+        "likes": 0,
+        "query": "green hydrogen"
+      },
+      {
+        "author": "virtualnews360.bsky.social",
+        "text": "Hyundai launches South America\u2019s first fleet of hydrogen-powered heavy-duty trucks \u2013 Carro e\u00a0motos\n\nHyundai XCIENT Fuel Cell. Photo: Hyundai Motor A project of eight Hyundai XCIENT Fuel Cell trucks is",
+        "likes": 0,
+        "query": "green hydrogen"
+      },
+      {
+        "author": "simonawood.bsky.social",
+        "text": "1/5:\nHere are some actions that we anti-imperialists can take to counter US energy dominance:\n\nEverywhere we can focus on developing green energy - i.e. wind & solar (with battery storage, plus tidal,",
+        "likes": 1,
+        "query": "green hydrogen"
+      },
+      {
+        "author": "stockholmfella.bsky.social",
+        "text": "Tru, but Ukraine and Iran show that you can never count on cheap energy anymore. It\u2019s too easy to blackmail our continent.\nI don\u2019t expect stock prices to reach astronomical levels for several years. B",
+        "likes": 2,
+        "query": "green hydrogen"
+      },
+      {
+        "author": "stockholmgooner.bsky.social",
+        "text": "Interesting\ud83d\udc4d Anything that could be used inside the current gas infrastructure will likely be hot stuff in the coming years.\n\nI guess green hydrogen could reach the tipping point when it's potentially",
+        "likes": 1,
+        "query": "green hydrogen"
+      }
+    ],
+    "selected_post": {
+      "author": "nerdburglar.bsky.social",
+      "text": "One thing that's hardly ever mentioned is that hydrogen is currently a climate liability. For its industrial uses (ie, fertilizer production) we're mainly creating it with methane steam reformation. Seems like replacing that stuff with green hydrogen should be the first priority?"
+    },
+    "reply_text": "yeah exactly, grey hydrogen in ammonia production is a massive unaccounted emission and replacing it is way more tractable than fuel cell trucks",
+    "reply_uri": "at://did:plc:h23qnlw7e7b4bj73ktu2bzyv/app.bsky.feed.post/3mhm2zbmmsz2i",
+    "reply_success": true,
+    "reply_error": "",
+    "claude_raw_response": "{\"selected\": 6, \"reply\": \"yeah exactly, grey hydrogen in ammonia production is a massive unaccounted emission and replacing it is way more tractable than fuel cell trucks\"}"
+  },
+  "errors": []
+}
