@@ -479,7 +479,14 @@
     "https://www.nytimes.com/2026/03/20/world/middleeast/trump-winding-down-iran-war.html",
     "https://www.theguardian.com/australia-news/2026/mar/21/one-nation-dumps-south-australian-election-candidate-after-reports-claiming-warrant-for-his-arrest-in-uk-ntwnfb",
     "https://www.theguardian.com/australia-news/2026/mar/21/south-australia-election-labor-leading-liberals-one-nation-surge-ntwnfb",
-    "https://www.theguardian.com/australia-news/video/2026/mar/21/will-the-iran-war-trigger-another-recession-we-have-to-have-back-to-back-barries-podcast"
+    "https://www.theguardian.com/australia-news/video/2026/mar/21/will-the-iran-war-trigger-another-recession-we-have-to-have-back-to-back-barries-podcast",
+    "https://www.nytimes.com/live/2026/03/21/world/iran-war-oil-trump",
+    "https://www.nytimes.com/2026/03/21/world/canada/carney-military-alliances-canada-trump.html",
+    "https://www.nytimes.com/2026/03/21/world/asia/iran-sri-lanka-sailors.html",
+    "https://www.nytimes.com/2026/03/21/business/energy-environment/gas-prices-electric-vehicles-iran.html",
+    "https://www.nytimes.com/2026/03/21/world/europe/ukraine-russia-peace-talks-iran.html",
+    "https://www.nytimes.com/2026/03/21/us/new-apple-climate-change.html",
+    "https://www.nytimes.com/2026/03/21/world/deadly-drugs-paper.html"
   ],
   "posts": [
     {
@@ -642,6 +649,13 @@
       "date": "2026-03-21",
       "timestamp": "2026-03-21T08:28:57.037238+00:00",
       "theme": "procurement_signals"
+    },
+    {
+      "text": "us lifting sanctions on iranian oil because markets are freaking out. if we had more green iron and green energy exports in the mix we wouldn't be this exposed every time the middle east blows up.",
+      "source_url": "https://www.nytimes.com/live/2026/03/21/world/iran-war-oil-trump",
+      "date": "2026-03-21",
+      "timestamp": "2026-03-21T10:27:54.594399+00:00",
+      "theme": "green_iron"
     }
   ],
   "replied_to": [
