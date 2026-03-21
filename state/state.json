@@ -486,7 +486,27 @@
     "https://www.nytimes.com/2026/03/21/business/energy-environment/gas-prices-electric-vehicles-iran.html",
     "https://www.nytimes.com/2026/03/21/world/europe/ukraine-russia-peace-talks-iran.html",
     "https://www.nytimes.com/2026/03/21/us/new-apple-climate-change.html",
-    "https://www.nytimes.com/2026/03/21/world/deadly-drugs-paper.html"
+    "https://www.nytimes.com/2026/03/21/world/deadly-drugs-paper.html",
+    "https://www.abc.net.au/news/2026-03-22/matildas-v-japan-womens-asian-cup-final-analysis-pain-relief/106482794",
+    "https://www.nytimes.com/2026/03/21/world/middleeast/kurds-turkey-newroz-iran.html",
+    "https://www.theguardian.com/australia-news/2026/mar/21/superannuation-should-be-used-for-aged-care-not-inherited-by-next-generation-aged-care-ceo-says",
+    "https://www.theguardian.com/commentisfree/2026/mar/22/iran-war-middle-east-fuel-crisis-australia-inflation",
+    "https://www.theguardian.com/australia-news/2026/mar/22/petrol-theft-expected-to-rise-in-australia-as-police-call-for-more-cctv-and-prepaid-pumps",
+    "https://www.theguardian.com/australia-news/2026/mar/21/australia-parents-picking-private-instead-of-public-schools-trend-explained",
+    "https://www.theguardian.com/australia-news/audio/2026/mar/21/reserve-bank-rba-interest-rates-story-podcast",
+    "https://www.theguardian.com/australia-news/2026/mar/22/melbourne-rare-books-expert-wallace-kirsop",
+    "https://www.theguardian.com/australia-news/2026/mar/22/australia-last-rationed-fuel-in-the-1970s-could-we-do-it-again",
+    "https://www.theguardian.com/commentisfree/2026/mar/21/mount-arthur-tasmania-quiet-nature",
+    "https://www.nytimes.com/2026/03/21/world/europe/patriarch-filaret-dead.html",
+    "https://www.nytimes.com/2026/03/21/world/middleeast/iran-war-nowruz-internet-blackout.html",
+    "https://www.nytimes.com/2026/03/21/world/middleeast/middle-east-war-hamas-iran-qatar.html",
+    "https://www.nytimes.com/2026/03/21/world/europe/iran-scotland-naval-base-clyde.html",
+    "https://www.abc.net.au/news/2026-03-21/asian-cup-final-matildas-kennedy-foord-quick-hits/106480712",
+    "https://www.theguardian.com/world/2026/mar/21/middle-east-iran-conflict-environment-climate",
+    "https://www.theguardian.com/environment/2026/mar/21/lincolnshire-solar-farm-controversy-british-countryside",
+    "https://www.theguardian.com/business/2026/mar/21/us-gas-price-surge-iran-electric-cars",
+    "https://www.nytimes.com/2026/03/21/world/asia/bts-seoul-concert-korea-criticism.html",
+    "https://www.abc.net.au/news/2026-03-21/nrl-live-knights-warriors-sharks-dolphins-rabbitohs-tigers/106476776"
   ],
   "posts": [
     {
@@ -656,6 +676,13 @@
       "date": "2026-03-21",
       "timestamp": "2026-03-21T10:27:54.594399+00:00",
       "theme": "green_iron"
+    },
+    {
+      "text": "fuel rationing chat is back and we haven't even sorted our strategic reserves properly. this is the exact kind of thing that makes green energy self-sufficiency not just an export story but a domestic one.",
+      "source_url": "https://www.theguardian.com/australia-news/2026/mar/22/australia-last-rationed-fuel-in-the-1970s-could-we-do-it-again",
+      "date": "2026-03-21",
+      "timestamp": "2026-03-21T20:46:25.299547+00:00",
+      "theme": "grid_progress"
     }
   ],
   "replied_to": [
