@@ -1,0 +1,206 @@
+{
+  "version": 1,
+  "run_id": "2026-03-21T10-02-13Z",
+  "timestamp": "2026-03-21T10:02:13.140034+00:00",
+  "run_type": "scheduled",
+  "outcome": "posted",
+  "timing": {
+    "sleep_hours": false,
+    "skipped_randomly": false,
+    "pre_post_delay_minutes": 25.6,
+    "engage_gap_delay_minutes": 18.1
+  },
+  "feed_intake": {
+    "total_fetched": 83,
+    "matched_filters": 60,
+    "new_articles": 7,
+    "articles": [
+      {
+        "title": "Iran War Live Updates: U.S. Lifts Sanctions on Iranian Oil as War Enters Fourth Week",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/live/2026/03/21/world/iran-war-oil-trump"
+      },
+      {
+        "title": "Canada Shifts From Peacekeeping to Building a Strong Military",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/2026/03/21/world/canada/carney-military-alliances-canada-trump.html"
+      },
+      {
+        "title": "Iranian Sailors, Including Survivors of Torpedoed Ship, Remain in Limbo",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/2026/03/21/world/asia/iran-sri-lanka-sailors.html"
+      },
+      {
+        "title": "What to Know About Electric Cars When Gas Prices Are Surging",
+        "source": "NYT > Climate and Environment",
+        "link": "https://www.nytimes.com/2026/03/21/business/energy-environment/gas-prices-electric-vehicles-iran.html"
+      },
+      {
+        "title": "Zelensky Sends Negotiators to the U.S., Hoping to Revive Peace Talks",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/2026/03/21/world/europe/ukraine-russia-peace-talks-iran.html"
+      },
+      {
+        "title": "After Cosmic Crisp, Scientists Unveil an Apple for the Climate Change Era",
+        "source": "NYT > Climate and Environment",
+        "link": "https://www.nytimes.com/2026/03/21/us/new-apple-climate-change.html"
+      },
+      {
+        "title": "No Pills or Needles, Just Paper: How Deadly Drugs Are Changing",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/2026/03/21/world/deadly-drugs-paper.html"
+      }
+    ]
+  },
+  "story_selection": {
+    "articles_considered": 7,
+    "selected_count": 3,
+    "selected_stories": [
+      {
+        "title": "Iran War Live Updates: U.S. Lifts Sanctions on Iranian Oil as War Enters Fourth Week",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/live/2026/03/21/world/iran-war-oil-trump"
+      },
+      {
+        "title": "What to Know About Electric Cars When Gas Prices Are Surging",
+        "source": "NYT > Climate and Environment",
+        "link": "https://www.nytimes.com/2026/03/21/business/energy-environment/gas-prices-electric-vehicles-iran.html"
+      },
+      {
+        "title": "Canada Shifts From Peacekeeping to Building a Strong Military",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/2026/03/21/world/canada/carney-military-alliances-canada-trump.html"
+      }
+    ],
+    "claude_raw_response": "[0, 3, 1]"
+  },
+  "post_generation": {
+    "stories_sent": 3,
+    "generated_posts": [
+      {
+        "text": "us lifting sanctions on iranian oil because markets are freaking out. if we had more green iron and green energy exports in the mix we wouldn't be this exposed every time the middle east blows up.",
+        "source_url": "https://www.nytimes.com/live/2026/03/21/world/iran-war-oil-trump",
+        "story_title": "Iran War Live Updates: U.S. Lifts Sanctions on Iranian Oil as War Enters Fourth Week"
+      }
+    ],
+    "claude_raw_response": "{\"text\": \"us lifting sanctions on iranian oil because markets are freaking out. if we had more green iron and green energy exports in the mix we wouldn't be this exposed every time the middle east blows up.\", \"story_index\": 1}"
+  },
+  "publishing": {
+    "results": [
+      {
+        "text": "us lifting sanctions on iranian oil because markets are freaking out. if we had more green iron and green energy exports in the mix we wouldn't be this exposed every time the middle east blows up.",
+        "source_url": "https://www.nytimes.com/live/2026/03/21/world/iran-war-oil-trump",
+        "uri": "at://did:plc:h23qnlw7e7b4bj73ktu2bzyv/app.bsky.feed.post/3mhkt2msk6p2o",
+        "success": true,
+        "error": ""
+      }
+    ]
+  },
+  "engagement": {
+    "search_queries_used": [
+      "solar manufacturing",
+      "lithium mining",
+      "renewable energy Australia"
+    ],
+    "candidates_found": 39,
+    "candidates": [
+      {
+        "author": "laurimyllyvirta.bsky.social",
+        "text": "Note that China's solar exports have kept growing in volume terms after the shock, just at lower rates - the value has fallen because of a precipitous drop in prices and a shift to shipping more inter",
+        "likes": 4,
+        "query": "solar manufacturing"
+      },
+      {
+        "author": "laurimyllyvirta.bsky.social",
+        "text": "Here's how high fuel prices drove clean energy investments during the 2021-22 price shock - both solar and battery exports boomed just as fuel prices shot up. Battery demand is a proxy for EV manufact",
+        "likes": 17,
+        "query": "solar manufacturing"
+      },
+      {
+        "author": "dasdoak.bsky.social",
+        "text": "We have $200 flat screen TVs and $200 packs of solar panels at Harbor Freight because of basically the same set of materials science and manufacturing breakthroughs.",
+        "likes": 0,
+        "query": "solar manufacturing"
+      },
+      {
+        "author": "wfrost.bsky.social",
+        "text": "(As Elon places a $2.9bn order from China for solar manufacturing equipment)",
+        "likes": 5,
+        "query": "solar manufacturing"
+      },
+      {
+        "author": "hoergen.bsky.social",
+        "text": "India added 119GW of solar module and over 9GW of solar cell manufacturing capacity in 2025, according to market research firm Mercom\u2019s latest report. (2/2)",
+        "likes": 1,
+        "query": "solar manufacturing"
+      },
+      {
+        "author": "solarroadways.bsky.social",
+        "text": "We're on the brink of mass manufacturing solar right here in America. Let's change that graph! \ud83d\udc9a",
+        "likes": 0,
+        "query": "solar manufacturing"
+      },
+      {
+        "author": "solarroadways.bsky.social",
+        "text": "We're aiming to change that graph with solar manufactured right here in the USA! On the brink of mass manufacturing now.",
+        "likes": 1,
+        "query": "solar manufacturing"
+      },
+      {
+        "author": "pthorton.bsky.social",
+        "text": "Did china realize they were maybe subsidizing solar manufacturing a tad too much?",
+        "likes": 0,
+        "query": "solar manufacturing"
+      },
+      {
+        "author": "alexvonwitzleben.bsky.social",
+        "text": "As #oilandgas prices climb #ElonMusk plans to build 100 GW of #solar manufacturing in the US. It got its first major price tag: $2.9 bn in equipment from Chinese supplier, a stunning reversal for Musk",
+        "likes": 1,
+        "query": "solar manufacturing"
+      },
+      {
+        "author": "morecarrotsplz.bsky.social",
+        "text": "So why isn't Elon buying American solar manufacturing equipment, $2.9 billion worth, instead of from China? Because America can't produce it as well? A missed opportunity for American business. #Epste",
+        "likes": 1,
+        "query": "solar manufacturing"
+      },
+      {
+        "author": "thefinalstraw.bsky.social",
+        "text": "Yeah. That country leading in tech, manufacturing, electric vehicles, solar, wind, filling the gaps, helping with food and medicine, and less human trafficking and atrocities? The US used to be someth",
+        "likes": 2,
+        "query": "solar manufacturing"
+      },
+      {
+        "author": "nick2r.bsky.social",
+        "text": "It\u2019s almost as if Trump is working for Chinese government! China is already kicking our arse in clean tech. They are dominating manufacturing and deployment of solar, wind, batteries, and electric veh",
+        "likes": 6,
+        "query": "solar manufacturing"
+      },
+      {
+        "author": "nashvillehumanist.bsky.social",
+        "text": "The first solar panels were made of metal and manufacturing ceased because of WW1 and the Western colonization of the Middle East causing oil to dominate.\n\nWe didn\u2019t go to war over solar but war put a",
+        "likes": 10,
+        "query": "solar manufacturing"
+      },
+      {
+        "author": "bandr283.bsky.social",
+        "text": "\u0633\u062c\u0644\u062a \u0623\u0633\u0639\u0627\u0631 #\u0627\u0644\u0644\u064a\u062b\u064a\u0648\u0645 \u0627\u0631\u062a\u0641\u0627\u0639\u0627\u064b \u062c\u062f\u064a\u062f\u0627\u064b \u0641\u064a 2026\u060c \u0645\u0645\u0627 \u0623\u062f\u0649 \u0644\u0627\u0646\u0639\u0643\u0627\u0633\u0627\u062a \u0639\u0644\u0649 \u0623\u0633\u0647\u0645 \u0634\u0631\u0643\u0627\u062a \u062a\u0639\u062f\u064a\u0646 \u0627\u0644\u0639\u0645\u0644\u0627\u062a \u0627\u0644\u062a\u064a \u0628\u062f\u0623\u062a \u0628\u0627\u0644\u062a\u062d\u0648\u0644 \u0646\u062d\u0648 \u0627\u0644\u0627\u0633\u062a\u062b\u0645\u0627\u0631 \u0641\u064a \u062d\u0644\u0648\u0644 \u0627\u0644\u0637\u0627\u0642\u0629 \u0627\u0644\u0628\u062f\u064a\u0644\u0629 \u0648\u0627\u0644\u0645\u0633\u062a\u062f\u0627\u0645\u0629. \u064a\u0631\u062a\u0628\u0637 \u0647\u0630\u0627 \u0627\u0644\u0627\u0631\u062a\u0641\u0627\u0639 \u0628\u0632\u064a\u0627\u062f\u0629 \u0627\u0644\u0637\u0644\u0628 \u0627\u0644\u0639\u0627\u0644\u0645\u064a ",
+        "likes": 0,
+        "query": "lithium mining"
+      },
+      {
+        "author": "themanprop.bsky.social",
+        "text": "What fuel does the drilling equipment use? What countries are affected by lithium mining? Is your research based on tech racism? Who profits from decimating the African continent for lithium? Have you",
+        "likes": 0,
+        "query": "lithium mining"
+      }
+    ],
+    "selected_post": null,
+    "reply_text": "",
+    "reply_uri": "",
+    "reply_success": true,
+    "reply_error": "",
+    "claude_raw_response": ""
+  },
+  "errors": []
+}
