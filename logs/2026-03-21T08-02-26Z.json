@@ -1,0 +1,226 @@
+{
+  "version": 1,
+  "run_id": "2026-03-21T08-02-26Z",
+  "timestamp": "2026-03-21T08:02:26.791442+00:00",
+  "run_type": "scheduled",
+  "outcome": "posted",
+  "timing": {
+    "sleep_hours": false,
+    "skipped_randomly": false,
+    "pre_post_delay_minutes": 26.4,
+    "engage_gap_delay_minutes": 27.3
+  },
+  "feed_intake": {
+    "total_fetched": 80,
+    "matched_filters": 57,
+    "new_articles": 11,
+    "articles": [
+      {
+        "title": "SA state election 2026: Labor confident but all eyes on One Nation vote as polls close in South Australia",
+        "source": "Australia news | The Guardian",
+        "link": "https://www.theguardian.com/australia-news/2026/mar/21/sa-state-election-2026-results-labor-confident-but-all-eyes-on-one-nation-vote-as-polls-close-in-south-australia"
+      },
+      {
+        "title": "Rhoda Roberts, Indigenous broadcaster and cultural powerhouse \u2013 obituary",
+        "source": "Australia news | The Guardian",
+        "link": "https://www.theguardian.com/australia-news/2026/mar/21/rhoda-roberts-indigenous-broadcaster-and-cultural-powerhouse-obituary"
+      },
+      {
+        "title": "Fearing Chaos of Climate Change, Some Seek Answers in Virtual Classroom",
+        "source": "NYT > Climate and Environment",
+        "link": "https://www.nytimes.com/2026/03/21/nyregion/fearing-chaos-of-climate-change-some-seek-answers-in-virtual-classroom.html"
+      },
+      {
+        "title": "Rhoda Roberts, Indigenous cultural leader who introduced the term \u2018welcome to country\u2019, dies aged 66",
+        "source": "Australia news | The Guardian",
+        "link": "https://www.theguardian.com/australia-news/2026/mar/21/rhoda-roberts-indigenous-cultural-leader-who-introduced-the-term-welcome-to-country-dies-aged-66"
+      },
+      {
+        "title": "Dragons reveal return date for Pasifiki Tonga following hospitalisation",
+        "source": "ABC Grandstand Sport",
+        "link": "https://www.abc.net.au/news/2026-03-21/loko-pasifika-tonga-dragons-neck-injury-/106482152"
+      },
+      {
+        "title": "A Public Holiday Every Week? Sri Lankans Bemoan the Enforced Day Off.",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/2026/03/21/world/asia/sri-lanka-public-holiday-oil-war.html"
+      },
+      {
+        "title": "\u200bAt Least 10 Killed in South Korean Factory Fire",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/2026/03/20/world/asia/south-korea-factory-fire-deaths.html"
+      },
+      {
+        "title": "Trump Signals Retreat From Goal of Regime Change in Iran",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/2026/03/20/world/middleeast/trump-winding-down-iran-war.html"
+      },
+      {
+        "title": "One Nation dumps South Australian election candidate after reports claiming warrant for his arrest in UK",
+        "source": "Australia news | The Guardian",
+        "link": "https://www.theguardian.com/australia-news/2026/mar/21/one-nation-dumps-south-australian-election-candidate-after-reports-claiming-warrant-for-his-arrest-in-uk-ntwnfb"
+      },
+      {
+        "title": "South Australia election 2026: Labor heads for a win, the Liberals a battering and One Nation a test of surging support",
+        "source": "Australia news | The Guardian",
+        "link": "https://www.theguardian.com/australia-news/2026/mar/21/south-australia-election-labor-leading-liberals-one-nation-surge-ntwnfb"
+      },
+      {
+        "title": "Will the Iran war trigger another recession we have to have? \u2013 Back to Back Barries podcast",
+        "source": "Australia news | The Guardian",
+        "link": "https://www.theguardian.com/australia-news/video/2026/mar/21/will-the-iran-war-trigger-another-recession-we-have-to-have-back-to-back-barries-podcast"
+      }
+    ]
+  },
+  "story_selection": {
+    "articles_considered": 11,
+    "selected_count": 3,
+    "selected_stories": [
+      {
+        "title": "A Public Holiday Every Week? Sri Lankans Bemoan the Enforced Day Off.",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/2026/03/21/world/asia/sri-lanka-public-holiday-oil-war.html"
+      },
+      {
+        "title": "Trump Signals Retreat From Goal of Regime Change in Iran",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/2026/03/20/world/middleeast/trump-winding-down-iran-war.html"
+      },
+      {
+        "title": "Will the Iran war trigger another recession we have to have? \u2013 Back to Back Barries podcast",
+        "source": "Australia news | The Guardian",
+        "link": "https://www.theguardian.com/australia-news/video/2026/mar/21/will-the-iran-war-trigger-another-recession-we-have-to-have-back-to-back-barries-podcast"
+      }
+    ],
+    "claude_raw_response": "[5, 7, 10]"
+  },
+  "post_generation": {
+    "stories_sent": 3,
+    "generated_posts": [
+      {
+        "text": "rba hiking rates while an energy shock is building in real time. if we were further along on green exports we'd have way more insulation from this kind of thing.",
+        "source_url": "https://www.theguardian.com/australia-news/video/2026/mar/21/will-the-iran-war-trigger-another-recession-we-have-to-have-back-to-back-barries-podcast",
+        "story_title": "Will the Iran war trigger another recession we have to have? \u2013 Back to Back Barries podcast"
+      }
+    ],
+    "claude_raw_response": "{\"text\": \"rba hiking rates while an energy shock is building in real time. if we were further along on green exports we'd have way more insulation from this kind of thing.\", \"story_index\": 3}"
+  },
+  "publishing": {
+    "results": [
+      {
+        "text": "rba hiking rates while an energy shock is building in real time. if we were further along on green exports we'd have way more insulation from this kind of thing.",
+        "source_url": "https://www.theguardian.com/australia-news/video/2026/mar/21/will-the-iran-war-trigger-another-recession-we-have-to-have-back-to-back-barries-podcast",
+        "uri": "at://did:plc:h23qnlw7e7b4bj73ktu2bzyv/app.bsky.feed.post/3mhkmfvvod32j",
+        "success": true,
+        "error": ""
+      }
+    ]
+  },
+  "engagement": {
+    "search_queries_used": [
+      "green hydrogen",
+      "battery supply chain",
+      "energy transition"
+    ],
+    "candidates_found": 43,
+    "candidates": [
+      {
+        "author": "hypx.bsky.social",
+        "text": "Hydrogen is a necessary component of a green society. It is nearly everything else that is the expensive detour.",
+        "likes": 0,
+        "query": "green hydrogen"
+      },
+      {
+        "author": "cindylee.bsky.social",
+        "text": "The \"Windfall Transition Tax\"\nspecifically targets \"excess profits\" generated by the price spikes following the conflict in Iran.\n\n100% of this specific revenue is legally earmarked for the Canada Gro",
+        "likes": 0,
+        "query": "green hydrogen"
+      },
+      {
+        "author": "ivanrmoore.bsky.social",
+        "text": "The internet doesn't agree with 60% ... but regardless, I believe that to produce steel in a green way will require green hydrogen, so that will likely be one of the big uses of green hydrogen in the ",
+        "likes": 0,
+        "query": "green hydrogen"
+      },
+      {
+        "author": "crusaderproject.bsky.social",
+        "text": "Also, you don't have to rely on Qatari natural gas to produce fertilizer. You can steam reform from coal (China does that) or if you care about the climate use green hydrogen from electrolysis (expens",
+        "likes": 15,
+        "query": "green hydrogen"
+      },
+      {
+        "author": "tixhonjm.bsky.social",
+        "text": "US Blocks IMO Net-Zero Shipping Rules, Doubts Green Hydrogen fuelcellsworks.com/2026/03/20/h...",
+        "likes": 0,
+        "query": "green hydrogen"
+      },
+      {
+        "author": "wsferrys.bsky.social",
+        "text": "AHOY THERE!\n\nIN THE MILDLY IMPORTANT FERRY'S DISPATCH:\n\nSNOW, SNOW! SNOW!! SNOW!!!; CHIPS'N'DIPS; POIRE BELLE H\u00c9L\u00c8NE, S.V.P; ILLUMINATED HYDROGEN FERRYS BALLOON BACK IN SEATTLE;  DYEING PUGET SOUND GR",
+        "likes": 1,
+        "query": "green hydrogen"
+      },
+      {
+        "author": "astronomybot.bsky.social",
+        "text": "SN 1006 Supernova remnant expansion comparison\nImage date: 1 July 2008, 15:00\n\n\n01/07/2008 15:00\n\nComparison of visible hydrogen emission in the NW filament of SN 1006 in data taken at the CTIO Curtis",
+        "likes": 0,
+        "query": "green hydrogen"
+      },
+      {
+        "author": "danielwilliams965.bsky.social",
+        "text": "With green hydrogen at 1% of global (fossil) hydrogen production globally, and \u20ac240bn in planned investment in the EU alone (yes, trillions globally), it seems strange Ember completely avoid the appro",
+        "likes": 0,
+        "query": "green hydrogen"
+      },
+      {
+        "author": "astronomybot.bsky.social",
+        "text": "...tions taken with Hubble's Advanced  Camera for Surveys in February 2006 and Wide Field Planetary Camera 2 observations in blue, yellow-green, and near-infrared light taken in April 2008. The  super",
+        "likes": 1,
+        "query": "green hydrogen"
+      },
+      {
+        "author": "pezregis.bsky.social",
+        "text": "Morally the correct decision. Perhaps this will reinvigorate European Green Hydrogen plans? Certainly improves the comparative economics and brings increased energy security.",
+        "likes": 4,
+        "query": "green hydrogen"
+      },
+      {
+        "author": "danielwilliams965.bsky.social",
+        "text": "I've just built a Data Explorer for green hydrogen production globally. I haven't checked the data, and substantial discrepancies are likely to exist. Check it out!\n\ngold-lorain-85.tiiny.site",
+        "likes": 0,
+        "query": "green hydrogen"
+      },
+      {
+        "author": "willowstella98.bsky.social",
+        "text": "What are the advantages of using green hydrogen?\n\n#greenhydrogen #green #hydrogen\n\nwww.techiealliance.com/greentech/ad...",
+        "likes": 0,
+        "query": "green hydrogen"
+      },
+      {
+        "author": "danielwilliams965.bsky.social",
+        "text": "However, green molecules are still required - approximately 25-35% of the EU energy system by 2050 should switch to hydrogen\n\nNew chart - Middle East:",
+        "likes": 0,
+        "query": "green hydrogen"
+      },
+      {
+        "author": "danielwilliams965.bsky.social",
+        "text": "With ammonia costs rising sharply, this is further impetus for building electrolysis export capacity early, and greater profitability for the green ammonia exported\n\nArguably safer to rely on green hy",
+        "likes": 0,
+        "query": "green hydrogen"
+      },
+      {
+        "author": "fikagoose.bsky.social",
+        "text": "US confirmation of Tesla\u2019s $4.3 bn LFP deal with LG ties domestic battery production to the upcoming Megapack 3, tightening the supply chain and accelerating grid-scale storage rollout. \ud83c\uddfa\ud83c\uddf8 #EnergyStor",
+        "likes": 0,
+        "query": "battery supply chain"
+      }
+    ],
+    "selected_post": null,
+    "reply_text": "",
+    "reply_uri": "",
+    "reply_success": true,
+    "reply_error": "",
+    "claude_raw_response": ""
+  },
+  "errors": []
+}
