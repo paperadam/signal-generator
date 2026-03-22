@@ -506,30 +506,28 @@
     "https://www.theguardian.com/environment/2026/mar/21/lincolnshire-solar-farm-controversy-british-countryside",
     "https://www.theguardian.com/business/2026/mar/21/us-gas-price-surge-iran-electric-cars",
     "https://www.nytimes.com/2026/03/21/world/asia/bts-seoul-concert-korea-criticism.html",
-    "https://www.abc.net.au/news/2026-03-21/nrl-live-knights-warriors-sharks-dolphins-rabbitohs-tigers/106476776"
+    "https://www.abc.net.au/news/2026-03-21/nrl-live-knights-warriors-sharks-dolphins-rabbitohs-tigers/106476776",
+    "https://www.nytimes.com/live/2026/03/22/world/iran-war-oil-trump",
+    "https://www.abc.net.au/news/2026-03-22/australia-cricket-international-schedule-2026-2027-summer/106484212",
+    "https://www.theguardian.com/australia-news/2026/mar/22/sa-state-election-one-nation-wins-seat-liberals-lessons-defeat-labor-ntwnfb",
+    "https://www.abc.net.au/news/2026-03-22/hannah-green-wins-australian-wpga-championship-gold-coast/106483702",
+    "https://www.theguardian.com/australia-news/live/2026/mar/22/australia-news-live-tropical-cyclone-narelle-south-australia-election-peter-malinauskas-labor-one-nation-chris-bowen-anthony-albanese-fuel-prices-ntwnfb",
+    "https://www.abc.net.au/news/2026-03-22/alana-king-takes-two-wickets-as-australia-defeat-west-indies/106483944",
+    "https://www.nytimes.com/2026/03/22/world/europe/election-in-slovenia-will-test-europes-political-mood.html",
+    "https://www.nytimes.com/2026/03/22/world/europe/france-mayors-elections-far-right.html",
+    "https://www.abc.net.au/news/2026-03-22/socceroos-recall-awer-mabil-friendlies-fifa-world-cup/106483852",
+    "https://www.theguardian.com/australia-news/2026/mar/22/six-fuel-ships-bound-for-australia-cancelled-as-bowen-concedes-flow-of-oil-to-asian-refineries-has-slowed",
+    "https://www.nytimes.com/live/2026/03/22/world/iran-war-oil-trump/iranian-missile-strikes-israeli-city-near-main-nuclear-research-facility",
+    "https://www.theguardian.com/australia-news/2026/mar/22/saturated-northern-territory-nt-katherine-evacuated-tropical-cyclone-narelle-dump-rain-ntwnfb",
+    "https://www.nytimes.com/2026/03/21/world/middleeast/middle-east-war-recap.html",
+    "https://www.abc.net.au/news/2026-03-22/australian-rules-legend-kelvin-templeton-debut-novel-collision/106397198",
+    "https://www.abc.net.au/news/2026-03-22/miami-open-australian-talia-gibson-defeats-naomi-osaka/106483422",
+    "https://www.abc.net.au/news/2026-03-22/world-athletics-indoor-championships-jess-hull-kurtis-marschall/106483330",
+    "https://www.abc.net.au/news/2026-03-22/tasmania-devils-football-win-first-vfl-match-against-coburg/106481760",
+    "https://www.theguardian.com/australia-news/2026/mar/21/in-south-australia-one-nation-has-put-meat-on-the-bones-of-its-polling-surge-now-both-major-parties-need-to-respond",
+    "https://www.theguardian.com/australia-news/2026/mar/21/im-going-to-leave-you-some-landmines-pauline-hanson-sends-sa-premier-a-message-amid-jubilant-supporters"
   ],
   "posts": [
-    {
-      "text": "strait still choked and kharg island hit. that's two nodes at once.",
-      "source_url": "https://www.nytimes.com/2026/03/13/world/middleeast/kharg-island-iran-oil-trump.html",
-      "date": "2026-03-14",
-      "timestamp": "2026-03-14T04:09:34.567980+00:00",
-      "theme": "grid_readiness"
-    },
-    {
-      "text": "kharg island handles 90% of iran's oil exports and apparently everyone just learned that today.",
-      "source_url": "https://www.nytimes.com/2026/03/14/world/middleeast/what-to-know-about-kharg-island.html",
-      "date": "2026-03-14",
-      "timestamp": "2026-03-14T06:41:39.478577+00:00",
-      "theme": "manufacturing_relocation"
-    },
-    {
-      "text": "grid planners building 10-year forecasts right now with oil prices that could be anywhere.",
-      "source_url": "https://www.nytimes.com/2026/03/14/business/energy-environment/iran-strait-hormuz-oil-middle-east.html",
-      "date": "2026-03-14",
-      "timestamp": "2026-03-14T22:19:33.659394+00:00",
-      "theme": "grid_readiness"
-    },
     {
       "text": "cost of living pressure, rates rising, budget incoming. and still no price on pollution.",
       "source_url": "https://www.theguardian.com/business/2026/mar/15/no-recession-but-inflation-hike-and-increased-cost-of-living-pressure-on-the-way-jim-chalmers-says",
@@ -683,6 +681,13 @@
       "date": "2026-03-21",
       "timestamp": "2026-03-21T20:46:25.299547+00:00",
       "theme": "grid_progress"
+    },
+    {
+      "text": "six ships cancelled and we're still not talking seriously about the domestic energy security angle. green power doesn't get cancelled because of a war in the middle east.",
+      "source_url": "https://www.theguardian.com/australia-news/2026/mar/22/six-fuel-ships-bound-for-australia-cancelled-as-bowen-concedes-flow-of-oil-to-asian-refineries-has-slowed",
+      "date": "2026-03-22",
+      "timestamp": "2026-03-22T10:47:40.893758+00:00",
+      "theme": "australia_opportunity"
     }
   ],
   "replied_to": [
