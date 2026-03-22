@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "run_id": "2026-03-22T02-01-50Z",
+  "timestamp": "2026-03-22T02:01:50.967963+00:00",
+  "run_type": "scheduled",
+  "outcome": "skipped_random",
+  "timing": {
+    "sleep_hours": false,
+    "skipped_randomly": true,
+    "pre_post_delay_minutes": 0,
+    "engage_gap_delay_minutes": 0
+  },
+  "feed_intake": null,
+  "story_selection": null,
+  "post_generation": null,
+  "publishing": null,
+  "engagement": null,
+  "errors": []
+}
