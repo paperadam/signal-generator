@@ -568,7 +568,11 @@
     "https://www.abc.net.au/news/2026-03-23/talia-gibson-continues-dream-run-at-miami-open/106485220",
     "https://www.abc.net.au/news/2026-03-23/cyclist-debora-silvestri-has-five-broken-ribs-after-horror-crash/106485254",
     "https://www.abc.net.au/news/2026-03-23/jess-hull-wins-second-world-indoor-medal-in-1500-metres/106485142",
-    "https://www.abc.net.au/news/2026-03-23/how-matildas-fared-asian-cup-kennedy-kerr-fowler/106483936"
+    "https://www.abc.net.au/news/2026-03-23/how-matildas-fared-asian-cup-kennedy-kerr-fowler/106483936",
+    "https://www.theguardian.com/commentisfree/2026/mar/24/australian-gas-companies-massive-profits-paying-minimal-tax",
+    "https://www.nytimes.com/2026/03/23/world/middleeast/iran-war-trump.html",
+    "https://www.nytimes.com/2026/03/23/world/us-iran-talks-denmark-election.html",
+    "https://www.abc.net.au/news/2026-03-24/brendon-mccullum-ben-stokes-keep-jobs-in-england-ashes-review/106489084"
   ],
   "posts": [
     {
@@ -724,6 +728,13 @@
       "date": "2026-03-23",
       "timestamp": "2026-03-23T20:37:47.599525+00:00",
       "theme": "resource_rents"
+    },
+    {
+      "text": "gas companies paying minimal tax on massive profits while everyone else is struggling. this is why people don't trust us to manage the next wave properly.",
+      "source_url": "https://www.theguardian.com/commentisfree/2026/mar/24/australian-gas-companies-massive-profits-paying-minimal-tax",
+      "date": "2026-03-23",
+      "timestamp": "2026-03-23T22:30:43.796005+00:00",
+      "theme": "good_numbers"
     }
   ],
   "replied_to": [
