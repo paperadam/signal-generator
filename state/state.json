@@ -572,16 +572,13 @@
     "https://www.theguardian.com/commentisfree/2026/mar/24/australian-gas-companies-massive-profits-paying-minimal-tax",
     "https://www.nytimes.com/2026/03/23/world/middleeast/iran-war-trump.html",
     "https://www.nytimes.com/2026/03/23/world/us-iran-talks-denmark-election.html",
-    "https://www.abc.net.au/news/2026-03-24/brendon-mccullum-ben-stokes-keep-jobs-in-england-ashes-review/106489084"
+    "https://www.abc.net.au/news/2026-03-24/brendon-mccullum-ben-stokes-keep-jobs-in-england-ashes-review/106489084",
+    "https://www.abc.net.au/news/2026-03-24/queensland-deputy-premier-defends-olympic-games-rowing-venue/106335816",
+    "https://www.nytimes.com/2026/03/23/us/politics/trump-iran-gas-oil-strait.html",
+    "https://www.theguardian.com/australia-news/2026/mar/24/victoria-teachers-strike-aeu-education-union-public-schools-closed-classes-cancelled",
+    "https://www.theguardian.com/australia-news/2026/mar/23/petrol-stations-australia-fuel-crisis"
   ],
   "posts": [
-    {
-      "text": "339 miles of buried transmission line. new york city gets hydro from quebec this spring. that's years of permitting, boring, and grid coordination actually finishing on time.",
-      "source_url": "https://www.nytimes.com/2026/03/16/nyregion/hydro-power-nyc.html",
-      "date": "2026-03-16",
-      "timestamp": "2026-03-16T10:33:30.967081+00:00",
-      "theme": "grid_readiness"
-    },
     {
       "text": "australia talking about 1bn litres of fuel savings from evs. transmission capacity to charge them is a different conversation.",
       "source_url": "https://www.theguardian.com/environment/2026/mar/16/electric-vehicles-australia-reduce-reliance-on-foreign-fuel",
@@ -735,6 +732,13 @@
       "date": "2026-03-23",
       "timestamp": "2026-03-23T22:30:43.796005+00:00",
       "theme": "good_numbers"
+    },
+    {
+      "text": "we literally ran out of fuel and the fix is a deal with singapore. that's the supply chain we're depending on. i don't want to be dramatic but this is a pretty good argument for not being this exposed.",
+      "source_url": "https://www.theguardian.com/australia-news/2026/mar/23/petrol-stations-australia-fuel-crisis",
+      "date": "2026-03-24",
+      "timestamp": "2026-03-24T00:09:55.765792+00:00",
+      "theme": "energy_shortfalls"
     }
   ],
   "replied_to": [
@@ -746,13 +750,6 @@
     "at://did:plc:yopyqwnlr7xm36d4irfurebc/app.bsky.feed.post/3mhlixau7i22n"
   ],
   "replies": [
-    {
-      "post_uri": "at://did:plc:rp4rgamibrblojq7f7pgmuxc/app.bsky.feed.post/3mh4pejjgjs2t",
-      "text": "tariffs on steel and equipment hit mining and processing projects just as hard as they hit the things critical minerals are supposed to go into",
-      "author": "horadam.bsky.social",
-      "date": "2026-03-16",
-      "timestamp": "2026-03-16T02:47:24.837791+00:00"
-    },
     {
       "post_uri": "at://did:plc:syrr7wxueqwc73abmd2gj7wq/app.bsky.feed.post/3mh6iqxnha22c",
       "text": "green ammonia fertiliser from paraguay is an interesting one, local feedstocks, cheap hydro, and a product that basically every neighbour needs",
