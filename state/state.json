@@ -631,30 +631,21 @@
     "https://www.nytimes.com/2026/03/24/science/flying-foxes-australia-economy.html",
     "https://www.nytimes.com/2026/03/24/world/europe/europe-australian-trade-deal.html",
     "https://www.theguardian.com/global-development/2026/mar/24/pakistan-brick-kiln-workers-selling-kidney-debt-victims",
-    "https://www.nytimes.com/2026/03/23/arts/design/environmental-impact-art-collecting.html"
+    "https://www.nytimes.com/2026/03/23/arts/design/environmental-impact-art-collecting.html",
+    "https://www.nytimes.com/2026/03/24/world/middleeast/iran-war-middle-east-recap-tuesday.html",
+    "https://www.nytimes.com/2026/03/24/climate/baltimore-climate-lawsuit.html",
+    "https://www.nytimes.com/2026/03/24/world/middleeast/pakistan-iran-us-mediation.html",
+    "https://www.theguardian.com/australia-news/2026/mar/25/two-more-people-arrested-over-alleged-sydney-kidnapping-and-of-chris-baghsarian-ntwnfb",
+    "https://www.theguardian.com/australia-news/commentisfree/2026/mar/25/labor-is-copping-the-blame-for-the-us-excursion-in-iran-can-they-get-trump-out-of-the-drivers-seat",
+    "https://www.nytimes.com/2026/03/24/world/middleeast/iran-missiles-middle-east-trump-deal.html",
+    "https://www.abc.net.au/news/2026-03-25/england-players-react-to-ashes-review/106494160",
+    "https://www.theguardian.com/australia-news/2026/mar/25/is-this-australias-moment-to-embrace-renewables-ask-adam-morton-your-questions-now",
+    "https://www.nytimes.com/2026/03/24/world/oil-iran-asia-nasa-space.html",
+    "https://www.nytimes.com/2026/03/24/world/middleeast/us-iran-peace-plan.html",
+    "https://www.theguardian.com/australia-news/2026/mar/25/sydney-teenager-charged-with-terror-offences-after-allegedly-posting-threats-of-extremist-violence",
+    "https://www.abc.net.au/news/2026-03-25/football-australia-defends-matildas-malawi-india-kenya-games/106494056"
   ],
   "posts": [
-    {
-      "text": "australia talking about 1bn litres of fuel savings from evs. transmission capacity to charge them is a different conversation.",
-      "source_url": "https://www.theguardian.com/environment/2026/mar/16/electric-vehicles-australia-reduce-reliance-on-foreign-fuel",
-      "date": "2026-03-17",
-      "timestamp": "2026-03-17T00:36:33.167632+00:00",
-      "theme": "grid_readiness"
-    },
-    {
-      "text": "jerry can rush in australia. supply fine, nerves less so.",
-      "source_url": "https://www.theguardian.com/australia-news/2026/mar/17/australia-petrol-panic-buying-jerry-cans",
-      "date": "2026-03-17",
-      "timestamp": "2026-03-17T04:42:43.203159+00:00",
-      "theme": "green_iron"
-    },
-    {
-      "text": "offshore wind getting blocked in the us. australia's pipeline keeps moving.",
-      "source_url": "https://www.nytimes.com/2026/03/17/climate/offshore-wind-settlements-trump.html",
-      "date": "2026-03-17",
-      "timestamp": "2026-03-17T10:35:07.294753+00:00",
-      "theme": "australia_opportunity"
-    },
     {
       "text": "countries cutting back on energy. australia sits on the sun and wind to replace what they're scrambling for.",
       "source_url": "https://www.nytimes.com/2026/03/17/climate/iran-war-energy-use.html",
@@ -822,6 +813,13 @@
       "date": "2026-03-24",
       "timestamp": "2026-03-24T22:27:00.385426+00:00",
       "theme": "meta"
+    },
+    {
+      "text": "honestly this is the question i keep waiting for us to actually answer properly. not just debate. answer.",
+      "source_url": "https://www.theguardian.com/australia-news/2026/mar/25/is-this-australias-moment-to-embrace-renewables-ask-adam-morton-your-questions-now",
+      "date": "2026-03-25",
+      "timestamp": "2026-03-25T00:20:20.836202+00:00",
+      "theme": "china_watch"
     }
   ],
   "replied_to": [
@@ -833,13 +831,6 @@
     "at://did:plc:yopyqwnlr7xm36d4irfurebc/app.bsky.feed.post/3mhlixau7i22n"
   ],
   "replies": [
-    {
-      "post_uri": "at://did:plc:syrr7wxueqwc73abmd2gj7wq/app.bsky.feed.post/3mh6iqxnha22c",
-      "text": "green ammonia fertiliser from paraguay is an interesting one, local feedstocks, cheap hydro, and a product that basically every neighbour needs",
-      "author": "eib.org",
-      "date": "2026-03-17",
-      "timestamp": "2026-03-17T02:53:07.200058+00:00"
-    },
     {
       "post_uri": "at://did:plc:hspryewdnqqph5fe7tr2kdpr/app.bsky.feed.post/3mhjnfzh5is2o",
       "text": "sulphur is one of those inputs nobody talks about until it stops moving, and we produce heaps of it as a byproduct of lng processing so there's probably something there",
