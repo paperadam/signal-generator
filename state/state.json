@@ -703,7 +703,12 @@
     "https://www.theguardian.com/australia-news/2026/mar/25/australia-chinese-nationals-arriving-by-boat-indonesia-reports-surge",
     "https://www.theguardian.com/australia-news/2026/mar/25/fuel-crisis-australia-experiences",
     "https://www.theguardian.com/business/2026/mar/25/europe-could-face-iran-war-fuel-rationing-by-april-warns-shell-boss",
-    "https://www.theguardian.com/world/2026/mar/25/trump-war-in-iran-us-shift-global-chaos"
+    "https://www.theguardian.com/world/2026/mar/25/trump-war-in-iran-us-shift-global-chaos",
+    "https://www.nytimes.com/2026/03/25/climate/schumer-democrats-clean-energy.html",
+    "https://www.theguardian.com/australia-news/2026/mar/26/andrew-hastie-open-to-25-tax-on-gas-profits-and-says-multinationals-have-had-a-really-good-run-on-australian-wealth",
+    "https://www.theguardian.com/australia-news/audio/2026/mar/26/andrew-hastie-on-trumps-overconfident-iran-war-australian-politics-podcast",
+    "https://www.theguardian.com/business/2026/mar/25/us-postal-service-fuel-surcharge",
+    "https://www.theguardian.com/australia-news/2026/mar/25/australian-government-fuel-wholesalers-petrol-stations-run-dry"
   ],
   "posts": [
     {
@@ -887,6 +892,13 @@
       "date": "2026-03-26",
       "timestamp": "2026-03-26T00:39:24.900056+00:00",
       "theme": "general_reaction"
+    },
+    {
+      "text": "a liberal frontbencher floating a 25% gas tax is wild. that money should be going straight into green export infrastructure, not just a wealth fund that sits there.",
+      "source_url": "https://www.theguardian.com/australia-news/2026/mar/26/andrew-hastie-open-to-25-tax-on-gas-profits-and-says-multinationals-have-had-a-really-good-run-on-australian-wealth",
+      "date": "2026-03-26",
+      "timestamp": "2026-03-26T02:08:49.728815+00:00",
+      "theme": "trade_economics"
     }
   ],
   "replied_to": [
