@@ -715,7 +715,12 @@
     "https://www.theguardian.com/australia-news/2026/mar/26/neo-nazi-thomas-sewell-trial-alleged-attack-melbourne-indigenous-camp-ntwnfb",
     "https://www.theguardian.com/business/2026/mar/26/war-on-iran-inflation-rba-interest-rates-australia",
     "https://www.theguardian.com/australia-news/audio/2026/mar/26/andrew-hastie-on-trumps-overconfident-iran-war-full-story-podcast",
-    "https://www.theguardian.com/media/2026/mar/26/abc-bosss-utterly-offensive-comments-condemned-as-broadcaster-comes-back-online-after-strike"
+    "https://www.theguardian.com/media/2026/mar/26/abc-bosss-utterly-offensive-comments-condemned-as-broadcaster-comes-back-online-after-strike",
+    "https://www.theguardian.com/australia-news/2026/mar/26/afternoon-update-thursday-ntwnfb",
+    "https://www.theguardian.com/australia-news/2026/mar/26/tropical-cyclone-narelle-storm-flooding-wa-western-australia",
+    "https://www.theguardian.com/australia-news/2026/mar/26/tropical-cyclone-narelle-perth-tracking-map-wa-path-tracker-forecast-category-update-western-australia",
+    "https://www.theguardian.com/law/2026/mar/26/tech-companies-social-media-addictive-products-meta-youtube",
+    "https://www.nytimes.com/2026/03/26/world/asia/chinese-influencer-zhang-death.html"
   ],
   "posts": [
     {
@@ -913,6 +918,13 @@
       "date": "2026-03-26",
       "timestamp": "2026-03-26T04:23:08.805493+00:00",
       "theme": "good_numbers"
+    },
+    {
+      "text": "cyclone hitting wa and i immediately think about eyre peninsula infrastructure. hope the green iron sites they're scoping out there are built with this stuff in mind.",
+      "source_url": "https://www.theguardian.com/australia-news/2026/mar/26/tropical-cyclone-narelle-storm-flooding-wa-western-australia",
+      "date": "2026-03-26",
+      "timestamp": "2026-03-26T06:20:55.327360+00:00",
+      "theme": "green_iron"
     }
   ],
   "replied_to": [
