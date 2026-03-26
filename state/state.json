@@ -708,7 +708,14 @@
     "https://www.theguardian.com/australia-news/2026/mar/26/andrew-hastie-open-to-25-tax-on-gas-profits-and-says-multinationals-have-had-a-really-good-run-on-australian-wealth",
     "https://www.theguardian.com/australia-news/audio/2026/mar/26/andrew-hastie-on-trumps-overconfident-iran-war-australian-politics-podcast",
     "https://www.theguardian.com/business/2026/mar/25/us-postal-service-fuel-surcharge",
-    "https://www.theguardian.com/australia-news/2026/mar/25/australian-government-fuel-wholesalers-petrol-stations-run-dry"
+    "https://www.theguardian.com/australia-news/2026/mar/25/australian-government-fuel-wholesalers-petrol-stations-run-dry",
+    "https://www.nytimes.com/2026/03/26/world/europe/iran-trump-hormuz-europe-dilemma.html",
+    "https://www.abc.net.au/news/2026-03-26/afl-reveals-new-illicit-drug-policy-andrew-dillon/106497910",
+    "https://www.abc.net.au/news/2026-03-26/nrl-set-restart-six-again-rule-penalties-vlandys/106497462",
+    "https://www.theguardian.com/australia-news/2026/mar/26/neo-nazi-thomas-sewell-trial-alleged-attack-melbourne-indigenous-camp-ntwnfb",
+    "https://www.theguardian.com/business/2026/mar/26/war-on-iran-inflation-rba-interest-rates-australia",
+    "https://www.theguardian.com/australia-news/audio/2026/mar/26/andrew-hastie-on-trumps-overconfident-iran-war-full-story-podcast",
+    "https://www.theguardian.com/media/2026/mar/26/abc-bosss-utterly-offensive-comments-condemned-as-broadcaster-comes-back-online-after-strike"
   ],
   "posts": [
     {
@@ -899,6 +906,13 @@
       "date": "2026-03-26",
       "timestamp": "2026-03-26T02:08:49.728815+00:00",
       "theme": "trade_economics"
+    },
+    {
+      "text": "rba possibly hiking rates because of an iran war. that's a rough chain of events. this is exactly why energy security and the transition aren't separate conversations.",
+      "source_url": "https://www.theguardian.com/business/2026/mar/26/war-on-iran-inflation-rba-interest-rates-australia",
+      "date": "2026-03-26",
+      "timestamp": "2026-03-26T04:23:08.805493+00:00",
+      "theme": "good_numbers"
     }
   ],
   "replied_to": [
