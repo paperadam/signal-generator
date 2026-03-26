@@ -720,7 +720,15 @@
     "https://www.theguardian.com/australia-news/2026/mar/26/tropical-cyclone-narelle-storm-flooding-wa-western-australia",
     "https://www.theguardian.com/australia-news/2026/mar/26/tropical-cyclone-narelle-perth-tracking-map-wa-path-tracker-forecast-category-update-western-australia",
     "https://www.theguardian.com/law/2026/mar/26/tech-companies-social-media-addictive-products-meta-youtube",
-    "https://www.nytimes.com/2026/03/26/world/asia/chinese-influencer-zhang-death.html"
+    "https://www.nytimes.com/2026/03/26/world/asia/chinese-influencer-zhang-death.html",
+    "https://www.nytimes.com/live/2026/03/26/world/iran-war-israel-trump-oil",
+    "https://www.theguardian.com/business/2026/mar/26/oecd-finds-global-economy-on-brink-of-inflation-spike-due-to-us-israeli-attacks-on-iran-with-australia-not-immune",
+    "https://www.nytimes.com/2026/03/26/world/asia/india-pakistan-iran-trump-modi.html",
+    "https://www.nytimes.com/2026/03/26/world/americas/cubas-health-system-us-oil-blockade.html",
+    "https://www.nytimes.com/2026/03/26/climate/solar-energy-politics-campaigns.html",
+    "https://www.theguardian.com/australia-news/2026/mar/26/bondi-terror-attack-took-place-amid-global-spike-in-foiled-islamic-state-inspired-plots-researchers-find-ntwnfb",
+    "https://www.abc.net.au/news/2026-03-26/nrl-live-updates-manly-sea-eagles-roosters-daly-cherry-evans/106499234",
+    "https://www.theguardian.com/australia-news/2026/mar/26/australia-house-auction-clearance-rate-falls-interest-rates"
   ],
   "posts": [
     {
@@ -925,6 +933,13 @@
       "date": "2026-03-26",
       "timestamp": "2026-03-26T06:20:55.327360+00:00",
       "theme": "green_iron"
+    },
+    {
+      "text": "$4.2b pledged to fight back against the us rollbacks. honestly if that money finds its way into australian projects i'll be very happy about it.",
+      "source_url": "https://www.nytimes.com/2026/03/26/climate/solar-energy-politics-campaigns.html",
+      "date": "2026-03-26",
+      "timestamp": "2026-03-26T10:20:54.864192+00:00",
+      "theme": "good_numbers"
     }
   ],
   "replied_to": [
