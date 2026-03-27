@@ -764,7 +764,12 @@
     "https://www.theguardian.com/australia-news/2026/mar/27/wild-autumn-weather-delivers-snow-storms-and-power-cuts-to-eastern-australia",
     "https://www.nytimes.com/2026/03/26/world/middleeast/markets-revolt-trump-iran.html",
     "https://www.theguardian.com/culture/2026/mar/27/dark-mofo-2026-festival-dates-tickets-events-winter-solstice-swim-night-mass-party-hobart-tasmania",
-    "https://www.theguardian.com/australia-news/2026/mar/27/tropical-cyclone-narelle-perth-tracking-map-wa-path-tracker-forecast-category-update-western-australia"
+    "https://www.theguardian.com/australia-news/2026/mar/27/tropical-cyclone-narelle-perth-tracking-map-wa-path-tracker-forecast-category-update-western-australia",
+    "https://www.theguardian.com/media/2026/mar/27/kyle-sandilands-termination-case-court-ntwnfb",
+    "https://www.abc.net.au/news/2026-03-27/aoc-backs-ioc-rules-transgender-athletes-human-rights/106502332",
+    "https://www.theguardian.com/australia-news/2026/mar/27/swastika-lox-in-a-box-paddington-sydney-ntwnfb",
+    "https://www.abc.net.au/news/2026-03-27/sheffield-shield-final-live-scores-victoria-sa-day-two/106496590",
+    "https://www.theguardian.com/australia-news/2026/mar/27/tropical-cyclone-narelle-perth-flooding-storm-wa"
   ],
   "posts": [
     {
@@ -962,6 +967,13 @@
       "date": "2026-03-27",
       "timestamp": "2026-03-27T00:33:48.285493+00:00",
       "theme": "trade_economics"
+    },
+    {
+      "text": "cyclone narelle is wild. hope carnarvon and kalbarri come out ok, those communities are pretty isolated.",
+      "source_url": "https://www.theguardian.com/australia-news/2026/mar/27/tropical-cyclone-narelle-perth-flooding-storm-wa",
+      "date": "2026-03-27",
+      "timestamp": "2026-03-27T02:28:20.528774+00:00",
+      "theme": "general_reaction"
     }
   ],
   "replied_to": [
