@@ -758,37 +758,15 @@
     "https://www.theguardian.com/media/2026/mar/26/church-leaders-criticise-christian-owner-of-gb-news-over-channels-climate-attacks",
     "https://www.theguardian.com/business/2026/mar/26/ticketmaster-fees-hidden-charges",
     "https://www.theguardian.com/business/2026/mar/26/iran-war-us-gas-fuel-oil-fertilizer-prices",
-    "https://www.nytimes.com/2026/03/25/us/politics/trump-bipartisan-backlash-oil-sanctions-russia-iran.html"
+    "https://www.nytimes.com/2026/03/25/us/politics/trump-bipartisan-backlash-oil-sanctions-russia-iran.html",
+    "https://www.theguardian.com/media/commentisfree/2026/mar/27/murdoch-mastheads-at-odds-as-sexual-assault-survivor-speaks-up-about-the-australians-podcast",
+    "https://www.nytimes.com/2026/03/26/world/middleeast/war-iran-us-israel-recap.html",
+    "https://www.theguardian.com/australia-news/2026/mar/27/wild-autumn-weather-delivers-snow-storms-and-power-cuts-to-eastern-australia",
+    "https://www.nytimes.com/2026/03/26/world/middleeast/markets-revolt-trump-iran.html",
+    "https://www.theguardian.com/culture/2026/mar/27/dark-mofo-2026-festival-dates-tickets-events-winter-solstice-swim-night-mass-party-hobart-tasmania",
+    "https://www.theguardian.com/australia-news/2026/mar/27/tropical-cyclone-narelle-perth-tracking-map-wa-path-tracker-forecast-category-update-western-australia"
   ],
   "posts": [
-    {
-      "text": "gas companies barely paying resource tax on lng exports and we're watching qatar get hit and prices spike. this is exactly when owning a fair share of the upside would matter.",
-      "source_url": "https://www.nytimes.com/2026/03/18/business/energy-environment/israel-strikes-south-pars-gas-oil-prices.html",
-      "date": "2026-03-19",
-      "timestamp": "2026-03-19T04:49:04.650927+00:00",
-      "theme": "resource_rents"
-    },
-    {
-      "text": "power prices down 10% because wind and batteries are doing their thing. that's the economics working.",
-      "source_url": "https://www.theguardian.com/australia-news/2026/mar/19/power-bills-on-australias-east-coast-expected-to-fall-by-up-to-10-from-july-bringing-welcome-relief",
-      "date": "2026-03-19",
-      "timestamp": "2026-03-19T06:17:23.704667+00:00",
-      "theme": "carbon_pricing"
-    },
-    {
-      "text": "south pars is one of the biggest gas fields on the planet and it just got hit. our lng customers are watching this very closely.",
-      "source_url": "https://www.nytimes.com/2026/03/19/world/middleeast/trump-iran-south-pars-gas-field.html",
-      "date": "2026-03-19",
-      "timestamp": "2026-03-19T10:43:51.368563+00:00",
-      "theme": "good_numbers"
-    },
-    {
-      "text": "17% of qatar's lng gone for up to five years. japan and korea are going to be scrambling for alternatives. we should be moving faster on every green energy export we've got.",
-      "source_url": "https://www.theguardian.com/business/2026/mar/19/oil-prices-gas-prices-rise-iran-israel-donald-trump",
-      "date": "2026-03-19",
-      "timestamp": "2026-03-19T20:46:11.983458+00:00",
-      "theme": "trade_economics"
-    },
     {
       "text": "uk poll shows way more voters support net zero than oppose it. the anti-net-zero narrative is just loud, not big. same thing here honestly.",
       "source_url": "https://www.theguardian.com/environment/2026/mar/20/uk-public-support-net-zero-rightwing-media-rories-reform-analysis",
@@ -977,6 +955,13 @@
       "date": "2026-03-26",
       "timestamp": "2026-03-26T22:42:52.680593+00:00",
       "theme": "jobs_and_regions"
+    },
+    {
+      "text": "wild storms knocking out power to thousands and i'm sitting here thinking about how much renewable generation we're going to need to run green iron and aluminium at scale. grid resilience is not optional.",
+      "source_url": "https://www.theguardian.com/australia-news/2026/mar/27/wild-autumn-weather-delivers-snow-storms-and-power-cuts-to-eastern-australia",
+      "date": "2026-03-27",
+      "timestamp": "2026-03-27T00:33:48.285493+00:00",
+      "theme": "trade_economics"
     }
   ],
   "replied_to": [
