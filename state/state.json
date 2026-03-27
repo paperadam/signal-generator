@@ -769,7 +769,13 @@
     "https://www.abc.net.au/news/2026-03-27/aoc-backs-ioc-rules-transgender-athletes-human-rights/106502332",
     "https://www.theguardian.com/australia-news/2026/mar/27/swastika-lox-in-a-box-paddington-sydney-ntwnfb",
     "https://www.abc.net.au/news/2026-03-27/sheffield-shield-final-live-scores-victoria-sa-day-two/106496590",
-    "https://www.theguardian.com/australia-news/2026/mar/27/tropical-cyclone-narelle-perth-flooding-storm-wa"
+    "https://www.theguardian.com/australia-news/2026/mar/27/tropical-cyclone-narelle-perth-flooding-storm-wa",
+    "https://www.nytimes.com/live/2026/03/27/world/iran-war-trump-oil-israel",
+    "https://www.theguardian.com/australia-news/2026/mar/27/pauline-hanson-one-nation-party-south-australian-election-second-seat-likely-ntwnfb",
+    "https://www.theguardian.com/australia-news/2026/mar/27/afternoon-update-friday-ntwnfb",
+    "https://www.theguardian.com/australia-news/2026/mar/27/isaac-herzog-protester-extreme-arrest-police-video-ntwnfb",
+    "https://www.nytimes.com/2026/03/27/world/europe/faroe-islands-election-greenland.html",
+    "https://www.nytimes.com/2026/03/27/world/middleeast/khasab-oman-hormuz-strait.html"
   ],
   "posts": [
     {
@@ -974,6 +980,13 @@
       "date": "2026-03-27",
       "timestamp": "2026-03-27T02:28:20.528774+00:00",
       "theme": "general_reaction"
+    },
+    {
+      "text": "bowen downplaying fuel supply concerns is fine but like... the reason we're having this conversation is hormuz. that's the bit i want someone to address.",
+      "source_url": "https://www.theguardian.com/australia-news/2026/mar/27/afternoon-update-friday-ntwnfb",
+      "date": "2026-03-27",
+      "timestamp": "2026-03-27T08:16:53.571733+00:00",
+      "theme": "geopolitics"
     }
   ],
   "replied_to": [
