@@ -808,7 +808,11 @@
     "https://www.theguardian.com/us-news/2026/mar/27/minimum-wage-increase-california-new-york",
     "https://www.nytimes.com/2026/03/27/world/middleeast/iran-war-videos-arrests-uae-gulf-states.html",
     "https://www.nytimes.com/2026/03/27/magazine/iran-war-energy-climate-change.html",
-    "https://www.abc.net.au/news/2026-03-27/nrl-live-updates-warriors-vs-wests-tigers-broncos-vs-dolphins/106502564"
+    "https://www.abc.net.au/news/2026-03-27/nrl-live-updates-warriors-vs-wests-tigers-broncos-vs-dolphins/106502564",
+    "https://www.theguardian.com/australia-news/2026/mar/28/tropical-cyclone-narelle-wa-carnavon-exmouth-perth-bom-weather-warning-forecasts",
+    "https://www.abc.net.au/news/2026-03-28/nrl-live-updates-bulldogs-eels-panthers-storm/106506846",
+    "https://www.abc.net.au/news/2026-03-28/australia-women-defeat-west-indies-by-103-runs-in-first-odi/106506858",
+    "https://www.theguardian.com/world/2026/mar/27/weather-tracker-cold-weather-sweeps-europe-cyclone-hits-australia"
   ],
   "posts": [
     {
@@ -999,6 +1003,13 @@
       "date": "2026-03-28",
       "timestamp": "2026-03-28T00:22:31.811408+00:00",
       "theme": "jobs_and_regions"
+    },
+    {
+      "text": "gas infrastructure going down in wa right as a cyclone comes through. if we're serious about running energy intensive industry here we need grids that can handle this stuff, not just on paper.",
+      "source_url": "https://www.theguardian.com/australia-news/2026/mar/28/tropical-cyclone-narelle-wa-carnavon-exmouth-perth-bom-weather-warning-forecasts",
+      "date": "2026-03-28",
+      "timestamp": "2026-03-28T06:26:27.860545+00:00",
+      "theme": "manufacturing_relocation"
     }
   ],
   "replied_to": [
