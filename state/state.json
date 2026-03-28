@@ -812,7 +812,8 @@
     "https://www.theguardian.com/australia-news/2026/mar/28/tropical-cyclone-narelle-wa-carnavon-exmouth-perth-bom-weather-warning-forecasts",
     "https://www.abc.net.au/news/2026-03-28/nrl-live-updates-bulldogs-eels-panthers-storm/106506846",
     "https://www.abc.net.au/news/2026-03-28/australia-women-defeat-west-indies-by-103-runs-in-first-odi/106506858",
-    "https://www.theguardian.com/world/2026/mar/27/weather-tracker-cold-weather-sweeps-europe-cyclone-hits-australia"
+    "https://www.theguardian.com/world/2026/mar/27/weather-tracker-cold-weather-sweeps-europe-cyclone-hits-australia",
+    "https://www.nytimes.com/live/2026/03/28/world/iran-war-trump-israel-oil"
   ],
   "posts": [
     {
@@ -1010,6 +1011,13 @@
       "date": "2026-03-28",
       "timestamp": "2026-03-28T06:26:27.860545+00:00",
       "theme": "manufacturing_relocation"
+    },
+    {
+      "text": "hormuz is already a mess and now a us base in saudi gets hit. this is the kind of escalation that sends lng prices everywhere and makes the case for not being dependent on straits you can't control.",
+      "source_url": "https://www.nytimes.com/live/2026/03/28/world/iran-war-trump-israel-oil",
+      "date": "2026-03-28",
+      "timestamp": "2026-03-28T08:12:03.054893+00:00",
+      "theme": "china_watch"
     }
   ],
   "replied_to": [
