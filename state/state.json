@@ -813,7 +813,13 @@
     "https://www.abc.net.au/news/2026-03-28/nrl-live-updates-bulldogs-eels-panthers-storm/106506846",
     "https://www.abc.net.au/news/2026-03-28/australia-women-defeat-west-indies-by-103-runs-in-first-odi/106506858",
     "https://www.theguardian.com/world/2026/mar/27/weather-tracker-cold-weather-sweeps-europe-cyclone-hits-australia",
-    "https://www.nytimes.com/live/2026/03/28/world/iran-war-trump-israel-oil"
+    "https://www.nytimes.com/live/2026/03/28/world/iran-war-trump-israel-oil",
+    "https://www.nytimes.com/2026/03/28/world/middleeast/yemen-houthis-attack-israel-war.html",
+    "https://www.nytimes.com/2026/03/28/world/americas/castro-family-cuba-energy-crisis-trump.html",
+    "https://www.nytimes.com/2026/03/28/world/europe/iran-kurds-iraq-fighters.html",
+    "https://www.nytimes.com/2026/03/28/climate/clean-energy-trump-renewable.html",
+    "https://www.nytimes.com/2026/03/28/climate/thomas-jorling-endangerment-finding-clean-air-act-epa.html",
+    "https://www.abc.net.au/news/2026-03-28/f1-japanese-grand-prix-qualifying-oscar-piastri/106506644"
   ],
   "posts": [
     {
@@ -1018,6 +1024,13 @@
       "date": "2026-03-28",
       "timestamp": "2026-03-28T08:12:03.054893+00:00",
       "theme": "china_watch"
+    },
+    {
+      "text": "just saw that us geothermal is suddenly the hot thing because it's harder to kill politically than wind. hadn't really clocked how much of decarbonisation strategy is now about surviving trump, not about what's cheapest.",
+      "source_url": "https://www.nytimes.com/2026/03/28/climate/clean-energy-trump-renewable.html",
+      "date": "2026-03-28",
+      "timestamp": "2026-03-28T10:37:17.965957+00:00",
+      "theme": "trade_economics"
     }
   ],
   "replied_to": [
