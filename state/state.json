@@ -819,37 +819,21 @@
     "https://www.nytimes.com/2026/03/28/world/europe/iran-kurds-iraq-fighters.html",
     "https://www.nytimes.com/2026/03/28/climate/clean-energy-trump-renewable.html",
     "https://www.nytimes.com/2026/03/28/climate/thomas-jorling-endangerment-finding-clean-air-act-epa.html",
-    "https://www.abc.net.au/news/2026-03-28/f1-japanese-grand-prix-qualifying-oscar-piastri/106506644"
+    "https://www.abc.net.au/news/2026-03-28/f1-japanese-grand-prix-qualifying-oscar-piastri/106506644",
+    "https://www.nytimes.com/2026/03/28/world/middleeast/iran-israel-united-states-war-recap.html",
+    "https://www.abc.net.au/news/2026-03-29/sheffield-shield-final-live-scores-victoria-sa-day-four/106496594",
+    "https://www.theguardian.com/australia-news/2026/mar/29/australians-celebrate-diverse-religious-festivals-ntwnfb",
+    "https://www.theguardian.com/australia-news/2026/mar/29/victorian-liberal-party-moira-deeming-preselection",
+    "https://www.theguardian.com/australia-news/2026/mar/29/victoria-free-public-transport-april-petrol-prices",
+    "https://www.theguardian.com/commentisfree/2026/mar/29/australia-waterhole-ravaged-by-time-still-shining",
+    "https://www.theguardian.com/commentisfree/2026/mar/29/surging-anxiety-australia-national-security-patriotism-ntwnfb",
+    "https://www.theguardian.com/australia-news/2026/mar/28/father-son-riding-vespa-australia-italy",
+    "https://www.theguardian.com/australia-news/2026/mar/28/psychology-panic-buying-stockpiling-scarcity-mindset",
+    "https://www.nytimes.com/2026/03/28/world/middleeast/iran-pakistan-diplomacy.html",
+    "https://www.nytimes.com/2026/03/28/briefing/present-company.html",
+    "https://www.abc.net.au/news/2026-03-28/funding-boost-for-womens-running-safety-program-in-nsw/106506732"
   ],
   "posts": [
-    {
-      "text": "new york delaying climate rules because energy prices are high. meanwhile we've got cheap renewables and could be selling green iron instead of raw ore. that's the difference.",
-      "source_url": "https://www.nytimes.com/2026/03/20/nyregion/hochul-new-york-climate-law-delay.html",
-      "date": "2026-03-21",
-      "timestamp": "2026-03-21T00:37:39.930221+00:00",
-      "theme": "green_iron"
-    },
-    {
-      "text": "rba hiking rates while an energy shock is building in real time. if we were further along on green exports we'd have way more insulation from this kind of thing.",
-      "source_url": "https://www.theguardian.com/australia-news/video/2026/mar/21/will-the-iran-war-trigger-another-recession-we-have-to-have-back-to-back-barries-podcast",
-      "date": "2026-03-21",
-      "timestamp": "2026-03-21T08:28:57.037238+00:00",
-      "theme": "procurement_signals"
-    },
-    {
-      "text": "us lifting sanctions on iranian oil because markets are freaking out. if we had more green iron and green energy exports in the mix we wouldn't be this exposed every time the middle east blows up.",
-      "source_url": "https://www.nytimes.com/live/2026/03/21/world/iran-war-oil-trump",
-      "date": "2026-03-21",
-      "timestamp": "2026-03-21T10:27:54.594399+00:00",
-      "theme": "green_iron"
-    },
-    {
-      "text": "fuel rationing chat is back and we haven't even sorted our strategic reserves properly. this is the exact kind of thing that makes green energy self-sufficiency not just an export story but a domestic one.",
-      "source_url": "https://www.theguardian.com/australia-news/2026/mar/22/australia-last-rationed-fuel-in-the-1970s-could-we-do-it-again",
-      "date": "2026-03-21",
-      "timestamp": "2026-03-21T20:46:25.299547+00:00",
-      "theme": "grid_progress"
-    },
     {
       "text": "six ships cancelled and we're still not talking seriously about the domestic energy security angle. green power doesn't get cancelled because of a war in the middle east.",
       "source_url": "https://www.theguardian.com/australia-news/2026/mar/22/six-fuel-ships-bound-for-australia-cancelled-as-bowen-concedes-flow-of-oil-to-asian-refineries-has-slowed",
@@ -1031,6 +1015,13 @@
       "date": "2026-03-28",
       "timestamp": "2026-03-28T10:37:17.965957+00:00",
       "theme": "trade_economics"
+    },
+    {
+      "text": "free public transport is genuinely good but i keep thinking about regional areas that don't have it. all this energy shock stuff hits people in gladstone or mount isa way harder and there's no bus to jump on.",
+      "source_url": "https://www.theguardian.com/australia-news/2026/mar/29/victoria-free-public-transport-april-petrol-prices",
+      "date": "2026-03-29",
+      "timestamp": "2026-03-29T00:36:25.650985+00:00",
+      "theme": "jobs_and_regions"
     }
   ],
   "replied_to": [
@@ -1041,20 +1032,5 @@
     "at://did:plc:hspryewdnqqph5fe7tr2kdpr/app.bsky.feed.post/3mhjnfzh5is2o",
     "at://did:plc:yopyqwnlr7xm36d4irfurebc/app.bsky.feed.post/3mhlixau7i22n"
   ],
-  "replies": [
-    {
-      "post_uri": "at://did:plc:hspryewdnqqph5fe7tr2kdpr/app.bsky.feed.post/3mhjnfzh5is2o",
-      "text": "sulphur is one of those inputs nobody talks about until it stops moving, and we produce heaps of it as a byproduct of lng processing so there's probably something there",
-      "author": "vacheestfachee.bsky.social",
-      "date": "2026-03-21",
-      "timestamp": "2026-03-21T02:47:31.740160+00:00"
-    },
-    {
-      "post_uri": "at://did:plc:yopyqwnlr7xm36d4irfurebc/app.bsky.feed.post/3mhlixau7i22n",
-      "text": "yeah exactly, grey hydrogen in ammonia production is a massive unaccounted emission and replacing it is way more tractable than fuel cell trucks",
-      "author": "nerdburglar.bsky.social",
-      "date": "2026-03-21",
-      "timestamp": "2026-03-21T22:22:58.961005+00:00"
-    }
-  ]
+  "replies": []
 }
