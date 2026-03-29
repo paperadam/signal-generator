@@ -831,7 +831,16 @@
     "https://www.theguardian.com/australia-news/2026/mar/28/psychology-panic-buying-stockpiling-scarcity-mindset",
     "https://www.nytimes.com/2026/03/28/world/middleeast/iran-pakistan-diplomacy.html",
     "https://www.nytimes.com/2026/03/28/briefing/present-company.html",
-    "https://www.abc.net.au/news/2026-03-28/funding-boost-for-womens-running-safety-program-in-nsw/106506732"
+    "https://www.abc.net.au/news/2026-03-28/funding-boost-for-womens-running-safety-program-in-nsw/106506732",
+    "https://www.theguardian.com/news/2026/mar/29/hurricane-melissa-aftermath-jamaica",
+    "https://www.abc.net.au/news/2026-03-29/nrl-live-updates-raiders-harks-titans-dragons/106508782",
+    "https://www.theguardian.com/australia-news/2026/mar/29/business-fears-serious-interventions-needed-to-reduce-demand-as-labor-warns-of-long-term-fuel-shock",
+    "https://www.nytimes.com/2026/03/29/world/middleeast/iran-missiles-war.html",
+    "https://www.nytimes.com/2026/03/29/world/asia/korea-seoul-gangnam-slum.html",
+    "https://www.abc.net.au/news/2026-03-29/gordon-ingate-wingnut-australias-oldest-living-olympian-100yo/106508466",
+    "https://www.theguardian.com/australia-news/2026/mar/29/exmouth-isolated-and-inundated-in-wake-of-cyclone-narelle-as-chevron-works-to-restart-stalled-gas-plants",
+    "https://www.abc.net.au/news/2026-03-29/afl-round-three-sunday-live-blog-port-wce-carl-melb/106504820",
+    "https://www.theguardian.com/australia-news/video/2026/mar/29/father-and-son-describe-their-coming-of-age-pilgrimage-from-australia-to-italy-on-a-vespa-video"
   ],
   "posts": [
     {
@@ -1022,6 +1031,13 @@
       "date": "2026-03-29",
       "timestamp": "2026-03-29T00:36:25.650985+00:00",
       "theme": "jobs_and_regions"
+    },
+    {
+      "text": "68% support a pollution levy when you explain the household rebates. that's not a fringe position, that's a majority. and eu carbon border tariffs are coming whether we price carbon or not, so like... what are we waiting for.",
+      "source_url": "https://www.theguardian.com/australia-news/2026/mar/29/business-fears-serious-interventions-needed-to-reduce-demand-as-labor-warns-of-long-term-fuel-shock",
+      "date": "2026-03-29",
+      "timestamp": "2026-03-29T06:20:43.008184+00:00",
+      "theme": "carbon_pricing"
     }
   ],
   "replied_to": [
