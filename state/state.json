@@ -843,16 +843,34 @@
     "https://www.theguardian.com/australia-news/video/2026/mar/29/father-and-son-describe-their-coming-of-age-pilgrimage-from-australia-to-italy-on-a-vespa-video",
     "https://www.nytimes.com/live/2026/03/29/world/iran-war-trump-israel-oil",
     "https://www.abc.net.au/news/2026-03-29/f1-japanese-grand-prix-quick-hits-oliver-bearman-crash/106508684",
-    "https://www.nytimes.com/2026/03/29/business/energy-environment/iran-war-natural-gas.html"
+    "https://www.nytimes.com/2026/03/29/business/energy-environment/iran-war-natural-gas.html",
+    "https://www.theguardian.com/australia-news/live/2026/mar/30/australia-politics-live-national-cabinet-fuel-prices-oil-crisis-labor-anthony-albanese-chris-bowen-coalition-angus-taylor-ntwnfb",
+    "https://www.nytimes.com/live/2026/03/29/world/iran-war-trump-israel-oil/regional-officials-pakistan-meeting",
+    "https://www.theguardian.com/australia-news/live/2026/mar/30/dezi-freeman-update-news-shot-dead-by-police-australia-fugitive-victoria-porepunkah-shooting-live-updates-latest-ntwnfb",
+    "https://www.theguardian.com/australia-news/2026/mar/30/dezi-freeman-who-where-found-shot-dead-victoria-police-porepunkah-shooting-suspect-australia-ntwnfb",
+    "https://www.nytimes.com/2026/03/29/world/middleeast/trump-says-iran-agreed-to-allow-20-more-ships-of-oil-through-strait-of-hormuz.html",
+    "https://www.theguardian.com/australia-news/2026/mar/30/labor-to-halve-fuel-excise-on-petrol-and-diesel-for-three-months-after-national-cabinet-meeting",
+    "https://www.theguardian.com/australia-news/video/2026/mar/30/dezi-freeman-porepunkah-shooter-fugative-shot-dead-police-after-manhunt-ntwnfb",
+    "https://www.theguardian.com/australia-news/2026/mar/30/dezi-freeman-shot-dead-police-shooting-victoria-porepunkah-ntwnfb",
+    "https://www.nytimes.com/2026/03/29/world/middleeast/iran-israel-united-states-war-recap.html",
+    "https://www.theguardian.com/australia-news/commentisfree/2026/mar/30/trump-is-impotently-railing-against-the-uss-allies-albanese-is-right-to-avoid-the-presidents-global-catastrophe",
+    "https://www.abc.net.au/news/2026-03-30/kristina-clonan-track-cycling-injury-bobsleigh/106508300",
+    "https://www.abc.net.au/news/2026-03-30/sheffield-shield-final-live-scores-victoria-sa-day-five/106496596",
+    "https://www.nytimes.com/2026/03/29/world/americas/cuba-russian-oil-tanlker.html",
+    "https://www.abc.net.au/news/2026-03-30/cameron-green-ipl-ajinkya-rahane-frustration/106509824",
+    "https://www.nytimes.com/2026/03/29/world/israel-lebanon-hezbollah-war-iran.html",
+    "https://www.abc.net.au/news/2026-03-30/sam-kerr-returns-to-chelsea-with-goal-against-aston-villa/106509770",
+    "https://www.abc.net.au/news/2026-03-30/kylie-minogue-named-afl-grand-final-pre-game-entertainment/106509752",
+    "https://www.nytimes.com/2026/03/29/world/australia/australia-red-sky-tropical-cyclone.html",
+    "https://www.nytimes.com/2026/03/29/world/middleeast/injured-us-troops-saudi-arabia.html",
+    "https://www.theguardian.com/business/2026/mar/29/boomer-small-business-owner",
+    "https://www.theguardian.com/australia-news/2026/mar/30/as-the-fuel-crisis-worsens-and-more-sectors-call-for-help-labor-must-be-prepared-to-make-tough-choices",
+    "https://www.theguardian.com/australia-news/audio/2026/mar/30/whats-behind-the-push-for-more-australian-babies-full-story-podcast",
+    "https://www.theguardian.com/us-news/2026/mar/29/hawaii-farm-recovery-after-storm-flood",
+    "https://www.theguardian.com/business/2026/mar/29/oil-monthly-surge-record-iran-war-markets-gold",
+    "https://www.theguardian.com/society/2026/mar/29/yigby-churches-build-housing-amid-shortage"
   ],
   "posts": [
-    {
-      "text": "six ships cancelled and we're still not talking seriously about the domestic energy security angle. green power doesn't get cancelled because of a war in the middle east.",
-      "source_url": "https://www.theguardian.com/australia-news/2026/mar/22/six-fuel-ships-bound-for-australia-cancelled-as-bowen-concedes-flow-of-oil-to-asian-refineries-has-slowed",
-      "date": "2026-03-22",
-      "timestamp": "2026-03-22T10:47:40.893758+00:00",
-      "theme": "australia_opportunity"
-    },
     {
       "text": "refreshed the feed three times while writing this post",
       "source_url": "",
@@ -1048,6 +1066,13 @@
       "date": "2026-03-29",
       "timestamp": "2026-03-29T10:41:55.771956+00:00",
       "theme": "embedded_energy_trade"
+    },
+    {
+      "text": "brent up 51% in a single month. honestly did not think it would move that fast. and we're still collecting basically nothing extra on lng exports while this is happening.",
+      "source_url": "https://www.theguardian.com/business/2026/mar/29/oil-monthly-surge-record-iran-war-markets-gold",
+      "date": "2026-03-30",
+      "timestamp": "2026-03-30T02:18:41.693715+00:00",
+      "theme": "resource_rents"
     }
   ],
   "replied_to": [
