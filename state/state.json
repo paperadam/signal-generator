@@ -877,7 +877,38 @@
     "https://www.nytimes.com/2026/03/29/world/middleeast/us-precision-strike-missile-iran-lamerd.html",
     "https://www.abc.net.au/news/2026-03-30/australia-beat-west-indies-in-second-odi/106511512",
     "https://www.theguardian.com/australia-news/2026/mar/30/first-nations-childrens-commissioner-sue-anne-hunter-interview-ntwnfb",
-    "https://www.theguardian.com/australia-news/2026/mar/30/farmers-plead-for-tax-breaks-diesel-guarantees-and-help-buying-fertiliser-as-national-cabinet-meets-on-fuel-crisis"
+    "https://www.theguardian.com/australia-news/2026/mar/30/farmers-plead-for-tax-breaks-diesel-guarantees-and-help-buying-fertiliser-as-national-cabinet-meets-on-fuel-crisis",
+    "https://www.nytimes.com/live/2026/03/30/world/iran-war-trump-oil-news",
+    "https://www.nytimes.com/2026/03/30/us/politics/iran-leaders-trump-war.html",
+    "https://www.nytimes.com/2026/03/30/world/middleeast/trump-iran-threats-kharg-island.html",
+    "https://www.theguardian.com/australia-news/live/2026/mar/31/australian-politics-live-social-media-ban-cost-of-living-fuel-crisis-excise-inflation-anthony-albanese-jim-chalmers-budget-ntwnfb",
+    "https://www.theguardian.com/australia-news/2026/mar/31/morning-mail-tuesday-ntwnfb",
+    "https://www.theguardian.com/australia-news/2026/mar/31/australias-most-high-profile-manhunt-ended-in-a-sleepy-high-country-farming-community-but-how-did-dezi-freeman-get-to-thologolong-ntwnfb",
+    "https://www.nytimes.com/2026/03/30/world/middleeast/israel-death-penalty-palestinians-attacks.html",
+    "https://www.nytimes.com/2026/03/30/world/americas/russian-oil-tanker-cuba.html",
+    "https://www.nytimes.com/2026/03/30/world/americas/luis-carlos-rua-colombia-senator.html",
+    "https://www.nytimes.com/2026/03/30/world/middleeast/iran-universities-strikes.html",
+    "https://www.nytimes.com/2026/03/30/world/middleeast/trump-regime-change-iran.html",
+    "https://www.nytimes.com/2026/03/30/world/middleeast/yemen-assassination-lawsuit-americans.html",
+    "https://www.nytimes.com/2026/03/30/world/europe/parma-art-heist-renoir-matisse-cezanne-italy.html",
+    "https://www.nytimes.com/live/2026/world/us-israel-iran-attack-maps/analysis-shows-where-a-new-us-missile-hit-an-iranian-sports-hall-and-school",
+    "https://www.nytimes.com/2026/03/30/world/middleeast/trump-iran-kharg-island.html",
+    "https://www.theguardian.com/business/2026/mar/30/price-of-oil-trump-iran-stock-markets-middle-east",
+    "https://www.theguardian.com/australia-news/2026/mar/30/australians-may-not-see-cheaper-fuel-for-weeks-despite-labors-excise-cuts",
+    "https://www.theguardian.com/australia-news/2026/mar/31/the-arguments-for-and-against-making-public-transport-free-as-australian-fuel-costs-soar",
+    "https://www.theguardian.com/australia-news/2026/mar/30/albanese-trump-iran-energy-crisis-analysis",
+    "https://www.nytimes.com/2026/03/30/world/australia/australia-melbourne-free-transit.html",
+    "https://www.nytimes.com/2026/03/30/world/middleeast/israel-west-bank-battalion.html",
+    "https://www.nytimes.com/2026/03/30/world/australia/australia-fugitive-police-killing.html",
+    "https://www.abc.net.au/news/2026-03-30/super-netball-round-up-round-three-austin-period-shorts-cholhok/106513772",
+    "https://www.theguardian.com/world/2026/mar/30/how-could-us-forcibly-reopen-strait-of-hormuz-iran-what-are-the-risks",
+    "https://www.nytimes.com/2026/03/30/travel/travel-influencer-destinations.html",
+    "https://www.nytimes.com/2026/03/30/world/middleeast/dubai-dream-war-iran.html",
+    "https://www.abc.net.au/news/2026-03-30/afl-tristan-xerri-suspended-andrew-mcgrath-blood-tribunal/106513512",
+    "https://www.theguardian.com/australia-news/2026/mar/30/fuel-crisis-australia-government-measures-excise-explained-petrol-prices-cheaper",
+    "https://www.abc.net.au/news/2026-03-30/nrl-jamal-fogarty-manly-anthony-seibold-sacking-disappointing/106513404",
+    "https://www.theguardian.com/australia-news/video/2026/mar/30/dezi-freeman-what-we-know-about-the-three-hour-siege-that-led-to-the-fugitives-death-video-ntwnfb",
+    "https://www.nytimes.com/2026/03/29/world/middleeast/trump-iran-hormuz-ships-oil.html"
   ],
   "posts": [
     {
@@ -1089,6 +1120,13 @@
       "date": "2026-03-30",
       "timestamp": "2026-03-30T04:46:11.276110+00:00",
       "theme": "green_iron"
+    },
+    {
+      "text": "brent at $116 and we're still having the same argument about whether to put a proper resource rent tax on lng. the timing on this stuff is genuinely wild.",
+      "source_url": "https://www.theguardian.com/business/2026/mar/30/price-of-oil-trump-iran-stock-markets-middle-east",
+      "date": "2026-03-30",
+      "timestamp": "2026-03-30T20:22:41.412322+00:00",
+      "theme": "general_reaction"
     }
   ],
   "replied_to": [
