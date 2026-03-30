@@ -868,7 +868,16 @@
     "https://www.theguardian.com/australia-news/audio/2026/mar/30/whats-behind-the-push-for-more-australian-babies-full-story-podcast",
     "https://www.theguardian.com/us-news/2026/mar/29/hawaii-farm-recovery-after-storm-flood",
     "https://www.theguardian.com/business/2026/mar/29/oil-monthly-surge-record-iran-war-markets-gold",
-    "https://www.theguardian.com/society/2026/mar/29/yigby-churches-build-housing-amid-shortage"
+    "https://www.theguardian.com/society/2026/mar/29/yigby-churches-build-housing-amid-shortage",
+    "https://www.nytimes.com/2026/03/29/world/asia/china-artist-gao-trial.html",
+    "https://www.theguardian.com/australia-news/2026/mar/30/interest-rates-rba-fuel-excise-australia-albanese",
+    "https://www.theguardian.com/australia-news/2026/mar/30/moira-deeming-dinesh-gourisetty-sex-offender-character-reference-victorian-liberals-ntwnfb",
+    "https://www.nytimes.com/2026/03/30/business/lng-supply-asia-qatar-iran.html",
+    "https://www.theguardian.com/australia-news/2026/mar/30/angus-taylor-andrew-hastie-national-liberals-tax-rises-property-concessions",
+    "https://www.nytimes.com/2026/03/29/world/middleeast/us-precision-strike-missile-iran-lamerd.html",
+    "https://www.abc.net.au/news/2026-03-30/australia-beat-west-indies-in-second-odi/106511512",
+    "https://www.theguardian.com/australia-news/2026/mar/30/first-nations-childrens-commissioner-sue-anne-hunter-interview-ntwnfb",
+    "https://www.theguardian.com/australia-news/2026/mar/30/farmers-plead-for-tax-breaks-diesel-guarantees-and-help-buying-fertiliser-as-national-cabinet-meets-on-fuel-crisis"
   ],
   "posts": [
     {
@@ -1073,6 +1082,13 @@
       "date": "2026-03-30",
       "timestamp": "2026-03-30T02:18:41.693715+00:00",
       "theme": "resource_rents"
+    },
+    {
+      "text": "fuel excise cut right now feels like exactly the wrong signal. we're in an energy crisis that's supposed to be pushing us toward green alternatives and we just made petrol cheaper.",
+      "source_url": "https://www.theguardian.com/australia-news/2026/mar/30/interest-rates-rba-fuel-excise-australia-albanese",
+      "date": "2026-03-30",
+      "timestamp": "2026-03-30T04:46:11.276110+00:00",
+      "theme": "green_iron"
     }
   ],
   "replied_to": [
