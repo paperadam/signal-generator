@@ -931,7 +931,15 @@
     "https://www.abc.net.au/news/2026-03-31/australian-water-polo-sharks-luke-pavillard-croatia/106516066",
     "https://www.theguardian.com/australia-news/2026/mar/31/afternoon-update-tuesday-ntwnfb",
     "https://www.theguardian.com/australia-news/2026/mar/31/australia-university-fees-scheme-reform-delays",
-    "https://www.nytimes.com/live/2026/03/31/world/iran-war-oil-trump/strait-of-hormuz-toll-iran"
+    "https://www.nytimes.com/live/2026/03/31/world/iran-war-oil-trump/strait-of-hormuz-toll-iran",
+    "https://www.nytimes.com/2026/03/31/world/asia/senators-taiwan-military.html",
+    "https://www.theguardian.com/environment/2026/mar/31/japan-oysters-dying-death-rate-warming-seas-hiroshima",
+    "https://www.nytimes.com/2026/03/31/us/politics/trump-faces-a-decision-on-whether-to-start-a-ground-war-in-iran.html",
+    "https://www.nytimes.com/2026/03/31/world/europe/russia-internet-restrictions.html",
+    "https://www.nytimes.com/2026/03/31/world/europe/europe-spending-problem-military-domestic.html",
+    "https://www.nytimes.com/2026/03/31/world/canada/canada-astronaut-artemis-ii-mission-moon.html",
+    "https://www.abc.net.au/news/2026-03-31/socceroos-vs-cura%C3%A7ao-fifa-series-friendly-melbourne-live-blog/106517182",
+    "https://www.theguardian.com/australia-news/2026/mar/31/jim-chalmers-claims-removing-card-surcharges-will-ease-cost-of-living-pressures-but-will-you-be-better-off"
   ],
   "posts": [
     {
@@ -1136,6 +1144,13 @@
       "date": "2026-03-31",
       "timestamp": "2026-03-31T08:30:05.702118+00:00",
       "theme": "good_numbers"
+    },
+    {
+      "text": "japan's oysters dying because the ocean is too warm and they produce most of the country's supply. japan is also one of our biggest potential green export customers. this is the kind of thing that should be making those conversations more urgent.",
+      "source_url": "https://www.theguardian.com/environment/2026/mar/31/japan-oysters-dying-death-rate-warming-seas-hiroshima",
+      "date": "2026-03-31",
+      "timestamp": "2026-03-31T10:33:31.632280+00:00",
+      "theme": "australia_opportunity"
     }
   ],
   "replied_to": [
