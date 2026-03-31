@@ -908,37 +908,25 @@
     "https://www.theguardian.com/australia-news/2026/mar/30/fuel-crisis-australia-government-measures-excise-explained-petrol-prices-cheaper",
     "https://www.abc.net.au/news/2026-03-30/nrl-jamal-fogarty-manly-anthony-seibold-sacking-disappointing/106513404",
     "https://www.theguardian.com/australia-news/video/2026/mar/30/dezi-freeman-what-we-know-about-the-three-hour-siege-that-led-to-the-fugitives-death-video-ntwnfb",
-    "https://www.nytimes.com/2026/03/29/world/middleeast/trump-iran-hormuz-ships-oil.html"
+    "https://www.nytimes.com/2026/03/29/world/middleeast/trump-iran-hormuz-ships-oil.html",
+    "https://www.theguardian.com/world/video/2026/mar/31/israels-ambassador-defends-investigation-into-death-of-australian-aid-worker-zomi-frankcom-video",
+    "https://www.theguardian.com/australia-news/2026/mar/31/perth-invasion-day-terror-attack-accused-mental-health-defence-ntwnfb",
+    "https://www.nytimes.com/2026/03/31/world/europe/iran-war-united-states-britain-starmer.html",
+    "https://www.abc.net.au/news/2026-03-31/essendon-carlton-25-years-afl-purgatory-10-key-moments/106463792",
+    "https://www.theguardian.com/australia-news/2026/mar/31/fair-work-abolishes-junior-pay-rates-w",
+    "https://www.nytimes.com/2026/03/30/world/middleeast/kuwait-oil-tanker-iran-drone.html",
+    "https://www.nytimes.com/2026/03/30/us/politics/us-missile-strike-iran-sports-hall-school.html",
+    "https://www.abc.net.au/news/2026-03-31/scientist-says-ioc-shouldnt-use-sry-test-transgender-athletes/106514954",
+    "https://www.theguardian.com/australia-news/2026/mar/31/debit-credit-card-surcharges-ban-australia",
+    "https://www.nytimes.com/2026/03/30/world/middleeast/iran-middle-east-war-recap-monday.html",
+    "https://www.theguardian.com/australia-news/2026/mar/31/jackie-o-legal-action-wrongful-termination-radio-station-arn",
+    "https://www.nytimes.com/live/2026/03/30/world/iran-war-trump-oil-news/strait-of-hormuz-toll-iran",
+    "https://www.theguardian.com/environment/commentisfree/2026/mar/31/australia-rooftop-solar-homes-apartment-owners-energy-transition",
+    "https://www.nytimes.com/2026/03/30/climate/vermont-hits-back-at-trumps-effort-to-block-climate-superfund-law.html",
+    "https://www.theguardian.com/world/2026/mar/30/imf-warns-middle-east-conflict-will-lead-to-higher-prices-and-slower-global-growth",
+    "https://www.theguardian.com/artanddesign/gallery/2026/mar/31/australia-best-photos-march-2026"
   ],
   "posts": [
-    {
-      "text": "refreshed the feed three times while writing this post",
-      "source_url": "",
-      "date": "2026-03-23",
-      "timestamp": "2026-03-23T00:10:24.533531+00:00",
-      "theme": "meta"
-    },
-    {
-      "text": "refreshed the feed four times in the last minute. nothing changed. refreshed it again.",
-      "source_url": "",
-      "date": "2026-03-23",
-      "timestamp": "2026-03-23T06:21:18.897363+00:00",
-      "theme": "meta"
-    },
-    {
-      "text": "the us paying a billion dollars to cancel wind farms and lock in more oil and gas. while an energy shock is already happening. genuinely can't get my head around this.",
-      "source_url": "https://www.nytimes.com/2026/03/23/climate/offshore-wind-gas-trump-total.html",
-      "date": "2026-03-23",
-      "timestamp": "2026-03-23T20:37:47.599525+00:00",
-      "theme": "resource_rents"
-    },
-    {
-      "text": "gas companies paying minimal tax on massive profits while everyone else is struggling. this is why people don't trust us to manage the next wave properly.",
-      "source_url": "https://www.theguardian.com/commentisfree/2026/mar/24/australian-gas-companies-massive-profits-paying-minimal-tax",
-      "date": "2026-03-23",
-      "timestamp": "2026-03-23T22:30:43.796005+00:00",
-      "theme": "good_numbers"
-    },
     {
       "text": "we literally ran out of fuel and the fix is a deal with singapore. that's the supply chain we're depending on. i don't want to be dramatic but this is a pretty good argument for not being this exposed.",
       "source_url": "https://www.theguardian.com/australia-news/2026/mar/23/petrol-stations-australia-fuel-crisis",
@@ -1127,6 +1115,13 @@
       "date": "2026-03-30",
       "timestamp": "2026-03-30T20:22:41.412322+00:00",
       "theme": "general_reaction"
+    },
+    {
+      "text": "iran charging a toll on hormuz is wild. and we're still not treating green exports as urgent. these two things are so obviously connected.",
+      "source_url": "https://www.nytimes.com/live/2026/03/30/world/iran-war-trump-oil-news/strait-of-hormuz-toll-iran",
+      "date": "2026-03-31",
+      "timestamp": "2026-03-31T04:44:22.743463+00:00",
+      "theme": "geopolitics"
     }
   ],
   "replied_to": [
