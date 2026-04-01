@@ -1,0 +1,183 @@
+{
+  "version": 1,
+  "run_id": "2026-04-01T00-02-38Z",
+  "timestamp": "2026-04-01T00:02:38.394342+00:00",
+  "run_type": "scheduled",
+  "outcome": "skipped_no_posts",
+  "timing": {
+    "sleep_hours": false,
+    "skipped_randomly": false,
+    "pre_post_delay_minutes": 11.8,
+    "engage_gap_delay_minutes": 22.2
+  },
+  "feed_intake": {
+    "total_fetched": 72,
+    "matched_filters": 48,
+    "new_articles": 5,
+    "articles": [
+      {
+        "title": "\u2018Severe disinformation campaign\u2019 fuelling trans hate speech, Australia\u2019s sex discrimination commissioner says",
+        "source": "Australia news | The Guardian",
+        "link": "https://www.theguardian.com/australia-news/2026/apr/01/severe-disinformation-trans-hate-speech-australia-ntwnfb"
+      },
+      {
+        "title": "South Africa Sees Maritime Traffic Surge Amid Iran War",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/2026/03/31/world/africa/africa-iran-shipping-houthis.html"
+      },
+      {
+        "title": "Narges Mohammadi Denied Treatment after Heart Attack in Iranian Prison, Husband Says",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/live/2026/03/31/world/iran-war-oil-trump/narges-mohammadi-heart-attack-iranian-prison"
+      },
+      {
+        "title": "Daylight saving 2026: When does daylight savings end in Australia, and do clocks go back or forward in April? Here\u2019s when the time will change",
+        "source": "Australia news | The Guardian",
+        "link": "https://www.theguardian.com/australia-news/2026/apr/01/daylight-savings-2026-when-does-end-dst-saving-time-clocks-change-sydney-melbourne-australia"
+      },
+      {
+        "title": "Capital gains discount and negative gearing turbocharged property speculation and pushed up prices, analysis finds",
+        "source": "Australia news | The Guardian",
+        "link": "https://www.theguardian.com/australia-news/2026/apr/01/property-tax-rules-landlords-investments-house-prices-australia"
+      }
+    ]
+  },
+  "story_selection": {
+    "articles_considered": 5,
+    "selected_count": 3,
+    "selected_stories": [
+      {
+        "title": "\u2018Severe disinformation campaign\u2019 fuelling trans hate speech, Australia\u2019s sex discrimination commissioner says",
+        "source": "Australia news | The Guardian",
+        "link": "https://www.theguardian.com/australia-news/2026/apr/01/severe-disinformation-trans-hate-speech-australia-ntwnfb"
+      },
+      {
+        "title": "South Africa Sees Maritime Traffic Surge Amid Iran War",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/2026/03/31/world/africa/africa-iran-shipping-houthis.html"
+      },
+      {
+        "title": "Narges Mohammadi Denied Treatment after Heart Attack in Iranian Prison, Husband Says",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/live/2026/03/31/world/iran-war-oil-trump/narges-mohammadi-heart-attack-iranian-prison"
+      }
+    ],
+    "claude_raw_response": "[1, 4, 0]\n\nWait, let me reconsider based on the criteria: energy systems, industrial policy, supply chains, technology transitions, resource geopolitics, or climate markets.\n\n[1, 4, 2]\n\nReconsidering more carefully:\n\n[1, 4, 0]\n\nLet me be disciplined:\n\n- Article 1: South Africa maritime traffic surge due to Iran war = supply chains, resource geopolitics \u2713\n- Article 4: Tax policy and housing = somewhat related to industrial/investment policy \u2713\n- Others are social/human rights/time change stories\n\n[1, 4, 2]"
+  },
+  "post_generation": {
+    "stories_sent": 3,
+    "generated_posts": [],
+    "claude_raw_response": "Story 2 fits. Shipping rerouting around hormuz means longer supply chains and higher costs for everything moving through that corridor. That's more pressure on importers to lock in alternative energy sources.\n\n[{\"text\": \"cape of good hope traffic spiking is a real signal. every time the hormuz route gets sketchy, the case for not being dependent on it gets stronger. we have got to be ready with green alternatives when those conversations get serious.\", \"story_index\": 2}]"
+  },
+  "publishing": null,
+  "engagement": {
+    "search_queries_used": [
+      "renewable energy Australia",
+      "decarbonisation",
+      "industrial policy energy"
+    ],
+    "candidates_found": 43,
+    "candidates": [
+      {
+        "author": "granitefreeman.com",
+        "text": "if he played thar card, China would give renewable energy products to europe basically for free\n\ntrump would entrench china as THE global superpower \n\nchina's only \"threat\" would come from the entire ",
+        "likes": 0,
+        "query": "renewable energy Australia"
+      },
+      {
+        "author": "apauld.bsky.social",
+        "text": "oh #ffs #auspol do not cut petrol prices. \nLet everyone experience the idiocy of fossil fuel dependence. Provide widespread motivation to transition to Sustainable renewable energy and EV\u2018s. China is ",
+        "likes": 2,
+        "query": "renewable energy Australia"
+      },
+      {
+        "author": "mr-rusty.bsky.social",
+        "text": "Would be nice if it was true. More like \" Australia has just finished thinking about a 4000km renewable energy transmission line\"",
+        "likes": 2,
+        "query": "renewable energy Australia"
+      },
+      {
+        "author": "michaelmazengarb.bsky.social",
+        "text": "\u201cSouth Australia is facing a jobs boom as industries seek to access the State\u2019s unique combination of valuable minerals and world-class wind and solar renewable energy,\u201d ElectraNet CEO Simon Emms said",
+        "likes": 12,
+        "query": "renewable energy Australia"
+      },
+      {
+        "author": "adomatters.bsky.social",
+        "text": "Australia just completed a 4,000-kilometer renewable energy transmission line \u2014 the longest clean energy highway ever built \u2014 connecting massive outback solar and wind farms directly to coastal cities",
+        "likes": 1,
+        "query": "renewable energy Australia"
+      },
+      {
+        "author": "captainfluoro.bsky.social",
+        "text": "From fb, but seems legit:\n\nEyre Peninsula Renewable Energy Initiatives\nRoss Kassebaum\n\nclaims that Australia has completed a 4,000 km HVDC \u201cAustraliaLink\u201d transmission line\n\nhow truth can be stretched",
+        "likes": 2,
+        "query": "renewable energy Australia"
+      },
+      {
+        "author": "rlb-21.bsky.social",
+        "text": "Eyre Peninsula Renewable Energy Initiatives  \u00b7\nRoss Kassebaum  \u00b7\nYou may have seen claims that Australia has completed a 4,000 km HVDC \u201cAustraliaLink\u201d transmission line delivering outback solar and wi",
+        "likes": 3,
+        "query": "renewable energy Australia"
+      },
+      {
+        "author": "jptree.bsky.social",
+        "text": "Seems like pretty good timing to be relying more on renewable energy than leaning into becoming a giant petrostate. \n\nWell done, Australia!",
+        "likes": 4,
+        "query": "renewable energy Australia"
+      },
+      {
+        "author": "information-age.bsky.social",
+        "text": "Data centre operators should be required to prove they support renewable energy and publicly report their performance before they are allowed to build in Australia, says Torrens University Australia p",
+        "likes": 0,
+        "query": "renewable energy Australia"
+      },
+      {
+        "author": "codfather.bsky.social",
+        "text": "The original posters source.\nSource: Australian Renewable Energy Agency, TransGrid Australia, 2025",
+        "likes": 37,
+        "query": "renewable energy Australia"
+      },
+      {
+        "author": "codfather.bsky.social",
+        "text": "Three million Australian homes now receive clean electricity from this corridor, eliminating 18 million tons of coal combustion emissions annually and reducing household electricity bills by an averag",
+        "likes": 163,
+        "query": "renewable energy Australia"
+      },
+      {
+        "author": "eu-be.bsky.social",
+        "text": "Statkraft And Seven Major EU Power Companies Urge Brussels To Protect EU ETS And Speed Up Europe\u2019s Clean-Energy Transition\n\nhttps://www.europesays.com/be/9488/\n\nIIT Madras, Australian Varsities To Lau",
+        "likes": 0,
+        "query": "renewable energy Australia"
+      },
+      {
+        "author": "valoisdubins.bsky.social",
+        "text": "By the way, that site appears to be industry sponsored. \n\nEarlier, you were very concerned with the issue of people being paid to have opinions.",
+        "likes": 0,
+        "query": "renewable energy Australia"
+      },
+      {
+        "author": "bridotyrebhoy.bsky.social",
+        "text": " He currently leads strategic studies and policy evaluations on a global scale, focusing on emerging low-carbon technologies and industrial decarbonisation.",
+        "likes": 0,
+        "query": "decarbonisation"
+      },
+      {
+        "author": "aroundscotlandme.bsky.social",
+        "text": "POST 4 \u2013 DROPPED PLEDGES\n\u26a0\ufe0f Promises Changed: Home decarbonisation target dropped as \"unachievable.\" Rail decarbonisation pushed from 2035 to 2045. Income tax freeze pledges reversed. Context matters\u2014",
+        "likes": 0,
+        "query": "decarbonisation"
+      }
+    ],
+    "selected_post": {
+      "author": "michaelmazengarb.bsky.social",
+      "text": "\u201cSouth Australia is facing a jobs boom as industries seek to access the State\u2019s unique combination of valuable minerals and world-class wind and solar renewable energy,\u201d ElectraNet CEO Simon Emms said.\n\nInteresting implications for Aus and the data centre boom.\nreneweconomy.com.au/peak-load-is..."
+    },
+    "reply_text": "yeah south australia is kind of proving the whole model works, cheap renewables plus the minerals to process on top of it, data centres are just the start",
+    "reply_uri": "at://did:plc:h23qnlw7e7b4bj73ktu2bzyv/app.bsky.feed.post/3mifh5xbikp2h",
+    "reply_success": true,
+    "reply_error": "",
+    "claude_raw_response": "{\"selected\": 3, \"reply\": \"yeah south australia is kind of proving the whole model works, cheap renewables plus the minerals to process on top of it, data centres are just the start\"}"
+  },
+  "errors": []
+}
