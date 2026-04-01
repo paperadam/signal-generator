@@ -989,7 +989,9 @@
     "https://www.theguardian.com/australia-news/2026/apr/01/afternoon-update-wednesday-ntwnfb",
     "https://www.theguardian.com/commentisfree/picture/2026/apr/01/albo-will-speak-to-australians-on-tv-tonight-this-is-never-good",
     "https://www.abc.net.au/news/2026-04-01/graham-arnold-coaches-iraq-to-fifa-world-cup/106522826",
-    "https://www.theguardian.com/australia-news/2026/apr/01/western-australia-cyclone-narelle-damage-wildlife"
+    "https://www.theguardian.com/australia-news/2026/apr/01/western-australia-cyclone-narelle-damage-wildlife",
+    "https://www.theguardian.com/australia-news/2026/apr/01/australia-social-media-ban-adoption-world",
+    "https://www.theguardian.com/australia-news/2026/apr/01/albanese-prime-minister-address-nation-others-history"
   ],
   "posts": [
     {
@@ -1194,6 +1196,13 @@
       "date": "2026-04-01",
       "timestamp": "2026-04-01T06:34:56.051346+00:00",
       "theme": "carbon_pricing"
+    },
+    {
+      "text": "neither of these are about china's battery supply chain or green steel so i'm just going to say it: we could be doing a lot more with our monday news cycle than social media bans.",
+      "source_url": "https://www.theguardian.com/australia-news/2026/apr/01/australia-social-media-ban-adoption-world",
+      "date": "2026-04-01",
+      "timestamp": "2026-04-01T08:09:31.702924+00:00",
+      "theme": "china_watch"
     }
   ],
   "replied_to": [
