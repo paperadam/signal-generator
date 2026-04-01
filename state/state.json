@@ -966,7 +966,19 @@
     "https://www.nytimes.com/2026/03/31/us/politics/trump-iran-ground-war.html",
     "https://www.theguardian.com/us-news/2026/mar/31/trump-iran-war-fossil-fuel-policy-environment",
     "https://www.nytimes.com/2026/03/31/world/asia/indonesia-australia-social-media-ban.html",
-    "https://www.theguardian.com/technology/2026/mar/31/openai-stock-market-flotation-profit"
+    "https://www.theguardian.com/technology/2026/mar/31/openai-stock-market-flotation-profit",
+    "https://www.abc.net.au/news/2026-04-01/cricket-sam-konstas-loses-full-contract-after-poor-form/106520908",
+    "https://www.nytimes.com/2026/03/31/us/politics/trump-says-us-will-be-out-of-iran-within-two-to-three-weeks.html",
+    "https://www.theguardian.com/australia-news/2026/apr/01/chalmers-says-small-business-paying-the-price-for-middle-east-conflict-as-he-unveils-support-measures",
+    "https://www.theguardian.com/stage/2026/apr/01/scout-boxall-gods-favourite-review-standup-comedy-melbourne-festival",
+    "https://www.nytimes.com/2026/03/31/world/middleeast/tehran-pharmaceutical-strike-israel.html",
+    "https://www.abc.net.au/news/2026-04-01/spurs-fans-protest-de-zerbi-as-post-ange-woes-deepen/106520430",
+    "https://www.theguardian.com/australia-news/2026/apr/01/severe-disinformation-trans-hate-speech-australia-ntwnfb",
+    "https://www.nytimes.com/2026/03/31/world/africa/africa-iran-shipping-houthis.html",
+    "https://www.nytimes.com/live/2026/03/31/world/iran-war-oil-trump/narges-mohammadi-heart-attack-iranian-prison",
+    "https://www.theguardian.com/australia-news/2026/apr/01/daylight-savings-2026-when-does-end-dst-saving-time-clocks-change-sydney-melbourne-australia",
+    "https://www.theguardian.com/australia-news/2026/apr/01/property-tax-rules-landlords-investments-house-prices-australia",
+    "https://www.theguardian.com/world/ng-interactive/2026/mar/31/can-europes-public-service-media-survive-attacks-by-the-far-right"
   ],
   "posts": [
     {
@@ -1150,6 +1162,13 @@
       "date": "2026-03-31",
       "timestamp": "2026-03-31T22:33:39.482386+00:00",
       "theme": "australia_opportunity"
+    },
+    {
+      "text": "chalmers announcing covid-era business support because of a middle east war is not a sentence i expected to read in 2025. and we're still not collecting a fair return on the gas exports driving these prices.",
+      "source_url": "https://www.theguardian.com/australia-news/2026/apr/01/chalmers-says-small-business-paying-the-price-for-middle-east-conflict-as-he-unveils-support-measures",
+      "date": "2026-04-01",
+      "timestamp": "2026-04-01T02:37:54.867186+00:00",
+      "theme": "resource_rents"
     }
   ],
   "replied_to": [
