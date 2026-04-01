@@ -1022,7 +1022,11 @@
     "https://www.abc.net.au/news/2026-04-01/australian-rugby-union-coach-mick-byrne-ends-tenure-as-fiji-boss/106523694",
     "https://www.theguardian.com/australia-news/video/2026/apr/01/australian-pm-says-next-few-months-may-not-be-easy-in-rare-address-to-the-nation-video",
     "https://www.theguardian.com/australia-news/2026/apr/01/albanese-prime-minister-address-nation-middle-east-crisis",
-    "https://www.nytimes.com/live/2026/04/01/world/iran-war-trump-oil-news/narges-mohammadi-heart-attack-iranian-prison"
+    "https://www.nytimes.com/live/2026/04/01/world/iran-war-trump-oil-news/narges-mohammadi-heart-attack-iranian-prison",
+    "https://www.theguardian.com/australia-news/2026/apr/02/man-accused-of-plotting-wa-terror-attack-believed-assault-he-was-planning-would-be-worse-than-bondi-beach-shootings-court-hears-ntwnfb",
+    "https://www.abc.net.au/news/2026-04-02/nbl-adelaide-36ers-sydney-kings-grand-final-series/106524466",
+    "https://www.nytimes.com/2026/04/01/us/politics/trump-iran-war.html",
+    "https://www.nytimes.com/2026/04/01/world/trump-iran-speech-artemis-moon-launch-cape-town-housing.html"
   ],
   "posts": [
     {
@@ -1241,6 +1245,13 @@
       "date": "2026-04-01",
       "timestamp": "2026-04-01T20:25:53.977638+00:00",
       "theme": "good_numbers"
+    },
+    {
+      "text": "iran skeptical about diplomacy, trump wants it done in weeks. none of this makes the persian gulf more stable. i keep thinking about how much of our lng goes through that region and how long we're going to keep being exposed to this.",
+      "source_url": "https://www.nytimes.com/2026/04/01/us/politics/trump-iran-war.html",
+      "date": "2026-04-01",
+      "timestamp": "2026-04-01T22:22:15.046026+00:00",
+      "theme": "australia_opportunity"
     }
   ],
   "replied_to": [
