@@ -978,7 +978,12 @@
     "https://www.nytimes.com/live/2026/03/31/world/iran-war-oil-trump/narges-mohammadi-heart-attack-iranian-prison",
     "https://www.theguardian.com/australia-news/2026/apr/01/daylight-savings-2026-when-does-end-dst-saving-time-clocks-change-sydney-melbourne-australia",
     "https://www.theguardian.com/australia-news/2026/apr/01/property-tax-rules-landlords-investments-house-prices-australia",
-    "https://www.theguardian.com/world/ng-interactive/2026/mar/31/can-europes-public-service-media-survive-attacks-by-the-far-right"
+    "https://www.theguardian.com/world/ng-interactive/2026/mar/31/can-europes-public-service-media-survive-attacks-by-the-far-right",
+    "https://www.nytimes.com/2026/04/01/world/middleeast/sailors-stranded-phillipines-iran.html",
+    "https://www.nytimes.com/2026/04/01/world/europe/uk-prisons-contraband-drones.html",
+    "https://www.theguardian.com/australia-news/2026/apr/01/australia-fuel-restrictions-rationing-petrol-diesel-prices-excise-cut",
+    "https://www.theguardian.com/environment/2026/apr/01/rozelle-parklands-playground-closed-timber-wood-testing",
+    "https://www.theguardian.com/australia-news/2026/apr/01/dezi-freeman-porepunkah-killer-police-shooting-sympathy-community-ntwnfb"
   ],
   "posts": [
     {
@@ -1169,6 +1174,13 @@
       "date": "2026-04-01",
       "timestamp": "2026-04-01T02:37:54.867186+00:00",
       "theme": "resource_rents"
+    },
+    {
+      "text": "sailors stranded in the persian gulf for a month because of a conflict zone. this is what energy chokepoints actually look like in practice. not abstract.",
+      "source_url": "https://www.nytimes.com/2026/04/01/world/middleeast/sailors-stranded-phillipines-iran.html",
+      "date": "2026-04-01",
+      "timestamp": "2026-04-01T04:44:03.231390+00:00",
+      "theme": "geopolitics"
     }
   ],
   "replied_to": [
