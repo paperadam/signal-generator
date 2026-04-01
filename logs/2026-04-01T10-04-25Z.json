@@ -1,0 +1,208 @@
+{
+  "version": 1,
+  "run_id": "2026-04-01T10-04-25Z",
+  "timestamp": "2026-04-01T10:04:25.932588+00:00",
+  "run_type": "scheduled",
+  "outcome": "skipped_no_posts",
+  "timing": {
+    "sleep_hours": false,
+    "skipped_randomly": false,
+    "pre_post_delay_minutes": 8.1,
+    "engage_gap_delay_minutes": 20.3
+  },
+  "feed_intake": {
+    "total_fetched": 82,
+    "matched_filters": 53,
+    "new_articles": 10,
+    "articles": [
+      {
+        "title": "Israel\u2019s Message to Southern Lebanon: Shiites Must Go",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/2026/04/01/world/middleeast/lebanon-shiite-israel-evacuation.html"
+      },
+      {
+        "title": "Albanese Urges Australians to Remain Calm Amid Fuel Crisis",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/2026/04/01/world/asia/australia-albanese-fuel-speech.html"
+      },
+      {
+        "title": "Keep calm, but here comes the pain. Albanese\u2019s address presents Australians with a mixed message",
+        "source": "Australia news | The Guardian",
+        "link": "https://www.theguardian.com/australia-news/2026/apr/01/keep-calm-but-here-comes-the-pain-albaneses-address-presents-australians-with-a-mixed-message"
+      },
+      {
+        "title": "U.S. Plans Military Expansion in Greenland",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/2026/04/01/world/europe/us-military-seeks-expansion-in-greenland.html"
+      },
+      {
+        "title": "In New England, Catching Climate Data Along With Fish",
+        "source": "NYT > Climate and Environment",
+        "link": "https://www.nytimes.com/2026/04/01/climate/new-england-fishermen-ocean-data.html"
+      },
+      {
+        "title": "Australian rugby coach parts ways with Fiji just 18 months out from World Cup",
+        "source": "ABC Grandstand Sport",
+        "link": "https://www.abc.net.au/news/2026-04-01/australian-rugby-union-coach-mick-byrne-ends-tenure-as-fiji-boss/106523694"
+      },
+      {
+        "title": "Australian PM says \u2018next few months may not be easy\u2019 in rare address to the nation \u2013 video",
+        "source": "Australia news | The Guardian",
+        "link": "https://www.theguardian.com/australia-news/video/2026/apr/01/australian-pm-says-next-few-months-may-not-be-easy-in-rare-address-to-the-nation-video"
+      },
+      {
+        "title": "\u2018Uncertain times\u2019: Albanese warns months ahead \u2018may not be easy\u2019 in rare address to nation about Middle East crisis",
+        "source": "Australia news | The Guardian",
+        "link": "https://www.theguardian.com/australia-news/2026/apr/01/albanese-prime-minister-address-nation-middle-east-crisis"
+      },
+      {
+        "title": "Anthony Albanese addresses the nation on the Middle East crisis \u2013 read the speech in full",
+        "source": "Australia news | The Guardian",
+        "link": "https://www.theguardian.com/australia-news/2026/apr/01/anthony-albanese-national-address-full-speech"
+      },
+      {
+        "title": "Narges Mohammadi Denied Treatment after Heart Attack in Iranian Prison, Husband Says",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/live/2026/04/01/world/iran-war-trump-oil-news/narges-mohammadi-heart-attack-iranian-prison"
+      }
+    ]
+  },
+  "story_selection": {
+    "articles_considered": 10,
+    "selected_count": 3,
+    "selected_stories": [
+      {
+        "title": "\u2018Uncertain times\u2019: Albanese warns months ahead \u2018may not be easy\u2019 in rare address to nation about Middle East crisis",
+        "source": "Australia news | The Guardian",
+        "link": "https://www.theguardian.com/australia-news/2026/apr/01/albanese-prime-minister-address-nation-middle-east-crisis"
+      },
+      {
+        "title": "Albanese Urges Australians to Remain Calm Amid Fuel Crisis",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/2026/04/01/world/asia/australia-albanese-fuel-speech.html"
+      },
+      {
+        "title": "U.S. Plans Military Expansion in Greenland",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/2026/04/01/world/europe/us-military-seeks-expansion-in-greenland.html"
+      }
+    ],
+    "claude_raw_response": "[7, 1, 3]"
+  },
+  "post_generation": {
+    "stories_sent": 3,
+    "generated_posts": [],
+    "claude_raw_response": "Looking at the stories, they're all about the fuel crisis / Middle East situation, which I've posted about a lot recently. Let me pick the most relevant angle I haven't covered.\n\n{\"text\": \"albanese telling people to conserve fuel like it's the 1970s. this is what happens when you don't build the alternative fast enough. we had decades.\", \"story_index\": 2}"
+  },
+  "publishing": null,
+  "engagement": {
+    "search_queries_used": [
+      "renewable energy Australia",
+      "decarbonisation",
+      "industrial policy energy"
+    ],
+    "candidates_found": 43,
+    "candidates": [
+      {
+        "author": "valakay.bsky.social",
+        "text": "Thank you, fascinating - even in Australia I think ppl are still underestimating the future role of solar PV in renewable energy so good to have this. Will disseminate widely",
+        "likes": 0,
+        "query": "renewable energy Australia"
+      },
+      {
+        "author": "fernandogros.com",
+        "text": "Sorry Albo, I'm not \"seeing this at the servo\" because I drive an EV.\n\nIf you had an ounce of leadership you'd say this is the moment for Australia to pivot towards self-reliance. To break the depende",
+        "likes": 13,
+        "query": "renewable energy Australia"
+      },
+      {
+        "author": "jbau.bsky.social",
+        "text": "So Australia is effectively in an own-goal situation where despite being one of the best placed countries to make use of renewable energy,sat on our hands for 2 decades (time we should have spent elec",
+        "likes": 6,
+        "query": "renewable energy Australia"
+      },
+      {
+        "author": "granitefreeman.com",
+        "text": "if he played thar card, China would give renewable energy products to europe basically for free\n\ntrump would entrench china as THE global superpower \n\nchina's only \"threat\" would come from the entire ",
+        "likes": 0,
+        "query": "renewable energy Australia"
+      },
+      {
+        "author": "apauld.bsky.social",
+        "text": "oh #ffs #auspol do not cut petrol prices. \nLet everyone experience the idiocy of fossil fuel dependence. Provide widespread motivation to transition to Sustainable renewable energy and EV\u2018s. China is ",
+        "likes": 2,
+        "query": "renewable energy Australia"
+      },
+      {
+        "author": "mr-rusty.bsky.social",
+        "text": "Would be nice if it was true. More like \" Australia has just finished thinking about a 4000km renewable energy transmission line\"",
+        "likes": 2,
+        "query": "renewable energy Australia"
+      },
+      {
+        "author": "adomatters.bsky.social",
+        "text": "Australia just completed a 4,000-kilometer renewable energy transmission line \u2014 the longest clean energy highway ever built \u2014 connecting massive outback solar and wind farms directly to coastal cities",
+        "likes": 1,
+        "query": "renewable energy Australia"
+      },
+      {
+        "author": "captainfluoro.bsky.social",
+        "text": "From fb, but seems legit:\n\nEyre Peninsula Renewable Energy Initiatives\nRoss Kassebaum\n\nclaims that Australia has completed a 4,000 km HVDC \u201cAustraliaLink\u201d transmission line\n\nhow truth can be stretched",
+        "likes": 2,
+        "query": "renewable energy Australia"
+      },
+      {
+        "author": "rlb-21.bsky.social",
+        "text": "Eyre Peninsula Renewable Energy Initiatives  \u00b7\nRoss Kassebaum  \u00b7\nYou may have seen claims that Australia has completed a 4,000 km HVDC \u201cAustraliaLink\u201d transmission line delivering outback solar and wi",
+        "likes": 3,
+        "query": "renewable energy Australia"
+      },
+      {
+        "author": "jptree.bsky.social",
+        "text": "Seems like pretty good timing to be relying more on renewable energy than leaning into becoming a giant petrostate. \n\nWell done, Australia!",
+        "likes": 4,
+        "query": "renewable energy Australia"
+      },
+      {
+        "author": "information-age.bsky.social",
+        "text": "Data centre operators should be required to prove they support renewable energy and publicly report their performance before they are allowed to build in Australia, says Torrens University Australia p",
+        "likes": 0,
+        "query": "renewable energy Australia"
+      },
+      {
+        "author": "codfather.bsky.social",
+        "text": "The original posters source.\nSource: Australian Renewable Energy Agency, TransGrid Australia, 2025",
+        "likes": 37,
+        "query": "renewable energy Australia"
+      },
+      {
+        "author": "codfather.bsky.social",
+        "text": "Three million Australian homes now receive clean electricity from this corridor, eliminating 18 million tons of coal combustion emissions annually and reducing household electricity bills by an averag",
+        "likes": 164,
+        "query": "renewable energy Australia"
+      },
+      {
+        "author": "environmentalpol.bsky.social",
+        "text": "Decarbonisation poses a uniquely complex governance challenge unlike past state projects. This article introduces a five-capacity framework (planning, disciplinary, strategic, legitimation, & adaptive",
+        "likes": 0,
+        "query": "decarbonisation"
+      },
+      {
+        "author": "garethkane.bsky.social",
+        "text": "One argument put forward by UK Net Zero sceptics is that the UK is somehow 'going it alone' on decarbonisation, pointlessly sacrificing ourselves while rest of the world happily burn, baby, burns. But",
+        "likes": 0,
+        "query": "decarbonisation"
+      }
+    ],
+    "selected_post": {
+      "author": "meckeringboy.bsky.social",
+      "text": "\u201c\u201cWorld energy markets have changed forever. You cannot put the genie back in the bottle.\u201d Mining billionaire Andrew Forrest says Australia\u2019s energy security has been exposed by the war against Iran, and the answer is rapid decarbonisation.\u201d\n\nTwiggy is in the money."
+    },
+    "reply_text": "twiggy's been putting his money where his mouth is on this for years so yeah, he's got skin in the game when he says it",
+    "reply_uri": "at://did:plc:h23qnlw7e7b4bj73ktu2bzyv/app.bsky.feed.post/3migihxj36c2l",
+    "reply_success": true,
+    "reply_error": "",
+    "claude_raw_response": "{\"selected\": 15, \"reply\": \"twiggy's been putting his money where his mouth is on this for years so yeah, he's got skin in the game when he says it\"}"
+  },
+  "errors": []
+}
