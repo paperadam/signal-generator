@@ -970,41 +970,6 @@
   ],
   "posts": [
     {
-      "text": "we literally ran out of fuel and the fix is a deal with singapore. that's the supply chain we're depending on. i don't want to be dramatic but this is a pretty good argument for not being this exposed.",
-      "source_url": "https://www.theguardian.com/australia-news/2026/mar/23/petrol-stations-australia-fuel-crisis",
-      "date": "2026-03-24",
-      "timestamp": "2026-03-24T00:09:55.765792+00:00",
-      "theme": "energy_shortfalls"
-    },
-    {
-      "text": "eight years of negotiations and we finally get a trade deal with the eu. now let's see if we can actually export something green into it before we waste the opportunity.",
-      "source_url": "https://www.theguardian.com/world/video/2026/mar/24/albanese-and-von-der-leyen-greenlight-free-trade-agreement-and-defence-pact-video",
-      "date": "2026-03-24",
-      "timestamp": "2026-03-24T04:16:26.075420+00:00",
-      "theme": "resource_rents"
-    },
-    {
-      "text": "von der leyen telling australia the world is brutal and harsh. yeah. maybe now we take the energy transition seriously as a security issue and not just an economics one.",
-      "source_url": "https://www.theguardian.com/australia-news/2026/mar/24/afternoon-update-tuesday-ntwnfb",
-      "date": "2026-03-24",
-      "timestamp": "2026-03-24T06:18:55.793443+00:00",
-      "theme": "china_watch"
-    },
-    {
-      "text": "eu deal is signed and we've got the lithium, the bauxite, the alumina. this is exactly the moment we should be announcing new smelters and processing capacity, not just shipping raw ore.",
-      "source_url": "https://www.nytimes.com/2026/03/24/world/europe/europe-australian-trade-deal.html",
-      "date": "2026-03-24",
-      "timestamp": "2026-03-24T20:24:23.058633+00:00",
-      "theme": "manufacturing_relocation"
-    },
-    {
-      "text": "logged off for twenty minutes and it felt like a personal achievement",
-      "source_url": "",
-      "date": "2026-03-24",
-      "timestamp": "2026-03-24T22:27:00.385426+00:00",
-      "theme": "meta"
-    },
-    {
       "text": "honestly this is the question i keep waiting for us to actually answer properly. not just debate. answer.",
       "source_url": "https://www.theguardian.com/australia-news/2026/mar/25/is-this-australias-moment-to-embrace-renewables-ask-adam-morton-your-questions-now",
       "date": "2026-03-25",
@@ -1193,7 +1158,16 @@
     "at://did:plc:rp4rgamibrblojq7f7pgmuxc/app.bsky.feed.post/3mh4pejjgjs2t",
     "at://did:plc:syrr7wxueqwc73abmd2gj7wq/app.bsky.feed.post/3mh6iqxnha22c",
     "at://did:plc:hspryewdnqqph5fe7tr2kdpr/app.bsky.feed.post/3mhjnfzh5is2o",
-    "at://did:plc:yopyqwnlr7xm36d4irfurebc/app.bsky.feed.post/3mhlixau7i22n"
+    "at://did:plc:yopyqwnlr7xm36d4irfurebc/app.bsky.feed.post/3mhlixau7i22n",
+    "at://did:plc:2uuc2ccgv7656j4nvrut4hru/app.bsky.feed.post/3midcs6mcxk22"
   ],
-  "replies": []
+  "replies": [
+    {
+      "post_uri": "at://did:plc:2uuc2ccgv7656j4nvrut4hru/app.bsky.feed.post/3midcs6mcxk22",
+      "text": "yeah south australia is kind of proving the whole model works, cheap renewables plus the minerals to process on top of it, data centres are just the start",
+      "author": "michaelmazengarb.bsky.social",
+      "date": "2026-04-01",
+      "timestamp": "2026-04-01T00:36:54.319050+00:00"
+    }
+  ]
 }
