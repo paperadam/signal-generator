@@ -983,7 +983,13 @@
     "https://www.nytimes.com/2026/04/01/world/europe/uk-prisons-contraband-drones.html",
     "https://www.theguardian.com/australia-news/2026/apr/01/australia-fuel-restrictions-rationing-petrol-diesel-prices-excise-cut",
     "https://www.theguardian.com/environment/2026/apr/01/rozelle-parklands-playground-closed-timber-wood-testing",
-    "https://www.theguardian.com/australia-news/2026/apr/01/dezi-freeman-porepunkah-killer-police-shooting-sympathy-community-ntwnfb"
+    "https://www.theguardian.com/australia-news/2026/apr/01/dezi-freeman-porepunkah-killer-police-shooting-sympathy-community-ntwnfb",
+    "https://www.theguardian.com/australia-news/2026/apr/01/moira-deeming-liberal-party-preselection-ntwnfb",
+    "https://www.theguardian.com/australia-news/2026/apr/01/australia-fuel-crisis-petrol-prices-graphs",
+    "https://www.theguardian.com/australia-news/2026/apr/01/afternoon-update-wednesday-ntwnfb",
+    "https://www.theguardian.com/commentisfree/picture/2026/apr/01/albo-will-speak-to-australians-on-tv-tonight-this-is-never-good",
+    "https://www.abc.net.au/news/2026-04-01/graham-arnold-coaches-iraq-to-fifa-world-cup/106522826",
+    "https://www.theguardian.com/australia-news/2026/apr/01/western-australia-cyclone-narelle-damage-wildlife"
   ],
   "posts": [
     {
@@ -1181,6 +1187,13 @@
       "date": "2026-04-01",
       "timestamp": "2026-04-01T04:44:03.231390+00:00",
       "theme": "geopolitics"
+    },
+    {
+      "text": "cyclone narelle kills hundreds of turtles and dolphins on the wa coast and we're still arguing about the pace of the energy transition. i don't know what to do with that honestly.",
+      "source_url": "https://www.theguardian.com/australia-news/2026/apr/01/western-australia-cyclone-narelle-damage-wildlife",
+      "date": "2026-04-01",
+      "timestamp": "2026-04-01T06:34:56.051346+00:00",
+      "theme": "carbon_pricing"
     }
   ],
   "replied_to": [
