@@ -1026,30 +1026,17 @@
     "https://www.theguardian.com/australia-news/2026/apr/02/man-accused-of-plotting-wa-terror-attack-believed-assault-he-was-planning-would-be-worse-than-bondi-beach-shootings-court-hears-ntwnfb",
     "https://www.abc.net.au/news/2026-04-02/nbl-adelaide-36ers-sydney-kings-grand-final-series/106524466",
     "https://www.nytimes.com/2026/04/01/us/politics/trump-iran-war.html",
-    "https://www.nytimes.com/2026/04/01/world/trump-iran-speech-artemis-moon-launch-cape-town-housing.html"
+    "https://www.nytimes.com/2026/04/01/world/trump-iran-speech-artemis-moon-launch-cape-town-housing.html",
+    "https://www.nytimes.com/2026/04/01/us/politics/trump-goals-iran-war.html",
+    "https://www.theguardian.com/australia-news/2026/apr/02/alleged-bondi-terrorist-naveed-akram-denied-suppression-order-over-identities-of-family-members-ntwnfb",
+    "https://www.nytimes.com/2026/04/01/world/middleeast/what-happened-in-the-war-in-the-middle-east-on-wednesday.html",
+    "https://www.theguardian.com/australia-news/2026/apr/02/penny-wong-to-join-talks-with-35-countries-excluding-us-to-explore-ways-to-reopen-strait-of-hormuz",
+    "https://www.nytimes.com/live/2026/04/01/world/iran-war-trump-oil-news/trump-iran-war-speech",
+    "https://www.theguardian.com/australia-news/commentisfree/2026/apr/02/donald-trump-man-baby-leader-of-the-free-world-is-having-an-epic-tantrum-anthony-albanese-must-call-it-out",
+    "https://www.abc.net.au/news/2026-04-02/golf-tiger-woods-us-ryder-cup-captaincy-treatment/106524816",
+    "https://www.abc.net.au/news/2026-04-02/football-champions-league-arsenal-chelsea-quarterfinals-matildas/106524624"
   ],
   "posts": [
-    {
-      "text": "honestly this is the question i keep waiting for us to actually answer properly. not just debate. answer.",
-      "source_url": "https://www.theguardian.com/australia-news/2026/mar/25/is-this-australias-moment-to-embrace-renewables-ask-adam-morton-your-questions-now",
-      "date": "2026-03-25",
-      "timestamp": "2026-03-25T00:20:20.836202+00:00",
-      "theme": "china_watch"
-    },
-    {
-      "text": "cutting fuel excise is not a plan. it's just cheaper petrol for a few weeks while we're still completely exposed on supply. i don't get how this is the conversation we're having.",
-      "source_url": "https://www.theguardian.com/australia-news/2026/mar/25/australia-fuel-excise-tax-petrol-shortages",
-      "date": "2026-03-25",
-      "timestamp": "2026-03-25T08:41:43.572500+00:00",
-      "theme": "energy_shortfalls"
-    },
-    {
-      "text": "australia's farmers could be about to get squeezed on fuel at exactly the moment they're trying to export into asia. didn't realise how quickly a middle east flare-up hits our ag sector.",
-      "source_url": "https://www.nytimes.com/2026/03/25/world/australia/australia-farm-fuel-oil-prices.html",
-      "date": "2026-03-25",
-      "timestamp": "2026-03-25T10:45:20.872307+00:00",
-      "theme": "energy_shortfalls"
-    },
     {
       "text": "every time there's a supply shock like this i think about how exposed we still are. like we've got the resources to not be in this position but here we are still sweating oil prices with everyone else.",
       "source_url": "https://www.nytimes.com/2026/03/25/business/iran-war-dollar-rupee-won.html",
@@ -1252,6 +1239,13 @@
       "date": "2026-04-01",
       "timestamp": "2026-04-01T22:22:15.046026+00:00",
       "theme": "australia_opportunity"
+    },
+    {
+      "text": "35 countries talking about hormuz and the us isn't in the room. that's a weird new world.",
+      "source_url": "https://www.theguardian.com/australia-news/2026/apr/02/penny-wong-to-join-talks-with-35-countries-excluding-us-to-explore-ways-to-reopen-strait-of-hormuz",
+      "date": "2026-04-02",
+      "timestamp": "2026-04-02T02:31:10.993349+00:00",
+      "theme": "china_watch"
     }
   ],
   "replied_to": [
