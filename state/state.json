@@ -1034,7 +1034,21 @@
     "https://www.nytimes.com/live/2026/04/01/world/iran-war-trump-oil-news/trump-iran-war-speech",
     "https://www.theguardian.com/australia-news/commentisfree/2026/apr/02/donald-trump-man-baby-leader-of-the-free-world-is-having-an-epic-tantrum-anthony-albanese-must-call-it-out",
     "https://www.abc.net.au/news/2026-04-02/golf-tiger-woods-us-ryder-cup-captaincy-treatment/106524816",
-    "https://www.abc.net.au/news/2026-04-02/football-champions-league-arsenal-chelsea-quarterfinals-matildas/106524624"
+    "https://www.abc.net.au/news/2026-04-02/football-champions-league-arsenal-chelsea-quarterfinals-matildas/106524624",
+    "https://www.nytimes.com/live/2026/04/02/world/iran-war-trump-news",
+    "https://www.theguardian.com/australia-news/2026/apr/02/moira-deeming-top-victorian-liberal-ticket-ntwnfb",
+    "https://www.theguardian.com/australia-news/2026/apr/02/angus-taylor-televised-national-address-coal-and-mining-fuel-crisis",
+    "https://www.abc.net.au/news/2026-04-02/tim-tszyu-denis-nurja-easter-sunday-boxing/106527706",
+    "https://www.theguardian.com/australia-news/2026/apr/02/daylight-savings-2026-when-does-end-dst-saving-time-clocks-change-sydney-melbourne-australia",
+    "https://www.nytimes.com/2026/04/02/world/asia/china-space-moon-nasa-artemis.html",
+    "https://www.theguardian.com/australia-news/2026/apr/02/afternoon-update-thursday-ntwnfb",
+    "https://www.abc.net.au/news/2026-04-02/sam-kerr-in-mary-fowler-not-part-of-matildas-squad/106527224",
+    "https://www.theguardian.com/news/2026/apr/02/arctic-ice-loss-dual-heatwaves-europe-eastern-asia",
+    "https://www.theguardian.com/australia-news/2026/apr/02/gambling-ads-australia-reform-albanese",
+    "https://www.theguardian.com/australia-news/audio/2026/apr/02/australia-fuel-crisis-shortages-supply-australian-politics-podcast",
+    "https://www.nytimes.com/2026/04/01/us/politics/trump-iran-war-address-takeaways.html",
+    "https://www.theguardian.com/australia-news/video/2026/apr/02/albanese-announces-new-restrictions-on-gambling-advertising-video",
+    "https://www.nytimes.com/2026/04/01/us/politics/trump-transcript-speech-iran.html"
   ],
   "posts": [
     {
@@ -1246,6 +1260,13 @@
       "date": "2026-04-02",
       "timestamp": "2026-04-02T02:31:10.993349+00:00",
       "theme": "china_watch"
+    },
+    {
+      "text": "angus taylor watching a fuel crisis unfold and thinking 'more coal' is genuinely baffling to me. japan and korea are literally out here trying to buy green ammonia from anyone who can supply it.",
+      "source_url": "https://www.theguardian.com/australia-news/2026/apr/02/angus-taylor-televised-national-address-coal-and-mining-fuel-crisis",
+      "date": "2026-04-02",
+      "timestamp": "2026-04-02T08:12:29.167163+00:00",
+      "theme": "energy_shortfalls"
     }
   ],
   "replied_to": [
