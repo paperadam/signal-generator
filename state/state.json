@@ -1048,51 +1048,50 @@
     "https://www.theguardian.com/australia-news/audio/2026/apr/02/australia-fuel-crisis-shortages-supply-australian-politics-podcast",
     "https://www.nytimes.com/2026/04/01/us/politics/trump-iran-war-address-takeaways.html",
     "https://www.theguardian.com/australia-news/video/2026/apr/02/albanese-announces-new-restrictions-on-gambling-advertising-video",
-    "https://www.nytimes.com/2026/04/01/us/politics/trump-transcript-speech-iran.html"
+    "https://www.nytimes.com/2026/04/01/us/politics/trump-transcript-speech-iran.html",
+    "https://www.nytimes.com/live/2026/04/03/world/iran-war-trump-oil",
+    "https://www.nytimes.com/2026/04/02/world/uk-reopen-strait-of-hormuz-talks.html",
+    "https://www.nytimes.com/2026/04/03/world/middleeast/israel-war-mood.html",
+    "https://www.theguardian.com/commentisfree/2026/apr/03/drill-oil-north-sea-further-exploitation-climate-emergency",
+    "https://www.nytimes.com/2026/04/03/world/asia/myanmar-president-min-aung-hlaing.html",
+    "https://www.nytimes.com/2026/04/02/world/americas/cuba-prisoner-release.html",
+    "https://www.theguardian.com/world/2026/apr/03/friday-briefing-why-does-your-easter-egg-feel-smaller-because-it-is",
+    "https://www.nytimes.com/2026/04/02/world/space-artemis-us-china-trump-iran-pam-bondi.html",
+    "https://www.nytimes.com/2026/04/03/world/asia/shanghai-dispatch-architecture.html",
+    "https://www.theguardian.com/world/2026/apr/03/asia-fuel-crisis-iran-war-ordinary-workers",
+    "https://www.theguardian.com/lifeandstyle/2026/apr/03/packed-to-the-gills-shoppers-embrace-new-sydney-fish-market-during-good-friday-rush",
+    "https://www.nytimes.com/2026/04/02/world/middleeast/arab-iran-hormuz-force.html",
+    "https://www.nytimes.com/video/world/middleeast/100000010815863/trumps-strait-of-hormuz-problem.html",
+    "https://www.theguardian.com/business/2026/apr/03/australia-says-it-wont-raise-drug-prices-after-trumps-100-tariff-on-pharmaceuticals-imported-into-us",
+    "https://www.theguardian.com/australia-news/2026/apr/02/easter-weather-forecast-australia-bom",
+    "https://www.theguardian.com/australia-news/2026/apr/03/two-nsw-teenagers-charged-over-violent-extremist-material-allegedly-linked-to-terror-ntwnfb",
+    "https://www.theguardian.com/australia-news/2026/apr/02/good-friday-supermarket-trading-hours-alcohol-restrictions-easter",
+    "https://www.abc.net.au/news/2026-04-03/australia-women-vs-west-indies-odi-game-three/106525924",
+    "https://www.nytimes.com/2026/04/02/world/middleeast/trump-iran-bridge-strike.html",
+    "https://www.nytimes.com/live/2026/04/03/world/iran-war-trump-oil/iranians-mark-a-nature-festival-in-the-shadow-of-war",
+    "https://www.nytimes.com/2026/04/02/world/middleeast/iran-war-trump-strait.html",
+    "https://www.abc.net.au/news/2026-04-03/ipl-cameron-green-travis-head-knight-riders-sunrisers/106529714",
+    "https://www.theguardian.com/us-news/2026/apr/02/trump-100-tariff-us-pharmaceutical-drug-makers",
+    "https://www.nytimes.com/2026/04/02/world/middleeast/macron-trump-nato.html",
+    "https://www.nytimes.com/2026/04/02/us/politics/trump-congress-foreign-aid-rescissions.html",
+    "https://www.nytimes.com/2026/04/02/us/politics/trump-military-spending-budget.html",
+    "https://www.nytimes.com/2026/04/02/us/politics/trump-speech-iran-war-whats-next.html",
+    "https://www.nytimes.com/2026/04/02/world/middleeast/iran-oman-hormuz-control.html",
+    "https://www.nytimes.com/2026/04/02/climate/trump-budget-climate-cuts-congress.html",
+    "https://www.nytimes.com/2026/04/02/climate/trump-gas-prices-iran-world-leaders.html",
+    "https://www.nytimes.com/2026/04/02/business/oil-liability-shield-laws-climate-lawsuits.html",
+    "https://www.theguardian.com/technology/2026/apr/02/google-ai-datacenter",
+    "https://www.nytimes.com/2026/04/02/world/americas/cuba-russia-oil-tanker.html",
+    "https://www.theguardian.com/business/2026/apr/02/oil-price-rises-markets-slide-following-trump-iran-war-address",
+    "https://www.nytimes.com/2026/04/02/world/europe/museum-heist-netherlands-helmet-romania.html",
+    "https://www.nytimes.com/live/2026/04/02/world/iran-war-trump-news/iranian-officials-come-out-defiant-after-trumps-war-speech",
+    "https://www.nytimes.com/2026/04/02/world/asia/dog-rescue-new-zealand.html",
+    "https://www.theguardian.com/australia-news/audio/2026/apr/03/newsroom-edition-the-pm-goes-prime-time-but-is-he-still-going-soft-on-trump-full-story-podcast",
+    "https://www.nytimes.com/2026/04/02/world/middleeast/drugs-arms-syria-antoine-kassis.html",
+    "https://www.nytimes.com/2026/04/02/world/europe/trump-nato-iran.html",
+    "https://www.theguardian.com/us-news/2026/apr/02/new-jersey-hindu-temple-lung-disease"
   ],
   "posts": [
-    {
-      "text": "every time there's a supply shock like this i think about how exposed we still are. like we've got the resources to not be in this position but here we are still sweating oil prices with everyone else.",
-      "source_url": "https://www.nytimes.com/2026/03/25/business/iran-war-dollar-rupee-won.html",
-      "date": "2026-03-26",
-      "timestamp": "2026-03-26T00:39:24.900056+00:00",
-      "theme": "general_reaction"
-    },
-    {
-      "text": "a liberal frontbencher floating a 25% gas tax is wild. that money should be going straight into green export infrastructure, not just a wealth fund that sits there.",
-      "source_url": "https://www.theguardian.com/australia-news/2026/mar/26/andrew-hastie-open-to-25-tax-on-gas-profits-and-says-multinationals-have-had-a-really-good-run-on-australian-wealth",
-      "date": "2026-03-26",
-      "timestamp": "2026-03-26T02:08:49.728815+00:00",
-      "theme": "trade_economics"
-    },
-    {
-      "text": "rba possibly hiking rates because of an iran war. that's a rough chain of events. this is exactly why energy security and the transition aren't separate conversations.",
-      "source_url": "https://www.theguardian.com/business/2026/mar/26/war-on-iran-inflation-rba-interest-rates-australia",
-      "date": "2026-03-26",
-      "timestamp": "2026-03-26T04:23:08.805493+00:00",
-      "theme": "good_numbers"
-    },
-    {
-      "text": "cyclone hitting wa and i immediately think about eyre peninsula infrastructure. hope the green iron sites they're scoping out there are built with this stuff in mind.",
-      "source_url": "https://www.theguardian.com/australia-news/2026/mar/26/tropical-cyclone-narelle-storm-flooding-wa-western-australia",
-      "date": "2026-03-26",
-      "timestamp": "2026-03-26T06:20:55.327360+00:00",
-      "theme": "green_iron"
-    },
-    {
-      "text": "$4.2b pledged to fight back against the us rollbacks. honestly if that money finds its way into australian projects i'll be very happy about it.",
-      "source_url": "https://www.nytimes.com/2026/03/26/climate/solar-energy-politics-campaigns.html",
-      "date": "2026-03-26",
-      "timestamp": "2026-03-26T10:20:54.864192+00:00",
-      "theme": "good_numbers"
-    },
-    {
-      "text": "ok but this is actually the moment. people are scared about fuel supply and that's real, but it's also the clearest possible argument for why we need to be building out domestic renewable capacity and green fuels. use this.",
-      "source_url": "https://www.theguardian.com/australia-news/2026/mar/26/australian-petrol-stations-surge-in-fuel-demand-government-plan-for-energy-crisis",
-      "date": "2026-03-26",
-      "timestamp": "2026-03-26T22:42:52.680593+00:00",
-      "theme": "jobs_and_regions"
-    },
     {
       "text": "wild storms knocking out power to thousands and i'm sitting here thinking about how much renewable generation we're going to need to run green iron and aluminium at scale. grid resilience is not optional.",
       "source_url": "https://www.theguardian.com/australia-news/2026/mar/27/wild-autumn-weather-delivers-snow-storms-and-power-cuts-to-eastern-australia",
@@ -1267,6 +1266,13 @@
       "date": "2026-04-02",
       "timestamp": "2026-04-02T08:12:29.167163+00:00",
       "theme": "energy_shortfalls"
+    },
+    {
+      "text": "4.5 million tons of co2 for one datacenter. i knew ai power demand was big but that number actually stopped me.",
+      "source_url": "https://www.theguardian.com/technology/2026/apr/02/google-ai-datacenter",
+      "date": "2026-04-03",
+      "timestamp": "2026-04-03T10:28:00.869379+00:00",
+      "theme": "grid_progress"
     }
   ],
   "replied_to": [
