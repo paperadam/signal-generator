@@ -1126,7 +1126,10 @@
     "https://www.theguardian.com/environment/2026/apr/04/sydney-councils-fear-new-datacentres-could-cause-blackouts-block-housing-and-affect-locals-health",
     "https://www.abc.net.au/news/2026-04-04/nyadiew-puoch-chloe-bibby-kristy-wallace-in-wnba-expansion-draft/106531434",
     "https://www.nytimes.com/2026/04/03/world/middleeast/iran-is-being-destroyed-in-front-of-our-eyes-tehran-is-gripped-by-fear.html",
-    "https://www.theguardian.com/australia-news/2026/apr/04/daylight-savings-2026-when-does-end-dst-saving-time-clocks-change-sydney-melbourne-australia"
+    "https://www.theguardian.com/australia-news/2026/apr/04/daylight-savings-2026-when-does-end-dst-saving-time-clocks-change-sydney-melbourne-australia",
+    "https://www.nytimes.com/2026/04/04/world/europe/iranian-respite-war.html",
+    "https://www.nytimes.com/2026/04/04/us/politics/trump-endless-wars.html",
+    "https://www.nytimes.com/2026/04/04/world/europe/strait-hormuz-shipping-iran.html"
   ],
   "posts": [
     {
@@ -1310,6 +1313,13 @@
       "date": "2026-04-04",
       "timestamp": "2026-04-04T08:39:56.500116+00:00",
       "theme": "china_watch"
+    },
+    {
+      "text": "hormuz 'few and risky options' is a wild headline to read when we're still not serious about cutting our imported fuel dependency. this is literally the policy case writing itself.",
+      "source_url": "https://www.nytimes.com/2026/04/04/world/europe/strait-hormuz-shipping-iran.html",
+      "date": "2026-04-04",
+      "timestamp": "2026-04-04T10:38:40.801186+00:00",
+      "theme": "cost_of_living"
     }
   ],
   "replied_to": [
