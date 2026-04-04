@@ -1105,30 +1105,19 @@
     "https://www.theguardian.com/world/2026/apr/03/trump-gulf-oil-crisis",
     "https://www.theguardian.com/us-news/2026/apr/03/senators-ticketmaster-ticket-fees",
     "https://www.nytimes.com/2026/04/03/video/h-1b-visa-skilled-workers-trump.html",
-    "https://www.nytimes.com/live/2026/04/02/world/iran-war-trump-news/iranians-mark-a-nature-festival-in-the-shadow-of-war"
+    "https://www.nytimes.com/live/2026/04/02/world/iran-war-trump-news/iranians-mark-a-nature-festival-in-the-shadow-of-war",
+    "https://www.nytimes.com/2026/04/03/world/middleeast/iran-war-middle-east-recap-friday.html",
+    "https://www.nytimes.com/2026/04/03/world/asia/philippines-holy-week-oil-fuel-prices.html",
+    "https://www.theguardian.com/australia-news/2026/apr/04/nine-charged-over-alleged-conspiracy-to-import-tonnes-of-cocaine-and-meth-australia-ntwnfb",
+    "https://www.nytimes.com/2026/04/03/world/middleeast/f-15-us-fighter-jet-iran.html",
+    "https://www.theguardian.com/australia-news/2026/apr/04/sustainable-eco-friendly-wedding-australia",
+    "https://www.nytimes.com/2026/04/03/world/middleeast/iraq-us-pow-rescue-survival.html",
+    "https://www.nytimes.com/2026/04/03/climate/forest-service-research-stations.html",
+    "https://www.nytimes.com/2026/04/03/world/middleeast/us-airman-search-iran.html",
+    "https://www.abc.net.au/news/2026-04-04/afl-kysaiah-pickett-melbourne-demons-gold-coast-suns/106531202",
+    "https://www.nytimes.com/2026/04/03/world/middleeast/iran-missiles-drones-military.html"
   ],
   "posts": [
-    {
-      "text": "wild storms knocking out power to thousands and i'm sitting here thinking about how much renewable generation we're going to need to run green iron and aluminium at scale. grid resilience is not optional.",
-      "source_url": "https://www.theguardian.com/australia-news/2026/mar/27/wild-autumn-weather-delivers-snow-storms-and-power-cuts-to-eastern-australia",
-      "date": "2026-03-27",
-      "timestamp": "2026-03-27T00:33:48.285493+00:00",
-      "theme": "trade_economics"
-    },
-    {
-      "text": "cyclone narelle is wild. hope carnarvon and kalbarri come out ok, those communities are pretty isolated.",
-      "source_url": "https://www.theguardian.com/australia-news/2026/mar/27/tropical-cyclone-narelle-perth-flooding-storm-wa",
-      "date": "2026-03-27",
-      "timestamp": "2026-03-27T02:28:20.528774+00:00",
-      "theme": "general_reaction"
-    },
-    {
-      "text": "bowen downplaying fuel supply concerns is fine but like... the reason we're having this conversation is hormuz. that's the bit i want someone to address.",
-      "source_url": "https://www.theguardian.com/australia-news/2026/mar/27/afternoon-update-friday-ntwnfb",
-      "date": "2026-03-27",
-      "timestamp": "2026-03-27T08:16:53.571733+00:00",
-      "theme": "geopolitics"
-    },
     {
       "text": "france and britain escorting tankers through hormuz is a massive geopolitical operation and we're still debating whether to fast-track green fuels. the argument basically makes itself at this point.",
       "source_url": "https://www.nytimes.com/2026/03/27/world/middleeast/europe-plan-escort-hormuz.html",
@@ -1296,6 +1285,13 @@
       "date": "2026-04-03",
       "timestamp": "2026-04-03T20:17:52.431001+00:00",
       "theme": "cost_of_living"
+    },
+    {
+      "text": "closing wildfire research stations while half the country burns every summer. we're actively making ourselves dumber about a problem that's getting worse. makes no sense.",
+      "source_url": "https://www.nytimes.com/2026/04/03/climate/forest-service-research-stations.html",
+      "date": "2026-04-04",
+      "timestamp": "2026-04-04T00:41:09.893682+00:00",
+      "theme": "china_watch"
     }
   ],
   "replied_to": [
