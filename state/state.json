@@ -1149,7 +1149,8 @@
     "https://www.abc.net.au/news/2026-04-05/nrl-live-updates-sharks-warriors-knights-raiders/106532864",
     "https://www.theguardian.com/australia-news/2026/apr/05/asian-leaders-assure-australia-normal-supply-of-fuel-will-continue-as-albanese-focuses-on-averting-shortages",
     "https://www.nytimes.com/live/2026/04/05/world/iran-war-trump-news",
-    "https://www.theguardian.com/world/2026/apr/05/germany-patisserie-johanna-orth-bereaved-parents-ahr-valley-floods"
+    "https://www.theguardian.com/world/2026/apr/05/germany-patisserie-johanna-orth-bereaved-parents-ahr-valley-floods",
+    "https://www.nytimes.com/2026/04/05/world/middleeast/iran-war-interceptor-missiles.html"
   ],
   "posts": [
     {
@@ -1340,6 +1341,13 @@
       "date": "2026-04-05",
       "timestamp": "2026-04-05T08:29:05.313070+00:00",
       "theme": "green_iron"
+    },
+    {
+      "text": "not directly my area but honestly the supply chain logic is the same everywhere - you can't stockpile what you haven't built enough of. we're about to learn that lesson with grid infrastructure too.",
+      "source_url": "https://www.nytimes.com/2026/04/05/world/middleeast/iran-war-interceptor-missiles.html",
+      "date": "2026-04-05",
+      "timestamp": "2026-04-05T10:49:20.401750+00:00",
+      "theme": "manufacturing_relocation"
     }
   ],
   "replied_to": [
