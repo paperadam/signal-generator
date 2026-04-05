@@ -1,0 +1,140 @@
+{
+  "version": 1,
+  "run_id": "2026-04-05T22-00-46Z",
+  "timestamp": "2026-04-05T22:00:46.993966+00:00",
+  "run_type": "scheduled",
+  "outcome": "skipped_daily_limit",
+  "timing": {
+    "sleep_hours": false,
+    "skipped_randomly": false,
+    "pre_post_delay_minutes": 7.0,
+    "engage_gap_delay_minutes": 12.2
+  },
+  "feed_intake": {
+    "total_fetched": 41,
+    "matched_filters": 28,
+    "new_articles": 2,
+    "articles": [
+      {
+        "title": "Australia news live: Moira Deeming secures top spot on Victorian Liberal ticket; Chris Bowen calls for Hormuz reopening",
+        "source": "Australia news | The Guardian",
+        "link": "https://www.theguardian.com/australia-news/live/2026/apr/06/anthony-albanese-fuel-crisis-angus-taylor-middle-east-labor-liberals-moira-deeming-ntwnfb"
+      },
+      {
+        "title": "Resurgent Jason Day back at Masters after career of near misses",
+        "source": "ABC Grandstand Sport",
+        "link": "https://www.abc.net.au/news/2026-04-06/jason-day-returns-to-masters-after-career-of-near-misses/106533818"
+      }
+    ]
+  },
+  "story_selection": null,
+  "post_generation": null,
+  "publishing": null,
+  "engagement": {
+    "search_queries_used": [
+      "critical minerals",
+      "decarbonisation",
+      "battery supply chain"
+    ],
+    "candidates_found": 44,
+    "candidates": [
+      {
+        "author": "repauchincloss.bsky.social",
+        "text": "First critical minerals, then oil. For the second time in one year the president has made China stronger by letting the CCP & its partners flex the power of chokepoint control.",
+        "likes": 20,
+        "query": "critical minerals"
+      },
+      {
+        "author": "nytupelo7.bsky.social",
+        "text": "\"The announcement comes as the Trump administration continues efforts to broker a peace deal between the DRC and Rwanda and to secure US access to Congolese critical minerals.\" \nThe truth comes out...",
+        "likes": 0,
+        "query": "critical minerals"
+      },
+      {
+        "author": "koralcepni.bsky.social",
+        "text": "get benefit of free trade and turn the country into the industrial production hub of the developed world. The West deplored the enviromentally risky production to Chinai such as refining of critical m",
+        "likes": 0,
+        "query": "critical minerals"
+      },
+      {
+        "author": "venus-vivaldi.bsky.social",
+        "text": "TMC Stock Is Up With Retail Investors as the U.S. and Japan Team Up to Challenge China's Grip on Critical Minerals #showbiz #sports #celebrities #lifestyle https://index.venus.pp.ua/p/a%3A822459463057",
+        "likes": 0,
+        "query": "critical minerals"
+      },
+      {
+        "author": "markets.fazen.social",
+        "text": "\ud83d\udcc8 TMC Stock Rally After U.S.-Japan Critical Minerals Pact\n\nhttps://fazen.markets/en/tmc-stock-rally-us-japan-critical-minerals-pact\n\n#equities #FazenMarkets",
+        "likes": 0,
+        "query": "critical minerals"
+      },
+      {
+        "author": "fazencapital.bsky.social",
+        "text": "TMC Stock Rally After U.S.-Japan Critical Minerals Pact: TMC surged after Apr 5, 2026 U.S.-Japan pact; China held 57% of rare-earth output and ~85% of processing in 2022 (USGS), pressuring investors t",
+        "likes": 0,
+        "query": "critical minerals"
+      },
+      {
+        "author": "beyondlink.bsky.social",
+        "text": "TMC Stock Is Up With Retail Investors as the U.S. and Japan Team Up to Challenge China's Grip on Critical Minerals",
+        "likes": 0,
+        "query": "critical minerals"
+      },
+      {
+        "author": "csis.org",
+        "text": "Through permitting, stockpiles, and investments, the United States has made significant progress on critical minerals security. In a new analysis, CSIS Critical Minerals Program Director @gracebaskara",
+        "likes": 3,
+        "query": "critical minerals"
+      },
+      {
+        "author": "edithcharles.bsky.social",
+        "text": "Apropos of nothing, here is a list of rare minerals used in much modern robotics. Do NOT build a DIY forge at home to melt a robot police dog into ingots!!",
+        "likes": 18,
+        "query": "critical minerals"
+      },
+      {
+        "author": "redskyforge.bsky.social",
+        "text": "China revealed their 15th Five-Year Plan\n\n- $560T investment into a new power system (+40%)\n- Large-scale wind and solar expansion\n- Increased stockpiling of critical minerals\n- Rapid battery storage ",
+        "likes": 0,
+        "query": "critical minerals"
+      },
+      {
+        "author": "ca.theconversation.com",
+        "text": "Critical minerals and energy will be integral to the CUSMA review",
+        "likes": 1,
+        "query": "critical minerals"
+      },
+      {
+        "author": "204queenb0574.bsky.social",
+        "text": "I have a feeling that provinces who aren't already mining their critical minerals will be told that they are a national security priority so the federal government is seizing full control - the only t",
+        "likes": 2,
+        "query": "critical minerals"
+      },
+      {
+        "author": "europe-africa.bsky.social",
+        "text": "China backs $1.2 billion route for critical minerals | Africa News\n\nhttps://www.europesays.com/africa/172034/\n\nChina is breathing new life into a 50-year-old Cold War infrastructure legacy. CMOC Group",
+        "likes": 0,
+        "query": "critical minerals"
+      },
+      {
+        "author": "tanja7.bsky.social",
+        "text": "Steadright Critical Minerals Redirects Attention to Mining Prospects in Morocco\n\nvia #Tanja7",
+        "likes": 0,
+        "query": "critical minerals"
+      },
+      {
+        "author": "archange-shadows.com",
+        "text": "\ud83c\udf0f ASIA MORNING NEWS\n\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n\n**India, Japan, South Korea pivot toward Australia over China.** In the past week, India sought Australian critical minerals like lithium for supply chain de-",
+        "likes": 0,
+        "query": "critical minerals"
+      }
+    ],
+    "selected_post": null,
+    "reply_text": "",
+    "reply_uri": "",
+    "reply_success": true,
+    "reply_error": "",
+    "claude_raw_response": ""
+  },
+  "errors": []
+}
