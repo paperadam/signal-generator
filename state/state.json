@@ -1146,7 +1146,8 @@
     "https://www.theguardian.com/us-news/2026/apr/05/prices-iran-war-gas-flights-economy",
     "https://www.nytimes.com/2026/04/05/world/asia/china-drone-regulations.html",
     "https://www.theguardian.com/australia-news/2026/apr/05/nearly-100-nsw-service-stations-face-fines-over-misleading-petrol-prices-amid-fuel-shortage-crackdown",
-    "https://www.abc.net.au/news/2026-04-05/nrl-live-updates-sharks-warriors-knights-raiders/106532864"
+    "https://www.abc.net.au/news/2026-04-05/nrl-live-updates-sharks-warriors-knights-raiders/106532864",
+    "https://www.theguardian.com/australia-news/2026/apr/05/asian-leaders-assure-australia-normal-supply-of-fuel-will-continue-as-albanese-focuses-on-averting-shortages"
   ],
   "posts": [
     {
@@ -1323,6 +1324,13 @@
       "date": "2026-04-05",
       "timestamp": "2026-04-05T04:33:56.182219+00:00",
       "theme": "embedded_energy_trade"
+    },
+    {
+      "text": "japan and korea reassuring us on fuel supply while also being our best potential customers for green iron and ammonia. the irony is pretty thick.",
+      "source_url": "https://www.theguardian.com/australia-news/2026/apr/05/asian-leaders-assure-australia-normal-supply-of-fuel-will-continue-as-albanese-focuses-on-averting-shortages",
+      "date": "2026-04-05",
+      "timestamp": "2026-04-05T06:18:25.293733+00:00",
+      "theme": "trade_economics"
     }
   ],
   "replied_to": [
