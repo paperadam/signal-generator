@@ -1143,7 +1143,10 @@
     "https://www.nytimes.com/2026/04/04/world/middleeast/missing-airman-iran.html",
     "https://www.nytimes.com/2026/04/04/world/middleeast/iran-war-fighter-jet-f15-raf-lakenheath.html",
     "https://www.nytimes.com/live/2026/04/04/world/iran-war-trump-news/a-projectile-hit-near-irans-bushehr-nuclear-plant-killing-a-worker",
-    "https://www.theguardian.com/us-news/2026/apr/05/prices-iran-war-gas-flights-economy"
+    "https://www.theguardian.com/us-news/2026/apr/05/prices-iran-war-gas-flights-economy",
+    "https://www.nytimes.com/2026/04/05/world/asia/china-drone-regulations.html",
+    "https://www.theguardian.com/australia-news/2026/apr/05/nearly-100-nsw-service-stations-face-fines-over-misleading-petrol-prices-amid-fuel-shortage-crackdown",
+    "https://www.abc.net.au/news/2026-04-05/nrl-live-updates-sharks-warriors-knights-raiders/106532864"
   ],
   "posts": [
     {
@@ -1313,6 +1316,13 @@
       "date": "2026-04-05",
       "timestamp": "2026-04-05T02:34:09.169227+00:00",
       "theme": "green_iron"
+    },
+    {
+      "text": "93 servo fines for dodgy pricing and zero for gouging. reckon that tells you everything about who the regulators are actually protecting.",
+      "source_url": "https://www.theguardian.com/australia-news/2026/apr/05/nearly-100-nsw-service-stations-face-fines-over-misleading-petrol-prices-amid-fuel-shortage-crackdown",
+      "date": "2026-04-05",
+      "timestamp": "2026-04-05T04:33:56.182219+00:00",
+      "theme": "embedded_energy_trade"
     }
   ],
   "replied_to": [
