@@ -1147,7 +1147,9 @@
     "https://www.nytimes.com/2026/04/05/world/asia/china-drone-regulations.html",
     "https://www.theguardian.com/australia-news/2026/apr/05/nearly-100-nsw-service-stations-face-fines-over-misleading-petrol-prices-amid-fuel-shortage-crackdown",
     "https://www.abc.net.au/news/2026-04-05/nrl-live-updates-sharks-warriors-knights-raiders/106532864",
-    "https://www.theguardian.com/australia-news/2026/apr/05/asian-leaders-assure-australia-normal-supply-of-fuel-will-continue-as-albanese-focuses-on-averting-shortages"
+    "https://www.theguardian.com/australia-news/2026/apr/05/asian-leaders-assure-australia-normal-supply-of-fuel-will-continue-as-albanese-focuses-on-averting-shortages",
+    "https://www.nytimes.com/live/2026/04/05/world/iran-war-trump-news",
+    "https://www.theguardian.com/world/2026/apr/05/germany-patisserie-johanna-orth-bereaved-parents-ahr-valley-floods"
   ],
   "posts": [
     {
@@ -1331,6 +1333,13 @@
       "date": "2026-04-05",
       "timestamp": "2026-04-05T06:18:25.293733+00:00",
       "theme": "trade_economics"
+    },
+    {
+      "text": "neither of these is green iron so my brain is already somewhere else but also how are we not running a green iron pilot at gladstone right now, that's the real story i'm sitting with today",
+      "source_url": "https://www.theguardian.com/world/2026/apr/05/germany-patisserie-johanna-orth-bereaved-parents-ahr-valley-floods",
+      "date": "2026-04-05",
+      "timestamp": "2026-04-05T08:29:05.313070+00:00",
+      "theme": "green_iron"
     }
   ],
   "replied_to": [
