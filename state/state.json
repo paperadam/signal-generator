@@ -1129,37 +1129,23 @@
     "https://www.theguardian.com/australia-news/2026/apr/04/daylight-savings-2026-when-does-end-dst-saving-time-clocks-change-sydney-melbourne-australia",
     "https://www.nytimes.com/2026/04/04/world/europe/iranian-respite-war.html",
     "https://www.nytimes.com/2026/04/04/us/politics/trump-endless-wars.html",
-    "https://www.nytimes.com/2026/04/04/world/europe/strait-hormuz-shipping-iran.html"
+    "https://www.nytimes.com/2026/04/04/world/europe/strait-hormuz-shipping-iran.html",
+    "https://www.nytimes.com/2026/04/04/world/middleeast/iran-israel-us-war-middle-east.html",
+    "https://www.nytimes.com/2026/04/04/world/middleeast/israel-strikes-mahshahr-iran-oil.html",
+    "https://www.abc.net.au/news/2026-04-05/boat-race-oxford-cambridge-australian-annie-anezakis/106532568",
+    "https://www.nytimes.com/2026/04/04/world/americas/haiti-gang-massacre.html",
+    "https://www.abc.net.au/news/2026-04-05/stephanie-gilmore-beaten-by-luana-silva-at-bells-beach/106532482",
+    "https://www.theguardian.com/australia-news/video/2026/apr/05/meet-tashi-the-miniature-poodle-helping-children-gain-the-confidence-to-read-aloud-video",
+    "https://www.theguardian.com/australia-news/2026/apr/04/gaza-flotilla-global-sumud-activists-return-war-ntwnfb",
+    "https://www.theguardian.com/australia-news/2026/apr/05/victoria-first-nations-treaty-first-elections-ntwnfb",
+    "https://www.theguardian.com/australia-news/2026/apr/05/bilby-breeding-trial-nsw-australia-easter-",
+    "https://www.theguardian.com/commentisfree/2026/apr/05/gambling-reform-australia-david-pocock",
+    "https://www.nytimes.com/2026/04/04/world/middleeast/missing-airman-iran.html",
+    "https://www.nytimes.com/2026/04/04/world/middleeast/iran-war-fighter-jet-f15-raf-lakenheath.html",
+    "https://www.nytimes.com/live/2026/04/04/world/iran-war-trump-news/a-projectile-hit-near-irans-bushehr-nuclear-plant-killing-a-worker",
+    "https://www.theguardian.com/us-news/2026/apr/05/prices-iran-war-gas-flights-economy"
   ],
   "posts": [
-    {
-      "text": "france and britain escorting tankers through hormuz is a massive geopolitical operation and we're still debating whether to fast-track green fuels. the argument basically makes itself at this point.",
-      "source_url": "https://www.nytimes.com/2026/03/27/world/middleeast/europe-plan-escort-hormuz.html",
-      "date": "2026-03-28",
-      "timestamp": "2026-03-28T00:22:31.811408+00:00",
-      "theme": "jobs_and_regions"
-    },
-    {
-      "text": "gas infrastructure going down in wa right as a cyclone comes through. if we're serious about running energy intensive industry here we need grids that can handle this stuff, not just on paper.",
-      "source_url": "https://www.theguardian.com/australia-news/2026/mar/28/tropical-cyclone-narelle-wa-carnavon-exmouth-perth-bom-weather-warning-forecasts",
-      "date": "2026-03-28",
-      "timestamp": "2026-03-28T06:26:27.860545+00:00",
-      "theme": "manufacturing_relocation"
-    },
-    {
-      "text": "hormuz is already a mess and now a us base in saudi gets hit. this is the kind of escalation that sends lng prices everywhere and makes the case for not being dependent on straits you can't control.",
-      "source_url": "https://www.nytimes.com/live/2026/03/28/world/iran-war-trump-israel-oil",
-      "date": "2026-03-28",
-      "timestamp": "2026-03-28T08:12:03.054893+00:00",
-      "theme": "china_watch"
-    },
-    {
-      "text": "just saw that us geothermal is suddenly the hot thing because it's harder to kill politically than wind. hadn't really clocked how much of decarbonisation strategy is now about surviving trump, not about what's cheapest.",
-      "source_url": "https://www.nytimes.com/2026/03/28/climate/clean-energy-trump-renewable.html",
-      "date": "2026-03-28",
-      "timestamp": "2026-03-28T10:37:17.965957+00:00",
-      "theme": "trade_economics"
-    },
     {
       "text": "free public transport is genuinely good but i keep thinking about regional areas that don't have it. all this energy shock stuff hits people in gladstone or mount isa way harder and there's no bus to jump on.",
       "source_url": "https://www.theguardian.com/australia-news/2026/mar/29/victoria-free-public-transport-april-petrol-prices",
@@ -1320,6 +1306,13 @@
       "date": "2026-04-04",
       "timestamp": "2026-04-04T10:38:40.801186+00:00",
       "theme": "cost_of_living"
+    },
+    {
+      "text": "iran's biggest petrochemical complex offline. wild to think we're still shipping raw ore through a region this unstable instead of processing it here where the risk is basically zero.",
+      "source_url": "https://www.nytimes.com/2026/04/04/world/middleeast/israel-strikes-mahshahr-iran-oil.html",
+      "date": "2026-04-05",
+      "timestamp": "2026-04-05T02:34:09.169227+00:00",
+      "theme": "green_iron"
     }
   ],
   "replied_to": [
