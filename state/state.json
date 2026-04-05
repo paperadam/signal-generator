@@ -1150,7 +1150,22 @@
     "https://www.theguardian.com/australia-news/2026/apr/05/asian-leaders-assure-australia-normal-supply-of-fuel-will-continue-as-albanese-focuses-on-averting-shortages",
     "https://www.nytimes.com/live/2026/04/05/world/iran-war-trump-news",
     "https://www.theguardian.com/world/2026/apr/05/germany-patisserie-johanna-orth-bereaved-parents-ahr-valley-floods",
-    "https://www.nytimes.com/2026/04/05/world/middleeast/iran-war-interceptor-missiles.html"
+    "https://www.nytimes.com/2026/04/05/world/middleeast/iran-war-interceptor-missiles.html",
+    "https://www.nytimes.com/2026/04/05/us/politics/trump-iran-war-crimes-truth-social.html",
+    "https://www.nytimes.com/2026/04/05/world/middleeast/trump-truth-social-post-iran-allah-strait-of-hormuz.html",
+    "https://www.theguardian.com/australia-news/2026/apr/05/alleged-racial-discrimination-by-nsw-government-investigated-by-human-rights-commission",
+    "https://www.nytimes.com/2026/04/05/world/middleeast/trump-strait-of-hormuz-deadline-iran-war.html",
+    "https://www.nytimes.com/2026/04/05/world/middleeast/iran-us-rescue.html",
+    "https://www.nytimes.com/2026/04/05/world/europe/migrants-missing-boat-capsize-libya.html",
+    "https://www.theguardian.com/environment/2026/apr/06/the-swift-parrots-distinctive-call-was-recorded-dozens-of-times-in-a-patch-of-tasmanian-forest-then-the-forest-was-logged",
+    "https://www.theguardian.com/environment/2026/apr/06/secondhand-ev-prices-rise-fuel-crisis-australia",
+    "https://www.theguardian.com/australia-news/2026/apr/05/bob-hawke-australian-prime-minister-gold-standard",
+    "https://www.theguardian.com/science/2026/apr/06/why-humans-see-faces-everyday-objects",
+    "https://www.nytimes.com/2026/04/05/world/middleeast/cia-us-airman-rescue-iran.html",
+    "https://www.nytimes.com/2026/04/05/world/europe/matador-dead-bull-fighting-malaga.html",
+    "https://www.theguardian.com/business/2026/apr/06/what-happened-to-doing-job-at-work",
+    "https://www.theguardian.com/business/2026/apr/05/coal-reliance-iran-war-fossil-fuels",
+    "https://www.theguardian.com/business/2026/apr/05/its-all-fear-and-headlines-energy-traders-race-to-keep-pace-with-volatile-oil-markets"
   ],
   "posts": [
     {
@@ -1348,6 +1363,13 @@
       "date": "2026-04-05",
       "timestamp": "2026-04-05T10:49:20.401750+00:00",
       "theme": "manufacturing_relocation"
+    },
+    {
+      "text": "used ev prices going up because of the fuel crisis is pretty wild. market doing what policy hasn't managed to.",
+      "source_url": "https://www.theguardian.com/environment/2026/apr/06/secondhand-ev-prices-rise-fuel-crisis-australia",
+      "date": "2026-04-05",
+      "timestamp": "2026-04-05T20:35:13.863225+00:00",
+      "theme": "general_reaction"
     }
   ],
   "replied_to": [
