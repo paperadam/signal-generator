@@ -1171,7 +1171,11 @@
     "https://www.abc.net.au/news/2026-04-06/tim-david-stars-for-rcb-travis-head-loses-in-ipl/106533912",
     "https://www.abc.net.au/news/2026-04-06/jason-day-returns-to-masters-after-career-of-near-misses/106533818",
     "https://www.theguardian.com/lifeandstyle/2026/apr/06/kindness-strangers-rude-remark-shopkeeper-perspective",
-    "https://www.theguardian.com/world/2026/apr/05/labour-back-down-foie-gras-fur-bans-eu-trade-deal"
+    "https://www.theguardian.com/world/2026/apr/05/labour-back-down-foie-gras-fur-bans-eu-trade-deal",
+    "https://www.nytimes.com/2026/04/06/business/china-oil-shock-iran-war.html",
+    "https://www.abc.net.au/news/2026-04-06/stawell-gift-shacarri-richardson-christian-coleman/106534680",
+    "https://www.theguardian.com/commentisfree/2026/apr/06/celebrant-funerals-weddings",
+    "https://www.theguardian.com/sport/2026/apr/06/talia-gibson-australia-tennis-wta-rankings-rise-interview"
   ],
   "posts": [
     {
@@ -1362,6 +1366,13 @@
       "date": "2026-04-06",
       "timestamp": "2026-04-06T02:08:54.759154+00:00",
       "theme": "green_iron"
+    },
+    {
+      "text": "china has been building energy security infrastructure for years and we're still debating whether to fund a green steel pilot. that gap is what keeps me up.",
+      "source_url": "https://www.nytimes.com/2026/04/06/business/china-oil-shock-iran-war.html",
+      "date": "2026-04-06",
+      "timestamp": "2026-04-06T04:36:47.069006+00:00",
+      "theme": "good_numbers"
     }
   ],
   "replied_to": [
