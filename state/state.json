@@ -1165,30 +1165,15 @@
     "https://www.nytimes.com/2026/04/05/world/europe/matador-dead-bull-fighting-malaga.html",
     "https://www.theguardian.com/business/2026/apr/06/what-happened-to-doing-job-at-work",
     "https://www.theguardian.com/business/2026/apr/05/coal-reliance-iran-war-fossil-fuels",
-    "https://www.theguardian.com/business/2026/apr/05/its-all-fear-and-headlines-energy-traders-race-to-keep-pace-with-volatile-oil-markets"
+    "https://www.theguardian.com/business/2026/apr/05/its-all-fear-and-headlines-energy-traders-race-to-keep-pace-with-volatile-oil-markets",
+    "https://www.theguardian.com/australia-news/live/2026/apr/06/anthony-albanese-fuel-crisis-angus-taylor-middle-east-labor-liberals-moira-deeming-ntwnfb",
+    "https://www.nytimes.com/2026/04/05/world/middleeast/iran-israel-us-war-middle-east.html",
+    "https://www.abc.net.au/news/2026-04-06/tim-david-stars-for-rcb-travis-head-loses-in-ipl/106533912",
+    "https://www.abc.net.au/news/2026-04-06/jason-day-returns-to-masters-after-career-of-near-misses/106533818",
+    "https://www.theguardian.com/lifeandstyle/2026/apr/06/kindness-strangers-rude-remark-shopkeeper-perspective",
+    "https://www.theguardian.com/world/2026/apr/05/labour-back-down-foie-gras-fur-bans-eu-trade-deal"
   ],
   "posts": [
-    {
-      "text": "free public transport is genuinely good but i keep thinking about regional areas that don't have it. all this energy shock stuff hits people in gladstone or mount isa way harder and there's no bus to jump on.",
-      "source_url": "https://www.theguardian.com/australia-news/2026/mar/29/victoria-free-public-transport-april-petrol-prices",
-      "date": "2026-03-29",
-      "timestamp": "2026-03-29T00:36:25.650985+00:00",
-      "theme": "jobs_and_regions"
-    },
-    {
-      "text": "68% support a pollution levy when you explain the household rebates. that's not a fringe position, that's a majority. and eu carbon border tariffs are coming whether we price carbon or not, so like... what are we waiting for.",
-      "source_url": "https://www.theguardian.com/australia-news/2026/mar/29/business-fears-serious-interventions-needed-to-reduce-demand-as-labor-warns-of-long-term-fuel-shock",
-      "date": "2026-03-29",
-      "timestamp": "2026-03-29T06:20:43.008184+00:00",
-      "theme": "carbon_pricing"
-    },
-    {
-      "text": "countries looking at coal as a backup because of hormuz is genuinely bad news but also like... this is exactly why locking in 20 year gas contracts makes me nervous. every supply shock is an argument for green alternatives and we keep not acting on it.",
-      "source_url": "https://www.nytimes.com/2026/03/29/business/energy-environment/iran-war-natural-gas.html",
-      "date": "2026-03-29",
-      "timestamp": "2026-03-29T10:41:55.771956+00:00",
-      "theme": "embedded_energy_trade"
-    },
     {
       "text": "brent up 51% in a single month. honestly did not think it would move that fast. and we're still collecting basically nothing extra on lng exports while this is happening.",
       "source_url": "https://www.theguardian.com/business/2026/mar/29/oil-monthly-surge-record-iran-war-markets-gold",
@@ -1370,6 +1355,13 @@
       "date": "2026-04-05",
       "timestamp": "2026-04-05T20:35:13.863225+00:00",
       "theme": "general_reaction"
+    },
+    {
+      "text": "bowen calling for hormuz to reopen while we still don't process our own iron ore. we export the raw stuff, import the risk. genuinely stresses me out.",
+      "source_url": "https://www.theguardian.com/australia-news/live/2026/apr/06/anthony-albanese-fuel-crisis-angus-taylor-middle-east-labor-liberals-moira-deeming-ntwnfb",
+      "date": "2026-04-06",
+      "timestamp": "2026-04-06T02:08:54.759154+00:00",
+      "theme": "green_iron"
     }
   ],
   "replied_to": [
