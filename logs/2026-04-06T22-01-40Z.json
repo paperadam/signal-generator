@@ -1,0 +1,306 @@
+{
+  "version": 1,
+  "run_id": "2026-04-06T22-01-40Z",
+  "timestamp": "2026-04-06T22:01:40.554495+00:00",
+  "run_type": "scheduled",
+  "outcome": "posted",
+  "timing": {
+    "sleep_hours": false,
+    "skipped_randomly": false,
+    "pre_post_delay_minutes": 23.5,
+    "engage_gap_delay_minutes": 17.5
+  },
+  "feed_intake": {
+    "total_fetched": 57,
+    "matched_filters": 39,
+    "new_articles": 27,
+    "articles": [
+      {
+        "title": "Iran\u2019s 10-Point Proposal Demands an End to Attacks and Sanctions",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/2026/04/06/world/middleeast/iran-10-point-proposal.html"
+      },
+      {
+        "title": "New Revelations Reignite Crypto Scandal Involving Argentina\u2019s President Milei",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/2026/04/06/world/americas/argentina-milei-crypto-libra.html"
+      },
+      {
+        "title": "News live: Trump says Australia \u2018didn\u2019t help\u2019 with Iran war; \u2018increasing\u2019 cyclone threat for Queensland",
+        "source": "Australia news | The Guardian",
+        "link": "https://www.theguardian.com/australia-news/live/2026/apr/07/australia-news-live-cyclone-maila-threat-queensland-road-toll-trump-iran-ntwnfb"
+      },
+      {
+        "title": "As Trump Deadline Looms, Iran and U.S. Mix Threats With Hints of Deal",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/2026/04/06/world/middleeast/iran-trump-deadline.html"
+      },
+      {
+        "title": "Morning Mail: \u2018scam\u2019 empire links alleged in Timor-Leste, Trump says Iran could be \u2018taken out tomorrow night\u2019",
+        "source": "Australia news | The Guardian",
+        "link": "https://www.theguardian.com/australia-news/2026/apr/07/morning-mail-tuesday-ntwnfb"
+      },
+      {
+        "title": "At Least 4 Killed in Iranian Strike in Haifa, Israeli Officials Say",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/2026/04/06/world/middleeast/israel-haifa-strike-iran.html"
+      },
+      {
+        "title": "Trump\u2019s Deportation Deals",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/2026/04/06/world/us-trump-deportations-iran-deadline-artemis-moon.html"
+      },
+      {
+        "title": "Suspect in Hacking of Climate Activists Is Extradited to New York",
+        "source": "NYT > Climate and Environment",
+        "link": "https://www.nytimes.com/2026/04/06/climate/forlit-exxon-dci-hacking-extradition.html"
+      },
+      {
+        "title": "Trump\u2019s USAID Overhaul Sent Millions More Dollars to Big U.S.-Based Contractors",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/2026/04/06/health/trump-foreign-aid.html"
+      },
+      {
+        "title": "Seyed Majid Khademi, Iranian Intelligence Chief, Killed in Overnight Attack",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/2026/04/06/world/middleeast/iran-khademi-intelligence-israel.html"
+      },
+      {
+        "title": "A New Oil Shock Accelerates a Return to Nuclear Power",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/2026/04/06/business/nuclear-energy-iran-war.html"
+      },
+      {
+        "title": "Iranians Condemn Strike on a Top University",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/2026/04/06/world/middleeast/iranians-condemn-university-strike.html"
+      },
+      {
+        "title": "Trump Moves Deadline for Iran to Open Strait of Hormuz",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/2026/04/06/world/middleeast/trump-threat-strait-peace.html"
+      },
+      {
+        "title": "Key islands give Iran sway over the Strait of Hormuz.",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/live/2026/world/us-israel-iran-attack-maps/key-islands-give-iran-sway-over-the-strait-of-hormuz"
+      },
+      {
+        "title": "Private jets, deserted shores and an unbuilt resort: alleged links to sanctioned \u2018scam\u2019 empire revealed in Timor-Leste",
+        "source": "Australia news | The Guardian",
+        "link": "https://www.theguardian.com/world/ng-interactive/2026/apr/06/prince-group-timor-leste-links-to-alleged-scam-empire"
+      },
+      {
+        "title": "Using AI to speed up Australia\u2019s environmental approvals risks \u2018robodebt-style\u2019 failures, scientists say",
+        "source": "Australia news | The Guardian",
+        "link": "https://www.theguardian.com/environment/2026/apr/06/ai-environmental-assessments-robodebt-style-failures"
+      },
+      {
+        "title": "The yidaki, a 16th-century double bass and a South American flute: finding Australia\u2019s oldest playable musical instrument",
+        "source": "Australia news | The Guardian",
+        "link": "https://www.theguardian.com/australia-news/2026/apr/06/australia-oldest-musical-instrument"
+      },
+      {
+        "title": "Cars make way for bikes as Sydney commuters saddle up to circumvent \u2018crazy\u2019 fuel costs",
+        "source": "Australia news | The Guardian",
+        "link": "https://www.theguardian.com/lifeandstyle/2026/apr/06/fuel-crisis-sydney-commuters-cycling"
+      },
+      {
+        "title": "On Iran, Trump Keeps World Off Balance With Ever-Changing Threats",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/2026/04/06/world/europe/iran-trump-threats.html"
+      },
+      {
+        "title": "The Latest Blows to Iran\u2019s Leadership",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/2026/04/06/world/middleeast/killings-iran-leadership.html"
+      },
+      {
+        "title": "Polymarket criticized over \u2018disgusting\u2019 bets on fate of pilots on US jet shot by Iran",
+        "source": "Business | The Guardian",
+        "link": "https://www.theguardian.com/us-news/2026/apr/06/polymarket-criticized-bets-us-jet-shot-by-iran"
+      },
+      {
+        "title": "Savannah Guthrie returns to Today show for first time since mother\u2019s disappearance",
+        "source": "Business | The Guardian",
+        "link": "https://www.theguardian.com/media/2026/apr/06/savannah-guthrie-today-show-return-missing-mom"
+      },
+      {
+        "title": "Aussie stars testing the waters at Australian Open",
+        "source": "ABC Grandstand Sport",
+        "link": "https://www.abc.net.au/news/2026-04-06/australian-open-swimming-mollie-ocallaghan-kyle-chalmers/106535948"
+      },
+      {
+        "title": "\u2018All we can do now is pray they continue\u2019: Maasai welcome the first rains but know that drought is far from over",
+        "source": "Climate crisis | The Guardian",
+        "link": "https://www.theguardian.com/global-development/2026/apr/06/maasai-lands-drought-kenya-extreme-climate-patterns-livestock-deaths-herders-poverty-early-marriage"
+      },
+      {
+        "title": "\u2018A surrender to special interests\u2019: alarm as Utah shields fossil-fuel companies",
+        "source": "Climate crisis | The Guardian",
+        "link": "https://www.theguardian.com/us-news/2026/apr/06/utah-fossil-fuels-legal-shield"
+      },
+      {
+        "title": "War in Iran is boosting profits for oil and defense companies as US gas prices soar",
+        "source": "Business | The Guardian",
+        "link": "https://www.theguardian.com/world/2026/apr/06/defense-contractors-oil-companies-profit-iran-war"
+      },
+      {
+        "title": "Marshall questions penalty against Tigers despite Eels star's ugly ankle injury",
+        "source": "ABC Grandstand Sport",
+        "link": "https://www.abc.net.au/news/2026-04-06/nrl-live-updates-parramatta-eels-wests-tigers/106535120"
+      }
+    ]
+  },
+  "story_selection": {
+    "articles_considered": 27,
+    "selected_count": 3,
+    "selected_stories": [
+      {
+        "title": "A New Oil Shock Accelerates a Return to Nuclear Power",
+        "source": "NYT > World News",
+        "link": "https://www.nytimes.com/2026/04/06/business/nuclear-energy-iran-war.html"
+      },
+      {
+        "title": "War in Iran is boosting profits for oil and defense companies as US gas prices soar",
+        "source": "Business | The Guardian",
+        "link": "https://www.theguardian.com/world/2026/apr/06/defense-contractors-oil-companies-profit-iran-war"
+      },
+      {
+        "title": "\u2018A surrender to special interests\u2019: alarm as Utah shields fossil-fuel companies",
+        "source": "Climate crisis | The Guardian",
+        "link": "https://www.theguardian.com/us-news/2026/apr/06/utah-fossil-fuels-legal-shield"
+      }
+    ],
+    "claude_raw_response": "```json\n[10, 25, 24]\n```"
+  },
+  "post_generation": {
+    "stories_sent": 3,
+    "generated_posts": [
+      {
+        "text": "asia going back to nuclear because gas got squeezed. meantime we've got the renewables to replace that gas and we're still not moving fast enough on it. the customers are literally telling us what they need.",
+        "source_url": "https://www.nytimes.com/2026/04/06/business/nuclear-energy-iran-war.html",
+        "story_title": "A New Oil Shock Accelerates a Return to Nuclear Power"
+      }
+    ],
+    "claude_raw_response": "[{\"text\": \"asia going back to nuclear because gas got squeezed. meantime we've got the renewables to replace that gas and we're still not moving fast enough on it. the customers are literally telling us what they need.\", \"story_index\": 1}]"
+  },
+  "publishing": {
+    "results": [
+      {
+        "text": "asia going back to nuclear because gas got squeezed. meantime we've got the renewables to replace that gas and we're still not moving fast enough on it. the customers are literally telling us what they need.",
+        "source_url": "https://www.nytimes.com/2026/04/06/business/nuclear-energy-iran-war.html",
+        "uri": "at://did:plc:h23qnlw7e7b4bj73ktu2bzyv/app.bsky.feed.post/3miucm52wim2x",
+        "success": true,
+        "error": ""
+      }
+    ]
+  },
+  "engagement": {
+    "search_queries_used": [
+      "energy transition",
+      "renewable energy Australia",
+      "green hydrogen"
+    ],
+    "candidates_found": 44,
+    "candidates": [
+      {
+        "author": "bumbojumbo666.bsky.social",
+        "text": "I very strongly dislike how \"data centers have a somewhat high electricity consumption\" has been bastardized into \"they are destroying the planet\" at the exact same fucking time that the renewable ene",
+        "likes": 0,
+        "query": "energy transition"
+      },
+      {
+        "author": "simonwhale.bsky.social",
+        "text": "This one is worth sharing because unlike a lot of energy content online,it\u2019s actually solid.Oxford University published a peer-reviewed study in the journal Joule,1 of the most respected energy public",
+        "likes": 20,
+        "query": "energy transition"
+      },
+      {
+        "author": "pembina.org",
+        "text": "Thinking of launching your #CleanEnergy career? There\u2019s still time! \u23f3\n\nWe\u2019re hiring two entry\u2011level Analysts to support research, data analysis, and policy development driving Canada\u2019s clean energy tr",
+        "likes": 1,
+        "query": "energy transition"
+      },
+      {
+        "author": "bobkopp.net",
+        "text": "Anyways, we need a term for programs that are simultaneously recessionary, inflationary, revolutionary with respect to the global geopolitical and economic order, and likely to accelerate the energy t",
+        "likes": 1,
+        "query": "energy transition"
+      },
+      {
+        "author": "niedzwiecki5.bsky.social",
+        "text": "That is one large reason to transition to renewable energy!",
+        "likes": 2,
+        "query": "energy transition"
+      },
+      {
+        "author": "adeepspacemind.bsky.social",
+        "text": "Talk about Technological Transition Periods. \n\nTalk about sane electricity production by getting Solar and wind to homes who have the most surface are for mass energy generation and offsets to the gri",
+        "likes": 0,
+        "query": "energy transition"
+      },
+      {
+        "author": "volts.wtf",
+        "text": "Canary Media is turning 5! It's absolutely the best day-to-day reporting on the clean energy transition on the internet. \n\nGreen funders: this is the kind of media we need. Fucking fund it! \n\nEveryone",
+        "likes": 67,
+        "query": "energy transition"
+      },
+      {
+        "author": "canarymedia.com",
+        "text": "Happy birthday to us!\n\nCanary Media is celebrating five years of covering the clean energy transition and all the policy flip-flops, utility scandals, and tech breakthroughs that have come with it.\n\nH",
+        "likes": 9,
+        "query": "energy transition"
+      },
+      {
+        "author": "foeint.bsky.social",
+        "text": "For a Feminist and Just Energy Transition\n\nEnergy sovereignty is key \ud83d\udddd\ufe0f Processes of energy production, distribution and consumption must be under public control.\n\nWorking to serve the land, rights, j",
+        "likes": 0,
+        "query": "energy transition"
+      },
+      {
+        "author": "siecenter.bsky.social",
+        "text": "Please join us as we discuss ethical dilemmas surrounding the scramble for critical minerals to meet the clean energy transition, building research studying China, the US, and European investment in m",
+        "likes": 0,
+        "query": "energy transition"
+      },
+      {
+        "author": "riogranderift.bsky.social",
+        "text": "New Mexico exemplifies the imperative to plan for the retirement and cleanup of oil & gas infrastructure as a part of energy transition policy--especially given emergent research emphasizing the chall",
+        "likes": 3,
+        "query": "energy transition"
+      },
+      {
+        "author": "atalliance.bsky.social",
+        "text": "\"Investments in cleaner transportation, expanded public transit, reduced diesel emissions and transition to clean energy do more than protect the environment \u2014 they reduce hospitalizations, lower heal",
+        "likes": 4,
+        "query": "energy transition"
+      },
+      {
+        "author": "skarfinans.bsky.social",
+        "text": "MDU Resources Group Inc. Faces Energy Transition Amid Modest Generation Capacity MDU Resources Group Inc., a natural\u2011gas utility with a smaller electric...",
+        "likes": 0,
+        "query": "energy transition"
+      },
+      {
+        "author": "iami.earth",
+        "text": "Exeter Community Energy as a community-owned cooperative and social enterprise. The ownership model IS the innovation. Same panels, same grid, different governance. Who owns the infrastructure determi",
+        "likes": 0,
+        "query": "energy transition"
+      },
+      {
+        "author": "deepcodeaudit.bsky.social",
+        "text": "We're already chucking over $1 Trillion per year at the energy transition. If funding equaled 'Magic Inventions,' we\u2019d be running on fusion by now. You\u2019re ignoring the physical limits of energy densit",
+        "likes": 0,
+        "query": "energy transition"
+      }
+    ],
+    "selected_post": null,
+    "reply_text": "",
+    "reply_uri": "",
+    "reply_success": true,
+    "reply_error": "",
+    "claude_raw_response": ""
+  },
+  "errors": []
+}
