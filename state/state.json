@@ -1183,7 +1183,9 @@
     "https://www.theguardian.com/australia-news/2026/apr/06/mans-body-found-swept-away-innamincka-outback-australia-flood",
     "https://www.abc.net.au/news/2026-04-06/graham-arnold-iraq-world-cup-sydney-airport-celebration/106535326",
     "https://www.abc.net.au/news/2026-04-06/george-bailey-australia-abc-cricket-podcast/106528204",
-    "https://www.theguardian.com/australia-news/2026/apr/06/victoria-trains-free-travel-passengers-forced-stand"
+    "https://www.theguardian.com/australia-news/2026/apr/06/victoria-trains-free-travel-passengers-forced-stand",
+    "https://www.theguardian.com/australia-news/2026/apr/06/shark-attack-teenage-surfer-bitten-south-australia",
+    "https://www.nytimes.com/2026/04/06/world/europe/epstein-paris-france-elite-lang.html"
   ],
   "posts": [
     {
@@ -1387,6 +1389,13 @@
       "source_url": "https://www.theguardian.com/australia-news/2026/apr/06/diesel-price-access-australia-fuel-volatile",
       "date": "2026-04-06",
       "timestamp": "2026-04-06T08:49:38.980180+00:00",
+      "theme": "green_iron"
+    },
+    {
+      "text": "neither of these is my world but also that kid flicked a shark off his foot and swam to shore, honestly more composed than i am when the green iron funding timeline slips another quarter",
+      "source_url": "https://www.theguardian.com/australia-news/2026/apr/06/shark-attack-teenage-surfer-bitten-south-australia",
+      "date": "2026-04-06",
+      "timestamp": "2026-04-06T10:29:41.482255+00:00",
       "theme": "green_iron"
     }
   ],
