@@ -1,0 +1,178 @@
+{
+  "version": 1,
+  "run_id": "2026-04-07T02-00-40Z",
+  "timestamp": "2026-04-07T02:00:40.700802+00:00",
+  "run_type": "scheduled",
+  "outcome": "skipped_no_posts",
+  "timing": {
+    "sleep_hours": false,
+    "skipped_randomly": false,
+    "pre_post_delay_minutes": 15.9,
+    "engage_gap_delay_minutes": 11.1
+  },
+  "feed_intake": {
+    "total_fetched": 59,
+    "matched_filters": 42,
+    "new_articles": 4,
+    "articles": [
+      {
+        "title": "Accused Pinochet agent turned Bondi nanny Adriana Rivas to be extradited to Chile",
+        "source": "Australia news | The Guardian",
+        "link": "https://www.theguardian.com/australia-news/2026/apr/07/bondi-nanny-adriana-rivas-accused-pinochet-agent-extradited"
+      },
+      {
+        "title": "Former Australian soldier Ben Roberts-Smith arrested over alleged war crimes in Afghanistan",
+        "source": "Australia news | The Guardian",
+        "link": "https://www.theguardian.com/australia-news/2026/apr/07/ben-roberts-smith-arrested-brs-australian-soldier-sas-alleged-war-crimes-ntwnfb"
+      },
+      {
+        "title": "Ukraine war briefing: Zelenskyy reiterates truce offer ahead of Orthodox Easter",
+        "source": "Australia news | The Guardian",
+        "link": "https://www.theguardian.com/world/2026/apr/07/ukraine-russia-war-briefing-zelenskyy-orthodox-easter-truce-offer"
+      },
+      {
+        "title": "Olympic cyclist Rohan Dennis says he never wanted to hurt wife Melissa Hoskins and attacks media\u2019s \u2018false narrative\u2019",
+        "source": "Australia news | The Guardian",
+        "link": "https://www.theguardian.com/australia-news/2026/apr/07/rohan-dennis-says-he-never-wanted-to-hurt-wife-melissa-hoskins-and-attacks-medias-false-narrative"
+      }
+    ]
+  },
+  "story_selection": {
+    "articles_considered": 4,
+    "selected_count": 3,
+    "selected_stories": [
+      {
+        "title": "Ukraine war briefing: Zelenskyy reiterates truce offer ahead of Orthodox Easter",
+        "source": "Australia news | The Guardian",
+        "link": "https://www.theguardian.com/world/2026/apr/07/ukraine-russia-war-briefing-zelenskyy-orthodox-easter-truce-offer"
+      },
+      {
+        "title": "Former Australian soldier Ben Roberts-Smith arrested over alleged war crimes in Afghanistan",
+        "source": "Australia news | The Guardian",
+        "link": "https://www.theguardian.com/australia-news/2026/apr/07/ben-roberts-smith-arrested-brs-australian-soldier-sas-alleged-war-crimes-ntwnfb"
+      },
+      {
+        "title": "Accused Pinochet agent turned Bondi nanny Adriana Rivas to be extradited to Chile",
+        "source": "Australia news | The Guardian",
+        "link": "https://www.theguardian.com/australia-news/2026/apr/07/bondi-nanny-adriana-rivas-accused-pinochet-agent-extradited"
+      }
+    ],
+    "claude_raw_response": "[2, 1, 0]"
+  },
+  "post_generation": {
+    "stories_sent": 3,
+    "generated_posts": [],
+    "claude_raw_response": "These stories are all pretty far from my world. Going with story 1 since ukraine energy infrastructure keeps coming up and i can't help but think about what that means for global energy security long term.\n\n[{\"text\": \"every time energy infrastructure gets targeted somewhere in the world i think about how exposed countries are when they haven't diversified. we've got the stuff to help with that. are we moving on it or not.\", \"story_index\": 1}]"
+  },
+  "publishing": null,
+  "engagement": {
+    "search_queries_used": [
+      "industrial policy energy",
+      "renewable energy Australia",
+      "lithium mining"
+    ],
+    "candidates_found": 45,
+    "candidates": [
+      {
+        "author": "dustinmulvaney.bsky.social",
+        "text": "Our new report examines the California Grid Manufacturing Initiative introduced in AB 2516, a pro-worker green industrial policy designed to manufacture critical electricity grid components, lower ene",
+        "likes": 29,
+        "query": "industrial policy energy"
+      },
+      {
+        "author": "saraheknuth.bsky.social",
+        "text": "This moment demands pro-labor, green industrial policy designed to secure our energy future. California\u2019s grid is in crisis, but the California Green Manufacturing Initiative offers a climate, jobs, a",
+        "likes": 2,
+        "query": "industrial policy energy"
+      },
+      {
+        "author": "geek.wales",
+        "text": "I don't understand why the focus on wind as % of primary energy.\n\nAs more renewables are built, price policy change & the cost of electricity decreases then that will be reflected in PE mix.\n\nMore peo",
+        "likes": 3,
+        "query": "industrial policy energy"
+      },
+      {
+        "author": "market-ocean-en.bsky.social",
+        "text": "stretches decades, precisely the kind of commitment that policy instability makes harder to sustain. The trade-off is stark: ambitious energy and industrial strategies require durable political consen",
+        "likes": 0,
+        "query": "industrial policy energy"
+      },
+      {
+        "author": "petergleick.bsky.social",
+        "text": "And it's not \"just\" buy an EV or solar. It's having a national commitment to energy policy that makes rhem part of a comprehensive approach to eliminating fossil fuels for everyone. Tax credits, housi",
+        "likes": 37,
+        "query": "industrial policy energy"
+      },
+      {
+        "author": "petergleick.bsky.social",
+        "text": "It's not \"just\" buy an EV. It's having a national commitment to an energy policy that makes EVs part of a comprehensive approach to eliminating fossil fuels for everyone. Tax credits, housing policy, ",
+        "likes": 12,
+        "query": "industrial policy energy"
+      },
+      {
+        "author": "brianvad.bsky.social",
+        "text": "This is why energy policy in Europe is not only climate policy. It is also industrial policy, security policy, and resilience policy. We have outlined two of the possible solutions for heating and jet",
+        "likes": 1,
+        "query": "industrial policy energy"
+      },
+      {
+        "author": "lojikul.bsky.social",
+        "text": "The bubble built to defend the R mind from recognizing the energy revolution happening in China was so strong they actively accelerated the strategic industrial losses through policy",
+        "likes": 3,
+        "query": "industrial policy energy"
+      },
+      {
+        "author": "musicalchairs.bsky.social",
+        "text": "The way out of decline is not cutting Govt spending - it's re-orientating the economy. Energy self-sufficiency, a bit of industrial policy, R&D... hell, we might need some capital controls. It will *d",
+        "likes": 79,
+        "query": "industrial policy energy"
+      },
+      {
+        "author": "scoopsstp.bsky.social",
+        "text": "The kind of things the IRA tried to fund - I would argue the first US industrial policy in perhaps ever - would have been beneficial not just to clean energy technologies, but to consumers and in this",
+        "likes": 2,
+        "query": "industrial policy energy"
+      },
+      {
+        "author": "pierobond.bsky.social",
+        "text": "\ud83e\udded Medium-Term Geopolitical Impact \nA more fragmented order is taking shape as energy insecurity, industrial policy and chokepoints pull the world into harder blocs. #Europe looks more exposed, while #",
+        "likes": 0,
+        "query": "industrial policy energy"
+      },
+      {
+        "author": "ewangibbs.bsky.social",
+        "text": "Energy and industrial strategy are rightfully dominating subjects in the Scottish Parliament elections.  I'm looking forward to joining this webinar of trade unionists and policy experts hosted by @sc",
+        "likes": 2,
+        "query": "industrial policy energy"
+      },
+      {
+        "author": "voxeu.org",
+        "text": "Alvin Lumbanraja, Sarah Mouabbi, @evgeniapassari.bsky.social & Adrien Rousset Planat find that the stagflationary impact of commodity supply disturbances originating outside the oil market to be at le",
+        "likes": 6,
+        "query": "industrial policy energy"
+      },
+      {
+        "author": "becky-ray.bsky.social",
+        "text": "We cover topics including: \n\u26cf\ufe0f ESG mining governance \n\ud83c\udfed Industrial policy and economic diversification\n\u2600\ufe0fAccess to renewable energy\n\ud83c\udfe6Harnessing Chinese finance for all of the above\n\nA summary of it al",
+        "likes": 0,
+        "query": "industrial policy energy"
+      },
+      {
+        "author": "sciencethinktank.bsky.social",
+        "text": "How is the EU to equip itself for a low-carbon energy system? A deep dive into European science and industrial policy resorg.news/2025/12/12/e...",
+        "likes": 0,
+        "query": "industrial policy energy"
+      }
+    ],
+    "selected_post": {
+      "author": "wrt-t.bsky.social",
+      "text": "Farming sunshine: How regional NSW is living the renewable energy transition\n\nAustralia\n\nvideo duration 7:33\nwww.sbs.com.au/news/video/f..."
+    },
+    "reply_text": "yeah honestly the regional jobs story is underrated, processing ore near where the energy's cheapest is where the real money is",
+    "reply_uri": "at://did:plc:h23qnlw7e7b4bj73ktu2bzyv/app.bsky.feed.post/3miuq5uuiis2r",
+    "reply_success": true,
+    "reply_error": "",
+    "claude_raw_response": "{\"selected\": 16, \"reply\": \"yeah honestly the regional jobs story is underrated, processing ore near where the energy's cheapest is where the real money is\"}"
+  },
+  "errors": []
+}
