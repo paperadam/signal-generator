@@ -1212,30 +1212,14 @@
     "https://www.theguardian.com/global-development/2026/apr/06/maasai-lands-drought-kenya-extreme-climate-patterns-livestock-deaths-herders-poverty-early-marriage",
     "https://www.theguardian.com/us-news/2026/apr/06/utah-fossil-fuels-legal-shield",
     "https://www.theguardian.com/world/2026/apr/06/defense-contractors-oil-companies-profit-iran-war",
-    "https://www.abc.net.au/news/2026-04-06/nrl-live-updates-parramatta-eels-wests-tigers/106535120"
+    "https://www.abc.net.au/news/2026-04-06/nrl-live-updates-parramatta-eels-wests-tigers/106535120",
+    "https://www.theguardian.com/australia-news/2026/apr/07/flu-vaccine-nasal-spray-children-influenza-vaccinationa-nsw",
+    "https://www.nytimes.com/2026/04/06/us/politics/trump-iran-cease-fire-proposal.html",
+    "https://www.theguardian.com/world/video/2026/apr/07/trump-lashes-out-at-australia-japan-and-south-korea-for-not-helping-in-iran-war-video",
+    "https://www.nytimes.com/2026/04/06/world/middleeast/middle-east-iran-war-week-6.html",
+    "https://www.abc.net.au/news/2026-04-07/jason-day-on-tiger-woods-missing-masters-after-dui-charge/106536818"
   ],
   "posts": [
-    {
-      "text": "brent up 51% in a single month. honestly did not think it would move that fast. and we're still collecting basically nothing extra on lng exports while this is happening.",
-      "source_url": "https://www.theguardian.com/business/2026/mar/29/oil-monthly-surge-record-iran-war-markets-gold",
-      "date": "2026-03-30",
-      "timestamp": "2026-03-30T02:18:41.693715+00:00",
-      "theme": "resource_rents"
-    },
-    {
-      "text": "fuel excise cut right now feels like exactly the wrong signal. we're in an energy crisis that's supposed to be pushing us toward green alternatives and we just made petrol cheaper.",
-      "source_url": "https://www.theguardian.com/australia-news/2026/mar/30/interest-rates-rba-fuel-excise-australia-albanese",
-      "date": "2026-03-30",
-      "timestamp": "2026-03-30T04:46:11.276110+00:00",
-      "theme": "green_iron"
-    },
-    {
-      "text": "brent at $116 and we're still having the same argument about whether to put a proper resource rent tax on lng. the timing on this stuff is genuinely wild.",
-      "source_url": "https://www.theguardian.com/business/2026/mar/30/price-of-oil-trump-iran-stock-markets-middle-east",
-      "date": "2026-03-30",
-      "timestamp": "2026-03-30T20:22:41.412322+00:00",
-      "theme": "general_reaction"
-    },
     {
       "text": "iran charging a toll on hormuz is wild. and we're still not treating green exports as urgent. these two things are so obviously connected.",
       "source_url": "https://www.nytimes.com/live/2026/03/30/world/iran-war-trump-oil-news/strait-of-hormuz-toll-iran",
@@ -1431,6 +1415,13 @@
       "date": "2026-04-06",
       "timestamp": "2026-04-06T22:25:17.508854+00:00",
       "theme": "resource_rents"
+    },
+    {
+      "text": "trump calling out australia for not helping in iran and i'm just thinking about how exposed we are when we haven't sorted our own energy processing. hard to project confidence when we're still shipping raw ore through contested waters.",
+      "source_url": "https://www.theguardian.com/world/video/2026/apr/07/trump-lashes-out-at-australia-japan-and-south-korea-for-not-helping-in-iran-war-video",
+      "date": "2026-04-07",
+      "timestamp": "2026-04-07T00:26:49.491715+00:00",
+      "theme": "jobs_and_regions"
     }
   ],
   "replied_to": [
