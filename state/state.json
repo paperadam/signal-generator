@@ -1293,7 +1293,37 @@
     "https://www.theguardian.com/world/2026/apr/08/severe-tropical-cyclone-maila-intensifies-to-one-of-seasons-strongest-storms-ahead-of-australian-landfall",
     "https://www.theguardian.com/australia-news/2026/apr/08/brisbane-rideshare-driver-accused-of-raping-passenger-and-stalking-more-women",
     "https://www.nytimes.com/2026/04/08/business/energy-environment/iran-war-oil-gas-restart-oprations.html",
-    "https://www.theguardian.com/australia-news/2026/apr/08/afternoon-update-wednesday-ntwnfb"
+    "https://www.theguardian.com/australia-news/2026/apr/08/afternoon-update-wednesday-ntwnfb",
+    "https://www.nytimes.com/2026/04/08/us/politics/trump-war-goals.html",
+    "https://www.nytimes.com/2026/04/08/us/politics/trump-combat-political-risks.html",
+    "https://www.nytimes.com/2026/04/08/world/middleeast/iran-ceasefire-hormuz-lebanon.html",
+    "https://www.nytimes.com/live/2026/04/08/world/iran-war-trump-news/gulf-countries-attacks-iran-ceasefire",
+    "https://www.nytimes.com/2026/04/08/us/politics/trump-iran-goals.html",
+    "https://www.nytimes.com/2026/04/08/world/middleeast/iran-10-point-proposal-trump-us-ceasefire.html",
+    "https://www.nytimes.com/2026/04/08/world/europe/greece-social-media-teens.html",
+    "https://www.nytimes.com/2026/04/08/business/energy-environment/iran-war-oil-gas-prices-energy.html",
+    "https://www.nytimes.com/2026/04/08/world/middleeast/iran-ceasefire-voices.html",
+    "https://www.theguardian.com/world/2026/apr/08/oil-prices-stock-today-futures-crude-donald-trump-iran-ceasefire",
+    "https://www.nytimes.com/2026/04/08/world/middleeast/hegseth-caine-iran-uranium.html",
+    "https://www.theguardian.com/us-news/2026/apr/08/epa-chief-zeldin-climate-denying-group-event",
+    "https://www.theguardian.com/business/2026/apr/08/delta-ceo-higher-fares-oil-prices-iran-war",
+    "https://www.nytimes.com/live/2026/04/08/world/iran-war-trump-news/world-leaders-welcome-iran-cease-fire-but-want-strait-of-hormuz-opened-soon",
+    "https://www.theguardian.com/world/2026/apr/08/us-iran-ceasefire-mass-exodus-ships-strait-hormuz-analysts",
+    "https://www.nytimes.com/2026/04/08/world/middleeast/france-iran-hostages.html",
+    "https://www.nytimes.com/2026/04/08/business/delta-air-lines-earnings.html",
+    "https://www.theguardian.com/world/2026/apr/08/timor-leste-vulnerable-to-online-scam-centres-president-jose-ramos-horta",
+    "https://www.theguardian.com/commentisfree/2026/apr/09/ben-roberts-smith-public-figures-intervention-ntwnfb",
+    "https://www.theguardian.com/australia-news/audio/2026/apr/08/will-albanese-find-fuel-security-in-singapore-full-story-podcast",
+    "https://www.theguardian.com/australia-news/2026/apr/09/truckie-boss-says-people-are-getting-desperate-as-siphoned-diesel-seen-as-sign-of-dire-crisis",
+    "https://www.theguardian.com/australia-news/2026/apr/09/trump-albanese-tactics-changed-foreign-policy",
+    "https://www.theguardian.com/business/grogonomics/2026/apr/08/australia-recession-economy-rba-trump-iran",
+    "https://www.nytimes.com/2026/04/08/world/middleeast/us-iran-ceasefire-uranium-nuclear-weapons.html",
+    "https://www.theguardian.com/tv-and-radio/2026/apr/08/are-onlyfans-models-the-best-way-to-explain-the-climate-crisis",
+    "https://www.nytimes.com/2026/04/08/world/middleeast/pakistan-iran-us-ceasefire-talks.html",
+    "https://www.nytimes.com/2026/04/08/world/middleeast/iran-ceasefire-us-explainer.html",
+    "https://www.nytimes.com/2026/04/08/world/middleeast/israel-netanyahu-iran-war-us.html",
+    "https://www.nytimes.com/2026/04/08/world/middleeast/iran-leadership-next-generation.html",
+    "https://www.theguardian.com/australia-news/2026/apr/08/matt-canavans-economic-revolution-is-little-more-than-a-populist-mirage-and-australians-would-pay-the-price"
   ],
   "posts": [
     {
@@ -1498,6 +1528,13 @@
       "date": "2026-04-08",
       "timestamp": "2026-04-08T10:22:50.311324+00:00",
       "theme": "embedded_energy_trade"
+    },
+    {
+      "text": "oil crashing on a ceasefire and everyone's celebrating but the underlying exposure hasn't changed at all. we still haven't fixed why we're vulnerable every time this region sneezes.",
+      "source_url": "https://www.theguardian.com/world/2026/apr/08/oil-prices-stock-today-futures-crude-donald-trump-iran-ceasefire",
+      "date": "2026-04-08",
+      "timestamp": "2026-04-08T20:21:09.965258+00:00",
+      "theme": "procurement_signals"
     }
   ],
   "replied_to": [
