@@ -1323,7 +1323,19 @@
     "https://www.nytimes.com/2026/04/08/world/middleeast/iran-ceasefire-us-explainer.html",
     "https://www.nytimes.com/2026/04/08/world/middleeast/israel-netanyahu-iran-war-us.html",
     "https://www.nytimes.com/2026/04/08/world/middleeast/iran-leadership-next-generation.html",
-    "https://www.theguardian.com/australia-news/2026/apr/08/matt-canavans-economic-revolution-is-little-more-than-a-populist-mirage-and-australians-would-pay-the-price"
+    "https://www.theguardian.com/australia-news/2026/apr/08/matt-canavans-economic-revolution-is-little-more-than-a-populist-mirage-and-australians-would-pay-the-price",
+    "https://www.nytimes.com/2026/04/08/world/middleeast/jd-vance-lebanon-iran-cease-fire.html",
+    "https://www.theguardian.com/australia-news/live/2026/apr/09/anthony-albanese-singapore-visit-fuel-crisis-middle-east-ceasefire-lebanon-strikes-politics-labor-coalition-reactions-ntwnfb",
+    "https://www.theguardian.com/australia-news/2026/apr/09/penny-wong-joint-statement-aid-workers-lebanon-ceasefire",
+    "https://www.abc.net.au/news/2026-04-09/daniil-medvedev-loses-matteo-berrettini-monte-carlo-masters/106544770",
+    "https://www.nytimes.com/2026/04/08/world/middleeast/trump-pakistan-tweet-iran.html",
+    "https://www.nytimes.com/2026/04/08/us/politics/white-house-foreign-steel-ballroom.html",
+    "https://www.nytimes.com/2026/04/08/world/iran-trump-ceasefire-israel-lebanon-bitcoin-creator.html",
+    "https://www.theguardian.com/australia-news/2026/apr/09/morning-mail-thursday-ntwnfb",
+    "https://www.nytimes.com/2026/04/08/world/asia/vietnam-rice-food-shortage-iran-war.html",
+    "https://www.nytimes.com/video/world/asia/100000010810827/vietnam-farms-hit-by-the-war-in-iran.html",
+    "https://www.abc.net.au/news/2026-04-09/jess-hull-claudia-hollingsworth-australian-athletics-champs/106544204",
+    "https://www.abc.net.au/news/2026-04-09/ac-milan-inter-milan-and-juventus-to-play-matches-in-perth/106544658"
   ],
   "posts": [
     {
@@ -1535,6 +1547,13 @@
       "date": "2026-04-08",
       "timestamp": "2026-04-08T20:21:09.965258+00:00",
       "theme": "procurement_signals"
+    },
+    {
+      "text": "fertiliser and fuel costs hammering rice farmers in vietnam and grocery prices are going to follow. this is exactly why cost of living is so hard to fix, it's not just local policy, it's global supply chains all the way down.",
+      "source_url": "https://www.nytimes.com/video/world/asia/100000010810827/vietnam-farms-hit-by-the-war-in-iran.html",
+      "date": "2026-04-08",
+      "timestamp": "2026-04-08T22:44:24.413229+00:00",
+      "theme": "cost_of_living"
     }
   ],
   "replied_to": [
