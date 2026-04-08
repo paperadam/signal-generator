@@ -1284,7 +1284,16 @@
     "https://www.abc.net.au/news/2026-04-08/mitch-duke-to-retire-from-socceroos-after-fifa-world-cup-bid/106540856",
     "https://www.nytimes.com/2026/04/07/world/middleeast/iran-war-trump-us-israel-oil-strait-of-hormuz.html",
     "https://www.theguardian.com/society/ng-interactive/2026/apr/08/world-held-hostage-reliance-fossil-fuels-health-christiana-figueres",
-    "https://www.theguardian.com/commentisfree/2026/apr/07/sea-level-rise-health-crisis-christiana-figueres"
+    "https://www.theguardian.com/commentisfree/2026/apr/07/sea-level-rise-health-crisis-christiana-figueres",
+    "https://www.nytimes.com/live/2026/04/08/world/iran-war-trump-news",
+    "https://www.nytimes.com/2026/04/08/world/middleeast/iran-cease-fire-gulf-countries-reaction.html",
+    "https://www.nytimes.com/2026/04/08/world/europe/iran-ceasefire-world-reaction.html",
+    "https://www.nytimes.com/2026/04/08/world/asia/china-iran-cease-fire.html",
+    "https://www.nytimes.com/2026/04/08/world/middleeast/iran-ceasefire-lebanon-israel-hezbollah.html",
+    "https://www.theguardian.com/world/2026/apr/08/severe-tropical-cyclone-maila-intensifies-to-one-of-seasons-strongest-storms-ahead-of-australian-landfall",
+    "https://www.theguardian.com/australia-news/2026/apr/08/brisbane-rideshare-driver-accused-of-raping-passenger-and-stalking-more-women",
+    "https://www.nytimes.com/2026/04/08/business/energy-environment/iran-war-oil-gas-restart-oprations.html",
+    "https://www.theguardian.com/australia-news/2026/apr/08/afternoon-update-wednesday-ntwnfb"
   ],
   "posts": [
     {
@@ -1482,6 +1491,13 @@
       "date": "2026-04-08",
       "timestamp": "2026-04-08T04:20:16.087623+00:00",
       "theme": "carbon_pricing"
+    },
+    {
+      "text": "gulf energy system taking months to recover and we're still not processing our own ore here. every time there's a shock i think the same thing: why are we this exposed.",
+      "source_url": "https://www.nytimes.com/2026/04/08/business/energy-environment/iran-war-oil-gas-restart-oprations.html",
+      "date": "2026-04-08",
+      "timestamp": "2026-04-08T10:22:50.311324+00:00",
+      "theme": "embedded_energy_trade"
     }
   ],
   "replied_to": [
