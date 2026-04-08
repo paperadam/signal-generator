@@ -1270,37 +1270,23 @@
     "https://www.theguardian.com/us-news/2026/apr/07/dhs-secretary-state-fema-disaster-response",
     "https://www.theguardian.com/business/2026/apr/07/oil-prices-donald-trump-iran-stock-market-imf-inflation",
     "https://www.theguardian.com/media/2026/apr/07/peter-greste-court-finding-animal-cruelty-footage-grave-consequences-press-freedom-ntwnfb",
-    "https://www.theguardian.com/australia-news/2026/apr/07/ben-roberts-smith-pauline-hanson-support-ntwnfb"
+    "https://www.theguardian.com/australia-news/2026/apr/07/ben-roberts-smith-pauline-hanson-support-ntwnfb",
+    "https://www.theguardian.com/australia-news/2026/apr/08/petrol-prices-fuel-tracker-crisis-check-price-diesel-gas-shortage-oil-reserves",
+    "https://www.nytimes.com/2026/04/08/business/china-natural-gas-reserves-iran-war.html",
+    "https://www.theguardian.com/world/2026/apr/08/turkey-ahead-eu-battery-storage-fossil-fuel-crisis",
+    "https://www.abc.net.au/news/2026-04-08/push-for-longer-term-deal-for-gather-round/106540834",
+    "https://www.theguardian.com/australia-news/2026/apr/08/australian-pm-anthony-albanese-trump-iran-threats-comments",
+    "https://www.theguardian.com/australia-news/2026/apr/08/ben-roberts-smith-brs-gina-rinehart-alleged-war-crimes-arrest-ntwnfb",
+    "https://www.abc.net.au/news/2026-04-08/shayna-jack-lighter-as-she-strives-for-commonwealth-games/106541490",
+    "https://www.nytimes.com/2026/04/07/world/middleeast/pope-leo-xiv-trump-iran-threats.html",
+    "https://www.theguardian.com/australia-news/2026/apr/08/ben-roberts-smith-court-news-war-crimes-charges-silverwater-jail-ntwnfb",
+    "https://www.nytimes.com/2026/04/07/us/politics/trump-iran-war-crimes.html",
+    "https://www.abc.net.au/news/2026-04-08/mitch-duke-to-retire-from-socceroos-after-fifa-world-cup-bid/106540856",
+    "https://www.nytimes.com/2026/04/07/world/middleeast/iran-war-trump-us-israel-oil-strait-of-hormuz.html",
+    "https://www.theguardian.com/society/ng-interactive/2026/apr/08/world-held-hostage-reliance-fossil-fuels-health-christiana-figueres",
+    "https://www.theguardian.com/commentisfree/2026/apr/07/sea-level-rise-health-crisis-christiana-figueres"
   ],
   "posts": [
-    {
-      "text": "iran charging a toll on hormuz is wild. and we're still not treating green exports as urgent. these two things are so obviously connected.",
-      "source_url": "https://www.nytimes.com/live/2026/03/30/world/iran-war-trump-oil-news/strait-of-hormuz-toll-iran",
-      "date": "2026-03-31",
-      "timestamp": "2026-03-31T04:44:22.743463+00:00",
-      "theme": "geopolitics"
-    },
-    {
-      "text": "card surcharges going in october. small thing but honestly good. cost of living stuff like this matters if we want people on board with bigger economic changes down the track.",
-      "source_url": "https://www.theguardian.com/australia-news/2026/mar/31/afternoon-update-tuesday-ntwnfb",
-      "date": "2026-03-31",
-      "timestamp": "2026-03-31T08:30:05.702118+00:00",
-      "theme": "good_numbers"
-    },
-    {
-      "text": "japan's oysters dying because the ocean is too warm and they produce most of the country's supply. japan is also one of our biggest potential green export customers. this is the kind of thing that should be making those conversations more urgent.",
-      "source_url": "https://www.theguardian.com/environment/2026/mar/31/japan-oysters-dying-death-rate-warming-seas-hiroshima",
-      "date": "2026-03-31",
-      "timestamp": "2026-03-31T10:33:31.632280+00:00",
-      "theme": "australia_opportunity"
-    },
-    {
-      "text": "every oil shock is basically a free advertisement for what we're trying to build. i just want us to actually be ready when the customers come knocking.",
-      "source_url": "https://www.nytimes.com/2026/03/31/climate/iran-war-renewable-energy.html",
-      "date": "2026-03-31",
-      "timestamp": "2026-03-31T22:33:39.482386+00:00",
-      "theme": "australia_opportunity"
-    },
     {
       "text": "chalmers announcing covid-era business support because of a middle east war is not a sentence i expected to read in 2025. and we're still not collecting a fair return on the gas exports driving these prices.",
       "source_url": "https://www.theguardian.com/australia-news/2026/apr/01/chalmers-says-small-business-paying-the-price-for-middle-east-conflict-as-he-unveils-support-measures",
@@ -1489,6 +1475,13 @@
       "date": "2026-04-07",
       "timestamp": "2026-04-07T22:19:35.269213+00:00",
       "theme": "procurement_signals"
+    },
+    {
+      "text": "turkey approving 33gw of battery storage since 2022 and we're still arguing about whether a carbon price is politically viable. genuinely don't know what we're waiting for.",
+      "source_url": "https://www.theguardian.com/world/2026/apr/08/turkey-ahead-eu-battery-storage-fossil-fuel-crisis",
+      "date": "2026-04-08",
+      "timestamp": "2026-04-08T04:20:16.087623+00:00",
+      "theme": "carbon_pricing"
     }
   ],
   "replied_to": [
