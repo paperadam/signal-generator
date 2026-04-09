@@ -1339,7 +1339,13 @@
     "https://www.theguardian.com/australia-news/2026/apr/09/sydney-light-rail-death-pedestrian-sensors-transdev-tram-trial-scrapped",
     "https://www.theguardian.com/australia-news/2026/apr/09/kangaroo-island-little-corellas-culled",
     "https://www.nytimes.com/2026/04/08/world/middleeast/strait-of-hormuz-ships-iran.html",
-    "https://www.abc.net.au/news/2026-04-09/rolling-afl-all-australian-team-volume-1-gawn-approaches-record/106539016"
+    "https://www.abc.net.au/news/2026-04-09/rolling-afl-all-australian-team-volume-1-gawn-approaches-record/106539016",
+    "https://www.abc.net.au/news/2026-04-09/wet-weekend-in-adelaide-ahead-of-afl-gather-round/106545172",
+    "https://www.nytimes.com/2026/04/08/us/politics/chaos-cease-fire-iran.html",
+    "https://www.abc.net.au/news/2026-04-09/tommy-fleetwood-son-steals-show-at-us-masters-par-3-contest/106545456",
+    "https://www.nytimes.com/2026/04/08/world/middleeast/us-iran-israel-lebanon-cease-fire.html",
+    "https://www.theguardian.com/stage/2026/apr/09/dan-rath-help-me-please-review-melbourne-comedy-festival",
+    "https://www.theguardian.com/commentisfree/2026/apr/09/trump-rhetoric-australia-pm-anthony-albanese-response"
   ],
   "posts": [
     {
@@ -1523,6 +1529,13 @@
       "date": "2026-04-09",
       "timestamp": "2026-04-09T00:29:52.320187+00:00",
       "theme": "embedded_energy_trade"
+    },
+    {
+      "text": "albanese calling trump's behaviour 'extraordinary' and that's apparently brave now. i reckon that tells you everything about how weird this period is.",
+      "source_url": "https://www.theguardian.com/commentisfree/2026/apr/09/trump-rhetoric-australia-pm-anthony-albanese-response",
+      "date": "2026-04-09",
+      "timestamp": "2026-04-09T02:15:47.800882+00:00",
+      "theme": "general_reaction"
     }
   ],
   "replied_to": [
