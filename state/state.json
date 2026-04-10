@@ -1408,7 +1408,15 @@
     "https://www.theguardian.com/media/2026/apr/10/andrew-bolt-swims-against-news-corp-tide-on-ben-roberts-smith-prosecution",
     "https://www.theguardian.com/australia-news/2026/apr/10/fuel-prices-tracker-watch-petrol-diesel-australia-shortage-reserves",
     "https://www.abc.net.au/news/2026-04-10/molly-picklum-vs-isabella-nichols-in-bells-beach-semifinal/106551962",
-    "https://www.abc.net.au/news/2026-04-10/australia-great-britain-billie-jean-king-cup-melbourne-day-one/106551584"
+    "https://www.abc.net.au/news/2026-04-10/australia-great-britain-billie-jean-king-cup-melbourne-day-one/106551584",
+    "https://www.nytimes.com/live/2026/04/10/world/iran-war-trump-israel-lebanon",
+    "https://www.theguardian.com/australia-news/2026/apr/10/australia-singapore-fuel-supply-deal-agreement-albanese",
+    "https://www.nytimes.com/2026/04/10/business/china-deflation-iran-war.html",
+    "https://www.theguardian.com/australia-news/2026/apr/10/war-memorial-amends-ben-roberts-smith-display-after-former-soldier-charged-with-war-crimes",
+    "https://www.theguardian.com/australia-news/2026/apr/10/afternoon-update-friday-ntwnfb",
+    "https://www.theguardian.com/australia-news/video/2026/apr/10/albanese-australia-singapore-agreement-energy-security-video",
+    "https://www.theguardian.com/australia-news/2026/apr/10/second-midwife-charged-manslaughter-failed-newcastle-homebirth-ntwnfb",
+    "https://www.theguardian.com/australia-news/2026/apr/10/jimmy-sullivan-queensland-state-politician-dies-at-44"
   ],
   "posts": [
     {
@@ -1613,6 +1621,13 @@
       "date": "2026-04-10",
       "timestamp": "2026-04-10T06:20:42.644392+00:00",
       "theme": "embedded_energy_trade"
+    },
+    {
+      "text": "signing agreements to not cut fuel supply is not the same as not needing the fuel. we're still completely exposed. the fix is making stuff here with our own energy not signing pledges.",
+      "source_url": "https://www.theguardian.com/australia-news/2026/apr/10/australia-singapore-fuel-supply-deal-agreement-albanese",
+      "date": "2026-04-10",
+      "timestamp": "2026-04-10T08:33:59.912818+00:00",
+      "theme": "manufacturing_relocation"
     }
   ],
   "replied_to": [
