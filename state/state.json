@@ -1384,23 +1384,21 @@
     "https://www.theguardian.com/australia-news/2026/apr/09/ben-roberts-smith-presumption-innocence-andrew-law-hastie-ntwnfb",
     "https://www.theguardian.com/australia-news/2026/apr/09/australia-eyes-new-fuel-supply-from-us-mexico-and-asia-as-diesel-prices-spike-to-record-high",
     "https://www.nytimes.com/2026/04/09/world/europe/iran-war-suez.html",
-    "https://www.nytimes.com/2026/04/09/us/phoenix-salt-river-project-election-results.html"
+    "https://www.nytimes.com/2026/04/09/us/phoenix-salt-river-project-election-results.html",
+    "https://www.nytimes.com/2026/04/09/world/middleeast/iran-war-middle-east-recap-thursday.html",
+    "https://www.theguardian.com/australia-news/live/2026/apr/10/anthony-albanese-singapore-visit-fuel-crisis-petrol-prices-labor-coalition-political-reactions-us-israel-war-iran-lebanon-ntwnfb",
+    "https://www.abc.net.au/news/2026-04-10/alex-de-minaur-beats-alexander-blockx-monte-carlo-masters/106549914",
+    "https://www.theguardian.com/australia-news/2026/apr/10/grace-tame-foundation-closes-funding-ntwnfb",
+    "https://www.nytimes.com/2026/04/09/world/middleeast/iran-us-ceasefire-talks-negotiations.html",
+    "https://www.nytimes.com/2026/04/09/us/politics/trump-iran-nato-rutte.html",
+    "https://www.nytimes.com/2026/04/09/climate/epa-coal-rules-biden.html",
+    "https://www.nytimes.com/2026/04/09/world/iran-voices-vietnam-rice-artemis-nigerian-erotica.html",
+    "https://www.theguardian.com/australia-news/2026/apr/10/morning-mail-friday-ntwnfb",
+    "https://www.theguardian.com/australia-news/audio/2026/apr/09/newsroom-edition-did-the-albanese-government-try-to-bury-its-gambling-reforms-full-story-podcast",
+    "https://www.theguardian.com/world/2026/apr/09/australian-spy-plane-operators-in-middle-east-not-sharing-intel-with-us-for-offensive-operations-defence-boss-says",
+    "https://www.theguardian.com/australia-news/2026/apr/09/uk-man-australian-visa-jailed-child-abuse-ntwnfb"
   ],
   "posts": [
-    {
-      "text": "35 countries talking about hormuz and the us isn't in the room. that's a weird new world.",
-      "source_url": "https://www.theguardian.com/australia-news/2026/apr/02/penny-wong-to-join-talks-with-35-countries-excluding-us-to-explore-ways-to-reopen-strait-of-hormuz",
-      "date": "2026-04-02",
-      "timestamp": "2026-04-02T02:31:10.993349+00:00",
-      "theme": "china_watch"
-    },
-    {
-      "text": "angus taylor watching a fuel crisis unfold and thinking 'more coal' is genuinely baffling to me. japan and korea are literally out here trying to buy green ammonia from anyone who can supply it.",
-      "source_url": "https://www.theguardian.com/australia-news/2026/apr/02/angus-taylor-televised-national-address-coal-and-mining-fuel-crisis",
-      "date": "2026-04-02",
-      "timestamp": "2026-04-02T08:12:29.167163+00:00",
-      "theme": "energy_shortfalls"
-    },
     {
       "text": "4.5 million tons of co2 for one datacenter. i knew ai power demand was big but that number actually stopped me.",
       "source_url": "https://www.theguardian.com/technology/2026/apr/02/google-ai-datacenter",
@@ -1582,6 +1580,13 @@
       "date": "2026-04-09",
       "timestamp": "2026-04-09T20:13:46.149823+00:00",
       "theme": "grid_progress"
+    },
+    {
+      "text": "hormuz still closed and our road traffic is falling because fuel costs too much. we have the resources to not be in this position and we're just not using them.",
+      "source_url": "https://www.theguardian.com/australia-news/2026/apr/10/morning-mail-friday-ntwnfb",
+      "date": "2026-04-10",
+      "timestamp": "2026-04-10T00:25:19.867661+00:00",
+      "theme": "trade_economics"
     }
   ],
   "replied_to": [
