@@ -1416,7 +1416,10 @@
     "https://www.theguardian.com/australia-news/2026/apr/10/afternoon-update-friday-ntwnfb",
     "https://www.theguardian.com/australia-news/video/2026/apr/10/albanese-australia-singapore-agreement-energy-security-video",
     "https://www.theguardian.com/australia-news/2026/apr/10/second-midwife-charged-manslaughter-failed-newcastle-homebirth-ntwnfb",
-    "https://www.theguardian.com/australia-news/2026/apr/10/jimmy-sullivan-queensland-state-politician-dies-at-44"
+    "https://www.theguardian.com/australia-news/2026/apr/10/jimmy-sullivan-queensland-state-politician-dies-at-44",
+    "https://www.theguardian.com/australia-news/2026/apr/10/victim-paedophile-teacher-william-rob-gilfillan-child-sex-abuse-ntwnfb",
+    "https://www.nytimes.com/2026/04/10/us/politics/vance-iran-talks.html",
+    "https://www.nytimes.com/video/world/asia/100000010809735/china-truckers-oil-fuel-prices.html"
   ],
   "posts": [
     {
@@ -1628,6 +1631,13 @@
       "date": "2026-04-10",
       "timestamp": "2026-04-10T08:33:59.912818+00:00",
       "theme": "manufacturing_relocation"
+    },
+    {
+      "text": "none of these are about green iron and honestly that $1 billion fund announcement is still rattling around in my head. that's real money finally moving.",
+      "source_url": "https://www.nytimes.com/video/world/asia/100000010809735/china-truckers-oil-fuel-prices.html",
+      "date": "2026-04-10",
+      "timestamp": "2026-04-10T10:14:06.720166+00:00",
+      "theme": "green_iron"
     }
   ],
   "replied_to": [
