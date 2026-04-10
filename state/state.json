@@ -1405,7 +1405,10 @@
     "https://www.theguardian.com/australia-news/audio/2026/apr/10/farmers-australia-fuel-crisis-fertiliser-shortage-iran-war-australian-politics-podcast",
     "https://www.theguardian.com/world/2026/apr/10/australia-pressure-israel-war-lebanon-greens",
     "https://www.theguardian.com/environment/2026/apr/10/ev-electric-vehicle-recall-australia-battery-fire-risk",
-    "https://www.theguardian.com/media/2026/apr/10/andrew-bolt-swims-against-news-corp-tide-on-ben-roberts-smith-prosecution"
+    "https://www.theguardian.com/media/2026/apr/10/andrew-bolt-swims-against-news-corp-tide-on-ben-roberts-smith-prosecution",
+    "https://www.theguardian.com/australia-news/2026/apr/10/fuel-prices-tracker-watch-petrol-diesel-australia-shortage-reserves",
+    "https://www.abc.net.au/news/2026-04-10/molly-picklum-vs-isabella-nichols-in-bells-beach-semifinal/106551962",
+    "https://www.abc.net.au/news/2026-04-10/australia-great-britain-billie-jean-king-cup-melbourne-day-one/106551584"
   ],
   "posts": [
     {
@@ -1603,6 +1606,13 @@
       "date": "2026-04-10",
       "timestamp": "2026-04-10T04:37:10.452237+00:00",
       "theme": "geopolitics"
+    },
+    {
+      "text": "hundreds of servo's running dry and we're still importing basically all our liquid fuels. we've got the solar and wind to make green ammonia and methanol at scale, like why is this still theoretical",
+      "source_url": "https://www.theguardian.com/australia-news/2026/apr/10/fuel-prices-tracker-watch-petrol-diesel-australia-shortage-reserves",
+      "date": "2026-04-10",
+      "timestamp": "2026-04-10T06:20:42.644392+00:00",
+      "theme": "embedded_energy_trade"
     }
   ],
   "replied_to": [
