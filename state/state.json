@@ -1453,7 +1453,14 @@
     "https://www.nytimes.com/2026/04/11/world/middleeast/iran-delegation-pakistan-us.html",
     "https://www.nytimes.com/2026/04/11/world/middleeast/iran-peace-talks-demands.html",
     "https://www.nytimes.com/2026/04/11/world/middleeast/hezbollah-israel.html",
-    "https://www.nytimes.com/2026/04/11/business/europe-economy-trump-trade-iran.html"
+    "https://www.nytimes.com/2026/04/11/business/europe-economy-trump-trade-iran.html",
+    "https://www.nytimes.com/2026/04/11/briefing/monthly-report.html",
+    "https://www.nytimes.com/live/2026/04/11/world/iran-war-trump-talks-pakistan",
+    "https://www.nytimes.com/live/2026/04/11/world/iran-war-trump-talks-pakistan/vance-talks-details",
+    "https://www.nytimes.com/2026/04/11/world/middleeast/iranians-hardliners-ceasefire.html",
+    "https://www.nytimes.com/2026/04/11/world/middleeast/iran-economy-war.html",
+    "https://www.nytimes.com/2026/04/11/world/canada/iran-murder-masjoody-vancouver-canada.html",
+    "https://www.nytimes.com/2026/04/11/climate/northeast-climate-goals-trump.html"
   ],
   "posts": [
     {
@@ -1679,6 +1686,13 @@
       "date": "2026-04-11",
       "timestamp": "2026-04-11T08:42:22.046917+00:00",
       "theme": "procurement_signals"
+    },
+    {
+      "text": "if a ceasefire actually holds and iran sanctions get lifted, watch how fast the conversation in japan and korea shifts back to lng. we need green hydrogen deals locked in before that window closes.",
+      "source_url": "https://www.nytimes.com/live/2026/04/11/world/iran-war-trump-talks-pakistan",
+      "date": "2026-04-11",
+      "timestamp": "2026-04-11T10:33:45.303501+00:00",
+      "theme": "jobs_and_regions"
     }
   ],
   "replied_to": [
