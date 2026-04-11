@@ -1442,23 +1442,13 @@
     "https://www.nytimes.com/2026/04/10/world/africa/iran-south-africa-trump-war-ceasefire.html",
     "https://www.theguardian.com/business/2026/apr/10/march-inflation-soars-iran-war-economy",
     "https://www.abc.net.au/news/2026-04-10/australian-athletics-championships-lachlan-kennedy-10-seconds/106553292",
-    "https://www.theguardian.com/business/2026/apr/10/dallas-new-york-business"
+    "https://www.theguardian.com/business/2026/apr/10/dallas-new-york-business",
+    "https://www.theguardian.com/australia-news/2026/apr/11/rmit-drops-misconduct-case-student-gaza-claims-ntwnfb",
+    "https://www.nytimes.com/2026/04/10/us/politics/iran-israel-lebanon-trump-talks.html",
+    "https://www.nytimes.com/video/world/middleeast/100000010831941/what-the-cease-fire-means-for-iran.html",
+    "https://www.nytimes.com/2026/04/10/world/middleeast/iran-us-missle-strike-civilians-lamerd.html"
   ],
   "posts": [
-    {
-      "text": "4.5 million tons of co2 for one datacenter. i knew ai power demand was big but that number actually stopped me.",
-      "source_url": "https://www.theguardian.com/technology/2026/apr/02/google-ai-datacenter",
-      "date": "2026-04-03",
-      "timestamp": "2026-04-03T10:28:00.869379+00:00",
-      "theme": "grid_progress"
-    },
-    {
-      "text": "bowen saying no disruptions yet but also admitting we've got like 3 weeks of fuel reserves. 'yet' is doing a lot of work in that sentence. renewables don't have a hormuz problem, that's all i'm saying.",
-      "source_url": "https://www.theguardian.com/australia-news/audio/2026/apr/04/fuel-crisis-australia-full-story-podcast",
-      "date": "2026-04-03",
-      "timestamp": "2026-04-03T20:17:52.431001+00:00",
-      "theme": "cost_of_living"
-    },
     {
       "text": "closing wildfire research stations while half the country burns every summer. we're actively making ourselves dumber about a problem that's getting worse. makes no sense.",
       "source_url": "https://www.nytimes.com/2026/04/03/climate/forest-service-research-stations.html",
@@ -1668,6 +1658,13 @@
       "date": "2026-04-10",
       "timestamp": "2026-04-10T22:26:17.847810+00:00",
       "theme": "carbon_pricing"
+    },
+    {
+      "text": "iran has 10 demands and the whole thing could fall apart at any moment. this is exactly the kind of instability that makes energy importing countries nervous and should make us move faster on green exports",
+      "source_url": "https://www.nytimes.com/video/world/middleeast/100000010831941/what-the-cease-fire-means-for-iran.html",
+      "date": "2026-04-11",
+      "timestamp": "2026-04-11T00:32:49.083836+00:00",
+      "theme": "geopolitics"
     }
   ],
   "replied_to": [
