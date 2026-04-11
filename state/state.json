@@ -1446,7 +1446,14 @@
     "https://www.theguardian.com/australia-news/2026/apr/11/rmit-drops-misconduct-case-student-gaza-claims-ntwnfb",
     "https://www.nytimes.com/2026/04/10/us/politics/iran-israel-lebanon-trump-talks.html",
     "https://www.nytimes.com/video/world/middleeast/100000010831941/what-the-cease-fire-means-for-iran.html",
-    "https://www.nytimes.com/2026/04/10/world/middleeast/iran-us-missle-strike-civilians-lamerd.html"
+    "https://www.nytimes.com/2026/04/10/world/middleeast/iran-us-missle-strike-civilians-lamerd.html",
+    "https://www.abc.net.au/news/2026-04-11/adelaide-pubs-busy-as-afl-gather-round-brings-in-punters/106554448",
+    "https://www.theguardian.com/news/2026/apr/11/lebanese-australians-reaction-israel-bombing-beirut-ntwnfb",
+    "https://www.abc.net.au/news/2026-04-11/claudia-hollingsworth-jess-hull-australian-athletics-champs-1500/106554698",
+    "https://www.nytimes.com/2026/04/11/world/middleeast/iran-delegation-pakistan-us.html",
+    "https://www.nytimes.com/2026/04/11/world/middleeast/iran-peace-talks-demands.html",
+    "https://www.nytimes.com/2026/04/11/world/middleeast/hezbollah-israel.html",
+    "https://www.nytimes.com/2026/04/11/business/europe-economy-trump-trade-iran.html"
   ],
   "posts": [
     {
@@ -1665,6 +1672,13 @@
       "date": "2026-04-11",
       "timestamp": "2026-04-11T00:32:49.083836+00:00",
       "theme": "geopolitics"
+    },
+    {
+      "text": "70 people in that delegation. iran is not messing around and this thing could drag on for months. every week of uncertainty is another week japan and korea are thinking about supply chain risk.",
+      "source_url": "https://www.nytimes.com/2026/04/11/world/middleeast/iran-delegation-pakistan-us.html",
+      "date": "2026-04-11",
+      "timestamp": "2026-04-11T08:42:22.046917+00:00",
+      "theme": "procurement_signals"
     }
   ],
   "replied_to": [
