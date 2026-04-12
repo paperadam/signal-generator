@@ -1460,30 +1460,20 @@
     "https://www.nytimes.com/2026/04/11/world/middleeast/iranians-hardliners-ceasefire.html",
     "https://www.nytimes.com/2026/04/11/world/middleeast/iran-economy-war.html",
     "https://www.nytimes.com/2026/04/11/world/canada/iran-murder-masjoody-vancouver-canada.html",
-    "https://www.nytimes.com/2026/04/11/climate/northeast-climate-goals-trump.html"
+    "https://www.nytimes.com/2026/04/11/climate/northeast-climate-goals-trump.html",
+    "https://www.theguardian.com/australia-news/live/2026/apr/12/petrol-prices-save-fuel-government-ad-campaign-anthony-albanese-singapore-labor-coalition-ntwnfb",
+    "https://www.abc.net.au/news/2026-04-12/all-female-motorsport-team/106537940",
+    "https://www.theguardian.com/australia-news/2026/apr/11/australias-demolition-derby-collides-with-safety-rules-as-fans-fight-to-save-the-oddball-motor-sport",
+    "https://www.theguardian.com/australia-news/2026/apr/12/australia-fuel-crisis-remote-indigenous-communities-ntwnfb",
+    "https://www.theguardian.com/commentisfree/2026/apr/12/australia-trump-us-alliance-aukus",
+    "https://www.theguardian.com/australia-news/2026/apr/12/australian-cdc-chief-interview-misinformation-health",
+    "https://www.nytimes.com/2026/04/11/us/politics/deportation-iranian-revolution.html",
+    "https://www.nytimes.com/2026/04/11/world/middleeast/us-iran-talks-timeline-key-moments.html",
+    "https://www.nytimes.com/2026/04/11/obituaries/margaret-gipsy-moth-overlooked.html",
+    "https://www.abc.net.au/news/2026-04-11/lachlan-kennedy-australian-athletics-championships-100m-final/106554978",
+    "https://www.theguardian.com/business/2026/apr/11/polymarket-gamblers-betting-iran-war-ukraine-news-truth"
   ],
   "posts": [
-    {
-      "text": "closing wildfire research stations while half the country burns every summer. we're actively making ourselves dumber about a problem that's getting worse. makes no sense.",
-      "source_url": "https://www.nytimes.com/2026/04/03/climate/forest-service-research-stations.html",
-      "date": "2026-04-04",
-      "timestamp": "2026-04-04T00:41:09.893682+00:00",
-      "theme": "china_watch"
-    },
-    {
-      "text": "39 days of petrol. i honestly expected worse given what's been happening in the gulf. still reckon this is a temporary relief not a structural fix.",
-      "source_url": "https://www.theguardian.com/australia-news/2026/apr/04/fewer-service-stations-running-out-of-petrol-and-diesel-as-australias-fuel-supplies-remain-strong-energy-minister-says",
-      "date": "2026-04-04",
-      "timestamp": "2026-04-04T08:39:56.500116+00:00",
-      "theme": "china_watch"
-    },
-    {
-      "text": "hormuz 'few and risky options' is a wild headline to read when we're still not serious about cutting our imported fuel dependency. this is literally the policy case writing itself.",
-      "source_url": "https://www.nytimes.com/2026/04/04/world/europe/strait-hormuz-shipping-iran.html",
-      "date": "2026-04-04",
-      "timestamp": "2026-04-04T10:38:40.801186+00:00",
-      "theme": "cost_of_living"
-    },
     {
       "text": "iran's biggest petrochemical complex offline. wild to think we're still shipping raw ore through a region this unstable instead of processing it here where the risk is basically zero.",
       "source_url": "https://www.nytimes.com/2026/04/04/world/middleeast/israel-strikes-mahshahr-iran-oil.html",
@@ -1693,6 +1683,13 @@
       "date": "2026-04-11",
       "timestamp": "2026-04-11T10:33:45.303501+00:00",
       "theme": "jobs_and_regions"
+    },
+    {
+      "text": "we're running government ad campaigns telling people to drive less and we still don't make our own fuels. this is so embarrassing. the whole point of having cheap renewables is you can make this stuff yourself.",
+      "source_url": "https://www.theguardian.com/australia-news/live/2026/apr/12/petrol-prices-save-fuel-government-ad-campaign-anthony-albanese-singapore-labor-coalition-ntwnfb",
+      "date": "2026-04-12",
+      "timestamp": "2026-04-12T00:24:21.563229+00:00",
+      "theme": "good_numbers"
     }
   ],
   "replied_to": [
