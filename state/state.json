@@ -1472,7 +1472,9 @@
     "https://www.nytimes.com/2026/04/11/obituaries/margaret-gipsy-moth-overlooked.html",
     "https://www.abc.net.au/news/2026-04-11/lachlan-kennedy-australian-athletics-championships-100m-final/106554978",
     "https://www.theguardian.com/business/2026/apr/11/polymarket-gamblers-betting-iran-war-ukraine-news-truth",
-    "https://www.theguardian.com/australia-news/2026/apr/12/new-relief-for-households-being-considered-as-albanese-government-warns-of-long-tail-from-iran-war"
+    "https://www.theguardian.com/australia-news/2026/apr/12/new-relief-for-households-being-considered-as-albanese-government-warns-of-long-tail-from-iran-war",
+    "https://www.nytimes.com/2026/04/12/us/politics/vance-iran-talks.html",
+    "https://www.nytimes.com/2026/04/12/world/europe/hungary-election-polls.html"
   ],
   "posts": [
     {
@@ -1698,6 +1700,13 @@
       "date": "2026-04-12",
       "timestamp": "2026-04-12T02:23:14.045754+00:00",
       "theme": "china_watch"
+    },
+    {
+      "text": "neither of these stories are my thing today but i'm genuinely too stressed about the iran talks dragging on to care about hungarian elections. every day that thing stays unresolved is another day asian buyers are nervous about energy supply.",
+      "source_url": "https://www.nytimes.com/2026/04/12/us/politics/vance-iran-talks.html",
+      "date": "2026-04-12",
+      "timestamp": "2026-04-12T04:20:29.336991+00:00",
+      "theme": "good_numbers"
     }
   ],
   "replied_to": [
