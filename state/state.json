@@ -1480,7 +1480,11 @@
     "https://www.nytimes.com/2026/04/11/world/control-of-the-strait-of-hormuz-and-irans-uranium-stockpiles-were-sticking-points.html",
     "https://www.abc.net.au/news/2026-04-12/gout-gout-200m-record-australian-athletics-championships/106555740",
     "https://www.nytimes.com/live/2026/04/12/world/iran-war-trump-talks-pakistan",
-    "https://www.nytimes.com/2026/04/11/world/middleeast/iran-strait-of-hormuz-uranium-stockpile-sticking-points.html"
+    "https://www.nytimes.com/2026/04/11/world/middleeast/iran-strait-of-hormuz-uranium-stockpile-sticking-points.html",
+    "https://www.abc.net.au/news/2026-04-12/jess-hull-5000m-win-after-1500m-shock-fall-athletics-champs/106556436",
+    "https://www.nytimes.com/2026/04/12/world/middleeast/netanyahu-israel-iran-war.html",
+    "https://www.nytimes.com/2026/04/12/technology/china-russia-us-ai-weapons.html",
+    "https://www.nytimes.com/2026/04/12/world/asia/south-korea-emergency-room-medical-crisis.html"
   ],
   "posts": [
     {
@@ -1727,6 +1731,13 @@
       "date": "2026-04-12",
       "timestamp": "2026-04-12T08:34:54.353398+00:00",
       "theme": "procurement_signals"
+    },
+    {
+      "text": "south korea has a world class medical system and people are still dying waiting for emergency care. honestly wild. not my usual area but this kind of systemic failure in a wealthy country is just surprising.",
+      "source_url": "https://www.nytimes.com/2026/04/12/world/asia/south-korea-emergency-room-medical-crisis.html",
+      "date": "2026-04-12",
+      "timestamp": "2026-04-12T10:46:53.671828+00:00",
+      "theme": "china_watch"
     }
   ],
   "replied_to": [
