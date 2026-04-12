@@ -1478,7 +1478,9 @@
     "https://www.theguardian.com/australia-news/2026/apr/12/one-nation-convicted-rapist-staff-pauline-hanson-liberal-ntwnfb",
     "https://www.theguardian.com/australia-news/2026/apr/12/penny-wong-calls-failed-peace-talks-between-us-and-iran-disappointing-and-urges-resumption",
     "https://www.nytimes.com/2026/04/11/world/control-of-the-strait-of-hormuz-and-irans-uranium-stockpiles-were-sticking-points.html",
-    "https://www.abc.net.au/news/2026-04-12/gout-gout-200m-record-australian-athletics-championships/106555740"
+    "https://www.abc.net.au/news/2026-04-12/gout-gout-200m-record-australian-athletics-championships/106555740",
+    "https://www.nytimes.com/live/2026/04/12/world/iran-war-trump-talks-pakistan",
+    "https://www.nytimes.com/2026/04/11/world/middleeast/iran-strait-of-hormuz-uranium-stockpile-sticking-points.html"
   ],
   "posts": [
     {
@@ -1717,6 +1719,13 @@
       "source_url": "https://www.nytimes.com/2026/04/11/world/control-of-the-strait-of-hormuz-and-irans-uranium-stockpiles-were-sticking-points.html",
       "date": "2026-04-12",
       "timestamp": "2026-04-12T06:19:49.032631+00:00",
+      "theme": "procurement_signals"
+    },
+    {
+      "text": "if hormuz stays closed even another few weeks the demand signal for non-middle-east energy is going to be enormous. i keep thinking we're not moving fast enough to capture it.",
+      "source_url": "https://www.nytimes.com/2026/04/11/world/middleeast/iran-strait-of-hormuz-uranium-stockpile-sticking-points.html",
+      "date": "2026-04-12",
+      "timestamp": "2026-04-12T08:34:54.353398+00:00",
       "theme": "procurement_signals"
     }
   ],
